@@ -1,0 +1,14 @@
+/* Material shrinks admonition text by default (~0.64rem); these apunts are
+   full of formulas inside admonitions, so keep the text (and therefore the
+   KaTeX formulas, which scale with the surrounding font-size) exactly the
+   same size as the body text around it. `inherit` pulls the real computed
+   size from the surrounding article instead of guessing a fixed rem value. */
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: inherit;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-size: inherit;
+}
