@@ -1,15 +1,15 @@
 # Nota històrica
 
-La història dels nombres reals és un exemple clar de com el pensament matemàtic ha evolucionat al llarg dels segles per adaptar-se a noves necessitats i reptes.
+Per què costa tant acceptar que hi ha nombres que no es poden escriure com una fracció? La història dels nombres reals és, en el fons, la història d'aquesta resistència.
 
-Els primers nombres coneguts van ser els **naturals**, utilitzats per comptar. Més endavant van aparèixer els **enters**, que permetien representar pèrdues o deutes, i posteriorment els **racionals**, sorgits de la necessitat de mesurar parts d'un tot (fraccions de longituds, àrees, etc.).
+Primer van aparèixer els **naturals**, per comptar. Després els **enters**, per representar deutes i pèrdues. I més tard els **racionals**, quan va caldre mesurar parts d'un tot: longituds, àrees...
 
-Ja a l'**Antiga Grècia** es va descobrir que existien longituds que no es podien expressar amb nombres racionals. El cas més famós és el de la diagonal d'un quadrat de costat $1$, que té longitud $\sqrt{2}$. Aquest descobriment va sorprendre i fins i tot va trasbalsar els pitagòrics, que creien que tot es podia explicar amb nombres racionals. D'aquesta manera van aparèixer els **irracionals**.
+Fixa't en aquest fet, ocorregut a l'**Antiga Grècia**: la diagonal d'un quadrat de costat $1$ mesura $\sqrt{2}$, i aquest nombre no es pot escriure com una fracció. El descobriment va trasbalsar els pitagòrics, convençuts que tot s'explicava amb racionals. Així van néixer els **irracionals**.
 
-Durant molts segles, els irracionals van ser acceptats amb recel. Els matemàtics del món **àrabo-islàmic medieval** i, més tard, els **europeus del Renaixement**, van contribuir a donar-los més legitimitat gràcies al desenvolupament de l'àlgebra i la geometria.
+Durant segles se'ls va mirar amb recel. Calgué l'àlgebra i la geometria del món **àrabo-islàmic medieval** i del **Renaixement europeu** perquè guanyessin legitimitat.
 
-Al segle XVII, amb el naixement del **càlcul diferencial i integral** de Newton i Leibniz, es va veure la necessitat de disposar d'una base més sòlida per als nombres. Tot i així, no va ser fins als segles XVIII i XIX quan es va aconseguir una formalització rigorosa del conjunt dels nombres reals. Matemàtics com **Dedekind** (amb les seves talls) i **Cantor** (amb la teoria de conjunts i la noció de cardinalitat) van donar una definició precisa dels nombres reals i van establir una base teòrica ferma per a l'anàlisi matemàtica.
+Al segle XVII, amb el **càlcul diferencial i integral** de Newton i Leibniz, es va fer evident que calia una base més sòlida. Però no va ser fins als segles XVIII i XIX que **Dedekind** (amb les seves talls) i **Cantor** (amb la teoria de conjunts) en van donar una definició rigorosa.
 
-Gràcies a aquests avenços, va ser possible treballar amb conceptes fonamentals com la continuïtat, els límits, les funcions i, en general, tota l'estructura de les matemàtiques modernes.
+Gràcies a això, avui podem parlar amb precisió de continuïtat, límits i funcions: tot l'edifici de les matemàtiques modernes.
 
-Avui dia, els **nombres reals** són imprescindibles en matemàtiques i en ciència. Permeten descriure magnituds contínues com la longitud, el temps, la temperatura o la velocitat. Tot i que formen un conjunt immens (infinit i no numerable), la seva utilitat i centralitat dins del coneixement humà són inqüestionables.
+Els **nombres reals** hi són, arreu: descriuen longituds, temps, temperatures, velocitats... Formen un conjunt infinit i no numerable, però la seva utilitat és fora de dubte.

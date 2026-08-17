@@ -2,57 +2,49 @@
 
 ## Definició
 
+Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa: quin nombre, elevat a $n$, dona un resultat $a$ conegut? Això és exactament el que respon una arrel.
+
 !!! abstract "Definició: arrel enèsima"
-    Siguin $a \in \mathbb{R}$ i $n \in \mathbb{N}$ amb $n>0$. Direm que $b$ és una **arrel enèsima** de $a$ si es compleix
+    Siguin $a \in \mathbb{R}$ i $n \in \mathbb{N}$, amb $n>0$. Diem que $b$ és una **arrel enèsima** de $a$ si es compleix
 
     $$b^n = a.$$
 
-    Una arrel és, doncs, un nombre real que, elevat a $n$, dona com a resultat $a$.
+    És a dir: un nombre real que, elevat a $n$, ens torna $a$.
 
 !!! info "Notació: el símbol radical"
-    Per representar una arrel es fa servir el **radical**:
+    Per representar una arrel fem servir el **radical**:
 
     $$\sqrt[n]{a},$$
 
-    que, per convenció, indica sempre l'**arrel real principal** (la positiva quan $n$ és parell i $a \geq 0$).
+    que, per convenció, indica sempre l'**arrel real principal** (la positiva, quan $n$ és parell i $a \geq 0$).
 
     Per exemple: $\sqrt{9}=3$ i $\sqrt[3]{-8}=-2$.
 
 !!! note "Arrel vs. radical"
-    Cal distingir bé:
+    Val la pena distingir-los bé:
 
     1. *arrel*: el resultat numèric (per exemple, $3$ és arrel quadrada de $9$).
-    2. *radical*: el símbol $\sqrt[n]{a}$ que expressa l'operació.
+    2. *radical*: el símbol $\sqrt[n]{a}$ amb què l'escrivim.
 
-    A més, quan escrivim $\sqrt{a}$ amb $a \ge 0$, per convenció ens referim només a l'**arrel principal**, és a dir, la positiva. Així, $\sqrt{4}=2$ i no pas $\pm 2$, ja que $\pm 2$ és el conjunt de solucions de l'equació $x^2=4$.
+    Recorda que $\sqrt{a}$, amb $a \ge 0$, denota només l'**arrel principal** (la positiva): $\sqrt{4}=2$, i no pas $\pm 2$. El $\pm 2$ apareix quan resolem l'equació $x^2=4$, no quan calculem el radical $\sqrt4$.
 
 !!! example "Arrel quadrada"
-    Considerem $a=9$ i $n=2$. El radical $\sqrt{9}$ indica, per convenció, l'**arrel quadrada principal**:
+    El radical $\sqrt{9}$ indica l'arrel quadrada principal: $\sqrt{9}=3$. En canvi, si plantegem l'equació $x^2=9$, hi ha dues solucions:
 
-    $$\sqrt{9} = 3.$$
+    $$x=\pm\sqrt{9} \;\Rightarrow\; x=\pm 3.$$
 
-    Ara bé, si plantegem l'equació $x^2=9$, obtenim dues solucions:
-
-    $$x=\pm\sqrt{9} \quad \Rightarrow \quad x=\pm 3.$$
-
-    Per això es diu que $3$ i $-3$ són les *arrels de l'equació* $x^2-9=0$, mentre que el radical $\sqrt{9}$ denota únicament l'arrel principal positiva.
+    Per això diem que $3$ i $-3$ són les *arrels de l'equació* $x^2-9=0$, mentre que el radical $\sqrt{9}$ denota únicament l'arrel principal positiva.
 
 !!! example "Arrel cúbica"
-    Considerem $a=-8$ i $n=3$. Només hi ha una arrel real que compleixi la definició: $b=-2$, ja que $(-2)^3 = -8$.
-
-    Quan $n$ és senar, l'arrel $n$-èsima real és única. Direm que $-2$ és l'*arrel cúbica* de $-8$.
+    Busquem $b$ tal que $b^3=-8$. Només hi ha una solució real: $b=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
 
 !!! example "Nombres sense arrels reals"
-    Considerem el radical $\sqrt[4]{-16}$. Volem trobar un $b \in \mathbb{R}$ tal que $b^4 = -16$.
-
-    Per a qualsevol nombre real $b$, la potència $b^4$ és positiva. En conseqüència, **no existeix cap arrel real quarta de $-16$**.
-
-    Quan l'índex $n$ és parell i el radicand és negatiu, el radical no està definit en $\mathbb{R}$.
+    Vols trobar $b \in \mathbb{R}$ tal que $b^4=-16$? No existeix: per a qualsevol $b$ real, $b^4$ mai és negatiu. Per tant, **no hi ha cap arrel real quarta de $-16$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$.
 
 !!! note "Arrels complexes"
-    Que no existeixin nombres reals que compleixin $b^4 = -16$ no vol dir que *no existeixin arrels*: hi ha solucions, però no pertanyen a $\mathbb{R}$, sinó a un conjunt més ampli, els *nombres complexos*. Per tant, és més correcte dir que "no hi ha arrels **reals**".
+    Que no hi hagi solucions reals no vol dir que no n'hi hagi cap: n'hi ha, però viuen fora de $\mathbb{R}$, en el conjunt dels *nombres complexos*. Per això és més precís dir "no té arrels **reals**".
 
-    Els nombres complexos s'obtenen afegint un nou element $i$ que compleix $i^2 = -1$. Amb aquest conjunt, les arrels quartes de $-16$ són:
+    Els complexos afegeixen un element $i$ amb $i^2=-1$. Amb aquest conjunt, les quatre arrels quartes de $-16$ són
 
     $$
     a_1 = \sqrt{2} + \sqrt{2}i, \quad
@@ -61,14 +53,14 @@
     a_4 = -\sqrt{2} - \sqrt{2}i.
     $$
 
-A partir de la definició d'arrel enèsima, és fàcil veure el següent fet:
+Fixa't que, directament de la definició, se'n dedueix un fet senzill:
 
 !!! tip "Propietat: definició equivalent d'arrel enèsima"
     Si $b = \sqrt[n]{a}$, aleshores
 
     $$\left(\sqrt[n]{a}\right)^n = b^n = a.$$
 
-Aquest resultat és una conseqüència immediata de la definició i només és vàlid quan el radical $\sqrt[n]{a}$ és un nombre real. Això depèn de la paritat de l'índex $n$ i del signe del radicand $a$:
+Això només és cert quan $\sqrt[n]{a}$ existeix com a nombre real, i això depèn de la paritat de $n$ i del signe d'$a$. Val la pena tenir-ho clar d'entrada:
 
 !!! tip "Propietat: classificació segons l'índex i el radicand"
     | Radicand | Índex | Nombre d'arrels reals | Expressió radical |
@@ -81,7 +73,7 @@ Aquest resultat és una conseqüència immediata de la definició i només és v
 
 ## Relació amb les potències
 
-El concepte d'arrel està estretament vinculat amb el de potència: $b$ és una arrel enèsima d'$a$ si $b^n = a$. El concepte d'arrel no és res més que la relació de potència vista a la inversa:
+Una arrel no és res més que una potència mirada del revés: $b$ és arrel $n$-èsima d'$a$ quan $b^n=a$.
 
 $$
 b^n=a
@@ -89,46 +81,43 @@ b^n=a
 b=\text{arrel $n$-èsima d'}a.
 $$
 
-Si volem estendre el significat de les potències a exponents fraccionaris, cal que aquestes siguin coherents amb la definició d'arrel. En particular, si $b^n=a$, aleshores
+Ens interessa poder-ho escriure com una potència d'exponent fraccionari. Si $b^n=a$, elevant tots dos costats a $\tfrac{1}{n}$:
 
 $$(b^n)^{\tfrac{1}{n}} = a^{\tfrac{1}{n}} \quad \Rightarrow \quad b = a^{\tfrac{1}{n}}.$$
 
-Per convenció, fem servir el radical per representar aquestes arrels. Així arribem a la definició següent:
+Fem servir el radical per representar aquest resultat, i arribem a la definició següent:
 
 !!! abstract "Definició: expressió d'un radical com a potència"
     Siguin $m,n \in \mathbb{N}$ amb $n>0$. Definim
 
     $$a^{\tfrac{m}{n}} := \left(\sqrt[n]{a}\right)^m = \sqrt[n]{a^m}.$$
 
-Aquest fet ens permet convertir els radicals en potències i, si cal, fer servir les propietats d'aquestes per simplificar o resoldre problemes.
+Aquesta equivalència és clau: ens permet passar d'arrels a potències (i a l'inrevés) sempre que convingui per simplificar o resoldre.
 
 !!! example "Simplificació de radicals"
-    1. Simplifiquem $\sqrt[4]{1024}$:
+    Simplifiquem $\sqrt[4]{1024}$ passant-lo a potència:
 
-        $$
-        \sqrt[4]{1024}
-        = \sqrt[4]{2^{10}}
-        = 2^{\tfrac{10}{4}}
-        = 2^{\tfrac{5}{2}}
-        = \sqrt{2^{5}}
-        = \sqrt{32}.
-        $$
+    $$
+    \sqrt[4]{1024}
+    = \sqrt[4]{2^{10}}
+    = 2^{\tfrac{10}{4}}
+    = 2^{\tfrac{5}{2}}
+    = \sqrt{2^{5}}
+    = \sqrt{32}.
+    $$
 
-        (hem aplicat la definició d'expressió d'un radical com a potència)
+    I $\sqrt[3]{64}$:
 
-    2. Simplifiquem $\sqrt[3]{64}$:
-
-        $$
-        \sqrt[3]{64}
-        = \sqrt[3]{4^{3}}
-        = 4^{\tfrac{3}{3}}
-        = 4^1 =
-        4.
-        $$
+    $$
+    \sqrt[3]{64}
+    = \sqrt[3]{4^{3}}
+    = 4^{\tfrac{3}{3}}
+    = 4.
+    $$
 
 ## Propietats i exemples
 
-A partir de la definició de potència amb exponent fraccionari, podem deduir que les arrels hereten directament les propietats de les potències. Les regles bàsiques que ja coneixem per a exponents enters continuen essent vàlides en aquest nou context, sempre que es respectin les condicions d'existència (segons la paritat de l'índex i el signe del radicand).
+Com que una arrel és una potència amb exponent fraccionari, hereta directament totes les propietats de les potències que ja coneixes. Només cal vigilar les condicions d'existència: la paritat de l'índex i el signe del radicand.
 
 !!! tip "Propietat: simplificació i amplificació d'índex i exponent"
     $$
@@ -136,13 +125,15 @@ A partir de la definició de potència amb exponent fraccionari, podem deduir qu
     \qquad n,p,m \in \mathbb{N},\; n\ge 2,\; p\ge 1.
     $$
 
-    Val en $\mathbb{R}$ sota aquestes condicions:
+    Val a $\mathbb{R}$ si:
 
-    - $n$ senar: $a \in \mathbb{R}$
-    - $n$ parell i $m$ parell: $a \in \mathbb{R}$
-    - $n$ parell i $m$ imparell: $a \ge 0$
+    - $n$ senar: qualsevol $a \in \mathbb{R}$
+    - $n$ parell i $m$ parell: qualsevol $a \in \mathbb{R}$
+    - $n$ parell i $m$ senar: cal $a \ge 0$
 
 !!! example "Simplificació d'una arrel"
+    Recorda $\sqrt[4]{1024}=\sqrt[4]{2^{10}}$: podem cancel·lar un factor $2$ comú a índex i exponent directament:
+
     $$
     \sqrt[4]{1024}
     \;=\; \sqrt[2\cdot \cancel{2}]{2^{5\cdot \cancel{2}}}
@@ -150,20 +141,8 @@ A partir de la definició de potència amb exponent fraccionari, podem deduir qu
     \;=\; \sqrt{32}.
     $$
 
-    També ho podem veure passant primer l'arrel a potència fraccionària:
-
-    $$
-    \sqrt[4]{1024} = 1024^{\tfrac{1}{4}}
-    = (2^{10})^{\tfrac{1}{4}}
-    = 2^{\tfrac{10}{4}}
-    = 2^{\tfrac{5}{2}}
-    = \sqrt{2^5} = \sqrt{32}.
-    $$
-
 !!! note "Compte amb “cancel·lar $p$” sense restriccions"
-    Com que $(-2)\cdot(-2)=4$, tenim $\sqrt[4]{(-2)^2}=\sqrt[4]{4}=\sqrt{2}$.
-
-    Si "cancel·lem $p$" sense mirar les condicions:
+    Com que $(-2)\cdot(-2)=4$, tenim $\sqrt[4]{(-2)^2}=\sqrt[4]{4}=\sqrt{2}$. Si "cancel·lem $p$" sense mirar les condicions:
 
     $$
     \sqrt[2 \cdot \cancel{2}]{(-2)^{1\cdot \cancel{2}}}
@@ -171,18 +150,16 @@ A partir de la definició de potència amb exponent fraccionari, podem deduir qu
     \sqrt[2]{(-2)^{1}}=\sqrt{-2},
     $$
 
-    però $\sqrt{-2}$ **no està definit en $\mathbb{R}$**. Quan $n$ és parell i $m$ és imparell, cal exigir $a\ge 0$ perquè la igualtat tingui sentit en $\mathbb{R}$.
+    que no existeix a $\mathbb{R}$. Quan $n$ és parell i $m$ senar, cal exigir $a\ge 0$: sense aquesta condició, la igualtat no té sentit.
 
 !!! example "Comparació de radicals"
-    Comproveu quin d'aquests nombres és més gran, sense calculadora: $\sqrt{2}$ o $\sqrt[3]{3}$.
+    Quin és més gran, sense calculadora: $\sqrt{2}$ o $\sqrt[3]{3}$? Portem els dos exponents fraccionaris a un denominador comú (aquí, el $6$):
 
-    $$\sqrt{2} = 2^{\tfrac{1}{2}} = 2^{\tfrac{3}{6}} = \sqrt[6]{2^3} = \sqrt[6]{8}$$
+    $$\sqrt{2} = 2^{\tfrac{1}{2}} = 2^{\tfrac{3}{6}} = \sqrt[6]{2^3} = \sqrt[6]{8}
+    \qquad\qquad
+    \sqrt[3]{3} = 3^{\tfrac{1}{3}} = 3^{\tfrac{2}{6}} = \sqrt[6]{3^2} = \sqrt[6]{9}$$
 
-    $$\sqrt[3]{3} = 3^{\tfrac{1}{3}} = 3^{\tfrac{2}{6}} = \sqrt[6]{3^2} = \sqrt[6]{9}$$
-
-    Per tant, $\sqrt[3]{3} > \sqrt{2}$, ja que $\sqrt[6]{9} > \sqrt[6]{8}$.
-
-    En realitat, el que hem fet és portar els dos exponents fraccionaris ($\tfrac{1}{2}$ i $\tfrac{1}{3}$) a un denominador comú (6), de manera que la comparació es redueix a comparar els numeradors ($3$ i $2$).
+    Amb el mateix índex, només cal comparar els radicands: com que $9>8$, tenim $\sqrt[3]{3} > \sqrt{2}$.
 
 !!! tip "Propietat: producte d'arrels del mateix índex"
     $$
@@ -190,32 +167,25 @@ A partir de la definició de potència amb exponent fraccionari, podem deduir qu
     \qquad n\in\mathbb{N},\; n\ge 2
     $$
 
-    Val per a tot $a,b\in\mathbb{R}$ si $n$ és senar; si $n$ és parell, cal $a\ge 0$ i $b\ge 0$.
-
-    Es dedueix directament de la definició de potència d'exponent fraccionari:
+    Val per a tot $a,b\in\mathbb{R}$ si $n$ és senar; si $n$ és parell, cal $a\ge 0$ i $b\ge 0$. Es dedueix directament de la potència fraccionària:
 
     $$\sqrt[n]{a}\cdot\sqrt[n]{b} = a^{\tfrac{1}{n}} \cdot b^{\tfrac{1}{n}} = (a\cdot b)^{\tfrac{1}{n}} = \sqrt[n]{a\cdot b}.$$
 
 !!! note "Compte amb $a\cdot b>0$ però $a,b<0$"
-    Sabem que $(-1)\cdot(-1)=1$, així que $\sqrt{(-1)\cdot(-1)}=\sqrt{1}=1$.
-
-    Si apliquem la propietat sense restriccions: $\sqrt{-1}\cdot\sqrt{-1}\stackrel{?}{=}1$, però en $\mathbb{R}$ $\sqrt{-1}$ no està definit.
-
-    Per $n$ parell cal $a\ge 0$ i $b\ge 0$; la condició $ab\ge 0$ per si sola és insuficient.
+    $(-1)\cdot(-1)=1$, i $\sqrt{1}=1$. Però si apliquem la propietat directament, $\sqrt{-1}\cdot\sqrt{-1}$, i $\sqrt{-1}$ ja no existeix a $\mathbb{R}$. Per $n$ parell cal $a\ge 0$ i $b\ge 0$ per separat: que el producte $ab$ sigui positiu no n'hi ha prou.
 
 !!! example "Extracció i introducció de factors"
-    1. **Extracció de factors d'un radical.** Separem la potència en dos blocs, un múltiple de l'índex i un altre no:
+    1. **Extreure factors d'un radical.** Separem l'exponent en un bloc múltiple de l'índex i un altre que no ho és:
 
         $$
         \sqrt[4]{1024} = \sqrt[4]{2^{10}}
         = \sqrt[4]{2^{8} \cdot 2^2}
         = \sqrt[4]{2^8} \cdot \sqrt[4]{2^{2}}
-        = 2^{\tfrac{8}{4}} \cdot \sqrt[4]{2^2}
-        = 2^2 \cdot \sqrt{2}
-        = 4 \cdot \sqrt{2}.
+        = 2^{2} \cdot \sqrt{2}
+        = 4 \sqrt{2}.
         $$
 
-    2. **Introducció de factors dins d'un radical.** Portem el factor $x^2$ a l'interior del radical, elevant-lo a l'índex:
+    2. **Introduir factors dins d'un radical.** Elevem el factor a l'índex abans de ficar-lo dins:
 
         $$
         x^2 \sqrt[3]{2}
@@ -230,49 +200,28 @@ A partir de la definició de potència amb exponent fraccionari, podem deduir qu
     \qquad n \in \mathbb{N},\; n\ge 2
     $$
 
-    Cert per a tot $a\in\mathbb{R},\; b\neq 0$ si $n$ és senar, i per a $a\ge 0,\; b>0$ si $n$ és parell.
+    Cert per a tot $a\in\mathbb{R}$, $b\neq 0$ si $n$ és senar; per a $a\ge 0$, $b>0$ si $n$ és parell.
 
 !!! note "Compte amb radicands negatius"
-    Considerem $n=2$, $a=-4$ i $b=-1$: $\dfrac{\sqrt{-4}}{\sqrt{-1}} = \sqrt{\tfrac{-4}{-1}}$.
-
-    A l'esquerra, ni $\sqrt{-4}$ ni $\sqrt{-1}$ existeixen en $\mathbb{R}$, per tant l'expressió no té sentit en els reals. A la dreta, $\sqrt{\tfrac{-4}{-1}} = \sqrt{4} = 2$, que sí que és real.
-
-    Aquesta aparent paradoxa mostra que, per a $n$ parell, cal exigir $a\ge 0$ i $b>0$ per poder aplicar la propietat correctament.
+    Amb $n=2$, $a=-4$ i $b=-1$: $\dfrac{\sqrt{-4}}{\sqrt{-1}}$ no existeix a l'esquerra (cap dels dos radicals hi és), mentre que a la dreta $\sqrt{\tfrac{-4}{-1}} = \sqrt{4} = 2$ sí. Per a $n$ parell, exigeix $a\ge 0$ i $b>0$ per separat.
 
 !!! example "Simplificació de quocients d'arrels"
     1. $\sqrt{\tfrac{4}{9}} = \tfrac{\sqrt{4}}{\sqrt{9}} = \tfrac{2}{3}$
     2. $\dfrac{\sqrt[3]{-16}}{\sqrt[3]{2}} = \sqrt[3]{\tfrac{-16}{2}} = \sqrt[3]{-8} = -2$
 
-    Aquesta propietat es pot llegir en ambdós sentits: sovint s'aplica per simplificar radicals, però en altres casos pot ser més útil fer-la servir a l'inrevés (per exemple, escriure una fracció de radicals com un únic radical).
+    Aquesta propietat també és útil a l'inrevés: per convertir una fracció de radicals en un sol radical.
 
-Per multiplicar o dividir arrels amb índexs diferents, la propietat del producte o quocient d'arrels del mateix índex no es pot aplicar directament. Primer cal reduir les arrels a un índex comú —normalment el mínim comú múltiple (m.c.m.) dels índexs— mitjançant la propietat d'amplificació d'índex i exponent.
+Quan els índexs són diferents, no podem aplicar directament el producte o el quocient. Primer cal amplificar les arrels a un índex comú —normalment el mínim comú múltiple (m.c.m.) dels índexs— i després operar.
 
 !!! tip "Propietat: multiplicació i divisió d'arrels amb índex diferent"
-    Per multiplicar o dividir $\sqrt[n]{a}$ i $\sqrt[m]{b}$, es busca el mínim comú múltiple $k$ de $n$ i $m$, s'amplifiquen totes dues arrels a índex $k$ i, un cop tenen el mateix índex, s'aplica la propietat del producte o del quocient d'arrels del mateix índex.
+    Per multiplicar o dividir $\sqrt[n]{a}$ i $\sqrt[m]{b}$: busca el m.c.m. $k$ de $n$ i $m$, amplifica les dues arrels a índex $k$, i aplica el producte o el quocient d'arrels del mateix índex.
 
-!!! example "Multiplicació d'arrels amb índex diferent"
-    Multipliquem $\sqrt{2}$ i $\sqrt[3]{3}$.
+!!! example "Multiplicació i divisió d'arrels amb índex diferent"
+    Reaprofitem l'amplificació de l'exemple de comparació anterior: $\sqrt{2}=\sqrt[6]{8}$ i $\sqrt[3]{3}=\sqrt[6]{9}$. Amb el mateix índex, ja podem operar:
 
-    El mínim comú múltiple de $2$ i $3$ és $6$. Amplifiquem cada arrel a índex $6$:
-
-    $$
-    \sqrt{2} = 2^{\tfrac{1}{2}} = 2^{\tfrac{3}{6}} = \sqrt[6]{2^3} = \sqrt[6]{8}
+    $$\sqrt{2}\cdot\sqrt[3]{3} = \sqrt[6]{8}\cdot\sqrt[6]{9} = \sqrt[6]{72}
     \qquad\qquad
-    \sqrt[3]{3} = 3^{\tfrac{1}{3}} = 3^{\tfrac{2}{6}} = \sqrt[6]{3^2} = \sqrt[6]{9}
-    $$
-
-    Ara que tenen el mateix índex, ja podem multiplicar-les:
-
-    $$
-    \sqrt{2}\cdot\sqrt[3]{3} = \sqrt[6]{8}\cdot\sqrt[6]{9} = \sqrt[6]{8\cdot 9} = \sqrt[6]{72}
-    $$
-
-!!! example "Divisió d'arrels amb índex diferent"
-    Dividim $\sqrt[3]{3}$ entre $\sqrt{2}$, reaprofitant l'amplificació de l'exemple anterior (índex comú $6$):
-
-    $$
-    \frac{\sqrt[3]{3}}{\sqrt{2}} = \frac{\sqrt[6]{9}}{\sqrt[6]{8}} = \sqrt[6]{\frac{9}{8}}
-    $$
+    \frac{\sqrt[3]{3}}{\sqrt{2}} = \frac{\sqrt[6]{9}}{\sqrt[6]{8}} = \sqrt[6]{\frac{9}{8}}$$
 
 !!! tip "Propietat: arrel d'una arrel"
     $$
@@ -283,18 +232,14 @@ Per multiplicar o dividir arrels amb índexs diferents, la propietat del product
     Val per a tot $a \in \mathbb{R}$ si $n$ i $m$ són senars; si algun dels dos és parell, cal $a \geq 0$.
 
 !!! example "Arrel d'una arrel"
-    Escrivim en forma d'una sola arrel:
+    Escrivim-ho com una sola arrel:
 
     $$\sqrt[3]{\sqrt[4]{x}} = \sqrt[3\cdot 4]{x} = \sqrt[12]{x}.$$
 
-    Per exemple: $\sqrt{\sqrt[4]{16}} = \sqrt{2} = \sqrt{2}$, i $\sqrt[2\cdot 4]{16} = \sqrt[8]{16} = \sqrt{2}$.
+    Comprova-ho amb nombres: $\sqrt{\sqrt[4]{16}} = \sqrt{2}$, i també $\sqrt[2\cdot 4]{16} = \sqrt[8]{16} = \sqrt{2}$. Coincideixen.
 
 !!! note "Compte amb restriccions en arrels imbricades"
-    Considerem $n=2$, $m=3$ i $a=-1$: $\sqrt{\sqrt[3]{-1}} = \sqrt[6]{-1}$.
-
-    A l'esquerra, $\sqrt[3]{-1}=-1$ i, per tant, tenim l'arrel quadrada de $-1$, que **no** està definida en $\mathbb{R}$. A la dreta, $\sqrt[6]{-1}$ correspon a les arrels sisenes de $-1$ (6 elements, en $\mathbb{C}$).
-
-    Per tant, els dos costats de la igualtat no representen el mateix conjunt de solucions: només si s'escull una branca concreta de l'arrel en $\mathbb{C}$ es pot establir la correspondència.
+    Amb $n=2$, $m=3$, $a=-1$: a l'esquerra, $\sqrt[3]{-1}=-1$ i, per tant, arribem a $\sqrt{-1}$, que no existeix a $\mathbb{R}$. A la dreta, $\sqrt[6]{-1}$ correspon a les sis arrels sisenes de $-1$ (a $\mathbb{C}$). No representen el mateix conjunt: cal escollir una branca concreta de l'arrel a $\mathbb{C}$ perquè la igualtat tingui sentit.
 
 !!! tip "Propietat: potència d'una arrel"
     $$
@@ -302,14 +247,10 @@ Per multiplicar o dividir arrels amb índexs diferents, la propietat del product
     \qquad n \in \mathbb{N},\; n\ge 2,\; m \in \mathbb{N}
     $$
 
-    Cert per a tot $a\in\mathbb{R}$ si $n$ és senar, i per a $a\ge 0$ si $n$ és parell.
+    Cert per a tot $a\in\mathbb{R}$ si $n$ és senar; per a $a\ge 0$ si $n$ és parell.
 
 !!! note "Paradoxa amb potència d'una arrel"
-    Considerem $n=2$, $m=2$ i $a=-1$: $\bigl(\sqrt{-1}\bigr)^{2} = \sqrt{(-1)^{2}}$.
-
-    A l'esquerra, $\sqrt{-1}$ no està definida en $\mathbb{R}$. A la dreta, $\sqrt{1}=1$, que sí ho és. Si s'estén a $\mathbb{C}$, $\sqrt{-1}$ pot ser $i$ o $-i$, i en tots dos casos $(i)^2 = (-i)^2 = -1$: el costat esquerre sempre val $-1$, mentre que el dret val $+1$.
-
-    Això mostra que, si $n$ és parell, cal exigir $a\ge 0$ per aplicar la propietat sense contradiccions.
+    Amb $n=2$, $m=2$, $a=-1$: $\sqrt{-1}$ no existeix a $\mathbb{R}$, però $\sqrt{(-1)^2}=\sqrt{1}=1$ sí. Estenent-ho a $\mathbb{C}$, $\sqrt{-1}=\pm i$, i en tots dos casos $(\pm i)^2=-1$: l'esquerra sempre val $-1$, la dreta $+1$. Per això, si $n$ és parell, cal exigir $a\ge 0$.
 
 !!! example "Potència d'una arrel"
     1. Índex senar (admet radicand negatiu): $\bigl(\sqrt[3]{-2}\bigr)^{2} = \sqrt[3]{(-2)^{2}} = \sqrt[3]{4}$.
@@ -317,46 +258,38 @@ Per multiplicar o dividir arrels amb índexs diferents, la propietat del product
 
 ## Aplicacions de les propietats dels radicals
 
-Vegem alguns exemples d'aplicació directa de les propietats anteriors, útils per simplificar expressions i treballar amb fraccions o sumes que contenen radicals.
+Vegem ara com combinar aquestes propietats per resoldre problemes habituals: treure les arrels d'un denominador i sumar radicals semblants.
 
 !!! example "Racionalització de denominadors"
-    Donada una fracció que conté arrels al denominador, és interessant, en alguns casos, eliminar-les (per exemple, en sumes i restes de fraccions on necessitem enters per trobar el mínim comú múltiple).
+    Sovint interessa eliminar les arrels del denominador d'una fracció (per exemple, per poder-la sumar amb altres fraccions).
 
     1. $$
         \frac{3}{\sqrt{5}}
         = \frac{3}{\sqrt{5}} \cdot \frac{\sqrt{5}}{\sqrt{5}}
-        = \frac{3\sqrt{5}}{(\sqrt{5})^2}
-        = \frac{3\sqrt{5}}{\sqrt{5^2}}
         = \frac{3\sqrt{5}}{5}.
         $$
 
     2. $$
         \frac{1}{2-\sqrt{3}}
         = \frac{1}{2-\sqrt{3}} \cdot \frac{2+\sqrt{3}}{2+\sqrt{3}}
-        =\frac{2+\sqrt{3}}{(2-\sqrt{3})\cdot(2+\sqrt{3})}
         = \frac{2+\sqrt{3}}{2^2-(\sqrt{3})^2}
-        = \frac{2+\sqrt{3}}{4-3}
+        = \frac{2+\sqrt{3}}{1}
         = 2+\sqrt{3}.
         $$
 
 !!! note "Identitat notable per a la racionalització"
-    Per eliminar arrels al denominador amb expressions del tipus $a-b$ o $a+b$, multipliquem pel conjugat, fent servir la identitat notable
+    Quan al denominador hi ha una suma o resta ($a\pm b$), multipliquem pel conjugat, aprofitant la identitat notable
 
     $$(a+b)(a-b) = a^2 - b^2.$$
 
-    Si $a$ o $b$ són arrels, en elevar-los al quadrat passen a ser nombres enters i, per tant, la seva resta també.
+    Si $a$ o $b$ són arrels, en elevar-les al quadrat es converteixen en nombres enters, i el denominador queda net de radicals.
 
 !!! example "Suma i resta de radicals"
-    Els radicals només es podran sumar o restar en aquells casos en què es puguin escriure amb el mateix radicand i el mateix índex:
+    Només podem sumar o restar radicals amb el mateix índex i el mateix radicand; sovint cal extreure factors primer perquè hi coincideixin:
 
     $$
     2\sqrt{2} + 5\sqrt{8} - 2\sqrt{18} + \sqrt{50}
-    = 2\sqrt{2} + 5\sqrt{2^2 \cdot 2} - 2\sqrt{3^2 \cdot 2} + \sqrt{5^2 \cdot 2}
-    $$
-
-    $$
-    = 2\sqrt{2} + 5 \cdot 2 \sqrt{2} - 2 \cdot 3 \sqrt{2} + 5\sqrt{2}
-    = 2\sqrt{2} + 10\sqrt{2} - 6\sqrt{2} + 5\sqrt{2}
+    = 2\sqrt{2} + 5\cdot 2\sqrt{2} - 2\cdot 3\sqrt{2} + 5\sqrt{2}
     = (2+10-6+5)\sqrt{2} = 11\sqrt{2}.
     $$
 
@@ -373,11 +306,11 @@ Vegem alguns exemples d'aplicació directa de les propietats anteriors, útils p
 
     ![Rectangle amb costats a i b i diagonal d](img/rectangle-diagonal-perimetre.png)
 
-    amb diagonal $d$. Resoleu sense calculadora:
+    amb diagonal $d$. Resol sense calculadora:
 
-    1. Simplifiqueu $a$ i $b$.
-    2. Calculeu la diagonal $d$ del rectangle.
-    3. Calculeu el perímetre $P$ i escriviu-lo de la forma més senzilla possible.
+    1. Simplifica $a$ i $b$.
+    2. Calcula la diagonal $d$ del rectangle.
+    3. Calcula el perímetre $P$ i escriu-lo de la forma més senzilla possible.
 
     **Solució**
 
@@ -405,11 +338,28 @@ Vegem alguns exemples d'aplicació directa de les propietats anteriors, útils p
 
     3. Perímetre:
 
-        $$P=2(a+b)=2\bigl(6\sqrt{2}+3\sqrt{2}\bigr) =12\sqrt{2}+6\sqrt{2} = 18\sqrt{2}.$$
+        $$P=2(a+b)=2\bigl(6\sqrt{2}+3\sqrt{2}\bigr) = 18\sqrt{2}.$$
 
 !!! note "Teorema de Pitàgores"
     En un triangle rectangle, el quadrat de la hipotenusa és igual a la suma dels quadrats dels catets:
 
     $$c^2 = a^2 + b^2.$$
 
-    Per tant, si coneixem els catets $a$ i $b$, la hipotenusa $c$ s'obté amb $c = \sqrt{a^2+b^2}$. El signe radical $\sqrt{\phantom{a}}$ denota, per convenció, l'arrel quadrada positiva (l'arrel principal), que en aquest cas és la que volem, ja que es tracta de la longitud del costat d'un triangle, sempre positiva.
+    Coneixent els catets $a$ i $b$, la hipotenusa s'obté amb $c = \sqrt{a^2+b^2}$. El radical $\sqrt{\phantom{a}}$ dona sempre l'arrel positiva, que és la que volem: la longitud del costat d'un triangle mai és negativa.
+
+## Taula resum
+
+| Propietat | Expressió |
+|---|---|
+| Definició d'arrel | $b=\sqrt[n]{a} \iff b^n=a$ |
+| Arrel com a potència | $a^{\tfrac{m}{n}} = \sqrt[n]{a^m} = \left(\sqrt[n]{a}\right)^m$ |
+| Existència ($n$ parell) | $a<0 \Rightarrow$ sense arrel real; $a\ge 0 \Rightarrow \pm\sqrt[n]{a}$ |
+| Existència ($n$ senar) | sempre existeix, i és única: $\sqrt[n]{a}$ |
+| Simplificació/amplificació | $\sqrt[np]{a^{mp}} = \sqrt[n]{a^{m}}$ |
+| Producte, mateix índex | $\sqrt[n]{a}\cdot\sqrt[n]{b} = \sqrt[n]{ab}$ |
+| Quocient, mateix índex | $\dfrac{\sqrt[n]{a}}{\sqrt[n]{b}} = \sqrt[n]{\tfrac{a}{b}}$ |
+| Producte/quocient, índex diferent | amplifica primer a índex $k=\mathrm{mcm}(n,m)$ |
+| Arrel d'una arrel | $\sqrt[n]{\sqrt[m]{a}} = \sqrt[n\cdot m]{a}$ |
+| Potència d'una arrel | $\left(\sqrt[n]{a}\right)^m = \sqrt[n]{a^m}$ |
+| Racionalització (monomi) | $\dfrac{c}{\sqrt{a}} = \dfrac{c\sqrt{a}}{a}$ |
+| Racionalització (binomi, conjugat) | $\dfrac{1}{a-\sqrt{b}} = \dfrac{a+\sqrt{b}}{a^2-b}$ |

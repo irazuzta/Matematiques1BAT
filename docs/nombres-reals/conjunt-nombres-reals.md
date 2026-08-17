@@ -1,73 +1,71 @@
 # El conjunt dels nombres reals
 
-Al llarg dels cursos anteriors hem anat veient diferents conjunts de nombres que s'agrupaven en funció d'una sèrie de característiques que tenien en comú.
+Segur que ja coneixes molts conjunts de nombres dels cursos anteriors. Repassem-los ara amb una mica més de rigor, per veure com s'encaixen els uns dins dels altres.
 
-El conjunt més senzill que hi ha és el format pels **nombres naturals**. Aquests els podem definir, de manera informal, com els nombres que utilitzem per comptar els elements d'un conjunt finit:
+Comencem pel conjunt més senzill: els **nombres naturals**, els que fem servir per comptar els elements d'un conjunt finit:
 
 $$
 \mathbb{N} = \{0, 1, 2, 3, 4, \dots\}
 $$
 
-El nombre $0$ s'anomena element neutre per la suma i $1$ l'element neutre pel producte. Això vol dir que, per exemple, si prenem el nombre $4$ es té que
+Fixa't que el $0$ és l'element neutre de la suma i l'$1$ ho és del producte: sumar-hi $0$ o multiplicar-hi per $1$ no altera el nombre original. Per exemple, amb el $4$:
 
 $$
 4 + 0 = 0 + 4 = 4 \qquad\qquad 4 \cdot 1 = 1 \cdot 4 = 4
 $$
 
-és a dir, són nombres que en les seves respectives operacions no alteren el nombre original.
-
-Podem definir de manera natural els **nombres oposats** com aquells nombres que, en sumar-los al nombre original, donen com a resultat el $0$. La notació que utilitzarem és el nombre amb un $-$ al davant. Per exemple:
+Ara bé, què passa si volem restar dos naturals com $3-8$? Ens cal ampliar el conjunt. Definim el **nombre oposat** d'un nombre com aquell que, sumat a l'original, dona $0$; el notem amb un $-$ al davant:
 
 $$
 5 + (-5) = 0
 $$
 
-Aquest fet ens permet definir la resta com la suma d'un nombre amb l'oposat del qual volem restar, és a dir, si considerem $8$ i $3$ es té que
+Amb això, la resta no és més que sumar l'oposat:
 
 $$
 8 - 3 = 8 + (-3) = 5
 $$
 
-Si al conjunt dels naturals afegim els oposats de cadascun d'aquests, obtenim el conjunt dels **nombres enters**:
+Si afegim als naturals tots els seus oposats, obtenim els **nombres enters**:
 
 $$
 \mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}
 $$
 
-D'altra banda, tot nombre té una representació decimal: el podem expressar mitjançant una part entera i una decimal, separades per una coma. Per exemple:
+Tot nombre, a més, es pot escriure en forma decimal: part entera i part decimal separades per una coma. Per exemple:
 
 $$
 -6 = -6{,}0 \qquad 1{,}56 \qquad 1{,}\overline{3} \qquad \pi = 3{,}141592\dots
 $$
 
-Els nombres decimals es poden separar entre els **racionals** ($\mathbb{Q}$), que són els que es poden expressar mitjançant una fracció, i els **irracionals** ($\mathbb{R}\setminus\mathbb{Q}$), que són els que no es poden expressar mitjançant una fracció. De fet,
+Aquesta representació decimal ens permet separar els nombres en dos grans grups: els **racionals** ($\mathbb{Q}$), que es poden escriure com una fracció, i els **irracionals** ($\mathbb{R}\setminus\mathbb{Q}$), que no:
 
 $$
 x \in \mathbb{Q} \;\;\Leftrightarrow\;\; \exists\, m,n \in \mathbb{Z},\; n \neq 0 \;\; \text{tals que } x=\frac{m}{n}
 $$
 
 !!! note "Pertinença"
-    Quan un element pertany a un conjunt fem servir el símbol $\in$. Si no hi pertany, fem servir $\notin$.
+    Quan un element pertany a un conjunt fem servir el símbol $\in$; si no hi pertany, $\notin$.
 
     Exemple: $-3 \in \mathbb{Z}$, però $-3 \notin \mathbb{N}$.
 
 !!! note "Implica i equival"
-    $\Rightarrow$ vol dir *implica* i es llegeix "aleshores". $\Leftrightarrow$ vol dir *equivalència* (si i només si) i es llegeix "equival".
+    $\Rightarrow$ es llegeix "aleshores" (implica). $\Leftrightarrow$ es llegeix "equival" (si i només si).
 
-    Exemple: $x \in \mathbb{N} \Rightarrow x \in \mathbb{Z}$ — si $x$ és un nombre natural, aleshores també és un nombre enter.
+    Exemple: $x \in \mathbb{N} \Rightarrow x \in \mathbb{Z}$ — si $x$ és natural, també és enter.
 
-En el cas dels nombres racionals, si aquests no són nombres enters, poden ser **exactes** (part decimal amb un nombre finit de xifres) o **periòdics** (part decimal amb infinites xifres que a partir d'un punt es repeteixen seguint un patró); aquests últims poden ser purs o mixtos.
+Dins dels racionals no enters, en trobem de dos tipus: els **exactes** (part decimal amb un nombre finit de xifres) i els **periòdics** (la part decimal es repeteix indefinidament seguint un patró, pur o mixt).
 
 !!! note "Quantificadors"
-    $\forall$ vol dir "per a tot" i es llegeix "per a qualsevol". $\exists$ vol dir "existeix" i es llegeix "hi ha".
+    $\forall$ es llegeix "per a tot". $\exists$ es llegeix "existeix" o "hi ha".
 
-    Exemple: $\forall n \in \mathbb{N},\; n+1 \in \mathbb{N}$ — per a tot nombre natural $n$, també $n+1$ és natural.
+    Exemple: $\forall n \in \mathbb{N},\; n+1 \in \mathbb{N}$ — per a tot natural $n$, $n+1$ també ho és.
 
-El següent esquema mostra aquesta divisió:
+Aquest esquema resumeix tota la divisió que acabem de fer:
 
 ![Esquema dels conjunts de nombres](img/schema-conjunts-numerics.png)
 
-Observem que hi ha una relació d'inclusió:
+Com veus, cada conjunt queda contingut dins del següent:
 
 $$
 \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}

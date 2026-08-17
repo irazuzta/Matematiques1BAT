@@ -2,7 +2,7 @@
 
 ## Definició
 
-En cursos anteriors hem vist el concepte de potència i les seves propietats. És un concepte que s'ha anat ampliant cada curs a conjunts numèrics cada cop més grans.
+Ja coneixes les potències de cursos anteriors: és un concepte que hem anat ampliant curs rere curs a conjunts numèrics cada cop més grans.
 
 !!! info "Notació: potència"
     La notació utilitzada per a les potències és
@@ -11,7 +11,7 @@ En cursos anteriors hem vist el concepte de potència i les seves propietats. É
 
     on $a$ s'anomena **base** i $n$ **exponent**.
 
-En el cas d'exponent natural, això significa que multipliquem $a$ tants cops com indiqui l'exponent:
+Quan l'exponent és natural, la idea és senzilla: multipliquem $a$ tants cops com indiqui l'exponent.
 
 !!! abstract "Definició: potència d'exponent natural"
     Si $a$ és un nombre real i $n$ un nombre natural, aleshores
@@ -33,7 +33,7 @@ En el cas d'exponent natural, això significa que multipliquem $a$ tants cops co
 
 ## Propietats i exemples: exponents naturals
 
-Per a exponents naturals, les potències compleixen una sèrie de propietats bàsiques, que seran el punt de partida per estendre després la definició als exponents zero i negatius.
+Amb exponents naturals, les potències compleixen algunes propietats bàsiques. Ens serviran de punt de partida quan, més endavant, estenguem la definició a l'exponent zero i als exponents negatius.
 
 !!! tip "Propietat: producte de potències de la mateixa base"
     Si $m,n\in\mathbb{N}$, aleshores
@@ -43,11 +43,11 @@ Per a exponents naturals, les potències compleixen una sèrie de propietats bà
 !!! example
     $$2^3 \cdot 2^4 = (2\cdot 2\cdot 2)\cdot(2\cdot 2\cdot 2\cdot 2).$$
 
-    Comptant tots els factors en tenim 7 i tots són 2:
+    Comptant tots els factors en tenim 7, tots iguals a 2:
 
     $$2^3 \cdot 2^4 = 2^7 = 128.$$
 
-    I, efectivament, $2^3=8$, $2^4=16$, $8\cdot 16 = 128$.
+    Comprova-ho: $2^3=8$, $2^4=16$, i $8\cdot 16 = 128$.
 
 !!! tip "Propietat: quocient de potències de la mateixa base"
     Si $m,n\in\mathbb{N}$ amb $m> n$, aleshores
@@ -60,10 +60,10 @@ Per a exponents naturals, les potències compleixen una sèrie de propietats bà
     =5\cdot 5\cdot 5\cdot 5 = 5^4 = 625.
     $$
 
-    I, efectivament, $5^6=15\,625$, $5^2=25$ i $\tfrac{15\,625}{25}=625$.
+    Comprova-ho: $5^6=15\,625$, $5^2=25$ i $\tfrac{15\,625}{25}=625$.
 
 !!! note "Atenció"
-    Amb exponents naturals, només es pot aplicar la regla si $m> n$. El cas $m\leq n$ quedarà definit més endavant amb exponents negatius i el cas d'exponent $0$.
+    Amb exponents naturals, aquesta regla només val si $m> n$. Què passa si $m\leq n$? Ho resoldrem més endavant amb l'exponent negatiu i l'exponent $0$.
 
 !!! tip "Propietat: potència d'una potència"
     Si $m,n\in\mathbb{N}$, aleshores
@@ -75,7 +75,7 @@ Per a exponents naturals, les potències compleixen una sèrie de propietats bà
 
 ## Extensió de la definició
 
-Les propietats de les potències amb exponents naturals funcionen correctament mentre els exponents siguin positius. Ara bé, si volem que continuïn essent vàlides en casos com el quocient amb exponents iguals ($m=n$) o amb el numerador més petit que el denominador ($m<n$), cal ampliar la definició de potència als casos d'exponent zero i d'exponent negatiu.
+Aquestes propietats funcionen bé mentre l'exponent és natural. Però volem que continuïn essent vàlides quan els exponents s'igualen ($m=n$) o quan el numerador és més petit que el denominador ($m<n$). Per això ens cal ampliar la definició de potència als casos d'exponent zero i d'exponent negatiu.
 
 !!! abstract "Definició: potència d'exponent zero"
     Si $a$ és un nombre real diferent de zero, definim
@@ -83,12 +83,11 @@ Les propietats de les potències amb exponents naturals funcionen correctament m
     $$a^0 = 1.$$
 
 !!! note "Justificació del cas $a^0$"
-    Per coherència amb la regla del quocient:
+    Perquè la regla del quocient es mantingui:
 
     $$a^0 = a^{n-n} = \frac{a^n}{a^n} = 1, \qquad a\neq 0.$$
 
-!!! note "Cas especial"
-    El valor $0^0$ no està definit i apareix com a indeterminació en càlcul.
+    (El valor $0^0$ queda fora d'aquesta definició: no està definit, és una indeterminació.)
 
 !!! abstract "Definició: potència d'exponent negatiu"
     Si $a$ és un nombre real diferent de zero i $n\in\mathbb{N}$, definim
@@ -96,11 +95,11 @@ Les propietats de les potències amb exponents naturals funcionen correctament m
     $$a^{-n} = \frac{1}{a^n}.$$
 
 !!! note "Justificació del cas amb exponent negatiu"
-    Per coherència amb la regla del producte:
+    Perquè la regla del producte es mantingui:
 
     $$1 = a^0 = a^{n-n} = a^{n} \cdot a^{-n}.$$
 
-    Així, $a^{-n}$ es defineix com $\tfrac{1}{a^n}$.
+    D'aquí surt que $a^{-n}$ ha de valer $\tfrac{1}{a^n}$.
 
 !!! example "Ús d'exponents zero i negatius"
     $$5^0 = 1, \qquad 7^{-2} = \frac{1}{7^2} = \frac{1}{49}.$$
@@ -109,7 +108,7 @@ Les propietats de les potències amb exponents naturals funcionen correctament m
 
     $$\frac{4^3 \cdot 4^{-5}}{4^0} = 4^{3+(-5)-0} = 4^{-2} = \frac{1}{16}.$$
 
-Amb aquestes dues definicions, totes les propietats anteriors de les potències continuen essent vàlides per a exponents enters.
+Amb aquestes dues definicions, totes les propietats anteriors segueixen valent, ara per a exponents enters.
 
 !!! abstract "Definició: potència amb exponent enter (definició global)"
     Per a tot $a\in\mathbb{R}$ i $n\in\mathbb{Z}$, definim
@@ -123,11 +122,11 @@ Amb aquestes dues definicions, totes les propietats anteriors de les potències 
     \end{cases}
     $$
 
-A partir d'ara, quan treballem amb exponents enters (naturals, zero o negatius), les propietats de les potències que hem vist segueixen sent vàlides sempre que no comportin divisió per zero.
+A partir d'ara, les propietats que hem vist segueixen essent vàlides per a qualsevol exponent enter, sempre que no comportin dividir per zero.
 
 ## Propietats i exemples: exponents enters
 
-Amb les definicions d'exponent zero i negatiu ja introduïdes, les propietats de les potències que havíem vist amb exponents naturals es conserven per a tots els exponents enters. A continuació les recordem amb exemples.
+Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un exemple per cadascuna.
 
 !!! tip "Propietat: producte de potències de la mateixa base"
     $$a^m \cdot a^n = a^{m+n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
@@ -135,14 +134,14 @@ Amb les definicions d'exponent zero i negatiu ja introduïdes, les propietats de
 !!! example
     $$2^{-3}\cdot 2^{5}=2^{-3+5}=2^2=4.$$
 
-    Efectivament, $\tfrac{1}{2^3}\cdot 2^5=\tfrac{1}{8}\cdot 32=4$.
+    Comprova-ho: $\tfrac{1}{2^3}\cdot 2^5=\tfrac{1}{8}\cdot 32=4$.
 
 !!! note "Importància del fet que $a\neq 0$"
-    Si $a=0$ i algun dels exponents és negatiu, la potència no està definida i la propietat no es pot aplicar; per exemple
+    Si $a=0$ i algun exponent és negatiu, la potència no està definida. Per exemple:
 
     $$0^{5}\cdot 0^{-7} =0^{-2}=\frac{1}{0^2}= \frac{1}{0},$$
 
-    que no té sentit. En alguns casos la propietat sí que és certa quan $a=0$, però excloent aquest cas ens assegurem que la propietat sigui vàlida en general.
+    que no té sentit. Excloent $a=0$ ens assegurem que la propietat sigui sempre vàlida.
 
 !!! tip "Propietat: quocient de potències de la mateixa base"
     $$\frac{a^m}{a^n} = a^{m-n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
@@ -161,7 +160,7 @@ Amb les definicions d'exponent zero i negatiu ja introduïdes, les propietats de
     També: $\left(\tfrac{1}{9}\right)^3=\tfrac{1}{729}$.
 
 !!! note "Atenció als parèntesis"
-    No és el mateix $(a^m)^n$ que $a^{m^n}$, on l'exponent és una potència. Per exemple:
+    No és el mateix $(a^m)^n$ que $a^{m^n}$:
 
     1. $(2^2)^3 = 2^6 = 64$
     2. $2^{2^3}=2^{8}=256$
@@ -195,7 +194,7 @@ Amb les definicions d'exponent zero i negatiu ja introduïdes, les propietats de
     $$
 
 !!! note "Consell"
-    Cal posar parèntesis a tota la fracció quan calgui. No és el mateix
+    Recorda posar parèntesis a tota la fracció. No és el mateix
 
     $$\left(\tfrac{2}{5}\right)^3 = \tfrac{2^3}{5^3} = \tfrac{8}{125}$$
 
@@ -205,7 +204,7 @@ Amb les definicions d'exponent zero i negatiu ja introduïdes, les propietats de
 
 ## Exemples finals
 
-Vegem alguns exemples amb algunes de les propietats anteriors combinades:
+Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
 
 !!! example "Operació amb fraccions i variables"
     $$
@@ -218,7 +217,7 @@ Vegem alguns exemples amb algunes de les propietats anteriors combinades:
     = \frac{729}{8} x^3
     $$
 
-    (S'han aplicat, en ordre, les propietats de la potència d'un quocient, la potència d'un producte i la potència d'una potència.)
+    (Hem aplicat, en ordre, la potència d'un quocient, la potència d'un producte i la potència d'una potència.)
 
 !!! example "Descomposició en factors primers"
     $$
@@ -226,15 +225,12 @@ Vegem alguns exemples amb algunes de les propietats anteriors combinades:
     \frac{(2^2 \cdot 3)^2 \cdot (3^2)^3}{(2^3)^{-4}}
     = \frac{(2^2)^2\cdot 3^2 \cdot (3^2)^3}{(2^3)^{-4}}
     = \frac{2^4 \cdot 3^2 \cdot 3^6}{2^{-12}}
-    $$
-
-    $$
     = 2^4 \cdot 3^2 \cdot 3^6 \cdot 2^{12}
     = 2^{4+12} \cdot 3^{2+6} = 2^{16} \cdot 3^{8}
     $$
 
 !!! example "Massa atòmica de l'hidrogen"
-    L'àtom d'hidrogen (H) té una massa de $1{,}66\cdot10^{-24}\,\text{g}$. Quants àtoms es necessiten per obtenir $10\,\text{kg}$ d'aquest gas?
+    L'àtom d'hidrogen (H) té una massa de $1{,}66\cdot10^{-24}\,\text{g}$ (la *massa atòmica*, és a dir, la massa d'un sol àtom). Quants àtoms calen per obtenir $10\,\text{kg}$ d'aquest gas? Usem la massa atòmica com a **factor de conversió** entre grams i nombre d'àtoms:
 
     $$
     10\,\text{kg}\cdot\frac{1000\,\text{g}}{1\,\text{kg}}\cdot
@@ -242,34 +238,26 @@ Vegem alguns exemples amb algunes de les propietats anteriors combinades:
     =
     \frac{10^{4}}{1{,}66\cdot10^{-24}}\ \text{àtoms}
     =\ \frac{10^{4}\cdot10^{24}}{1{,}66}\ \text{àtoms}
-    $$
-
-    $$
     =\ \frac{1}{1{,}66}\cdot10^{28}\ \text{àtoms}
     \approx 0{,}6024\cdot10^{28}\ \text{àtoms}
     = \boxed{6{,}024\cdot10^{27}\ \text{àtoms}}
     $$
 
-!!! note "Massa atòmica"
-    La *massa atòmica* fa referència a la massa d'un sol àtom. En aquest exemple s'utilitza com a **factor de conversió** per passar de grams a nombre d'àtoms: $1{,}66\cdot 10^{-24}\,\text{g} \longleftrightarrow 1\ \text{àtom d'H}$.
-
 ## Annex: notació científica
 
-Una de les aplicacions més freqüents de les potències és l'expressió de nombres molt grans o molt petits en **notació científica**. Un nombre està en notació científica quan s'escriu en la forma
+Una de les aplicacions més útils de les potències és escriure nombres molt grans o molt petits de manera compacta amb la **notació científica**, on l'exponent de $10$ indica l'**ordre de magnitud** i ens permet comparar mides d'una ullada: com més gran l'exponent, més gran el nombre. Un nombre està en notació científica quan té la forma
 
 $$a \cdot 10^n, \qquad 1 \leq a < 10, \quad n \in \mathbb{Z}.$$
-
-L'exponent de la potència de 10 indica l'**ordre de magnitud**. Això permet comparar nombres molt grans o molt petits només mirant els exponents: com més gran és l'exponent, més gran és el nombre.
 
 !!! example "Notació científica"
     $$0{,}000\,45 = 4{,}5 \cdot 10^{-4}, \qquad 72\,300 = 7{,}23 \cdot 10^{4}.$$
 
 !!! note "Consell pràctic"
-    En càlculs amb notació científica, es poden separar els factors numèrics i els factors de potències de 10:
+    En càlculs amb notació científica, separa els factors numèrics dels factors de potències de 10:
 
     $$(a\cdot 10^m)(b\cdot 10^n) = (a\cdot b)\cdot 10^{m+n}.$$
 
-    El factor numèric ha d'estar entre $1$ i $10$. Si $a\cdot b$ no compleix aquesta condició, caldrà reescriure el resultat ajustant-lo al format de notació científica.
+    Recorda que el factor numèric ha de quedar entre $1$ i $10$; si $a\cdot b$ no ho compleix, reescriu el resultat.
 
 !!! example "Càlcul amb notació científica"
     $$
@@ -280,9 +268,7 @@ L'exponent de la potència de 10 indica l'**ordre de magnitud**. Això permet co
     $$
 
 !!! example "Comparació d'ordres de magnitud"
-    La massa de la Terra és aproximadament $5{,}97 \cdot 10^{24}\ \text{kg}$, mentre que la massa de la Lluna és $7{,}35 \cdot 10^{22}\ \text{kg}$.
-
-    Només comparant els exponents veiem que $10^{24}$ és cent vegades més gran que $10^{22}$; per tant, la Terra té una massa unes 100 vegades superior a la de la Lluna.
+    La massa de la Terra és aproximadament $5{,}97 \cdot 10^{24}\ \text{kg}$ i la de la Lluna, $7{,}35 \cdot 10^{22}\ \text{kg}$: només comparant els exponents ja ho veiem, $10^{24}$ és cent vegades més gran que $10^{22}$, així que la Terra pesa unes 100 vegades més que la Lluna.
 
 !!! example "Distàncies astronòmiques en notació científica"
     La distància mitjana de la Terra al Sol és aproximadament
@@ -293,4 +279,18 @@ L'exponent de la potència de 10 indica l'**ordre de magnitud**. Això permet co
 
     $$40\,000\,000\,000\,000\ \text{km} \approx 4{,}0 \cdot 10^{13}\ \text{km}.$$
 
-    Els exponents $10^8$ i $10^{13}$ mostren immediatament que la distància a Pròxima Centauri és unes $10^5$ vegades més gran que la distància de la Terra al Sol.
+    Fixa't com els exponents $10^8$ i $10^{13}$ ja ens diuen que la distància a Pròxima Centauri és unes $10^5$ vegades més gran que la de la Terra al Sol.
+
+## Taula resum
+
+| Propietat | Fórmula |
+| --- | --- |
+| Producte de potències | $a^m \cdot a^n = a^{m+n}$ |
+| Quocient de potències | $\dfrac{a^m}{a^n} = a^{m-n}$ |
+| Potència d'una potència | $(a^m)^n = a^{m\cdot n}$ |
+| Exponent zero | $a^0 = 1,\ a\neq 0$ |
+| Exponent negatiu | $a^{-n} = \dfrac{1}{a^n}$ |
+| Exponent 1 | $a^1 = a$ |
+| Potència d'un producte | $(a\cdot b)^n = a^n\cdot b^n$ |
+| Potència d'un quocient | $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$ |
+| Notació científica | $a\cdot 10^n,\ 1\le a<10,\ n\in\mathbb{Z}$ |
