@@ -1,6 +1,6 @@
 # Geometria analítica
 
-Segur que ja saps treballar amb punts i rectes de manera intuïtiva, a ull. En aquest tema aprendrem a fer-ho amb precisió: descriurem punts i rectes mitjançant coordenades i equacions, i podrem calcular exactament distàncies, angles i posicions relatives sense necessitat de dibuixar res. La clau de tot plegat és un sol objecte: el **vector**.
+Segur que ja saps què són els punts i les rectes i has treballat amb aquests conceptes en cursos anteriors. En aquest tema aprendrem a descriure'ls amb precisió mitjançant coordenades i equacions, i podrem calcular exactament distàncies, angles i posicions relatives sense necessitat de dibuixar res. La clau de tot plegat és un sol objecte: el **vector**.
 
 ## Apartats
 
