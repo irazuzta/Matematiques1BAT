@@ -41,7 +41,7 @@ $$
 8 - 3 = 8 + (-3) = 5
 $$
 
-I ara, gràcies als oposats, també podem restar un nombre gran d'un de més petit, cosa que amb només naturals no podíem fer:
+I ara, gràcies als enters, també podem restar un nombre gran d'un de més petit, cosa que amb només naturals no podíem fer:
 
 $$
 3 - 8 = 3 + (-8) = -5
