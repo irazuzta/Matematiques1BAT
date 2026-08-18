@@ -87,6 +87,6 @@ $$
 $$
 
 !!! note "Inclusió"
-    Si $A \subset B$, tots els elements d'$A$ són també d'$B$.
+    Si $A \subset B$, tots els elements d'$A$ són també de $B$.
 
     Exemple: $\mathbb{N} \subset \mathbb{Z}$.
