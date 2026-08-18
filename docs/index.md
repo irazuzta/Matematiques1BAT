@@ -19,3 +19,7 @@ Aquests apunts han estat elaborats per **Jordi Irazuzta** ([jordi.irazuzta@insel
 [![Llicència de Creative Commons](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca)
 
 Aquesta obra està subjecta a una llicència de [Reconeixement-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca). Ets lliure de compartir i adaptar aquest material, sempre que en reconeguis l'autoria, no en facis un ús comercial i el distribueixis amb la mateixa llicència.
+
+## Ús d'intel·ligència artificial
+
+**Claude** (Anthropic) i **Gemini** (Google) s'han utilitzat per programar gràfiques i diagrames (amb TikZ) i per adaptar els apunts originals als formats LaTeX i Markdown. Les persones autores n'han revisat el contingut i se'n fan responsables.
