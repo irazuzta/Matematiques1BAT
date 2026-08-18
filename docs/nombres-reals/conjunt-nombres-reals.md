@@ -17,22 +17,28 @@ $$
 4 + 0 = 0 + 4 = 4 \qquad\qquad 4 \cdot 1 = 1 \cdot 4 = 4
 $$
 
-Ara bé, què passa si volem restar dos naturals com $3-8$? Ens cal ampliar el conjunt. Definim el **nombre oposat** d'un nombre com aquell que, sumat a l'original, dona $0$; el notem amb un $-$ al davant:
+Podem ampliar el conjunt dels naturals afegint, per a cada nombre, el seu **oposat**: el nombre que, sumat a l'original, dona $0$. El notem amb un $-$ al davant:
 
 $$
 5 + (-5) = 0
-$$
-
-Amb això, la resta no és més que sumar l'oposat. Tornem, doncs, al $3-8$ que ens havia quedat pendent:
-
-$$
-3 - 8 = 3 + (-8) = -5
 $$
 
 Si afegim als naturals tots els seus oposats, obtenim els **nombres enters**:
 
 $$
 \mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}
+$$
+
+Amb els enters a mà, la resta ja no és cap operació nova: no és més que sumar l'oposat.
+
+$$
+8 - 3 = 8 + (-3) = 5
+$$
+
+I ara, gràcies als oposats, també podem restar un nombre gran d'un de més petit, cosa que amb només naturals no podíem fer:
+
+$$
+3 - 8 = 3 + (-8) = -5
 $$
 
 Tot nombre, a més, es pot escriure en forma decimal: part entera i part decimal separades per una coma. Per exemple:
