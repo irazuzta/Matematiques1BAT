@@ -23,10 +23,10 @@ $$
 5 + (-5) = 0
 $$
 
-Amb això, la resta no és més que sumar l'oposat:
+Amb això, la resta no és més que sumar l'oposat. Tornem, doncs, al $3-8$ que ens havia quedat pendent:
 
 $$
-8 - 3 = 8 + (-3) = 5
+3 - 8 = 3 + (-8) = -5
 $$
 
 Si afegim als naturals tots els seus oposats, obtenim els **nombres enters**:
