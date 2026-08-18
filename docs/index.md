@@ -12,7 +12,7 @@ Aquest lloc recull, tema per tema, el contingut treballat a classe, amb explicac
 
 ## Autoria
 
-Aquests apunts han estat elaborats per **Jordi Irazuzta** ([jordi.irazuzta@inselspallaresos.cat](mailto:jordi.irazuzta@inselspallaresos.cat)) i **Ignasi Irazuzta**.
+Aquests apunts han estat elaborats per **Jordi Irazuzta** ([jordi.irazuzta@inselspallaresos.cat](mailto:jordi.irazuzta@inselspallaresos.cat)) i **Ignasi Irazuzta** ([iirazuzta@insdespuig.cat](mailto:iirazuzta@insdespuig.cat)).
 
 ## Llicència
 
@@ -22,4 +22,4 @@ Aquesta obra està subjecta a una llicència de [Reconeixement-NoComercial-Compa
 
 ## Ús d'intel·ligència artificial
 
-**Claude** (Anthropic) i **Gemini** (Google) s'han utilitzat per programar gràfiques i diagrames (amb TikZ) i per adaptar els apunts originals als formats LaTeX i Markdown. Les persones autores n'han revisat el contingut i se'n fan responsables.
+**Claude** (Anthropic) i **Gemini** (Google) s'han utilitzat per generar fórmules LaTeX i per adaptar les idees i els apunts originals a Markdown. Les persones autores n'han revisat el contingut i se'n fan responsables.
