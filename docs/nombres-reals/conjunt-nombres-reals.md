@@ -29,7 +29,7 @@ $$
 \mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}
 $$
 
-Amb els enters a mà, la resta ja no és cap operació nova: no és més que sumar l'oposat.
+Un cop tenim els enters, la resta ja no és cap operació nova: no és més que sumar l'oposat.
 
 $$
 8 - 3 = 8 + (-3) = 5

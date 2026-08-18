@@ -245,7 +245,7 @@ Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
 
 ## Annex: notació científica
 
-Una de les aplicacions més útils de les potències és escriure nombres molt grans o molt petits de manera compacta amb la **notació científica**, on l'exponent de $10$ indica l'**ordre de magnitud** i ens permet comparar mides d'una ullada: com més gran l'exponent, més gran el nombre. Un nombre està en notació científica quan té la forma
+Una de les aplicacions més útils de les potències és escriure nombres molt grans o molt petits de manera compacta amb la **notació científica**, on l'exponent de $10$ indica l'**ordre de magnitud** i ens permet comparar mides ràpidament: com més gran l'exponent, més gran el nombre. Un nombre està en notació científica quan té la forma
 
 $$a \cdot 10^n, \qquad 1 \leq a < 10, \quad n \in \mathbb{Z}.$$
 
