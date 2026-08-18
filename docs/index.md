@@ -22,4 +22,4 @@ Aquesta obra està subjecta a una llicència de [Reconeixement-NoComercial-Compa
 
 ## Ús d'intel·ligència artificial
 
-**Claude** (Anthropic) i **Gemini** (Google) s'han utilitzat per generar fórmules LaTeX i per adaptar les idees i els apunts originals a Markdown. Les persones autores n'han revisat el contingut i se'n fan responsables.
+**Claude** (Anthropic) i **Gemini** (Google) s'han utilitzat per generar fórmules LaTeX, gràfics i diagrames (amb TikZ), i per adaptar les idees i els apunts originals a codi Markdown. Les persones autores n'han revisat el contingut i se'n fan responsables.
