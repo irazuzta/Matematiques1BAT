@@ -23,6 +23,12 @@ $$
 5 + (-5) = 0
 $$
 
+Fixa't que l'oposat de l'oposat torna a ser el nombre original:
+
+$$
+-(-5) = 5
+$$
+
 Si afegim als naturals tots els seus oposats, obtenim els **nombres enters**:
 
 $$
