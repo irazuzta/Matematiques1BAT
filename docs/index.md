@@ -1,6 +1,6 @@
-# Apunts de Batxillerat
+# Matemàtiques I
 
-Benvinguts al recull d'apunts de Matemàtiques de Batxillerat.
+Benvinguts al recull d'apunts de Matemàtiques I de Batxillerat.
 
 Aquest lloc recull, tema per tema, el contingut treballat a classe, amb explicacions, definicions, propietats i exemples resolts.
 
