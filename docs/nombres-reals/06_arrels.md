@@ -82,7 +82,7 @@ $$
 
 Ens interessa poder-ho escriure com una potència d'exponent fraccionari. Si $b^n=a$, elevant tots dos costats a $\tfrac{1}{n}$:
 
-$$(b^n)^{\tfrac{1}{n}} = a^{\tfrac{1}{n}} \quad \Rightarrow \quad b = a^{\tfrac{1}{n}}.$$
+$$\left(b^n\right)^{\tfrac{1}{n}} = a^{\tfrac{1}{n}} \quad \Rightarrow \quad b = a^{\tfrac{1}{n}}.$$
 
 Fem servir el radical per representar aquest resultat, i arribem a la definició següent:
 
@@ -242,7 +242,7 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
 
 !!! tip "Propietat: potència d'una arrel"
     $$
-    \bigl(\sqrt[n]{a}\bigr)^{m} \;=\; \sqrt[n]{\,a^{m}\,},
+    \left(\sqrt[n]{a}\right)^{m} \;=\; \sqrt[n]{\,a^{m}\,},
     \qquad n \in \mathbb{N},\; n\ge 2,\; m \in \mathbb{N}
     $$
 
@@ -252,8 +252,8 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
     Amb $n=2$, $m=2$, $a=-1$: $\sqrt{-1}$ no existeix a $\mathbb{R}$, però $\sqrt{(-1)^2}=\sqrt{1}=1$ sí. Estenent-ho a $\mathbb{C}$, $\sqrt{-1}=\pm i$, i en tots dos casos $(\pm i)^2=-1$: l'esquerra sempre val $-1$, la dreta $+1$. Per això, si $n$ és parell, cal exigir $a\ge 0$.
 
 !!! example "Potència d'una arrel"
-    1. Índex senar (admet radicand negatiu): $\bigl(\sqrt[3]{-2}\bigr)^{2} = \sqrt[3]{(-2)^{2}} = \sqrt[3]{4}$.
-    2. Índex parell (cal $a\ge 0$): $\bigl(\sqrt{5}\bigr)^{3} = \sqrt{5^{3}} = \sqrt{125}$.
+    1. Índex senar (admet radicand negatiu): $\left(\sqrt[3]{-2}\right)^{2} = \sqrt[3]{(-2)^{2}} = \sqrt[3]{4}$.
+    2. Índex parell (cal $a\ge 0$): $\left(\sqrt{5}\right)^{3} = \sqrt{5^{3}} = \sqrt{125}$.
 
 ## Aplicacions de les propietats dels radicals
 
@@ -271,7 +271,7 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
     2. $$
         \frac{1}{2-\sqrt{3}}
         = \frac{1}{2-\sqrt{3}} \cdot \frac{2+\sqrt{3}}{2+\sqrt{3}}
-        = \frac{2+\sqrt{3}}{2^2-(\sqrt{3})^2}
+        = \frac{2+\sqrt{3}}{2^2-\left(\sqrt{3}\right)^2}
         = \frac{2+\sqrt{3}}{1}
         = 2+\sqrt{3}.
         $$
@@ -330,7 +330,7 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
 
         $$
         d=\sqrt{a^2+b^2}
-        =\sqrt{(6\sqrt{2})^2+(3\sqrt{2})^2}
+        =\sqrt{\left(6\sqrt{2}\right)^2+\left(3\sqrt{2}\right)^2}
         =\sqrt{36\cdot 2 + 9\cdot 2}
         =\sqrt{90}=\sqrt{9\cdot 10}=3\sqrt{10}.
         $$
