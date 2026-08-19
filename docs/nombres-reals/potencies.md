@@ -152,17 +152,17 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
     També: $\tfrac{25}{1/125}=3125$.
 
 !!! tip "Propietat: potència d'una potència"
-    $$(a^m)^n = a^{m \cdot n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
+    $$\left(a^m\right)^n = a^{m \cdot n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
 
 !!! example
-    $$(3^{-2})^3 = 3^{-6} = \frac{1}{729}.$$
+    $$\left(3^{-2}\right)^3 = 3^{-6} = \frac{1}{729}.$$
 
     També: $\left(\tfrac{1}{9}\right)^3=\tfrac{1}{729}$.
 
 !!! note "Atenció als parèntesis"
-    No és el mateix $(a^m)^n$ que $a^{m^n}$:
+    No és el mateix $\left(a^m\right)^n$ que $a^{m^n}$:
 
-    1. $(2^2)^3 = 2^6 = 64$
+    1. $\left(2^2\right)^3 = 2^6 = 64$
     2. $2^{2^3}=2^{8}=256$
 
 !!! tip "Propietat: potència d'exponent 1"
@@ -211,7 +211,7 @@ Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
     \left(\frac{9x}{2}\right)^3
     = \frac{(9 \cdot x)^3}{2^3}
     = \frac{9^3 \cdot x^3}{2^3}
-    = \frac{(3^2)^3 \cdot x^3}{2^3}
+    = \frac{\left(3^2\right)^3 \cdot x^3}{2^3}
     = \frac{3^6 \cdot x^3}{2^3}
     = \frac{3^6}{2^3}x^3
     = \frac{729}{8} x^3
@@ -222,8 +222,8 @@ Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
 !!! example "Descomposició en factors primers"
     $$
     \frac{(12)^2 \cdot (9)^3}{(8)^{-4}} =
-    \frac{(2^2 \cdot 3)^2 \cdot (3^2)^3}{(2^3)^{-4}}
-    = \frac{(2^2)^2\cdot 3^2 \cdot (3^2)^3}{(2^3)^{-4}}
+    \frac{\left(2^2 \cdot 3\right)^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}}
+    = \frac{\left(2^2\right)^2\cdot 3^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}}
     = \frac{2^4 \cdot 3^2 \cdot 3^6}{2^{-12}}
     = 2^4 \cdot 3^2 \cdot 3^6 \cdot 2^{12}
     = 2^{4+12} \cdot 3^{2+6} = 2^{16} \cdot 3^{8}
