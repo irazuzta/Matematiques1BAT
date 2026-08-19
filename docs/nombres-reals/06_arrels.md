@@ -2,7 +2,7 @@
 
 ## Definició
 
-Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa: quin nombre, elevat a $n$, dona un resultat $a$ conegut? Això és exactament el que respon una arrel.
+Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa: quin nombre, elevat a $n$, dona un resultat $a$ conegut? En forma d'equació: $x^n=a$, les solucions són exactament el concepte d'arrel.
 
 !!! abstract "Definició: arrel enèsima"
     Siguin $a \in \mathbb{R}$ i $n \in \mathbb{N}$, amb $n>0$. Diem que $b$ és una **arrel enèsima** de $a$ si es compleix
@@ -26,10 +26,9 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
     1. *arrel*: el resultat numèric (per exemple, $3$ és arrel quadrada de $9$).
     2. *radical*: el símbol $\sqrt[n]{a}$ amb què l'escrivim.
 
-    Recorda que $\sqrt{a}$, amb $a \ge 0$, denota només l'**arrel principal** (la positiva): $\sqrt{4}=2$, i no pas $\pm 2$. El $\pm 2$ apareix quan resolem l'equació $x^2=4$, no quan calculem el radical $\sqrt4$.
 
 !!! example "Arrel quadrada"
-    El radical $\sqrt{9}$ indica l'arrel quadrada principal: $\sqrt{9}=3$. En canvi, si plantegem l'equació $x^2=9$, hi ha dues solucions:
+    El radical $\sqrt{9}$ indica l'**arrel quadrada principal**: $\sqrt{9}=3$. En canvi, si plantegem l'equació $x^2=9$, hi ha dues solucions (arrels):
 
     $$x=\pm\sqrt{9} \;\Rightarrow\; x=\pm 3.$$
 
