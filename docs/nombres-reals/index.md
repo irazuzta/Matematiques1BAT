@@ -6,11 +6,11 @@ Recorda que aquestes eines et serviran durant tot el curs, així que val la pena
 
 ## Apartats
 
-- [El conjunt dels nombres reals](conjunt-nombres-reals.md) — d'on venen: naturals, enters, racionals i irracionals.
-- [La recta real: relació d'ordre](recta-real.md) — comparar i representar nombres reals.
-- [Intervals i valor absolut](intervals-valor-absolut.md) — intervals, distàncies i inequacions lineals.
-- [Aproximacions i errors](aproximacions-errors.md) — truncament, arrodoniment i com mesurar l'error comès.
-- [Potències](potencies.md) — propietats i notació científica.
-- [Arrels i radicals](arrels.md) — la seva relació amb les potències.
-- [Logaritmes](logaritmes.md) — què són i per a què serveixen.
-- [Nota històrica](nota-historica.md) — com han evolucionat els nombres reals al llarg de la història.
+- [El conjunt dels nombres reals](01_conjunt_nombres_reals.md) — d'on venen: naturals, enters, racionals i irracionals.
+- [La recta real: relació d'ordre](02_recta_real.md) — comparar i representar nombres reals.
+- [Intervals i valor absolut](03_intervals_valor_absolut.md) — intervals, distàncies i inequacions lineals.
+- [Aproximacions i errors](04_aproximacions_errors.md) — truncament, arrodoniment i com mesurar l'error comès.
+- [Potències](05_potencies.md) — propietats i notació científica.
+- [Arrels i radicals](06_arrels.md) — la seva relació amb les potències.
+- [Logaritmes](07_logaritmes.md) — què són i per a què serveixen.
+- [Nota històrica](08_nota_historica.md) — com han evolucionat els nombres reals al llarg de la història.

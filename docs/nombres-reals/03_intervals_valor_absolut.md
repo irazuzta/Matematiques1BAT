@@ -1,6 +1,6 @@
 # Intervals i valor absolut
 
-A [La recta real](recta-real.md) hem vist la relació d'ordre entre nombres reals. Ara la utilitzarem per definir dos conceptes que farem servir més endavant: els **intervals** i el **valor absolut**.
+A [La recta real](02_recta_real.md) hem vist la relació d'ordre entre nombres reals. Ara la utilitzarem per definir dos conceptes que farem servir més endavant: els **intervals** i el **valor absolut**.
 
 ## Intervals
 
