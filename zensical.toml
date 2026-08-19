@@ -65,8 +65,8 @@ features = [
 
 # logo = "assets/logo.png"
 
-# [project.theme.icon]
-# logo = "lucide/smile"
+[project.theme.icon]
+logo = "lucide/pi"
 
 # [project.theme.font]
 # text = "Inter"
