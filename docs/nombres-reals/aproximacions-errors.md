@@ -1,6 +1,6 @@
 # Aproximacions i errors
 
-Molts nombres reals —sobretot els irracionals— tenen infinites xifres decimals que no es repeteixen mai. Per tant, mai els podem escriure ni operar-hi de manera exacta: a la pràctica, sempre treballem amb **aproximacions**, valors amb un nombre finit de xifres decimals que s'acosten al valor real.
+Molts nombres reals —els irracionals— tenen infinites xifres decimals que no es repeteixen mai. Per tant, mai els podem escriure ni operar-hi de manera exacta. Altres cops, independentment de com siguin els nombres reals, treballem amb una precisió limitada i això ens porta a l'**aproximació** de valors.
 
 ## Aproximació d'un nombre
 

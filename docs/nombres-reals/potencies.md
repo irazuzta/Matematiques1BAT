@@ -68,10 +68,10 @@ Amb exponents naturals, les potències compleixen algunes propietats bàsiques. 
 !!! tip "Propietat: potència d'una potència"
     Si $m,n\in\mathbb{N}$, aleshores
 
-    $$(a^m)^n = a^{m \cdot n}, \qquad a \in \mathbb{R}.$$
+    $$\left(a^m\right)^n = a^{m \cdot n}, \qquad a \in \mathbb{R}.$$
 
 !!! example
-    $$(3^2)^4 = (9)^4 = 6561, \qquad\text{i també}\qquad 3^{2\cdot 4}=3^8=6561.$$
+    $$\left(3^2\right)^4 = \left(9\right)^4 = 6561, \qquad\text{i també}\qquad 3^{2\cdot 4}=3^8=6561.$$
 
 ## Extensió de la definició
 

@@ -12,7 +12,7 @@ Donats dos nombres reals qualssevol, sempre en podem dir quin és més gran. Com
     $$
 
 !!! note "Més gran o igual vs. més gran"
-    Al carrer fem servir "més gran" tant per a $>$ com per a $\geq$, però matemàticament cal distingir-los:
+    Col·loquialment fem servir "més gran" tant per a $>$ com per a $\geq$, però matemàticament cal distingir-los:
 
     1. **més gran** $\Rightarrow$ *estrictament* més gran ($>$).
     2. **més gran o igual** $\Rightarrow$ inclou el cas d'igualtat ($\geq$).

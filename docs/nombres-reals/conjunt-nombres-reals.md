@@ -4,6 +4,7 @@ Segur que ja coneixes molts conjunts de nombres dels cursos anteriors. Repassem-
 
 Comencem pel conjunt més senzill: els **nombres naturals**, els que fem servir per comptar els elements d'un conjunt finit:
 
+
 $$
 \mathbb{N} = \{0, 1, 2, 3, 4, \dots\}
 $$
@@ -11,7 +12,7 @@ $$
 !!! note "Notació: conjunts finits i infinits numerables"
     Un conjunt finit o infinit numerable s'escriu entre claus, amb els elements separats per comes: $\{e_1, e_2, e_3, \dots\}$. Quan el conjunt és infinit, els punts suspensius ($\dots$) indiquen que el patró continua indefinidament sense acabar-se mai.
 
-Fixa't que el $0$ és l'element neutre de la suma i l'$1$ ho és del producte: sumar-hi $0$ o multiplicar-hi per $1$ no altera el nombre original. Per exemple, amb el $4$:
+Fixa't que el $0$ és l'**element neutre** de la suma i l'$1$ ho és del producte: sumar-hi $0$ o multiplicar-hi per $1$ no altera el nombre original. Per exemple, amb el $4$:
 
 $$
 4 + 0 = 0 + 4 = 4 \qquad\qquad 4 \cdot 1 = 1 \cdot 4 = 4

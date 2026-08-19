@@ -1,6 +1,6 @@
 # Intervals i valor absolut
 
-A [La recta real](recta-real.md) hem vist la relació d'ordre entre nombres reals. Ara li traurem partit per definir dos conceptes que faràs servir constant: els **intervals** i el **valor absolut**.
+A [La recta real](recta-real.md) hem vist la relació d'ordre entre nombres reals. Ara la utilitzarem per definir dos conceptes que farem servir més endavant: els **intervals** i el **valor absolut**.
 
 ## Intervals
 
@@ -43,7 +43,7 @@ Fixa't en aquesta taula: t'hi pots referir sempre que dubtis de com s'escriu cad
 
 ## Valor absolut
 
-Quan et cal treballar amb una quantitat sempre positiva, encara que el nombre de partida no ho sigui, entra en joc el **valor absolut**: el mateix nombre si ja és positiu o zero, i el seu oposat si és negatiu.
+Quan et cal treballar amb una quantitat sempre positiva, encara que el nombre de partida no ho sigui, entra en joc el **valor absolut**:
 
 !!! abstract "Definició: valor absolut"
     Donat un nombre real $a$, es defineix el seu valor absolut com
