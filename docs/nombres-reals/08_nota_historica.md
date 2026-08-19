@@ -8,7 +8,7 @@ Fixa't en aquest fet, ocorregut a l'**Antiga Grècia**: la diagonal d'un quadrat
 
 Durant segles se'ls va mirar amb recel. Calgué l'àlgebra i la geometria del món **àrabo-islàmic medieval** i del **Renaixement europeu** perquè guanyessin legitimitat.
 
-Al segle XVII, amb el **càlcul diferencial i integral** de Newton i Leibniz, es va fer evident que calia una base més sòlida. Però no va ser fins als segles XVIII i XIX que **Dedekind** (amb les seves talls) i **Cantor** (amb la teoria de conjunts) en van donar una definició rigorosa.
+Al segle XVII, amb el **càlcul diferencial i integral** de Newton i Leibniz, es va fer evident que calia una base més sòlida. Però no va ser fins als segles XVIII i XIX que **Dedekind** i **Cantor** (amb la teoria de conjunts) en van donar una definició rigorosa.
 
 Gràcies a això, avui podem parlar amb precisió de continuïtat, límits i funcions: tot l'edifici de les matemàtiques modernes.
 
