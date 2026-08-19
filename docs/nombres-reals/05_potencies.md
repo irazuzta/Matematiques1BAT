@@ -208,39 +208,41 @@ Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
 
 !!! example "Operació amb fraccions i variables"
     $$
-    \left(\frac{9x}{2}\right)^3
-    = \frac{(9 \cdot x)^3}{2^3}
-    = \frac{9^3 \cdot x^3}{2^3}
-    = \frac{\left(3^2\right)^3 \cdot x^3}{2^3}
-    = \frac{3^6 \cdot x^3}{2^3}
-    = \frac{3^6}{2^3}x^3
-    = \frac{729}{8} x^3
+    \begin{aligned}
+    \left(\frac{9x}{2}\right)^3 &= \frac{(9 \cdot x)^3}{2^3} \\
+    &= \frac{9^3 \cdot x^3}{2^3} \\
+    &= \frac{\left(3^2\right)^3 \cdot x^3}{2^3} \\
+    &= \frac{3^6 \cdot x^3}{2^3} \\
+    &= \frac{3^6}{2^3}x^3 \\
+    &= \frac{729}{8} x^3
+    \end{aligned}
     $$
 
     (Hem aplicat, en ordre, la potència d'un quocient, la potència d'un producte i la potència d'una potència.)
 
 !!! example "Descomposició en factors primers"
     $$
-    \frac{(12)^2 \cdot (9)^3}{(8)^{-4}} =
-    \frac{\left(2^2 \cdot 3\right)^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}}
-    = \frac{\left(2^2\right)^2\cdot 3^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}}
-    = \frac{2^4 \cdot 3^2 \cdot 3^6}{2^{-12}}
-    = 2^4 \cdot 3^2 \cdot 3^6 \cdot 2^{12}
-    = 2^{4+12} \cdot 3^{2+6} = 2^{16} \cdot 3^{8}
+    \begin{aligned}
+    \frac{(12)^2 \cdot (9)^3}{(8)^{-4}} &= \frac{\left(2^2 \cdot 3\right)^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}} \\
+    &= \frac{\left(2^2\right)^2\cdot 3^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}} \\
+    &= \frac{2^4 \cdot 3^2 \cdot 3^6}{2^{-12}} \\
+    &= 2^4 \cdot 3^2 \cdot 3^6 \cdot 2^{12} \\
+    &= 2^{4+12} \cdot 3^{2+6} = 2^{16} \cdot 3^{8}
+    \end{aligned}
     $$
 
 !!! example "Massa atòmica de l'hidrogen"
     L'àtom d'hidrogen (H) té una massa de $1{,}66\cdot10^{-24}\,\text{g}$ (la *massa atòmica*, és a dir, la massa d'un sol àtom). Quants àtoms calen per obtenir $10\,\text{kg}$ d'aquest gas? Usem la massa atòmica com a **factor de conversió** entre grams i nombre d'àtoms:
 
     $$
-    10\,\text{kg}\cdot\frac{1000\,\text{g}}{1\,\text{kg}}\cdot
-    \frac{1\ \text{àtom}}{1{,}66\cdot10^{-24}\,\text{g}}
-    =
-    \frac{10^{4}}{1{,}66\cdot10^{-24}}\ \text{àtoms}
-    =\ \frac{10^{4}\cdot10^{24}}{1{,}66}\ \text{àtoms}
-    =\ \frac{1}{1{,}66}\cdot10^{28}\ \text{àtoms}
-    \approx 0{,}6024\cdot10^{28}\ \text{àtoms}
-    = \boxed{6{,}024\cdot10^{27}\ \text{àtoms}}
+    \begin{aligned}
+    10\,\text{kg}\cdot\frac{1000\,\text{g}}{1\,\text{kg}}\cdot\frac{1\ \text{àtom}}{1{,}66\cdot10^{-24}\,\text{g}}
+    &= \frac{10^{4}}{1{,}66\cdot10^{-24}}\ \text{àtoms} \\
+    &=\ \frac{10^{4}\cdot10^{24}}{1{,}66}\ \text{àtoms} \\
+    &=\ \frac{1}{1{,}66}\cdot10^{28}\ \text{àtoms} \\
+    &\approx 0{,}6024\cdot10^{28}\ \text{àtoms} \\
+    &= \boxed{6{,}024\cdot10^{27}\ \text{àtoms}}
+    \end{aligned}
     $$
 
 ## Annex: notació científica
@@ -261,10 +263,12 @@ $$a \cdot 10^n, \qquad 1 \leq a < 10, \quad n \in \mathbb{Z}.$$
 
 !!! example "Càlcul amb notació científica"
     $$
+    \begin{aligned}
     \frac{(6{,}0\cdot 10^{-3})(8{,}0\cdot 10^{7})}{2{,}0\cdot 10^{2}}
-    =\frac{6{,}0\cdot 8{,}0}{2{,}0}\cdot 10^{-3+7-2}
-    =24\cdot 10^{2}
-    =2{,}4\cdot 10^{3}.
+    &=\frac{6{,}0\cdot 8{,}0}{2{,}0}\cdot 10^{-3+7-2} \\
+    &=24\cdot 10^{2} \\
+    &=2{,}4\cdot 10^{3}.
+    \end{aligned}
     $$
 
 !!! example "Comparació d'ordres de magnitud"

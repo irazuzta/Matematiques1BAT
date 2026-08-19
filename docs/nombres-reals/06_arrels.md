@@ -269,11 +269,12 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
         $$
 
     2. $$
-        \frac{1}{2-\sqrt{3}}
-        = \frac{1}{2-\sqrt{3}} \cdot \frac{2+\sqrt{3}}{2+\sqrt{3}}
-        = \frac{2+\sqrt{3}}{2^2-\left(\sqrt{3}\right)^2}
-        = \frac{2+\sqrt{3}}{1}
-        = 2+\sqrt{3}.
+        \begin{aligned}
+        \frac{1}{2-\sqrt{3}} &= \frac{1}{2-\sqrt{3}} \cdot \frac{2+\sqrt{3}}{2+\sqrt{3}} \\
+        &= \frac{2+\sqrt{3}}{2^2-\left(\sqrt{3}\right)^2} \\
+        &= \frac{2+\sqrt{3}}{1} \\
+        &= 2+\sqrt{3}.
+        \end{aligned}
         $$
 
 !!! note "Identitat notable per a la racionalització"
@@ -287,9 +288,11 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
     Només podem sumar o restar radicals amb el mateix índex i el mateix radicand; sovint cal extreure factors primer perquè hi coincideixin:
 
     $$
+    \begin{aligned}
     2\sqrt{2} + 5\sqrt{8} - 2\sqrt{18} + \sqrt{50}
-    = 2\sqrt{2} + 5\cdot 2\sqrt{2} - 2\cdot 3\sqrt{2} + 5\sqrt{2}
-    = (2+10-6+5)\sqrt{2} = 11\sqrt{2}.
+    &= 2\sqrt{2} + 5\cdot 2\sqrt{2} - 2\cdot 3\sqrt{2} + 5\sqrt{2} \\
+    &= (2+10-6+5)\sqrt{2} = 11\sqrt{2}.
+    \end{aligned}
     $$
 
 ## Exemple final
@@ -316,7 +319,10 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
     1. Simplificació de $a$ i $b$:
 
         $$
-        a = \frac{36}{\sqrt{18}} \cdot \frac{\sqrt{18}}{\sqrt{18}}=\frac{36\sqrt{18}}{18} = 2\sqrt{18} = 2 \sqrt{3^2\cdot 2}=6 \sqrt{2}
+        \begin{aligned}
+        a &= \frac{36}{\sqrt{18}} \cdot \frac{\sqrt{18}}{\sqrt{18}} = \frac{36\sqrt{18}}{18} \\
+        &= 2\sqrt{18} = 2 \sqrt{3^2\cdot 2} = 6 \sqrt{2}
+        \end{aligned}
         $$
 
         $$
@@ -329,10 +335,12 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
     2. Diagonal (teorema de Pitàgores):
 
         $$
-        d=\sqrt{a^2+b^2}
-        =\sqrt{\left(6\sqrt{2}\right)^2+\left(3\sqrt{2}\right)^2}
-        =\sqrt{36\cdot 2 + 9\cdot 2}
-        =\sqrt{90}=\sqrt{9\cdot 10}=3\sqrt{10}.
+        \begin{aligned}
+        d&=\sqrt{a^2+b^2} \\
+        &=\sqrt{\left(6\sqrt{2}\right)^2+\left(3\sqrt{2}\right)^2} \\
+        &=\sqrt{36\cdot 2 + 9\cdot 2} \\
+        &=\sqrt{90}=\sqrt{9\cdot 10}=3\sqrt{10}.
+        \end{aligned}
         $$
 
     3. Perímetre:
