@@ -155,9 +155,9 @@ Per repassar d'un cop d'ull:
 | Logaritme de $1$ | $\log_a 1 = 0$ |
 | Logaritme de la base | $\log_a a = 1$ |
 | Producte | $\log_a (M\cdot N) = \log_a M + \log_a N$ |
-| Quocient | $\log_a \frac{M}{N} = \log_a M - \log_a N$ |
+| Quocient | $\log_a \dfrac{M}{N} = \log_a M - \log_a N$ |
 | Potència | $\log_a (M^n) = n\log_a M$ |
-| Arrel | $\log_a \sqrt[n]{M} = \frac{1}{n}\log_a M$ |
+| Arrel | $\log_a \sqrt[n]{M} = \dfrac{1}{n}\log_a M$ |
 | Canvi de base | $\log_a M = \dfrac{\log_b M}{\log_b a}$ |
 | Logaritme decimal | $\log_{10} x = \log x$ |
 | Logaritme neperià | $\log_e x = \ln x$ |

@@ -54,8 +54,8 @@ L'error absolut es mesura en les mateixes unitats que la magnitud, però per si 
 !!! example "Comparació de dues aproximacions amb el mateix error absolut"
     Imaginem dues mesures, totes dues amb un error absolut d'$1\,\text{m}$:
 
-    - Distància entre ciutats: $x = 100\,\text{km} = 100\,000\,\text{m}$, amb $E_r = \frac{1}{100\,000} = 0{,}001\%$.
-    - Llargada d'una taula: $x = 2\,\text{m}$, amb $E_r = \frac{1}{2} = 50\%$.
+    - Distància entre ciutats: $x = 100\,\text{km} = 100\,000\,\text{m}$, amb $E_r = \dfrac{1}{100\,000} = 0{,}001\%$.
+    - Llargada d'una taula: $x = 2\,\text{m}$, amb $E_r = \dfrac{1}{2} = 50\%$.
 
     Mateix error absolut, però resultats ben diferents: l'error relatiu deixa clar que un metre és insignificant en 100 km, però inacceptable en la llargada d'una taula.
 
