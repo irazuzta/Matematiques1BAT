@@ -11,7 +11,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
 
     És a dir: un nombre real que, elevat a $n$, ens torna $a$.
 
-!!! example "**Exemple:** quantes solucions (arrels) té l'equació $x^n=a$?"
+!!! example "**Exemple:** quantes solucions té l'equació $x^n=a$?"
     - $x^2=9$ té dues solucions (arrels): $x=3$ i $x=-3$, ja que $3^2=9$ i $(-3)^2=9$.
     - $x^3=-8$ té una única solució (arrel): $x=-2$, ja que $(-2)^3=-8$.
     - $x^2=-1$ no té cap solució (arrel) real: cap nombre real elevat al quadrat pot donar un resultat negatiu.
@@ -45,7 +45,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
     Busquem $b$ tal que $b^3=-8$, és a dir, $b=\sqrt[3]{-8}$. Només hi ha una solució real: $\sqrt[3]{-8}=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
 
 !!! example "**Exemple:** Nombres sense arrels reals"
-    Vols trobar $b \in \mathbb{R}$ tal que $b^2=-1$, és a dir, $b=\sqrt{-1}$? No existeix: per a qualsevol $b$ real, $b^2$ mai és negatiu. Per tant, **no hi ha cap arrel real quadrada de $-1$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$. (Fora dels nombres reals sí que en té: als *nombres complexos*, $\sqrt{-1}=i$)
+    Vols trobar $b \in \mathbb{R}$ tal que $b^2=-1$, és a dir, $b=\sqrt{-1}$? No existeix: per a qualsevol $b$ real, $b^2$ mai és negatiu. Per tant, **no hi ha cap arrel real quadrada de $-1$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$. (Fora dels nombres reals sí que en té: als *nombres complexos*, $\sqrt{-1}=i$.)
 
 Fixa't que, directament de la definició, se'n dedueix un fet senzill:
 
@@ -65,7 +65,7 @@ Això només és cert quan $\sqrt[n]{a}$ existeix com a nombre real, i això dep
     | $a<0$ | Senar | 1 (única) | $\sqrt[n]{a} = -\sqrt[n]{\lvert a\rvert}$ |
     | $a=0$ | — | 1 (única) | $\sqrt[n]{0}=0$ |
 
-## Relació amb les potències
+## Arrels com a potències
 
 Una arrel no és res més que una potència mirada del revés: $b$ és arrel $n$-èsima d'$a$ quan $b^n=a$.
 
@@ -75,11 +75,23 @@ b^n=a
 b=\text{arrel $n$-èsima d'}a.
 $$
 
-Ens interessa poder-ho escriure com una potència d'exponent fraccionari. Si $b^n=a$, elevant tots dos costats a $\tfrac{1}{n}$:
+Ja sabem que $\left(\sqrt[n]{a}\right)^n = a$. Elevem tots dos costats d'aquesta igualtat a l'exponent $\tfrac{1}{n}$:
 
-$$\left(b^n\right)^{\tfrac{1}{n}} = a^{\tfrac{1}{n}} \quad \Rightarrow \quad b = a^{\tfrac{1}{n}}.$$
+$$
+\left(\left(\sqrt[n]{a}\right)^n\right)^{\tfrac{1}{n}} = a^{\tfrac{1}{n}}.
+$$
 
-Fem servir el radical per representar aquest resultat, i arribem a la definició següent:
+Al costat esquerre apliquem la propietat de la potència d'una potència (multiplicar els exponents): $n \cdot \tfrac{1}{n}=1$, així que
+
+$$
+\left(\sqrt[n]{a}\right)^{n \cdot \tfrac{1}{n}} = \left(\sqrt[n]{a}\right)^{1} = \sqrt[n]{a}.
+$$
+
+I per tant, a la força:
+
+$$\sqrt[n]{a} = a^{\tfrac{1}{n}}.$$
+
+No és una tria arbitrària de notació: és una conseqüència directa de les propietats de les potències. Arribem així a la definició següent:
 
 !!! abstract "Definició: expressió d'un radical com a potència"
     Siguin $m,n \in \mathbb{N}$ amb $n>0$. Definim
