@@ -96,7 +96,7 @@ No és una tria arbitrària de notació: és una conseqüència directa de les p
 !!! abstract "Definició: expressió d'un radical com a potència"
     Siguin $m,n \in \mathbb{N}$ amb $n>0$. Definim
 
-    $$a^{\tfrac{m}{n}} := \left(\sqrt[n]{a}\right)^m = \sqrt[n]{a^m}.$$
+    $$a^{\tfrac{m}{n}} := \sqrt[n]{a^m} = \left(\sqrt[n]{a}\right)^m$$
 
 Aquesta equivalència és clau: ens permet passar d'arrels a potències (i a l'inrevés) sempre que convingui per simplificar o resoldre.
 
