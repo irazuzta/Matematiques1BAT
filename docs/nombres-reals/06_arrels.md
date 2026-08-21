@@ -11,12 +11,12 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
 
     És a dir: un nombre real que, elevat a $n$, ens torna $a$.
 
-!!! example "**Exemple:** nombre de solucions segons l'índex i el radicand"
-    - $x^2=9$ té dues solucions: $x=3$ i $x=-3$, ja que $3^2=9$ i $(-3)^2=9$.
-    - $x^3=-8$ té una única solució: $x=-2$, ja que $(-2)^3=-8$.
-    - $x^2=-1$ no té cap solució real: cap nombre real elevat al quadrat pot donar un resultat negatiu.
+!!! example "**Exemple:** quantes solucions té l'equació $x^n=a$?"
+    - $x^2=9$ té dues solucions (arrels): $x=3$ i $x=-3$, ja que $3^2=9$ i $(-3)^2=9$.
+    - $x^3=-8$ té una única solució (arrel): $x=-2$, ja que $(-2)^3=-8$.
+    - $x^2=-1$ no té cap solució (arrel) real: cap nombre real elevat al quadrat pot donar un resultat negatiu.
 
-    Fixa't que, segons l'índex i el signe del nombre de la dreta, el nombre de solucions varia: dues, una, o cap. De fet, en els nombres reals, aquestes són les úniques possibilitats que es poden donar.
+    Fixa't que, segons si l'exponent $n$ és parell o senar, i segons el signe del nombre de la dreta, el nombre de solucions (arrels) varia: dues, una, o cap. De fet, en els nombres reals, aquestes són les úniques possibilitats que es poden donar.
 
 !!! info "Notació: el símbol radical"
     Per representar una arrel fem servir el **radical**:
