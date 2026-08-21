@@ -45,7 +45,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
     Busquem $b$ tal que $b^3=-8$, és a dir, $b=\sqrt[3]{-8}$. Només hi ha una solució real: $\sqrt[3]{-8}=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
 
 !!! example "**Exemple:** Nombres sense arrels reals"
-    Vols trobar $b \in \mathbb{R}$ tal que $b^4=-16$? No existeix: per a qualsevol $b$ real, $b^4$ mai és negatiu. Per tant, **no hi ha cap arrel real quarta de $-16$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$.
+    Vols trobar $b \in \mathbb{R}$ tal que $b^2=-1$, és a dir, $b=\sqrt{-1}$? No existeix: per a qualsevol $b$ real, $b^2$ mai és negatiu. Per tant, **no hi ha cap arrel real quadrada de $-1$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$. (Fora dels nombres reals sí que en té: als *nombres complexos*, $\sqrt{-1}=i$.)
 
 Fixa't que, directament de la definició, se'n dedueix un fet senzill:
 
