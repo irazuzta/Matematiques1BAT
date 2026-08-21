@@ -27,7 +27,7 @@ Potències, arrels i logaritmes són, en el fons, la mateixa relació $a^n=b$ mi
 
 Per això, com veurem, les propietats dels logaritmes (i de les arrels) no fan res més que traduir les propietats que ja coneixem de les potències.
 
-!!! example "Triple equivalència amb nombres concrets"
+!!! example "**Exemple:** Triple equivalència amb nombres concrets"
     Fixa't en $2^3=8$: aquesta relació es pot escriure de tres maneres equivalents:
 
     $$
@@ -62,7 +62,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 !!! note "I per què no $\log_1 1$?"
     Buscar $\log_1 1$ voldria dir trobar un $n$ tal que $1^n=1$... però això és cert per a *qualsevol* $n$! No hi ha un exponent únic, i per això la base mai pot valer $1$.
 
-!!! example
+!!! example "**Exemple**"
     $\log_2 1=0$, ja que $2^{0}=1$.
 
 !!! tip "Propietat: logaritme de la base"
@@ -72,7 +72,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 
     *Per què?* Perquè $a^n=a$ només es compleix per a $n=1$.
 
-!!! example
+!!! example "**Exemple**"
     $\log_2 2=1$, ja que $2^{1}=2$.
 
 !!! tip "Propietat: logaritme del producte"
@@ -82,7 +82,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 
     *Per què?* Si $\log_a M=m$ i $\log_a N=n$, aleshores $M \cdot N = a^m \cdot a^n = a^{m+n}$.
 
-!!! example
+!!! example "**Exemple**"
     $$
     \log_2 6
     = \log_2 (2 \cdot 3)
@@ -97,7 +97,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 
     *Per què?* Amb $M=a^m$ i $N=a^n$, tenim $\tfrac{M}{N}=a^{m-n}$.
 
-!!! example
+!!! example "**Exemple**"
     $$
     \log_2 3
     = \log_2 \tfrac{6}{2}
@@ -112,7 +112,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 
     *Per què?* Si $M=a^m$, aleshores $M^n=(a^m)^n=a^{n\cdot m}$.
 
-!!! example
+!!! example "**Exemple**"
     Amb aquesta propietat, calcular $\log_2 32$ és immediat:
 
     $$
@@ -126,7 +126,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 
     *Per què?* Perquè $\sqrt[n]{M}=M^{1/n}$, i apliquem la propietat de la potència.
 
-!!! example
+!!! example "**Exemple**"
     $$
     \log_2 \sqrt{8}
     = \tfrac{1}{2}\,\log_2 2^3
@@ -141,7 +141,7 @@ Vegem ara, una a una, les propietats dels logaritmes. Totes surten directament d
 
     *Per què?* Si $n=\log_a M$, aleshores $a^n=M$. Prenent $\log_b$ a banda i banda i aplicant la propietat de la potència, $n\cdot\log_b a=\log_b M$, d'on surt la fórmula.
 
-!!! example
+!!! example "**Exemple**"
     $$
     \log_2 100 = \frac{\log 100}{\log 2} = \frac{2}{\log 2} = \frac{\ln 100}{\ln 2}.
     $$
@@ -166,7 +166,7 @@ Per repassar d'un cop d'ull:
 
 Acabem amb dos exemples reals on els logaritmes apareixen de manera natural: l'interès compost i l'equació de Hill en farmacologia.
 
-!!! example "Interès compost"
+!!! example "**Exemple:** Interès compost"
     Quan un capital $C_0$ genera un interès compost del $i\%$ anual, al cap de $t$ anys tenim
 
     $$C_f = C_0 \left( 1 + \tfrac{i}{100}\right)^t.$$
@@ -190,7 +190,7 @@ Acabem amb dos exemples reals on els logaritmes apareixen de manera natural: l'i
 
     És a dir, uns **$2$ anys**.
 
-!!! example "Equació de Hill"
+!!! example "**Exemple:** Equació de Hill"
     En farmacologia, l'**equació de Hill** relaciona la concentració d'un fàrmac amb la resposta biològica que provoca:
 
     $$E = E_{max} \cdot \frac{D^n}{K_D^n+D^n},$$

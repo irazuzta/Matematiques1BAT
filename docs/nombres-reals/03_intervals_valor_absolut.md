@@ -52,7 +52,7 @@ Quan et cal treballar amb una quantitat sempre positiva, encara que el nombre de
     |a| = \begin{cases} a & \text{ si } a \geq 0 \\ -a & \text{ si } a <0 \end{cases}
     $$
 
-!!! example "Càlcul d'alguns valors absoluts"
+!!! example "**Exemple:** Càlcul d'alguns valors absoluts"
     $$
     |3| = |+3| = 3 \qquad\qquad |-5| = -(-5) = 5
     $$
@@ -61,7 +61,7 @@ Dit d'una altra manera: si el nombre ja és positiu, el deixem igual; si és neg
 
 Aquesta idea té una aplicació immediata: mesurar distàncies. Sobre la recta real, la distància entre dos punts $a$ i $b$ és $b-a$ si $a<b$, o $a-b$ si $a>b$. Fixa't que les dues expressions són oposades:
 
-!!! example "Càlcul d'algunes distàncies"
+!!! example "**Exemple:** Càlcul d'algunes distàncies"
     Siguin $a=3$ i $b=7$. Aleshores
 
     $$
@@ -83,7 +83,7 @@ Gràficament, es tracta de trobar els extrems d'un interval $(e_1,e_2)$:
 
 ![Entorn d'un punt](img/interval_entorn.png)
 
-!!! example "Reals a una distància menor que un valor conegut d'un altre real"
+!!! example "**Exemple:** Reals a una distància menor que un valor conegut d'un altre real"
     Sigui $a=4$ i $r=6$. Volem els punts la distància dels quals a $a$ sigui menor que $r$:
 
     $$d(x,4)<6 \qquad\Rightarrow\qquad |x-4|<6$$
@@ -109,7 +109,7 @@ Aquest resultat es generalitza sempre igual, per a qualsevol punt i qualsevol di
 
 Una inequació lineal és una desigualtat amb una incògnita on les expressions implicades són polinomis de grau $1$. Ja les vas resoldre en cursos anteriors i el mètode és pràcticament el mateix que amb les equacions de primer grau... amb una diferència important que cal vigilar.
 
-!!! example "Resolució d'una inequació lineal"
+!!! example "**Exemple:** Resolució d'una inequació lineal"
     $$2x-5>7$$
 
     Aïllem la $x$ igual que amb les equacions de primer grau:
@@ -123,7 +123,7 @@ Una inequació lineal és una desigualtat amb una incògnita on les expressions 
 
     Per exemple: $2 < 5 \quad \Longrightarrow \quad -2 > -5$
 
-!!! example "Resolució d'una altra inequació lineal"
+!!! example "**Exemple:** Resolució d'una altra inequació lineal"
     $$-3x + 5 \leq 23$$
 
     $$-3x \leq 23 - 5 \qquad\Rightarrow\qquad -3x \leq 18$$

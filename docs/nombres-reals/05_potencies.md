@@ -18,7 +18,7 @@ Quan l'exponent és natural, la idea és senzilla: multipliquem $a$ tants cops c
 
     $$a^n = \underbrace{a \cdot a \cdot \dots \cdot a}_n$$
 
-!!! example "Bases positives i negatives"
+!!! example "**Exemple:** Bases positives i negatives"
     $$
     3^5 = \underbrace{3\cdot 3\cdot 3\cdot 3\cdot 3}_5 = 243,
     \qquad
@@ -40,7 +40,7 @@ Amb exponents naturals, les potències compleixen algunes propietats bàsiques. 
 
     $$a^m \cdot a^n = a^{m+n}, \qquad a \in \mathbb{R}.$$
 
-!!! example
+!!! example "**Exemple**"
     $$2^3 \cdot 2^4 = (2\cdot 2\cdot 2)\cdot(2\cdot 2\cdot 2\cdot 2).$$
 
     Comptant tots els factors en tenim 7, tots iguals a 2:
@@ -54,7 +54,7 @@ Amb exponents naturals, les potències compleixen algunes propietats bàsiques. 
 
     $$\frac{a^m}{a^n} = a^{m-n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
 
-!!! example
+!!! example "**Exemple**"
     $$
     \frac{5^6}{5^2}=\frac{5\cdot 5\cdot 5\cdot 5\cdot 5\cdot 5}{5\cdot 5}
     =5\cdot 5\cdot 5\cdot 5 = 5^4 = 625.
@@ -70,7 +70,7 @@ Amb exponents naturals, les potències compleixen algunes propietats bàsiques. 
 
     $$\left(a^m\right)^n = a^{m \cdot n}, \qquad a \in \mathbb{R}.$$
 
-!!! example
+!!! example "**Exemple**"
     $$\left(3^2\right)^4 = \left(9\right)^4 = 6561, \qquad\text{i també}\qquad 3^{2\cdot 4}=3^8=6561.$$
 
 ## Extensió de la definició
@@ -101,7 +101,7 @@ Aquestes propietats funcionen bé mentre l'exponent és natural. Però volem que
 
     D'aquí surt que $a^{-n}$ ha de valer $\tfrac{1}{a^n}$.
 
-!!! example "Ús d'exponents zero i negatius"
+!!! example "**Exemple:** Ús d'exponents zero i negatius"
     $$5^0 = 1, \qquad 7^{-2} = \frac{1}{7^2} = \frac{1}{49}.$$
 
     Un càlcul combinat:
@@ -131,7 +131,7 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
 !!! tip "Propietat: producte de potències de la mateixa base"
     $$a^m \cdot a^n = a^{m+n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
 
-!!! example
+!!! example "**Exemple**"
     $$2^{-3}\cdot 2^{5}=2^{-3+5}=2^2=4.$$
 
     Comprova-ho: $\tfrac{1}{2^3}\cdot 2^5=\tfrac{1}{8}\cdot 32=4$.
@@ -146,7 +146,7 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
 !!! tip "Propietat: quocient de potències de la mateixa base"
     $$\frac{a^m}{a^n} = a^{m-n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
 
-!!! example
+!!! example "**Exemple**"
     $$\frac{5^2}{5^{-3}} = 5^{2-(-3)}=5^5=3125.$$
 
     També: $\tfrac{25}{1/125}=3125$.
@@ -154,7 +154,7 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
 !!! tip "Propietat: potència d'una potència"
     $$\left(a^m\right)^n = a^{m \cdot n}, \qquad a \in \mathbb{R},\; a \neq 0.$$
 
-!!! example
+!!! example "**Exemple**"
     $$\left(3^{-2}\right)^3 = 3^{-6} = \frac{1}{729}.$$
 
     També: $\left(\tfrac{1}{9}\right)^3=\tfrac{1}{729}$.
@@ -168,13 +168,13 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
 !!! tip "Propietat: potència d'exponent 1"
     $$a^1 = a, \qquad a \in \mathbb{R}.$$
 
-!!! example
+!!! example "**Exemple**"
     $$(-7)^1 = -7.$$
 
 !!! tip "Propietat: potència d'un producte"
     $$(a \cdot b)^n = a^n \cdot b^n, \qquad a,b \in \mathbb{R},\; ab\neq 0.$$
 
-!!! example
+!!! example "**Exemple**"
     $$
     (2\cdot 3)^{-2} = 6^{-2} = \frac{1}{36}
     \quad\text{i}\quad
@@ -187,7 +187,7 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
 !!! tip "Propietat: potència d'un quocient"
     $$\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}, \qquad a,b \in \mathbb{R},\; b\neq 0.$$
 
-!!! example
+!!! example "**Exemple**"
     $$
     \left(\frac{2}{5}\right)^{-3} = \left(\frac{5}{2}\right)^3=\frac{125}{8},
     \quad\text{i també}\quad \frac{2^{-3}}{5^{-3}}=\frac{1/8}{1/125}=\frac{125}{8}.
@@ -206,7 +206,7 @@ Recordem les propietats anteriors, ara vàlides per a exponents enters, amb un e
 
 Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
 
-!!! example "Operació amb fraccions i variables"
+!!! example "**Exemple:** Operació amb fraccions i variables"
     $$
     \begin{aligned}
     \left(\frac{9x}{2}\right)^3 &= \frac{(9 \cdot x)^3}{2^3} \\
@@ -220,7 +220,7 @@ Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
 
     (Hem aplicat, en ordre, la potència d'un quocient, la potència d'un producte i la potència d'una potència.)
 
-!!! example "Descomposició en factors primers"
+!!! example "**Exemple:** Descomposició en factors primers"
     $$
     \begin{aligned}
     \frac{(12)^2 \cdot (9)^3}{(8)^{-4}} &= \frac{\left(2^2 \cdot 3\right)^2 \cdot \left(3^2\right)^3}{\left(2^3\right)^{-4}} \\
@@ -231,7 +231,7 @@ Vegem-ho tot plegat amb un parell d'exemples que combinen diverses propietats.
     \end{aligned}
     $$
 
-!!! example "Massa atòmica de l'hidrogen"
+!!! example "**Exemple:** Massa atòmica de l'hidrogen"
     L'àtom d'hidrogen (H) té una massa de $1{,}66\cdot10^{-24}\,\text{g}$ (la *massa atòmica*, és a dir, la massa d'un sol àtom). Quants àtoms calen per obtenir $10\,\text{kg}$ d'aquest gas? Usem la massa atòmica com a **factor de conversió** entre grams i nombre d'àtoms:
 
     $$
@@ -251,7 +251,7 @@ Una de les aplicacions més útils de les potències és escriure nombres molt g
 
 $$a \cdot 10^n, \qquad 1 \leq a < 10, \quad n \in \mathbb{Z}.$$
 
-!!! example "Notació científica"
+!!! example "**Exemple:** Notació científica"
     $$0{,}000\,45 = 4{,}5 \cdot 10^{-4}, \qquad 72\,300 = 7{,}23 \cdot 10^{4}.$$
 
 !!! note "Consell pràctic"
@@ -261,7 +261,7 @@ $$a \cdot 10^n, \qquad 1 \leq a < 10, \quad n \in \mathbb{Z}.$$
 
     Recorda que el factor numèric ha de quedar entre $1$ i $10$; si $a\cdot b$ no ho compleix, reescriu el resultat.
 
-!!! example "Càlcul amb notació científica"
+!!! example "**Exemple:** Càlcul amb notació científica"
     $$
     \begin{aligned}
     \frac{(6{,}0\cdot 10^{-3})(8{,}0\cdot 10^{7})}{2{,}0\cdot 10^{2}}
@@ -271,10 +271,10 @@ $$a \cdot 10^n, \qquad 1 \leq a < 10, \quad n \in \mathbb{Z}.$$
     \end{aligned}
     $$
 
-!!! example "Comparació d'ordres de magnitud"
+!!! example "**Exemple:** Comparació d'ordres de magnitud"
     La massa de la Terra és aproximadament $5{,}97 \cdot 10^{24}\ \text{kg}$ i la de la Lluna, $7{,}35 \cdot 10^{22}\ \text{kg}$: només comparant els exponents ja ho veiem, $10^{24}$ és cent vegades més gran que $10^{22}$, així que la Terra pesa unes 100 vegades més que la Lluna.
 
-!!! example "Distàncies astronòmiques en notació científica"
+!!! example "**Exemple:** Distàncies astronòmiques en notació científica"
     La distància mitjana de la Terra al Sol és aproximadament
 
     $$149\,600\,000\ \text{km} = 1{,}496 \cdot 10^{8}\ \text{km}.$$

@@ -30,7 +30,7 @@ Amb aquesta idea, ja podem definir totes les relacions d'ordre possibles:
     | $a > b$ | "$a$ és més gran que $b$": $a > b \Longleftrightarrow a-b > 0$ |
     | $a < b$ | "$a$ és més petit que $b$": $a < b \Longleftrightarrow a-b < 0$ |
 
-!!! example "Relacions d'ordre"
+!!! example "**Exemple:** Relacions d'ordre"
     Donats els nombres $-3$, $4$ i $6$:
 
     | Enunciat | Notació | Condició numèrica |
@@ -53,7 +53,7 @@ La regla és senzilla: com més gran és un nombre, més a la dreta el trobarem;
 !!! note "Escala de la recta real"
     Recorda que en marcar el punt $1$ fixem l'escala de tota la recta: la distància de $0$ a $1$ determina la unitat i permet situar la resta de nombres.
 
-!!! example "Representació de punts a la recta real"
+!!! example "**Exemple:** Representació de punts a la recta real"
     Considerem els nombres reals $2$, $\pi$, $-\sqrt{2}$ i $\tfrac{21}{4}$. La seva representació decimal és:
 
     $$
@@ -67,7 +67,7 @@ La regla és senzilla: com més gran és un nombre, més a la dreta el trobarem;
 
     ![Exemple de representació a la recta real](img/recta_real_exemple.png)
 
-!!! example "Comparació entre fracció i decimal"
+!!! example "**Exemple:** Comparació entre fracció i decimal"
     Vegem que $\tfrac{2}{3} < 0{,}7$:
 
     $$

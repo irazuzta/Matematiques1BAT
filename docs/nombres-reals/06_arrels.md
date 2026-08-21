@@ -11,6 +11,13 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
 
     És a dir: un nombre real que, elevat a $n$, ens torna $a$.
 
+!!! example "**Exemple:** nombre de solucions segons l'índex i el radicand"
+    - $x^2=9$ té dues solucions: $x=3$ i $x=-3$, ja que $3^2=9$ i $(-3)^2=9$.
+    - $x^3=-8$ té una única solució: $x=-2$, ja que $(-2)^3=-8$.
+    - $x^2=-1$ no té cap solució real: cap nombre real elevat al quadrat pot donar un resultat negatiu.
+
+    Fixa't que, segons l'índex i el signe del nombre de la dreta, el nombre de solucions varia: dues, una, o cap. De fet, en els nombres reals, aquestes són les úniques possibilitats que es poden donar.
+
 !!! info "Notació: el símbol radical"
     Per representar una arrel fem servir el **radical**:
 
@@ -27,17 +34,17 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
     2. *radical*: el símbol $\sqrt[n]{a}$ amb què l'escrivim.
 
 
-!!! example "Arrel quadrada"
+!!! example "**Exemple:** Arrel quadrada"
     El radical $\sqrt{9}$ indica l'**arrel quadrada principal**: $\sqrt{9}=3$. En canvi, si plantegem l'equació $x^2=9$, hi ha dues solucions (arrels):
 
     $$x=\pm\sqrt{9} \;\Rightarrow\; x=\pm 3.$$
 
     Per això diem que $3$ i $-3$ són les *arrels de l'equació* $x^2-9=0$, mentre que el radical $\sqrt{9}$ denota únicament l'arrel principal positiva.
 
-!!! example "Arrel cúbica"
+!!! example "**Exemple:** Arrel cúbica"
     Busquem $b$ tal que $b^3=-8$. Només hi ha una solució real: $b=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
 
-!!! example "Nombres sense arrels reals"
+!!! example "**Exemple:** Nombres sense arrels reals"
     Vols trobar $b \in \mathbb{R}$ tal que $b^4=-16$? No existeix: per a qualsevol $b$ real, $b^4$ mai és negatiu. Per tant, **no hi ha cap arrel real quarta de $-16$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$.
 
 Fixa't que, directament de la definició, se'n dedueix un fet senzill:
@@ -81,7 +88,7 @@ Fem servir el radical per representar aquest resultat, i arribem a la definició
 
 Aquesta equivalència és clau: ens permet passar d'arrels a potències (i a l'inrevés) sempre que convingui per simplificar o resoldre.
 
-!!! example "Simplificació de radicals"
+!!! example "**Exemple:** Simplificació de radicals"
     Simplifiquem $\sqrt[4]{1024}$ passant-lo a potència:
 
     $$
@@ -118,7 +125,7 @@ Com que una arrel és una potència amb exponent fraccionari, hereta directament
     - $n$ parell i $m$ parell: qualsevol $a \in \mathbb{R}$
     - $n$ parell i $m$ senar: cal $a \ge 0$
 
-!!! example "Simplificació d'una arrel"
+!!! example "**Exemple:** Simplificació d'una arrel"
     Recorda $\sqrt[4]{1024}=\sqrt[4]{2^{10}}$: podem cancel·lar un factor $2$ comú a índex i exponent directament:
 
     $$
@@ -139,7 +146,7 @@ Com que una arrel és una potència amb exponent fraccionari, hereta directament
 
     que no existeix a $\mathbb{R}$. Quan $n$ és parell i $m$ senar, cal exigir $a\ge 0$: sense aquesta condició, la igualtat no té sentit.
 
-!!! example "Comparació de radicals"
+!!! example "**Exemple:** Comparació de radicals"
     Quin és més gran, sense calculadora: $\sqrt{2}$ o $\sqrt[3]{3}$? Portem els dos exponents fraccionaris a un denominador comú (aquí, el $6$):
 
     $$\sqrt{2} = 2^{\tfrac{1}{2}} = 2^{\tfrac{3}{6}} = \sqrt[6]{2^3} = \sqrt[6]{8}
@@ -161,7 +168,7 @@ Com que una arrel és una potència amb exponent fraccionari, hereta directament
 !!! note "Compte amb $a\cdot b>0$ però $a,b<0$"
     $(-1)\cdot(-1)=1$, i $\sqrt{1}=1$. Però si apliquem la propietat directament, $\sqrt{-1}\cdot\sqrt{-1}$, i $\sqrt{-1}$ ja no existeix a $\mathbb{R}$. Per $n$ parell cal $a\ge 0$ i $b\ge 0$ per separat: que el producte $ab$ sigui positiu no n'hi ha prou.
 
-!!! example "Extracció i introducció de factors"
+!!! example "**Exemple:** Extracció i introducció de factors"
     1. **Extreure factors d'un radical.** Separem l'exponent en un bloc múltiple de l'índex i un altre que no ho és:
 
         $$
@@ -192,7 +199,7 @@ Com que una arrel és una potència amb exponent fraccionari, hereta directament
 !!! note "Compte amb radicands negatius"
     Amb $n=2$, $a=-4$ i $b=-1$: $\dfrac{\sqrt{-4}}{\sqrt{-1}}$ no existeix a l'esquerra (cap dels dos radicals hi és), mentre que a la dreta $\sqrt{\tfrac{-4}{-1}} = \sqrt{4} = 2$ sí. Per a $n$ parell, exigeix $a\ge 0$ i $b>0$ per separat.
 
-!!! example "Simplificació de quocients d'arrels"
+!!! example "**Exemple:** Simplificació de quocients d'arrels"
     1. $\sqrt{\tfrac{4}{9}} = \tfrac{\sqrt{4}}{\sqrt{9}} = \tfrac{2}{3}$
     2. $\dfrac{\sqrt[3]{-16}}{\sqrt[3]{2}} = \sqrt[3]{\tfrac{-16}{2}} = \sqrt[3]{-8} = -2$
 
@@ -203,7 +210,7 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
 !!! tip "Propietat: multiplicació i divisió d'arrels amb índex diferent"
     Per multiplicar o dividir $\sqrt[n]{a}$ i $\sqrt[m]{b}$: busca el m.c.m. $k$ de $n$ i $m$, amplifica les dues arrels a índex $k$, i aplica el producte o el quocient d'arrels del mateix índex.
 
-!!! example "Multiplicació i divisió d'arrels amb índex diferent"
+!!! example "**Exemple:** Multiplicació i divisió d'arrels amb índex diferent"
     Reaprofitem l'amplificació de l'exemple de comparació anterior: $\sqrt{2}=\sqrt[6]{8}$ i $\sqrt[3]{3}=\sqrt[6]{9}$. Amb el mateix índex, ja podem operar:
 
     $$\sqrt{2}\cdot\sqrt[3]{3} = \sqrt[6]{8}\cdot\sqrt[6]{9} = \sqrt[6]{72}
@@ -218,7 +225,7 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
 
     Val per a tot $a \in \mathbb{R}$ si $n$ i $m$ són senars; si algun dels dos és parell, cal $a \geq 0$.
 
-!!! example "Arrel d'una arrel"
+!!! example "**Exemple:** Arrel d'una arrel"
     Escrivim-ho com una sola arrel:
 
     $$\sqrt[3]{\sqrt[4]{x}} = \sqrt[3\cdot 4]{x} = \sqrt[12]{x}.$$
@@ -239,7 +246,7 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
 !!! note "Paradoxa amb potència d'una arrel"
     Amb $n=2$, $m=2$, $a=-1$: $\sqrt{-1}$ no existeix a $\mathbb{R}$, però $\sqrt{(-1)^2}=\sqrt{1}=1$ sí. Estenent-ho a $\mathbb{C}$, $\sqrt{-1}=\pm i$, i en tots dos casos $(\pm i)^2=-1$: l'esquerra sempre val $-1$, la dreta $+1$. Per això, si $n$ és parell, cal exigir $a\ge 0$.
 
-!!! example "Potència d'una arrel"
+!!! example "**Exemple:** Potència d'una arrel"
     1. Índex senar (admet radicand negatiu): $\left(\sqrt[3]{-2}\right)^{2} = \sqrt[3]{(-2)^{2}} = \sqrt[3]{4}$.
     2. Índex parell (cal $a\ge 0$): $\left(\sqrt{5}\right)^{3} = \sqrt{5^{3}} = \sqrt{125}$.
 
@@ -247,7 +254,7 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
 
 Vegem ara com combinar aquestes propietats per resoldre problemes habituals: treure les arrels d'un denominador i sumar radicals semblants.
 
-!!! example "Racionalització de denominadors"
+!!! example "**Exemple:** Racionalització de denominadors"
     Sovint interessa eliminar les arrels del denominador d'una fracció (per exemple, per poder-la sumar amb altres fraccions).
 
     1. $$
@@ -272,7 +279,7 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
 
     Si $a$ o $b$ són arrels, en elevar-les al quadrat es converteixen en nombres enters, i el denominador queda net de radicals.
 
-!!! example "Suma i resta de radicals"
+!!! example "**Exemple:** Suma i resta de radicals"
     Només podem sumar o restar radicals amb el mateix índex i el mateix radicand; sovint cal extreure factors primer perquè hi coincideixin:
 
     $$
@@ -285,7 +292,7 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
 
 ## Exemple final
 
-!!! example "Diagonal i perímetre d'un rectangle"
+!!! example "**Exemple:** Diagonal i perímetre d'un rectangle"
     Considerem un rectangle de costats
 
     $$

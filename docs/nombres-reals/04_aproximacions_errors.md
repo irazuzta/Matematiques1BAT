@@ -15,7 +15,7 @@ Per aproximar un nombre a un cert nombre de xifres decimals tenim dues estratèg
     - Si és $5$ o més, sumem una unitat a l'última xifra que conservem.
     - Si és menor que $5$, l'última xifra que conservem no canvia.
 
-!!! example "Truncament i arrodoniment de $\pi$"
+!!! example "**Exemple:** Truncament i arrodoniment de $\pi$"
     Considerem $\pi = 3{,}14159265\ldots$
 
     | Xifres decimals | Truncament | Arrodoniment |
@@ -37,7 +37,7 @@ Quan canviem un valor exacte $x$ per una aproximació $x'$, cometem un **error**
 
     $$E_a = |x - x'|$$
 
-!!! example "Error absolut de l'aproximació de $\pi$"
+!!! example "**Exemple:** Error absolut de l'aproximació de $\pi$"
     Si aproximem $\pi \approx 3{,}14$:
 
     $$E_a = |\pi - 3{,}14| = |3{,}14159\ldots - 3{,}14| = 0{,}00159\ldots$$
@@ -51,7 +51,7 @@ L'error absolut es mesura en les mateixes unitats que la magnitud, però per si 
 
     Sovint s'expressa en tant per cent, multiplicant per $100$.
 
-!!! example "Comparació de dues aproximacions amb el mateix error absolut"
+!!! example "**Exemple:** Comparació de dues aproximacions amb el mateix error absolut"
     Imaginem dues mesures, totes dues amb un error absolut d'$1\,\text{m}$:
 
     - Distància entre ciutats: $x = 100\,\text{km} = 100\,000\,\text{m}$, amb $E_r = \dfrac{1}{100\,000} = 0{,}001\%$.
