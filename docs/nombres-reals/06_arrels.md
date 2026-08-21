@@ -23,7 +23,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
 
     $$\sqrt[n]{a},$$
 
-    que, per convenció, indica sempre l'**arrel real principal** (la positiva, quan $n$ és parell i $a \geq 0$).
+    que, per convenció, indica sempre l'**arrel real principal** (la positiva, quan n'hi ha més d'una). Quan hi ha dues arrels, l'altra és $-\sqrt[n]{a}$.
 
     Per exemple: $\sqrt{9}=3$ i $\sqrt[3]{-8}=-2$.
 
