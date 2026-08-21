@@ -40,18 +40,6 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
 !!! example "Nombres sense arrels reals"
     Vols trobar $b \in \mathbb{R}$ tal que $b^4=-16$? No existeix: per a qualsevol $b$ real, $b^4$ mai és negatiu. Per tant, **no hi ha cap arrel real quarta de $-16$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$.
 
-!!! note "Arrels complexes"
-    Que no hi hagi solucions reals no vol dir que no n'hi hagi cap: n'hi ha, però viuen fora de $\mathbb{R}$, en el conjunt dels *nombres complexos*. Per això és més precís dir "no té arrels **reals**".
-
-    Els complexos afegeixen un element $i$ amb $i^2=-1$. Amb aquest conjunt, les quatre arrels quartes de $-16$ són
-
-    $$
-    a_1 = \sqrt{2} + \sqrt{2}i, \quad
-    a_2 = \sqrt{2} - \sqrt{2}i, \quad
-    a_3 = -\sqrt{2} + \sqrt{2}i, \quad
-    a_4 = -\sqrt{2} - \sqrt{2}i.
-    $$
-
 Fixa't que, directament de la definició, se'n dedueix un fet senzill:
 
 !!! tip "Propietat: definició equivalent d'arrel enèsima"
