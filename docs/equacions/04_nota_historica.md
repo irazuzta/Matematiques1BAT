@@ -1,0 +1,15 @@
+# Nota històrica
+
+La història de la resolució d'equacions és, en essència, la història de l'àlgebra: l'esforç continu de la humanitat per trobar valors desconeguts a partir de relacions conegudes, un pilar fonamental del pensament científic i tecnològic.
+
+Els primers intents es remunten a les civilitzacions antigues. Els **babilonis** (cap al 1800 aC) ja resolien problemes pràctics de repartiment de terres o herències que, en termes moderns, equivalen a **equacions lineals i quadràtiques**, mitjançant receptes algorítmiques, sense la notació simbòlica que fem servir avui. Els grecs, com Euclides i Diofant, van abordar aquests problemes des d'un punt de vista més geomètric.
+
+El pas decisiu cap a l'àlgebra com a disciplina es va donar al **món arabo-islàmic medieval**. Al segle IX, el matemàtic persa **Al-Khwarizmí** (d'on prové la paraula "algoritme") va escriure el tractat *Al-Jabr* (d'on prové "àlgebra"), amb mètodes sistemàtics per resoldre equacions lineals i quadràtiques. El seu enfocament, que buscava mètodes generals, va marcar l'inici de l'àlgebra abstracta.
+
+El següent gran salt es va produir a la **Itàlia del Renaixement** (segle XVI), amb una de les històries més dramàtiques de les matemàtiques: la resolució de les **equacions cúbiques i quàrtiques**. Matemàtics com **Tartaglia** i **Cardano** van trobar la fórmula general per a les equacions de grau 3, i **Ferrari**, alumne de Cardano, la de grau 4. Irònicament, la fórmula de la cúbica va forçar matemàtics com **Bombelli** a treballar amb arrels quadrades de nombres negatius, donant el primer impuls al naixement dels nombres complexos.
+
+Durant segles es va buscar una fórmula similar (basada en arrels) per a les equacions de grau 5. El misteri no es va resoldre fins al segle XIX, quan **Ruffini** i, de manera concloent, **Niels Henrik Abel**, van demostrar que aquesta fórmula general no existeix. Poc després, **Évariste Galois** va desenvolupar una teoria que explicava exactament per què algunes equacions polinòmiques tenen solució per radicals i d'altres no, canviant el focus de l'àlgebra de "trobar solucions" a "entendre l'estructura".
+
+Paral·lelament, la necessitat de simplificar càlculs complexos en astronomia i navegació va portar, al segle XVII, **John Napier** a inventar els **logaritmes**: un avenç revolucionari, ja que convertia multiplicacions i divisions (feixugues) en sumes i restes. Les **equacions exponencials** van sorgir com la relació inversa dels logaritmes, i va ser **Leonhard Euler**, al segle XVIII, qui va consolidar la relació entre les funcions exponencials, logarítmiques i trigonomètriques, donant-los la seva forma moderna.
+
+Avui aquestes equacions són el llenguatge bàsic de la ciència: les polinòmiques descriuen trajectòries; les racionals, relacions i proporcions; les irracionals, distàncies i temps; i les exponencials i logarítmiques modelen tot allò que creix o decreix de forma proporcional a la seva mida, des de la demografia i les finances fins a la desintegració radioactiva o l'escala de pH.
