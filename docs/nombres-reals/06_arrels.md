@@ -11,7 +11,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
 
     És a dir: un nombre real que, elevat a $n$, ens torna $a$.
 
-!!! example "**Exemple:** quantes solucions té l'equació $x^n=a$?"
+!!! example "**Exemple:** quantes solucions (arrels) té l'equació $x^n=a$?"
     - $x^2=9$ té dues solucions (arrels): $x=3$ i $x=-3$, ja que $3^2=9$ i $(-3)^2=9$.
     - $x^3=-8$ té una única solució (arrel): $x=-2$, ja que $(-2)^3=-8$.
     - $x^2=-1$ no té cap solució (arrel) real: cap nombre real elevat al quadrat pot donar un resultat negatiu.
@@ -45,7 +45,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
     Busquem $b$ tal que $b^3=-8$, és a dir, $b=\sqrt[3]{-8}$. Només hi ha una solució real: $\sqrt[3]{-8}=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
 
 !!! example "**Exemple:** Nombres sense arrels reals"
-    Vols trobar $b \in \mathbb{R}$ tal que $b^2=-1$, és a dir, $b=\sqrt{-1}$? No existeix: per a qualsevol $b$ real, $b^2$ mai és negatiu. Per tant, **no hi ha cap arrel real quadrada de $-1$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$. (Fora dels nombres reals sí que en té: als *nombres complexos*, $\sqrt{-1}=i$.)
+    Vols trobar $b \in \mathbb{R}$ tal que $b^2=-1$, és a dir, $b=\sqrt{-1}$? No existeix: per a qualsevol $b$ real, $b^2$ mai és negatiu. Per tant, **no hi ha cap arrel real quadrada de $-1$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$. (Fora dels nombres reals sí que en té: als *nombres complexos*, $\sqrt{-1}=i$)
 
 Fixa't que, directament de la definició, se'n dedueix un fet senzill:
 
