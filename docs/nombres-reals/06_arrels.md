@@ -98,6 +98,8 @@ No és una tria arbitrària de notació: és una conseqüència directa de les p
 
     $$a^{\tfrac{m}{n}} := \sqrt[n]{a^m} = \left(\sqrt[n]{a}\right)^m$$
 
+    En particular, amb $m=1$ recuperem el resultat d'abans: $a^{\tfrac{1}{n}} = \sqrt[n]{a}$.
+
 Aquesta equivalència és clau: ens permet passar d'arrels a potències (i a l'inrevés) sempre que convingui per simplificar o resoldre.
 
 !!! example "**Exemple:** Simplificació de radicals"
