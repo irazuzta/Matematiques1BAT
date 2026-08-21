@@ -42,7 +42,7 @@ Ja saps elevar un nombre a una potència. Ara ens plantegem la pregunta inversa:
     Per això diem que $3$ i $-3$ són les *arrels de l'equació* $x^2-9=0$, mentre que el radical $\sqrt{9}$ denota únicament l'arrel principal positiva.
 
 !!! example "**Exemple:** Arrel cúbica"
-    Busquem $b$ tal que $b^3=-8$. Només hi ha una solució real: $b=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
+    Busquem $b$ tal que $b^3=-8$, és a dir, $b=\sqrt[3]{-8}$. Només hi ha una solució real: $\sqrt[3]{-8}=-2$. Quan $n$ és senar, l'arrel $n$-èsima real és sempre única.
 
 !!! example "**Exemple:** Nombres sense arrels reals"
     Vols trobar $b \in \mathbb{R}$ tal que $b^4=-16$? No existeix: per a qualsevol $b$ real, $b^4$ mai és negatiu. Per tant, **no hi ha cap arrel real quarta de $-16$**. Sempre que l'índex $n$ sigui parell i el radicand negatiu, el radical no està definit a $\mathbb{R}$.
