@@ -24,7 +24,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini 
     | --- | --- |
     | $2x^2+4x-6$ | $2(x-1)(x+3)$ |
     | $x^3-3x^2+4$ | $(x-2)^2(x+1)$ |
-    | $3x^3-3$ | $3(x-1)(x^2+x+1)$ |
+    | $3x^3-3$ | $3(x^2+x+1)(x-1)$ |
     | $x^4+5x^2+4$ | $(x^2+1)(x^2+4)$ |
     | $x^4-x^3-6x^2$ | $x^2(x-3)(x+2)$ |
 
