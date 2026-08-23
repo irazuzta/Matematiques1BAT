@@ -17,7 +17,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruff
 
     $$p(x) = a_n(x-r_1)(x-r_2)\cdots(x^2+b_1x+c_1)(x^2+b_2x+c_2)\cdots$$
 
-    on cada $x-r_i$ correspon a una arrel real ($r_i$), i cada factor de grau $2$ té discriminant negatiu (no té arrels reals). Mai calen factors de grau superior a $2$.
+    on cada $x-r_i$ correspon a una arrel real ($r_i$), i cada factor de grau $2$ té discriminant negatiu (no té arrels reals).
 
 !!! example "**Exemples:** Factoritzacions completes"
     | Polinomi | Factorització |
