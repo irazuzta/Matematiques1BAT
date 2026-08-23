@@ -5,7 +5,7 @@
 Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini ens permet escriure $p(x)=(x-a)\cdot q(x)$, amb $q(x)$ de grau una unitat inferior. Repetint aquest procés tantes vegades com calgui, podem arribar a expressar qualsevol polinomi com un producte de factors més senzills: és el que anomenem **factoritzar**.
 
 !!! abstract "Definició: polinomi irreductible"
-    Un polinomi és **irreductible** quan no es pot escriure com a producte de dos polinomis de grau inferior (diferents d'una constant).
+    Un polinomi és **irreductible** quan no es pot escriure com a producte de dos polinomis de grau inferior (diferents d'una constant); és a dir, quan no es pot factoritzar.
 
     Es pot demostrar que, amb coeficients reals, els únics polinomis irreductibles són:
 
