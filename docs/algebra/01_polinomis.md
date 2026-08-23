@@ -151,7 +151,7 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera ràpida de d
     | | $2$ | $-3$ | $1$ | $-4$ |
     |---|---|---|---|---|
     | $2$ | | $4$ | $2$ | $6$ |
-    | | $2$ | $1$ | $3$ | $2$ |
+    | | $2$ | $1$ | $3$ | $\boxed{2}$ |
 
     El quocient és $q(x)=2x^2+x+3$ i el residu és $r=2$. És a dir,
 
