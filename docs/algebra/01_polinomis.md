@@ -170,9 +170,14 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera ràpida de d
     $$p(x) = (x-1)(x^2-5x+6)$$
 
 !!! tip "Propietat: el residu és el valor del polinomi en $a$"
-    De fet, el residu $r$ que s'obté en dividir $p(x)$ entre $x-a$ coincideix sempre amb $p(a)$: $r=p(a)$.
+    De fet, el residu $r$ que s'obté en dividir $p(x)$ entre $x-a$ coincideix sempre amb $p(a)$:
 
-    Ho podem comprovar en els dos exemples anteriors: $p(2)=2\cdot 8-3\cdot 4+2-4=16-12+2-4=2$ (coincideix amb el residu del primer exemple) i $p(1)=1-6+11-6=0$ (coincideix amb el residu del segon).
+    $$r = p(a)$$
+
+    Ho podem comprovar en els dos exemples anteriors:
+
+    - Primer exemple ($a=2$): $p(2) = 2\cdot 8-3\cdot 4+2-4 = 2$, que coincideix amb el residu obtingut.
+    - Segon exemple ($a=1$): $p(1) = 1-6+11-6 = 0$, que coincideix amb el residu obtingut.
 
     Aquesta propietat serà clau per trobar arrels de polinomis: si trobem un valor $a$ tal que el residu de Ruffini és $0$, sabrem que $a$ és una arrel de $p(x)$ — i ja tindrem, de pas, el quocient per seguir factoritzant.
 
