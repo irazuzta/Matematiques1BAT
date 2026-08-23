@@ -2,7 +2,7 @@
 
 ## Polinomis irreductibles
 
-Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini ens permet escriure $p(x)=(x-a)\cdot q(x)$, amb $q(x)$ de grau una unitat inferior. Repetint aquest procés tantes vegades com calgui, podem arribar a expressar qualsevol polinomi com un producte de factors més senzills: és el que anomenem **factoritzar**.
+Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruffini podem escriure fàcilment $p(x)=(x-a)\cdot q(x)$, amb $q(x)$ de grau una unitat inferior que el grau de $p(x)$. Repetint aquest procés tantes vegades com calgui, podem arribar a expressar qualsevol polinomi com un producte de factors més senzills: és el que anomenem **factoritzar**.
 
 !!! abstract "Definició: polinomi irreductible"
     Un polinomi és **irreductible** quan no es pot escriure com a producte de dos polinomis de grau inferior (diferents d'una constant); és a dir, quan no es pot factoritzar.
@@ -13,7 +13,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini 
     - els de **grau 2 sense arrels reals**, és a dir, amb discriminant $\Delta<0$.
 
 !!! tip "Propietat: factorització completa"
-    Tot polinomi $p(x)$ amb coeficients reals es pot escriure com el producte del seu coeficient principal per factors irreductibles de grau $1$ o $2$:
+    Tot polinomi $p(x)$ amb coeficients reals es pot escriure com el producte del seu coeficient principal per factors irreductibles de grau $1$ o $2$ de la forma:
 
     $$p(x) = a_n(x-r_1)(x-r_2)\cdots(x^2+b_1x+c_1)(x^2+b_2x+c_2)\cdots$$
 
@@ -30,7 +30,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini 
 
 !!! note "Ruffini i les arrels reals d'un polinomi"
     - **Ruffini només troba arrels racionals.** Si els coeficients del polinomi són enters, els únics candidats que prova són els divisors del terme independent — per tant, unes arrels irracionals (com $x=\sqrt{2}$) o complexes mai apareixeran amb aquest mètode. Per detectar-les, cal resoldre directament l'equació de grau $2$ que quedi al final.
-    - **Factorització i arrels van lligades.** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté factors de grau $2$ irreductibles.
+    - **Factorització i arrels van lligades.** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté polinomis de grau $2$ irreductibles.
 
 ## Procediment per factoritzar
 
