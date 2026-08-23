@@ -9,7 +9,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini 
 
     Es pot demostrar que, amb coeficients reals, els únics polinomis irreductibles són:
 
-    - els de **grau 1** (del tipus $x-a$), i
+    - els de **grau 1**, i
     - els de **grau 2 sense arrels reals**, és a dir, amb discriminant $\Delta<0$.
 
 !!! tip "Propietat: factorització completa"
