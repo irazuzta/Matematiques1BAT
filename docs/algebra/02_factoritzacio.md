@@ -23,10 +23,14 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini 
     | Polinomi | Factorització |
     | --- | --- |
     | $2x^2+4x-6$ | $2(x-1)(x+3)$ |
-    | $x^3-3x^2+4$ | $(x-2)^2(x+1)$ |
+    | $x^3-3x^2+4$ | $(x+1)(x-2)^2$ |
     | $3x^3-3$ | $3(x-1)(x^2+x+1)$ |
     | $x^4+5x^2+4$ | $(x^2+1)(x^2+4)$ |
     | $x^4-x^3-6x^2$ | $x^2(x-3)(x+2)$ |
+
+!!! note "Ruffini i les arrels reals d'un polinomi"
+    - **Ruffini només troba arrels racionals.** Si els coeficients del polinomi són enters, els únics candidats que prova són els divisors del terme independent — per tant, unes arrels irracionals (com $x=\sqrt{2}$) o complexes mai apareixeran amb aquest mètode. Per detectar-les, cal resoldre directament l'equació de grau $2$ que quedi al final.
+    - **Factorització i arrels van lligades.** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté factors de grau $2$ irreductibles.
 
 ## Procediment per factoritzar
 
