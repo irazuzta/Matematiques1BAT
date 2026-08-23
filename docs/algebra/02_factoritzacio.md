@@ -15,14 +15,20 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, la regla de Ruffini 
 !!! tip "Propietat: factorització completa"
     Tot polinomi $p(x)$ amb coeficients reals es pot escriure com el producte del seu coeficient principal per factors irreductibles de grau $1$ o $2$:
 
-    $$
-    \begin{aligned}
-    p(x) = a_n\,&(x-r_1)(x-r_2)\cdots \\
-    &(x^2+b_1x+c_1)(x^2+b_2x+c_2)\cdots
-    \end{aligned}
-    $$
+    $$p(x) = a_n(x-r_1)(x-r_2)\cdots(x^2+b_1x+c_1)(x^2+b_2x+c_2)\cdots$$
 
     on cada $x-r_i$ correspon a una arrel real, i cada factor de grau $2$ té discriminant negatiu (no té arrels reals). Mai calen factors de grau superior a $2$.
+
+!!! example "**Exemples:** Factoritzacions completes"
+    $$p(x) = 2(x-1)(x+3)$$
+
+    $$p(x) = (x-2)^2(x+1)$$
+
+    $$p(x) = 3(x-1)(x^2+x+1)$$
+
+    $$p(x) = (x^2+1)(x^2+4)$$
+
+    $$p(x) = x^2(x-3)(x+2)$$
 
 ## Procediment per factoritzar
 
