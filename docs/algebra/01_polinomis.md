@@ -141,4 +141,39 @@ Per multiplicar dos polinomis, apliquem la propietat distributiva: multipliquem 
 
     Si $r(x)=0$, diem que $d(x)$ **divideix** $D(x)$ (o que $D(x)$ és **divisible** per $d(x)$).
 
-Aquesta relació serà la base de l'apartat següent, on veurem com factoritzar polinomis (per exemple, amb la regla de Ruffini quan el divisor és de la forma $x-a$).
+## Regla de Ruffini
+
+Ja coneixes la regla de Ruffini de cursos anteriors: és una manera ràpida de dividir un polinomi $p(x)$ entre un binomi de la forma $x-a$, sense haver de fer tota la divisió llarga. N'hi ha prou de treballar amb els coeficients de $p(x)$ i el valor de $a$.
+
+!!! example "**Exemple:** Ruffini amb residu diferent de zero"
+    Dividim $p(x) = 2x^3-3x^2+x-4$ entre $x-2$ (és a dir, $a=2$):
+
+    | | $2$ | $-3$ | $1$ | $-4$ |
+    |---|---|---|---|---|
+    | $2$ | | $4$ | $2$ | $6$ |
+    | | $2$ | $1$ | $3$ | $2$ |
+
+    El quocient és $q(x)=2x^2+x+3$ i el residu és $r=2$. És a dir,
+
+    $$p(x) = (x-2)(2x^2+x+3) + 2$$
+
+!!! example "**Exemple:** Ruffini amb residu zero"
+    Dividim $p(x) = x^3-6x^2+11x-6$ entre $x-1$ (és a dir, $a=1$):
+
+    | | $1$ | $-6$ | $11$ | $-6$ |
+    |---|---|---|---|---|
+    | $1$ | | $1$ | $-5$ | $6$ |
+    | | $1$ | $-5$ | $6$ | $\boxed{0}$ |
+
+    El quocient és $q(x)=x^2-5x+6$ i el residu és $r=0$. És a dir,
+
+    $$p(x) = (x-1)(x^2-5x+6)$$
+
+!!! tip "Propietat: el residu és el valor del polinomi en $a$"
+    De fet, el residu $r$ que s'obté en dividir $p(x)$ entre $x-a$ coincideix sempre amb $p(a)$: $r=p(a)$.
+
+    Ho podem comprovar en els dos exemples anteriors: $p(2)=2\cdot 8-3\cdot 4+2-4=16-12+2-4=2$ (coincideix amb el residu del primer exemple) i $p(1)=1-6+11-6=0$ (coincideix amb el residu del segon).
+
+    Aquesta propietat serà clau per trobar arrels de polinomis: si trobem un valor $a$ tal que el residu de Ruffini és $0$, sabrem que $a$ és una arrel de $p(x)$ — i ja tindrem, de pas, el quocient per seguir factoritzant.
+
+Amb la divisió i la regla de Ruffini ja tenim les eines per al següent apartat, on veurem com factoritzar polinomis a partir de les seves arrels.
