@@ -103,31 +103,19 @@ Per multiplicar dos polinomis, apliquem la propietat distributiva: multipliquem 
 ## Divisió de polinomis
 
 !!! example "**Exemple:** Divisió de polinomis"
-    Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ (dividend, grau $3$) entre $d(x) = x^2+1$ (divisor, grau $2$).
+    Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ entre $d(x) = x^2+1$. El resultat de la divisió és:
 
-    1. Dividim el terme de grau més alt del dividend pel de grau més alt del divisor: $x^3 \div x^2 = x$. Aquest és el primer terme del quocient. Multipliquem el divisor per $x$ i el restem al dividend:
+    $$
+    \begin{aligned}
+    D(x) &= x^3-2x^2+4x-1 & d(x) &= x^2+1 \\
+    q(x) &= x-2 & r(x) &= 3x+1
+    \end{aligned}
+    $$
 
-        $$
-        \begin{aligned}
-        &\left(x^3-2x^2+4x-1\right) - x\cdot\left(x^2+1\right) \\
-        &= \left(x^3-2x^2+4x-1\right)-\left(x^3+x\right) \\
-        &= -2x^2+3x-1
-        \end{aligned}
-        $$
-
-    2. Repetim amb el nou residu parcial $-2x^2+3x-1$: $-2x^2 \div x^2 = -2$. Aquest és el segon terme del quocient. Multipliquem el divisor per $-2$ i el restem:
-
-        $$
-        \begin{aligned}
-        &\left(-2x^2+3x-1\right) - (-2)\cdot\left(x^2+1\right) \\
-        &= \left(-2x^2+3x-1\right)-\left(-2x^2-2\right) \\
-        &= 3x+1
-        \end{aligned}
-        $$
-
-    3. El nou residu, $3x+1$, té grau $1$: com que és menor que el grau del divisor ($2$), aturem el procés. Aquest és el residu final.
-
-    El quocient és $q(x)=x-2$ i el residu és $r(x)=3x+1$.
+    - $D(x)$ és el **dividend**, de grau $3$.
+    - $d(x)$ és el **divisor**, de grau $2$.
+    - $q(x)$ és el **quocient**, de grau $1$.
+    - $r(x)$ és el **residu**, de grau $1$ — inferior al grau del divisor, tal com ha de ser.
 
     **Comprovació:**
 
