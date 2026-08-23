@@ -5,3 +5,5 @@ En aquest bloc treballarem els polinomis: què són, com s'operen i com es facto
 ## Apartats
 
 - [Polinomis](01_polinomis.md)
+- [Factorització de polinomis](02_factoritzacio.md)
+- [Fraccions algebraiques](03_fraccions_algebraiques.md)
