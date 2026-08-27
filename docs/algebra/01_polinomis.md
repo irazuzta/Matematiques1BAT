@@ -38,7 +38,7 @@ Ja coneixes els polinomis de cursos anteriors. Ara ho formalitzarem una mica, op
 ## Suma i resta de polinomis
 
 !!! abstract "Definició: suma i resta de polinomis"
-    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=max(n,m)$. Completem amb coeficients $0$ els graus que no tinguin terme i fins a completar al grau màxim dels polinimos, si cal. Definim
+    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=\max(n,m)$. Completem amb coeficients $0$ els graus que no tinguin terme i fins a completar al grau màxim dels polinomis, si cal. Definim
 
     $$(p+q)(x) = p(x)+q(x) = \sum_{i=0}^k (a_i+b_i)\,x^i$$
 
@@ -138,7 +138,7 @@ Per multiplicar dos polinomis, apliquem la propietat distributiva: multipliquem 
     \end{aligned}
     $$
 
-    Si $r(x)=0$, diem que $d(x)$ és **divisor** $D(x)$ o que $D(x)$ és **divisible** per $d(x)$.
+    Si $r(x)=0$, diem que $d(x)$ és **divisor de** $D(x)$ o que $D(x)$ és **divisible** per $d(x)$.
 
 ## Regla de Ruffini
 
