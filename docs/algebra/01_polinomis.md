@@ -2,10 +2,10 @@
 
 ## Definició
 
-Ja coneixes els polinomis de cursos anteriors: és un concepte que anirem fent servir com a base per factoritzar i resoldre equacions.
+Ja coneixes els polinomis de cursos anteriors. Ara ho formalitzarem una mica, operarem amb ells i estudiarem com factoritzar-los.
 
 !!! abstract "Definició: polinomi"
-    Un **polinomi** en la variable $x$ amb coeficients reals és una expressió de la forma
+    Un **polinomi** amb variable $x$ i coeficients reals és una expressió de la forma
 
     $$
     \begin{aligned}
@@ -33,21 +33,21 @@ Ja coneixes els polinomis de cursos anteriors: és un concepte que anirem fent s
     $$
 
 !!! note "Termes que falten"
-    Si un polinomi no té algun terme (per exemple, $p(x)=x^3-5$ no té terme de grau $2$ ni de grau $1$), es considera que el seu coeficient val $0$. Ho farem servir tot seguit per sumar, restar i dividir polinomis.
+    Si un polinomi no té algun terme (per exemple, $p(x)=x^3-5$ no té terme de grau $2$ ni de grau $1$), es considera que els coeficients dels termes que falten valen $0$.
 
 ## Suma i resta de polinomis
 
 !!! abstract "Definició: suma i resta de polinomis"
-    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^n b_i x^i$ dos polinomis (completant amb coeficients $0$ els graus que no tinguin terme, si cal). Definim
+    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=max(n,m)$. Completem amb coeficients $0$ els graus que no tinguin terme i fins a completar al grau màxim dels polinimos, si cal. Definim
 
-    $$p(x)+q(x) = \sum_{i=0}^n (a_i+b_i)\,x^i$$
+    $$(p+q)(x) = p(x)+q(x) = \sum_{i=0}^k (a_i+b_i)\,x^i$$
 
-    $$p(x)-q(x) = \sum_{i=0}^n (a_i-b_i)\,x^i$$
+    $$(p-q)(x) = p(x)-q(x) = \sum_{i=0}^k (a_i-b_i)\,x^i$$
 
-    És a dir, sumem (o restem) els coeficients dels termes del mateix grau.
+    És a dir, sumem (o restem) els coeficients dels termes del mateix grau (termes semblants) i obtenim un nou polinomi de grau $k$
 
 !!! example "**Exemple:** Suma de polinomis"
-    Siguin $p(x)=2x^4-3x^3+x-5$ i $q(x)=x^4+2x^3-4x^2+3$. Agrupem terme a terme:
+    Siguin $p(x)=2x^4-3x^3+x-5$ i $q(x)=x^4+2x^3-4x^2+3$. Agrupem termes semblants:
 
     $$
     \begin{aligned}
@@ -66,7 +66,7 @@ Ja coneixes els polinomis de cursos anteriors: és un concepte que anirem fent s
     \end{aligned}
     $$
 
-    Ara agrupem terme a terme:
+    Ara agrupem termes semblants:
 
     $$
     \begin{aligned}
@@ -127,7 +127,6 @@ Per multiplicar dos polinomis, apliquem la propietat distributiva: multipliquem 
     \end{aligned}
     $$
 
-    Tal com calia comprovar.
 
 !!! abstract "Definició: divisió de polinomis"
     Donats dos polinomis $D(x)$ (dividend) i $d(x)$ (divisor, amb $d(x)\neq 0$), sempre existeixen dos polinomis únics $q(x)$ (quocient) i $r(x)$ (residu) tals que
@@ -139,21 +138,21 @@ Per multiplicar dos polinomis, apliquem la propietat distributiva: multipliquem 
     \end{aligned}
     $$
 
-    Si $r(x)=0$, diem que $d(x)$ **divideix** $D(x)$ (o que $D(x)$ és **divisible** per $d(x)$).
+    Si $r(x)=0$, diem que $d(x)$ és **divisor** $D(x)$ o que $D(x)$ és **divisible** per $d(x)$.
 
 ## Regla de Ruffini
 
-Ja coneixes la regla de Ruffini de cursos anteriors: és una manera ràpida de dividir un polinomi $p(x)$ entre un binomi de la forma $x-a$, sense haver de fer tota la divisió llarga. N'hi ha prou de treballar amb els coeficients de $p(x)$ i el valor de $a$.
+Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de dividir un polinomi $p(x)$ entre un polinomi de grau 1 de la forma $q(x) = x-a$. N'hi ha prou de treballar amb els coeficients de $p(x)$ i el valor d'$a$.
 
 !!! example "**Exemple:** Ruffini amb residu diferent de zero"
-    Dividim $p(x) = 2x^3-3x^2+x-4$ entre $x-2$ (és a dir, $a=2$):
+    Dividim $p(x) = 2x^3-3x^2+x-4$ entre $q(x) = x-2$ (és a dir, $a=2$):
 
     | | $2$ | $-3$ | $1$ | $-4$ |
     |---|---|---|---|---|
     | $2$ | | $4$ | $2$ | $6$ |
     | | $2$ | $1$ | $3$ | $\boxed{2}$ |
 
-    El quocient és $q(x)=2x^2+x+3$ i el residu és $r=2$. És a dir,
+    El quocient és $q(x)=2x^2+x+3$ i el residu és $r=2$ (apareix enquadrat). És a dir,
 
     $$p(x) = (x-2)(2x^2+x+3) + 2$$
 
@@ -168,9 +167,13 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera ràpida de d
     El quocient és $q(x)=x^2-5x+6$ i el residu és $r=0$. És a dir,
 
     $$p(x) = (x-1)(x^2-5x+6)$$
+    
+    En aquest cas $(x-1)$ i $(x^2-5x+6)$ són divisors de $p(x)$
+
+
 
 !!! tip "Propietat: el residu és el valor del polinomi en $a$"
-    De fet, el residu $r$ que s'obté en dividir $p(x)$ entre $x-a$ coincideix sempre amb $p(a)$:
+    El residu $r$ que s'obté en dividir $p(x)$ entre $x-a$ coincideix sempre amb $p(a)$:
 
     $$r = p(a)$$
 
@@ -179,6 +182,11 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera ràpida de d
     - Primer exemple ($a=2$): $p(2) = 2\cdot 8-3\cdot 4+2-4 = 2$, que coincideix amb el residu obtingut.
     - Segon exemple ($a=1$): $p(1) = 1-6+11-6 = 0$, que coincideix amb el residu obtingut.
 
-    Aquesta propietat serà clau per trobar arrels de polinomis: si trobem un valor $a$ tal que el residu de Ruffini és $0$, sabrem que $a$ és una arrel de $p(x)$ — i ja tindrem, de pas, el quocient per seguir factoritzant.
+    Aquesta propietat serà clau per trobar arrels de polinomis: si trobem un valor $a$ tal que el residu de Ruffini és $0$, sabrem que $a$ és una arrel de $p(x)$, o sigui $p(a)=0$.
+    
+!!! tip "Teorema del factor"
+    $a$ és una arrel de $p(x)$ si, i només si $(x-a)$ és divisor de $p(x)$
+
+    $$p(a) = 0 \ \Leftrightarrow \ x-a \text{ és divisor de } p(x)$$
 
 Amb la divisió i la regla de Ruffini ja tenim les eines per al següent apartat, on veurem com factoritzar polinomis a partir de les seves arrels.
