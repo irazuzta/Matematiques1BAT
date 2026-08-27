@@ -35,6 +35,22 @@ Ja coneixes els polinomis de cursos anteriors. Ara ho formalitzarem una mica, op
 !!! note "Termes que falten"
     Si un polinomi no té algun terme (per exemple, $p(x)=x^3-5$ no té terme de grau $2$ ni de grau $1$), es considera que els coeficients dels termes que falten valen $0$.
 
+## Valor d'un polinomi en un punt
+
+Sovint necessitem saber quant val un polinomi per a un valor concret de $x$: és el que anomenem **avaluar** el polinomi.
+
+!!! abstract "Definició: valor d'un polinomi en $x=a$"
+    Avaluar un polinomi $p(x)$ en $x=a$ vol dir substituir $x$ per $a$ i calcular el resultat. El valor obtingut es denota $p(a)$.
+
+!!! example "**Exemple:** Avaluació d'un polinomi"
+    Sigui $p(x) = 2x^3-x^2+3$. Calculem $p(2)$:
+
+    $$p(2) = 2\cdot 2^3 - 2^2 + 3 = 16-4+3 = 15$$
+
+    Per tant, $p(2)=15$.
+
+Aquest concepte el farem servir sovint més endavant, per exemple per comprovar si un valor és arrel d'un polinomi (és a dir, si $p(a)=0$).
+
 ## Suma i resta de polinomis
 
 !!! abstract "Definició: suma i resta de polinomis"
