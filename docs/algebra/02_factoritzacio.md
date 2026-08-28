@@ -37,7 +37,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruff
 
 !!! note "Ruffini i les arrels reals d'un polinomi"
     - **Amb Ruffini només trobem arrels racionals.** Si els coeficients del polinomi són enters, els únics candidats a arrel són els divisors del terme independent. Per tant, les arrels irracionals (com $x=\sqrt{2}$) o les arrels complexes mai les trobarem amb aquest mètode. Per trobar-les, cal resoldre directament l'equació de grau $2$ que quedi al final.
-    - **Factorització i arrels d'un polinomi** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions o multiplicitats) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté polinomis de grau $2$ irreductibles.
+    - **Factorització i arrels d'un polinomi.** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions o multiplicitats) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté polinomis de grau $2$ irreductibles.
 
 ## Procediment per factoritzar
 
