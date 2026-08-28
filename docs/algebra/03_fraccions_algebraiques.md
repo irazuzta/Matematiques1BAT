@@ -23,7 +23,7 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
 
     $$
     \begin{aligned}
-    \frac{x^2-4}{x^2+x-6} &= \frac{(x-2)(x+2)}{(x-2)(x+3)} \\
+    \frac{x^2-4}{x^2+x-6} &= \frac{\cancel{(x-2)}(x+2)}{\cancel{(x-2)}(x+3)} \\
     &= \frac{x+2}{x+3}
     \end{aligned}
     $$
