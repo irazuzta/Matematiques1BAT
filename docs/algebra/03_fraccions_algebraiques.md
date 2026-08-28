@@ -5,10 +5,10 @@
 Igual que les fraccions numèriques es formen amb dos nombres enters, les fraccions algebraiques es formen amb dos polinomis, i es comporten de manera molt semblant.
 
 !!! abstract "Definició: fracció algebraica"
-    Una **fracció algebraica** és el quocient de dos polinomis $\dfrac{P(x)}{Q(x)}$, amb $Q(x)$ no idènticament nul.
+    Una **fracció algebraica** és el quocient de dos polinomis $\dfrac{P(x)}{Q(x)}$, amb $Q(x)$ no nul.
 
 !!! tip "Propietat: simplificació"
-    Si el numerador i el denominador tenen un factor comú, es pot simplificar la fracció dividint tots dos pel mateix factor — igual que amb les fraccions numèriques. Per detectar-lo, factoritzem primer numerador i denominador.
+    Si el numerador i el denominador tenen un factor comú, es pot simplificar la fracció dividint tots dos pel mateix factor — igual que amb les fraccions numèriques. Per detectar-ho, factoritzem primer numerador i denominador.
 
 !!! example "**Exemple:** Simplificació d'una fracció algebraica"
     Simplifiquem $\dfrac{x^2-4}{x^2+x-6}$.
