@@ -17,7 +17,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruff
 
     $$p(x) = a_n(x-r_1)(x-r_2)\cdots(x^2+b_1x+c_1)(x^2+b_2x+c_2)\cdots$$
 
-    on cada $x-r_i$ correspon a una arrel real ($r_i$), i cada factor de grau $2$ té discriminant negatiu (no té arrels reals).
+    on cada factor $(x-r_i)$ correspon a una arrel real ($r_i$) de $p(x)$, i cada factor de grau $2$ té discriminant negatiu (no té arrels reals).
 
 !!! note "Un paral·lelisme amb els nombres enters"
     Aquesta factorització polinomis és anàloga al que ja coneixes amb els nombres enters.
@@ -36,17 +36,19 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruff
     | $x^4-x^3-6x^2$ | $x^2(x-3)(x+2)$ |
 
 !!! note "Ruffini i les arrels reals d'un polinomi"
-    - **Ruffini només troba arrels racionals.** Si els coeficients del polinomi són enters, els únics candidats que prova són els divisors del terme independent — per tant, unes arrels irracionals (com $x=\sqrt{2}$) o complexes mai apareixeran amb aquest mètode. Per detectar-les, cal resoldre directament l'equació de grau $2$ que quedi al final.
-    - **Factorització i arrels van lligades.** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté polinomis de grau $2$ irreductibles.
+    - **Amb Ruffini només trobem arrels racionals.** Si els coeficients del polinomi són enters, els únics candidats a arrel són els divisors del terme independent. Per tant, les arrels irracionals (com $x=\sqrt{2}$) o les arrels complexes mai les trobarem amb aquest mètode. Per trobar-les, cal resoldre directament l'equació de grau $2$ que quedi al final.
+    - **Factorització i arrels d'un polinomi** Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions o multiplicitats) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté polinomis de grau $2$ irreductibles.
 
 ## Procediment per factoritzar
 
 Per factoritzar un polinomi $p(x)$, seguim aquests passos:
 
-1. **Traiem factor comú**, si n'hi ha (per exemple, una potència de $x$ si falten els termes de grau més baix, o un nombre que divideixi tots els coeficients).
-2. Si el que queda té grau $2$, el factoritzem directament resolent l'equació de segon grau corresponent.
-3. Si té grau més gran que $2$ i els coeficients són enters, **busquem arrels enteres amb Ruffini**: les possibles arrels enteres són els divisors del terme independent.
-4. Cada vegada que trobem una arrel, dividim per Ruffini i continuem factoritzant el quocient, fins arribar a factors de grau $1$ o $2$.
+1. **Traiem factor comú**
+    * Si falta el terme independent, podrem treure una potència d'$x$ com a factor comú.
+    * Si tots els coeficients tenen un divisor comú, aquest factor es pot treure com a factor comú.
+2. Si el que ens queda és un polinomi de grau $2$, el factoritzem directament **resolent l'equació de segon grau** corresponent.
+3. Si ens queda un polinomi de grau més gran que $2$, **busquem arrels enteres amb Ruffini**: els candidats a arrels enteres són els divisors del terme independent.
+4. Cada vegada que trobem una arrel, ja tenim un factor i **continuem el procés** amb el quocient, fins arribar a factors de grau $1$ o $2$.
 
 !!! example "**Exemple:** Factor comú"
     Factoritzem $p(x) = x^4 - x^3 - 6x^2$.
@@ -67,7 +69,7 @@ Per factoritzar un polinomi $p(x)$, seguim aquests passos:
     | | $1$ | $-1$ | $-4$ | $4$ |
     |---|---|---|---|---|
     | $1$ | | $1$ | $0$ | $-4$ |
-    | | $1$ | $0$ | $-4$ | $\boxed{0}$ |
+    | | $\textbf{1}$ | $\textbf{0}$ | $\textbf{-4}$ | $\boxed{0}$ |
 
     Per tant, $p(x) = (x-1)(x^2-4)$. El factor $x^2-4$ té arrels $x=2$ i $x=-2$, així que:
 
@@ -81,7 +83,7 @@ Per factoritzar un polinomi $p(x)$, seguim aquests passos:
     | | $1$ | $-2$ | $1$ | $-2$ |
     |---|---|---|---|---|
     | $2$ | | $2$ | $0$ | $2$ |
-    | | $1$ | $0$ | $1$ | $\boxed{0}$ |
+    | | $\textbf{1}$ | $\textbf{0}$ | $\textbf{1}$ | $\boxed{0}$ |
 
     Per tant, $p(x) = (x-2)(x^2+1)$. El factor $x^2+1$ té discriminant $\Delta = 0^2-4\cdot 1\cdot 1=-4<0$: no té arrels reals, així que és irreductible. La factorització final és:
 
