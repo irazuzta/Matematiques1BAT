@@ -2,7 +2,7 @@
 
 ## Definició
 
-Ja coneixes els polinomis de cursos anteriors. Ara ho formalitzarem una mica, operarem amb ells i estudiarem com factoritzar-los.
+Ja coneixes els polinomis de cursos anteriors. En aquest apartat revisarem conceptes ja coneguts amb més formalitat matemàtica.
 
 !!! abstract "Definició: polinomi"
     Un **polinomi** amb variable $x$ i coeficients reals és una expressió de la forma
@@ -37,7 +37,7 @@ Ja coneixes els polinomis de cursos anteriors. Ara ho formalitzarem una mica, op
 
 ## Valor d'un polinomi en un punt
 
-Sovint necessitem saber quant val un polinomi per a un valor concret de $x$: és el que anomenem **avaluar** el polinomi.
+Sovint necessitem saber quant val un polinomi per a un valor concret d'$x$. Això ho anomenem **avaluar** el polinomi en $a$.
 
 !!! abstract "Definició: valor d'un polinomi en $x=a$"
     Avaluar un polinomi $p(x)$ en $x=a$ vol dir substituir $x$ per $a$ i calcular el resultat. El valor obtingut es denota $p(a)$.
@@ -54,7 +54,7 @@ Aquest concepte el farem servir sovint més endavant, per exemple per comprovar 
 ## Suma i resta de polinomis
 
 !!! abstract "Definició: suma i resta de polinomis"
-    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=\max(n,m)$. Completem amb coeficients $0$ els graus que no tinguin terme i fins a completar al grau màxim dels polinomis, si cal. Definim
+    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=\max(n,m)$. Si cal, completem amb coeficients $0$ els graus que no tinguin terme i fins a completar al grau màxim dels polinomis. Definim
 
     $$(p+q)(x) = p(x)+q(x) = \sum_{i=0}^k (a_i+b_i)\,x^i$$
 
@@ -96,7 +96,7 @@ Aquest concepte el farem servir sovint més endavant, per exemple per comprovar 
 
 ## Multiplicació de polinomis
 
-Per multiplicar dos polinomis, apliquem la propietat distributiva: multipliquem cada terme del primer per cada terme del segon, i després agrupem termes semblants.
+Per multiplicar dos polinomis, apliquem la **propietat distributiva**: multipliquem cada terme del primer per cada terme del segon, i després agrupem termes semblants.
 
 !!! example "**Exemple:** Multiplicació de polinomis"
     Multipliquem $p(x)=2x^2-x+3$ per $q(x)=x-4$:
@@ -166,9 +166,9 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de di
     | | $2$ | $-3$ | $1$ | $-4$ |
     |---|---|---|---|---|
     | $2$ | | $4$ | $2$ | $6$ |
-    | | $2$ | $1$ | $3$ | $\boxed{2}$ |
+    | | $\textbf{2}$ | $\textbf{1}$ | $\textbf{3}$ | $\boxed{2}$ |
 
-    El quocient és $q(x)=2x^2+x+3$ i el residu és $r=2$ (apareix enquadrat). És a dir,
+    El quocient és $q(x)=2x^2+x+3$ (apareix en negreta) i el residu és $r=2$ (apareix enquadrat). És a dir,
 
     $$p(x) = (x-2)(2x^2+x+3) + 2$$
 
@@ -178,7 +178,7 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de di
     | | $1$ | $-6$ | $11$ | $-6$ |
     |---|---|---|---|---|
     | $1$ | | $1$ | $-5$ | $6$ |
-    | | $1$ | $-5$ | $6$ | $\boxed{0}$ |
+    | | $\textbf{1}$ | $\textbf{-5}$ | $\textbf{6}$ | $\boxed{0}$ |
 
     El quocient és $q(x)=x^2-5x+6$ i el residu és $r=0$. És a dir,
 
