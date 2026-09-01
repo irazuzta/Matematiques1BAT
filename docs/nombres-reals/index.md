@@ -14,3 +14,7 @@ Recorda que aquestes eines et serviran durant tot el curs, així que val la pena
 - [Arrels i radicals](06_arrels.md) — la seva relació amb les potències.
 - [Logaritmes](07_logaritmes.md) — què són i per a què serveixen.
 - [Nota històrica](08_nota_historica.md) — com han evolucionat els nombres reals al llarg de la història.
+
+## Per practicar
+
+- [Exercicis i problemes](exercicis.md) — relació d'exercicis de tot el bloc, ordenada com els apartats i amb repàs acumulatiu. També es pot descarregar en PDF.
