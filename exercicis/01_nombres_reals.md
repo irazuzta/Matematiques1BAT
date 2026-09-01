@@ -190,7 +190,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 | | |
 |:--|:--|
 | **a)** $3^4\cdot 3^2$ | **b)** $\dfrac{5^7}{5^3}$ |
-| **c)** $(2^3)^2$ | **d)** $7^2\cdot 7^{-5}$ |
+| **c)** $\left(2^3\right)^2$ | **d)** $7^2\cdot 7^{-5}$ |
 | **e)** $\dfrac{4^{-1}}{4^{2}}$ | |
 
 **36.** Calcula el valor numèric de cada apartat de l'exercici anterior.
@@ -208,14 +208,14 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 **40.** Simplifica, amb $x\neq 0$: $\left(\dfrac{2x}{3}\right)^3 \cdot \left(\dfrac{3}{2x}\right)^2$.
 
-**41.** Simplifica combinant les propietats: $\dfrac{(2^3)^2\cdot 2^{-4}}{2^5\cdot 2^{-7}}$.
+**41.** Simplifica combinant les propietats: $\dfrac{\left(2^3\right)^2\cdot 2^{-4}}{2^5\cdot 2^{-7}}$.
 
 **42.** Simplifica cada expressió com una única potència (totes les variables són no nul·les):
 
 | | |
 |:--|:--|
-| **a)** $\dfrac{a^5\cdot a^{-2}}{a^{-3}\cdot a^4}$ | **b)** $\dfrac{(x^2)^3\cdot x^{-1}}{x^4}$ |
-| **c)** $\left(\dfrac{x^3}{y^2}\right)^2\cdot\dfrac{y^3}{x^4}$ | **d)** $\dfrac{(2a^2)^3}{4a^5}$ |
+| **a)** $\dfrac{a^5\cdot a^{-2}}{a^{-3}\cdot a^4}$ | **b)** $\dfrac{\left(x^2\right)^3\cdot x^{-1}}{x^4}$ |
+| **c)** $\left(\dfrac{x^3}{y^2}\right)^2\cdot\dfrac{y^3}{x^4}$ | **d)** $\dfrac{\left(2a^2\right)^3}{4a^5}$ |
 
 **43.** Escriu en notació científica:
 
@@ -453,7 +453,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 | | |
 |:--|:--|
 | **a)** $\log_2 8^5$ | **b)** $\log_3 9^{-2}$ |
-| **c)** $\log(10^7)$ | **d)** $\log_a a^n$ |
+| **c)** $\log\left(10^7\right)$ | **d)** $\log_a a^n$ |
 
 **82.** Aplica la propietat de l'arrel:
 
@@ -487,7 +487,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $\log_a (x^3 y^2)$ | **b)** $\log_a \dfrac{x^2}{y^3}$ |
+| **a)** $\log_a\left(x^3 y^2\right)$ | **b)** $\log_a \dfrac{x^2}{y^3}$ |
 | **c)** $\log_a \dfrac{xy}{z}$ | **d)** $\log_a \sqrt{x}$ |
 
 **89.** Desenvolupa completament, fins que no quedi cap producte, quocient, potència ni arrel dins d'un logaritme:
