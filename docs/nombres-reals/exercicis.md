@@ -1,6 +1,6 @@
 # Exercicis i problemes
 
-> Relació d'exercicis del bloc de **Nombres reals**, ordenada seguint l'ordre dels apunts i amb repàs acumulatiu: a mesura que avança, incorpora continguts dels apartats anteriors. Els marcats *(aplicat)* parteixen d'un context real o d'una altra matèria; els marcats *(repàs)* en combinen diversos.
+> Llistat d'exercicis per practicar i consolidar els continguts del bloc. Segueix l'ordre dels apunts i inclou exercicis de diferents nivells de dificultat.
 
 [Descarrega el llistat en PDF](../assets/exercicis/1_nombres_reals.pdf)
 
