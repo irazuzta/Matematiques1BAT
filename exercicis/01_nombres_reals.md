@@ -26,7 +26,7 @@
 
 **3.** *(fàcil)* Ordena de més petit a més gran: $-3$, $\dfrac{7}{2}$, $-1{,}5$, $4$, $0$.
 
-**4.** *(mitjà)* Sense calculadora, decideix quin nombre és més gran, $\dfrac{2}{3}$ o $0{,}68$, passant-los a la mateixa forma.
+**4.** *(mitjà)* Sense calculadora, decideix quin nombre és més gran, $\dfrac{2}{3}$ o $0{,}68$ passant-los primer, tots a decimal, i després, tots a fracció.
 
 **5.** *(fàcil)* Situa aproximadament sobre una recta real els nombres $-2$, $1{,}5$, $\pi$ i $-\sqrt{2}$ (n'hi ha prou amb dues xifres decimals d'aproximació).
 
