@@ -86,7 +86,7 @@
 - **b)** $\left(-4,4\right)$
 - **c)** $\left[-3,11\right]$
 
-**13.** Resol $|2x-6|<10$. *(Pista: pots treure factor comú $2$ dins el valor absolut abans d'aïllar.)*
+**13.** Resol $|2x-6|<10$. *(Indicació: pots treure factor comú $2$ dins el valor absolut abans d'aïllar.)*
 
 **14.** Resol $|3x+9|\leq 21$.
 
@@ -535,7 +535,7 @@ $$\log_a x^2-\log_a \sqrt{x}+\log_a \dfrac{1}{x}$$
 
 $$\log_a b \cdot \log_b a = 1$$
 
-**96.** Demostra que $\log_{a^2} x = \dfrac12 \log_a x$. *(Pista: aplica el canvi de base a la base $a$.)*
+**96.** Demostra que $\log_{a^2} x = \dfrac12 \log_a x$. *(Indicació: aplica el canvi de base a la base $a$.)*
 
 ### 6.4 Aplicacions
 
