@@ -100,7 +100,7 @@
 **16.** Resol:
 
 - **a)** $\dfrac{x}{2}-3>1$
-- **b)** $2(x-1)\leq 3x+4$
+- **b)** $2\left(x-1\right)\leq 3x+4$
 - **c)** $\dfrac{2x-1}{3}\geq 5$
 
 **17.** *(aplicat)* La temperatura $T$ (en °C) d'una sala es manté dins un marge de $\pm 1{,}5$ °C respecte al valor de consigna de $21$ °C. Escriu aquesta condició amb un valor absolut i troba l'interval de temperatures possibles.
@@ -181,7 +181,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $2^5$ | **b)** $(-3)^4$ |
+| **a)** $2^5$ | **b)** $\left(-3\right)^4$ |
 | **c)** $-3^4$ | **d)** $5^0$ |
 | **e)** $10^{-2}$ | **f)** $\left(\dfrac{2}{3}\right)^2$ |
 
@@ -199,8 +199,8 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $(2\cdot 3)^2$ | **b)** $\left(\dfrac{3}{5}\right)^{-2}$ |
-| **c)** $2^3\cdot 2^{-1}\cdot 2^2$ | **d)** $\dfrac{(-2)^5}{(-2)^2}$ |
+| **a)** $\left(2\cdot 3\right)^2$ | **b)** $\left(\dfrac{3}{5}\right)^{-2}$ |
+| **c)** $2^3\cdot 2^{-1}\cdot 2^2$ | **d)** $\dfrac{\left(-2\right)^5}{\left(-2\right)^2}$ |
 
 **38.** Simplifica $\dfrac{2^5\cdot 4^2}{8^3}$ escrivint-ho tot amb la mateixa base, i calcula'n el valor.
 
@@ -235,10 +235,10 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $(3\cdot10^4)\cdot(2\cdot10^3)$ | **b)** $(6\cdot10^{-2})\cdot(5\cdot10^{5})$ |
+| **a)** $\left(3\cdot10^4\right)\cdot\left(2\cdot10^3\right)$ | **b)** $\left(6\cdot10^{-2}\right)\cdot\left(5\cdot10^{5}\right)$ |
 | **c)** $\dfrac{8\cdot10^7}{2\cdot10^3}$ | **d)** $\dfrac{9\cdot10^{-2}}{3\cdot10^{4}}$ |
 
-**46.** Calcula, expressant el resultat en notació científica correcta: $\dfrac{(4\cdot10^{-3})\cdot(6\cdot10^{8})}{3\cdot10^{2}}$.
+**46.** Calcula, expressant el resultat en notació científica correcta: $\dfrac{\left(4\cdot10^{-3}\right)\cdot\left(6\cdot10^{8}\right)}{3\cdot10^{2}}$.
 
 **47.** *(aplicat)* Un virus té un diàmetre aproximat de $1\cdot10^{-7}\,\text{m}$. Quants virus, un al costat de l'altre, calen per completar $1\,\text{cm}$?
 
@@ -438,9 +438,9 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 **79.** Aplica la propietat del logaritme d'un producte per desenvolupar:
 
-- **a)** $\log_2(4\cdot 8)$
-- **b)** $\log(5\cdot 20)$
-- **c)** $\log_3(x\cdot y)$, amb $x,y>0$
+- **a)** $\log_2\left(4\cdot 8\right)$
+- **b)** $\log\left(5\cdot 20\right)$
+- **c)** $\log_3\left(x\cdot y\right)$, amb $x,y>0$
 
 **80.** Aplica la propietat del logaritme d'un quocient:
 
@@ -539,7 +539,7 @@ $$\log_a b \cdot \log_b a = 1$$
 
 ### 6.4 Aplicacions
 
-**97.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0(1+i)^t$ i el logaritme per aïllar $t$.)*
+**97.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0\left(1+i\right)^t$ i el logaritme per aïllar $t$.)*
 
 **98.** *(aplicat)* La magnitud $M$ d'un terratrèmol (escala de Richter) es relaciona amb l'energia alliberada $E$ mitjançant $M=\dfrac{2}{3}\log\left(\dfrac{E}{E_0}\right)$, amb $E_0$ constant. Si un terratrèmol allibera $1000$ vegades més energia que un altre ($E=1000\,E_1$), quant més gran és la seva magnitud $M$ respecte a $M_1$? *(Calcula $M-M_1$.)*
 
@@ -582,10 +582,10 @@ $$\dfrac{\sqrt{50}-\sqrt{8}}{\sqrt2} + \log_2 16 - |{-3}|$$
 
 - **a)** $\sqrt{a^2}=a$ per a tot $a\in\mathbb{R}$.
 - **b)** $|a+b|=|a|+|b|$ per a tot $a,b\in\mathbb{R}$.
-- **c)** $\log(x+y)=\log x+\log y$ per a tot $x,y>0$.
+- **c)** $\log\left(x+y\right)=\log x+\log y$ per a tot $x,y>0$.
 - **d)** $\sqrt[3]{a}$ existeix per a tot $a\in\mathbb{R}$.
 - **e)** Si $|x|<3$, aleshores $x<3$.
-- **f)** $(a+b)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
+- **f)** $\left(a+b\right)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
 
 **110.** *(aplicat)* El període d'oscil·lació $T$ d'un pèndol simple de longitud $L$ ve donat per
 
