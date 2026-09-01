@@ -45,8 +45,8 @@
 
 | | |
 |:--|:--|
-| **a)** $[-3,5)$ | **b)** $(2,+\infty)$ |
-| **c)** $(-\infty,4]$ | **d)** $(0,1)$ |
+| **a)** $\left[-3,5\right)$ | **b)** $\left(2,+\infty\right)$ |
+| **c)** $\left(-\infty,4\right]$ | **d)** $\left(0,1\right)$ |
 
 **8.** Calcula:
 
@@ -63,28 +63,28 @@
 | **a)** $a=2,\ b=9$ | **b)** $a=-5,\ b=-1$ |
 | **c)** $a=4,\ b=-3$ | **d)** $a=6,\ b=-2$ |
 
-**10.** Troba l'interval $(e_1,e_2)$ format pels punts que estan a una distància menor que $r$ del punt $a$:
+**10.** Troba l'interval $\left(e_1,e_2\right)$ format pels punts que estan a una distància menor que $r$ del punt $a$:
 
 - **a)** $a=5,\ r=3$
 - **b)** $a=-2,\ r=4$
 - **c)** $a=0,\ r=1{,}5$
 
-**11.** Resol i escriu la solució com a interval o, quan calgui, com a unió d'intervals. Recorda que $d(x,a)=|x-a|$, de manera que les dues notacions són equivalents:
+**11.** Resol i escriu la solució com a interval o, quan calgui, com a unió d'intervals. Recorda que $d\left(x,a\right)=|x-a|$, de manera que les dues notacions són equivalents:
 
 | | |
 |:--|:--|
-| **a)** $\lvert x-3\rvert<5$ | **b)** $d(x,-2)<4$ |
-| **c)** $\lvert x-1\rvert\leq 6$ | **d)** $d(x,-5)<2$ |
-| **e)** $\lvert x-2\rvert>3$ | **f)** $d(x,-1)\geq 4$ |
-| **g)** $d(x,4)>1$ | **h)** $\lvert x+3\rvert\geq 2$ |
+| **a)** $\lvert x-3\rvert<5$ | **b)** $d\left(x,-2\right)<4$ |
+| **c)** $\lvert x-1\rvert\leq 6$ | **d)** $d\left(x,-5\right)<2$ |
+| **e)** $\lvert x-2\rvert>3$ | **f)** $d\left(x,-1\right)\geq 4$ |
+| **g)** $d\left(x,4\right)>1$ | **h)** $\lvert x+3\rvert\geq 2$ |
 
 *(Als apartats e)–h) la solució és el complementari d'un entorn: els punts que queden **lluny** del centre, no a prop.)*
 
 **12.** Troba $a$ i $r$ tals que l'interval solució de $|x-a|<r$ (o $\leq$, segons el cas) sigui:
 
-- **a)** $(1,9)$
-- **b)** $(-4,4)$
-- **c)** $[-3,11]$
+- **a)** $\left(1,9\right)$
+- **b)** $\left(-4,4\right)$
+- **c)** $\left[-3,11\right]$
 
 **13.** Resol $|2x-6|<10$. *(Pista: pots treure factor comú $2$ dins el valor absolut abans d'aïllar.)*
 
@@ -100,7 +100,7 @@
 **16.** Resol:
 
 - **a)** $\dfrac{x}{2}-3>1$
-- **b)** $2(x-1)\leq 3x+4$
+- **b)** $2\left(x-1\right)\leq 3x+4$
 - **c)** $\dfrac{2x-1}{3}\geq 5$
 
 **17.** *(aplicat)* La temperatura $T$ (en °C) d'una sala es manté dins un marge de $\pm 1{,}5$ °C respecte al valor de consigna de $21$ °C. Escriu aquesta condició amb un valor absolut i troba l'interval de temperatures possibles.
@@ -129,8 +129,8 @@
 
 | | |
 |:--|:--|
-| **a)** $A=[-2,5)$, $B=(1,8]$ | **b)** $A=(-\infty,3]$, $B=(0,+\infty)$ |
-| **c)** $A=[-4,-1]$, $B=[2,6]$ | **d)** $A=(-3,4)$, $B=[0,+\infty)$ |
+| **a)** $A=\left[-2,5\right)$, $B=\left(1,8\right]$ | **b)** $A=\left(-\infty,3\right]$, $B=\left(0,+\infty\right)$ |
+| **c)** $A=\left[-4,-1\right]$, $B=\left[2,6\right]$ | **d)** $A=\left(-3,4\right)$, $B=\left[0,+\infty\right)$ |
 
 **24.** Troba el conjunt de nombres reals que compleixen alhora les dues condicions
 
@@ -181,7 +181,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $2^5$ | **b)** $(-3)^4$ |
+| **a)** $2^5$ | **b)** $\left(-3\right)^4$ |
 | **c)** $-3^4$ | **d)** $5^0$ |
 | **e)** $10^{-2}$ | **f)** $\left(\dfrac{2}{3}\right)^2$ |
 
@@ -199,8 +199,8 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $(2\cdot 3)^2$ | **b)** $\left(\dfrac{3}{5}\right)^{-2}$ |
-| **c)** $2^3\cdot 2^{-1}\cdot 2^2$ | **d)** $\dfrac{(-2)^5}{(-2)^2}$ |
+| **a)** $\left(2\cdot 3\right)^2$ | **b)** $\left(\dfrac{3}{5}\right)^{-2}$ |
+| **c)** $2^3\cdot 2^{-1}\cdot 2^2$ | **d)** $\dfrac{\left(-2\right)^5}{\left(-2\right)^2}$ |
 
 **38.** Simplifica $\dfrac{2^5\cdot 4^2}{8^3}$ escrivint-ho tot amb la mateixa base, i calcula'n el valor.
 
@@ -235,10 +235,10 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 | | |
 |:--|:--|
-| **a)** $(3\cdot10^4)\cdot(2\cdot10^3)$ | **b)** $(6\cdot10^{-2})\cdot(5\cdot10^{5})$ |
+| **a)** $\left(3\cdot10^4\right)\cdot\left(2\cdot10^3\right)$ | **b)** $\left(6\cdot10^{-2}\right)\cdot\left(5\cdot10^{5}\right)$ |
 | **c)** $\dfrac{8\cdot10^7}{2\cdot10^3}$ | **d)** $\dfrac{9\cdot10^{-2}}{3\cdot10^{4}}$ |
 
-**46.** Calcula, expressant el resultat en notació científica correcta: $\dfrac{(4\cdot10^{-3})\cdot(6\cdot10^{8})}{3\cdot10^{2}}$.
+**46.** Calcula, expressant el resultat en notació científica correcta: $\dfrac{\left(4\cdot10^{-3}\right)\cdot\left(6\cdot10^{8}\right)}{3\cdot10^{2}}$.
 
 **47.** *(aplicat)* Un virus té un diàmetre aproximat de $1\cdot10^{-7}\,\text{m}$. Quants virus, un al costat de l'altre, calen per completar $1\,\text{cm}$?
 
@@ -438,9 +438,9 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 **79.** Aplica la propietat del logaritme d'un producte per desenvolupar:
 
-- **a)** $\log_2(4\cdot 8)$
-- **b)** $\log(5\cdot 20)$
-- **c)** $\log_3(x\cdot y)$, amb $x,y>0$
+- **a)** $\log_2\left(4\cdot 8\right)$
+- **b)** $\log\left(5\cdot 20\right)$
+- **c)** $\log_3\left(x\cdot y\right)$, amb $x,y>0$
 
 **80.** Aplica la propietat del logaritme d'un quocient:
 
@@ -539,7 +539,7 @@ $$\log_a b \cdot \log_b a = 1$$
 
 ### 6.4 Aplicacions
 
-**97.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0(1+i)^t$ i el logaritme per aïllar $t$.)*
+**97.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0\left(1+i\right)^t$ i el logaritme per aïllar $t$.)*
 
 **98.** *(aplicat)* La magnitud $M$ d'un terratrèmol (escala de Richter) es relaciona amb l'energia alliberada $E$ mitjançant $M=\dfrac{2}{3}\log\left(\dfrac{E}{E_0}\right)$, amb $E_0$ constant. Si un terratrèmol allibera $1000$ vegades més energia que un altre ($E=1000\,E_1$), quant més gran és la seva magnitud $M$ respecte a $M_1$? *(Calcula $M-M_1$.)*
 
@@ -557,7 +557,7 @@ $$\log_a b \cdot \log_b a = 1$$
 
 **103.** *(repàs)* Calcula l'error relatiu, en tant per cent, de l'aproximació $\sqrt2 \approx 1{,}414$ (arrodoneix a $3$ xifres decimals).
 
-**104.** *(repàs · aplicat)* Una població de bacteris es multiplica per $2$ cada hora, segons $N(t)=N_0\cdot 2^t$, amb $N_0=500$.
+**104.** *(repàs · aplicat)* Una població de bacteris es multiplica per $2$ cada hora, segons $N\left(t\right)=N_0\cdot 2^t$, amb $N_0=500$.
 
 - **a)** Quants bacteris hi ha al cap de $5$ hores?
 - **b)** Quantes hores calen perquè la població arribi a $64\,000$ bacteris?
@@ -582,10 +582,10 @@ $$\dfrac{\sqrt{50}-\sqrt{8}}{\sqrt2} + \log_2 16 - |{-3}|$$
 
 - **a)** $\sqrt{a^2}=a$ per a tot $a\in\mathbb{R}$.
 - **b)** $|a+b|=|a|+|b|$ per a tot $a,b\in\mathbb{R}$.
-- **c)** $\log(x+y)=\log x+\log y$ per a tot $x,y>0$.
+- **c)** $\log\left(x+y\right)=\log x+\log y$ per a tot $x,y>0$.
 - **d)** $\sqrt[3]{a}$ existeix per a tot $a\in\mathbb{R}$.
 - **e)** Si $|x|<3$, aleshores $x<3$.
-- **f)** $(a+b)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
+- **f)** $\left(a+b\right)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
 
 **110.** *(aplicat)* El període d'oscil·lació $T$ d'un pèndol simple de longitud $L$ ve donat per
 
@@ -604,25 +604,25 @@ on $g$ és l'acceleració de la gravetat (constant). Demostra que, per aconsegui
 **4.** $0{,}68$ (perquè $\tfrac23=0{,}\overline6<0{,}68$).
 
 **Bloc 2.**
-**6.** a) $(2,7]$, semiobert · b) $(-\infty,-1)$, semirecta · c) $[0,+\infty)$, semirecta · d) $[-3,3]$, tancat.
+**6.** a) $\left(2,7\right]$, semiobert · b) $\left(-\infty,-1\right)$, semirecta · c) $\left[0,+\infty\right)$, semirecta · d) $\left[-3,3\right]$, tancat.
 **7.** a) $-3\le x<5$ · b) $x>2$ · c) $x\le4$ · d) $0<x<1$.
 **8.** a) $7$ · b) $7$ · c) $0$ · d) $5$ · e) $5$ · f) $-4$.
 **9.** a) $7$ · b) $4$ · c) $7$ · d) $8$.
-**10.** a) $(2,8)$ · b) $(-6,2)$ · c) $(-1{,}5,\,1{,}5)$.
-**11.** a) $(-2,8)$ · b) $(-6,2)$ · c) $[-5,7]$ · d) $(-7,-3)$ · e) $(-\infty,-1)\cup(5,+\infty)$ · f) $(-\infty,-5]\cup[3,+\infty)$ · g) $(-\infty,3)\cup(5,+\infty)$ · h) $(-\infty,-5]\cup[-1,+\infty)$.
+**10.** a) $\left(2,8\right)$ · b) $\left(-6,2\right)$ · c) $\left(-1{,}5,\,1{,}5\right)$.
+**11.** a) $\left(-2,8\right)$ · b) $\left(-6,2\right)$ · c) $\left[-5,7\right]$ · d) $\left(-7,-3\right)$ · e) $\left(-\infty,-1\right)\cup\left(5,+\infty\right)$ · f) $\left(-\infty,-5\right]\cup\left[3,+\infty\right)$ · g) $\left(-\infty,3\right)\cup\left(5,+\infty\right)$ · h) $\left(-\infty,-5\right]\cup\left[-1,+\infty\right)$.
 **12.** a) $a=5,\ r=4$ · b) $a=0,\ r=4$ · c) $a=4,\ r=7$.
-**13.** $(-2,8)$.
-**14.** $[-10,4]$.
-**15.** a) $(5,+\infty)$ · b) $[3,+\infty)$ · c) $(-\infty,2)$ · d) $(-\infty,-3]$.
-**16.** a) $(8,+\infty)$ · b) $[-6,+\infty)$ · c) $[8,+\infty)$.
-**17.** $|T-21|\le1{,}5 \Rightarrow [19{,}5,\,22{,}5]$.
-**18.** a) $|\ell-50|\le0{,}2$ · b) $[49{,}8,\,50{,}2]$.
-**19.** a) $17\,\text{km}$ · b) $|p-3|\leq8 \Rightarrow [-5,11]$.
-**20.** a) $|x-7|>2$ · b) $(-\infty,5)\cup(9,+\infty)$ · c) No: $d(8{,}5,\,7)=1{,}5$, que no és més gran que $2$.
-**21.** $(1,10)$.
-**22.** $[-3,9]$.
-**23.** a) $A\cap B=(1,5)$, $A\cup B=[-2,8]$ · b) $A\cap B=(0,3]$, $A\cup B=\mathbb{R}$ · c) $A\cap B=\varnothing$, $A\cup B=[-4,-1]\cup[2,6]$ (no és un interval) · d) $A\cap B=[0,4)$, $A\cup B=(-3,+\infty)$.
-**24.** $|x-1|<4 \Rightarrow (-3,5)$; $|x+2|>1 \Rightarrow (-\infty,-3)\cup(-1,+\infty)$. La intersecció és $(-1,5)$.
+**13.** $\left(-2,8\right)$.
+**14.** $\left[-10,4\right]$.
+**15.** a) $\left(5,+\infty\right)$ · b) $\left[3,+\infty\right)$ · c) $\left(-\infty,2\right)$ · d) $\left(-\infty,-3\right]$.
+**16.** a) $\left(8,+\infty\right)$ · b) $\left[-6,+\infty\right)$ · c) $\left[8,+\infty\right)$.
+**17.** $|T-21|\le1{,}5 \Rightarrow \left[19{,}5,\,22{,}5\right]$.
+**18.** a) $|\ell-50|\le0{,}2$ · b) $\left[49{,}8,\,50{,}2\right]$.
+**19.** a) $17\,\text{km}$ · b) $|p-3|\leq8 \Rightarrow \left[-5,11\right]$.
+**20.** a) $|x-7|>2$ · b) $\left(-\infty,5\right)\cup\left(9,+\infty\right)$ · c) No: $d\left(8{,}5,\,7\right)=1{,}5$, que no és més gran que $2$.
+**21.** $\left(1,10\right)$.
+**22.** $\left[-3,9\right]$.
+**23.** a) $A\cap B=\left(1,5\right)$, $A\cup B=\left[-2,8\right]$ · b) $A\cap B=\left(0,3\right]$, $A\cup B=\mathbb{R}$ · c) $A\cap B=\varnothing$, $A\cup B=\left[-4,-1\right]\cup\left[2,6\right]$ (no és un interval) · d) $A\cap B=\left[0,4\right)$, $A\cup B=\left(-3,+\infty\right)$.
+**24.** $|x-1|<4 \Rightarrow \left(-3,5\right)$; $|x+2|>1 \Rightarrow \left(-\infty,-3\right)\cup\left(-1,+\infty\right)$. La intersecció és $\left(-1,5\right)$.
 
 **Bloc 3.**
 **25.** $2$ dec: truncament $2{,}71$, arrodoniment $2{,}72$. $4$ dec: truncament $2{,}7182$, arrodoniment $2{,}7183$.
@@ -630,7 +630,7 @@ on $g$ és l'acceleració de la gravetat (constant). Demostra que, per aconsegui
 **27.** $E_a=0{,}037$; $E_r\approx0{,}29\%$.
 **28.** a) $2\,\text{m}$ · b) $0{,}8\%$.
 **29.** Llapis: $6{,}67\%$; camp: $0{,}01\%$ — el camp és relativament més precís.
-**30.** $x\in[7{,}415,\;7{,}425)$. L'extrem inferior s'inclou, perquè $7{,}415$ s'arrodoneix a $7{,}42$ (la xifra següent és $5$ i fa pujar l'anterior); el superior no, perquè $7{,}425$ ja s'arrodoneix a $7{,}43$. L'error absolut màxim és, doncs, $0{,}005$, però només s'assoleix per sota.
+**30.** $x\in\left[7{,}415,\;7{,}425\right)$. L'extrem inferior s'inclou, perquè $7{,}415$ s'arrodoneix a $7{,}42$ (la xifra següent és $5$ i fa pujar l'anterior); el superior no, perquè $7{,}425$ ja s'arrodoneix a $7{,}43$. L'error absolut màxim és, doncs, $0{,}005$, però només s'assoleix per sota.
 **31.** a) $E_a\leq0{,}005$, $E_r\leq\dfrac{0{,}005}{3{,}25}\approx0{,}15\%$ · b) $E_a\leq0{,}05$, $E_r\approx0{,}10\%$ · c) $E_a\leq5$, $E_r\approx0{,}42\%$ · d) $E_a\leq0{,}0005$, $E_r\approx1{,}32\%$. Fixa't que amb la mateixa precisió absoluta, com més petit és el valor mesurat, més gran és l'error relatiu.
 **32.** Calen $4$ decimals. En arrodonir a $n$ decimals, $E_a\leq0{,}5\cdot10^{-n}$, i per tant $E_r\leq\dfrac{0{,}5\cdot10^{-n}}{\pi}$. Amb $n=3$: $E_r\leq0{,}016\%$, que no arriba a la fita demanada; amb $n=4$: $E_r\leq0{,}0016\%<0{,}01\%$. Comprovació amb els valors reals: $\pi\approx3{,}142$ dona $E_r\approx0{,}013\%$ (insuficient) i $\pi\approx3{,}1416$ dona $E_r\approx0{,}0002\%$.
 **33.** $E_r\approx0{,}07\%$.
@@ -710,12 +710,12 @@ on $g$ és l'acceleració de la gravetat (constant). Demostra que, per aconsegui
 **99.** $4$.
 **100.** $2\cdot10^5$.
 **101.** $\tfrac1{15}$.
-**102.** $(-1,7)$.
+**102.** $\left(-1,7\right)$.
 **103.** $\approx0{,}015\%$.
 **104.** a) $16\,000$ · b) $7$ hores.
 **105.** a) $5\,\text{m}$ · b) $5\sqrt[3]{2}\,\text{m}$.
 **106.** $80\,\text{dB}$.
 **107.** $4$.
-**108.** a) $A=6$, $B=3$ · b) $(3,9)$.
+**108.** a) $A=6$, $B=3$ · b) $\left(3,9\right)$.
 **109.** a) F ($a=-2$: $\sqrt{4}=2\neq-2$; en realitat $\sqrt{a^2}=|a|$) · b) F ($a=1$, $b=-1$: $0\neq2$) · c) F ($x=y=1$: $\log2\neq0$) · d) C · e) C · f) F ($a=b=1$: $4\neq2$).
 **110.** Si $T_2=2T_1$, aleshores $2\pi\sqrt{\tfrac{L_2}{g}}=2\cdot2\pi\sqrt{\tfrac{L_1}{g}}$. Simplificant $2\pi$ i $g$: $\sqrt{L_2}=2\sqrt{L_1}$. Elevant al quadrat, $L_2=4L_1$.
