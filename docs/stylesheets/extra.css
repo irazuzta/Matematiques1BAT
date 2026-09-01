@@ -12,17 +12,3 @@
 .md-typeset summary {
   font-size: inherit;
 }
-
-/* La darrera pestanya de la barra superior ("Exercicis i problemes") no és un
-   bloc del temari, sinó material de pràctica: la separem de la resta empenyent-la
-   cap a la dreta. `margin-inline-start: auto` absorbeix tot l'espai lliure de la
-   fila flex, de manera que la pestanya queda alineada amb el marge dret sense
-   haver de fixar cap amplada. */
-.md-tabs__list {
-  display: flex;
-  width: 100%;
-}
-
-.md-tabs__list > .md-tabs__item:last-child {
-  margin-inline-start: auto;
-}
