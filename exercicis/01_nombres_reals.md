@@ -160,7 +160,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 **29.** *(aplicat)* Es mesuren dues longituds amb el mateix error absolut d'$1\,\text{cm}$: la llargada d'un llapis ($15\,\text{cm}$) i la d'un camp de futbol ($100\,\text{m}$). Calcula l'error relatiu en cada cas i comenta quina mesura és relativament més precisa.
 
-**30.** Si arrodonim un nombre a les centèsimes, l'error absolut és com a màxim $0{,}005$. Si el valor arrodonit obtingut és $x'=7{,}42$, entre quins dos valors es pot trobar el valor exacte $x$?
+**30.** Un nombre s'ha arrodonit a les centèsimes i s'ha obtingut $x'=7{,}42$. Entre quins valors es pot trobar el valor exacte $x$? Vigila quins extrems s'inclouen i quins no.
 
 **31.** *(aplicat)* La velocitat de la llum és $c=299\,792\,458\,\text{m/s}$, que sovint s'aproxima per $c'=300\,000\,000\,\text{m/s}$. Calcula l'error relatiu comès, en tant per cent (arrodoneix a $2$ xifres decimals). *(Enllaça amb la notació científica que ve tot seguit.)*
 
@@ -621,7 +621,7 @@ on $g$ és l'acceleració de la gravetat (constant). Demostra que, per aconsegui
 **27.** $E_a=0{,}037$; $E_r\approx0{,}29\%$.
 **28.** a) $2\,\text{m}$ · b) $0{,}8\%$.
 **29.** Llapis: $6{,}67\%$; camp: $0{,}01\%$ — el camp és relativament més precís.
-**30.** $x\in[7{,}415,\,7{,}425]$.
+**30.** $x\in[7{,}415,\;7{,}425)$. L'extrem inferior s'inclou, perquè $7{,}415$ s'arrodoneix a $7{,}42$ (la xifra següent és $5$ i fa pujar l'anterior); el superior no, perquè $7{,}425$ ja s'arrodoneix a $7{,}43$. L'error absolut màxim és, doncs, $0{,}005$, però només s'assoleix per sota.
 **31.** $E_r\approx0{,}07\%$.
 
 **Bloc 4.**
