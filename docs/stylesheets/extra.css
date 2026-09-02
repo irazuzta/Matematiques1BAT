@@ -12,3 +12,68 @@
 .md-typeset summary {
   font-size: inherit;
 }
+
+/* ------------------------------------------------------------------
+   Impressió dels llibrets (pàgines llibre.md de cada bloc)
+
+   Cada llibre.md només inclou els apartats del seu tema amb snippets, i
+   tota la maquetació de paper es controla des d'aquí. Com que les regles
+   viuen dins de @media print, no afecten gens la visualització en línia.
+   ------------------------------------------------------------------ */
+@media print {
+  @page {
+    margin: 16mm 14mm;
+  }
+
+  /* La interfície del lloc no té sentit en paper. */
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-top,
+  .md-content__button,
+  .headerlink {
+    display: none !important;
+  }
+
+  .md-main__inner,
+  .md-content {
+    margin: 0 !important;
+  }
+
+  .md-content__inner {
+    padding: 0 !important;
+  }
+
+  /* Cada apartat del llibret comença en pàgina nova. Com que cada fitxer
+     inclòs aporta el seu propi `# Títol`, n'hi ha prou de trencar abans de
+     cada h1 i excloure'n el primer, que obre el document. */
+  .md-typeset h1 {
+    break-before: page;
+  }
+
+  .md-typeset h1:first-of-type {
+    break-before: auto;
+  }
+
+  /* Aquests elements són unitats visuals: partir-los pel mig trenca la
+     vora de color del quadre o deixa una taula sense capçalera. */
+  .md-typeset .admonition,
+  .md-typeset details,
+  .md-typeset table,
+  .md-typeset .highlight,
+  .md-typeset blockquote,
+  .md-typeset figure {
+    break-inside: avoid;
+  }
+
+  /* Un títol no s'ha de quedar sol al peu d'una pàgina. */
+  .md-typeset h2,
+  .md-typeset h3 {
+    break-after: avoid;
+  }
+
+  .md-typeset img {
+    max-width: 100% !important;
+  }
+}
