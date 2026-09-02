@@ -105,6 +105,35 @@ Aquest resultat es generalitza sempre igual, per a qualsevol punt i qualsevol di
 
     és a dir, l'interval solució és sempre $(a-r,\,a+r)$.
 
+Ens podem plantejar ara la pregunta contrària: quins punts són **lluny** d'$a$, és a dir, a una distància **més gran** que $r$? No cal cap tècnica nova: n'hi ha prou de resoldre la condició de sempre i quedar-nos amb tot el que en queda fora.
+
+!!! tip "Propietat: punts a distància més gran que un valor"
+    Per a qualsevol $a \in \mathbb{R}$ i $r>0$ es té
+
+    $$
+    |x-a| > r \quad \Longleftrightarrow \quad x < a-r \ \text{ o } \ x > a+r,
+    $$
+
+    és a dir, la solució no és un interval, sinó la unió de dues semirectes: $(-\infty,\,a-r)\cup(a+r,\,+\infty)$.
+
+!!! note "D'on surt: el complementari"
+    Qualsevol punt de la recta compleix exactament una d'aquestes tres coses: o és a distància menor que $r$ d'$a$, o hi és exactament a distància $r$, o hi és a distància més gran. Els dos primers casos formen l'interval tancat $[a-r,\,a+r]$, que és la solució de $|x-a|\leq r$.
+
+    Els punts que busquem, doncs, són **tots els altres**: el complementari d'aquest interval. I fixa't en un detall important: en passar al complementari, els extrems canvien de tipus. Els punts $a-r$ i $a+r$ són exactament a distància $r$, així que no compleixen la desigualtat estricta i queden fora de la solució; per això l'interval tancat es converteix en dues semirectes **obertes**.
+
+!!! example "**Exemple:** Punts a distància més gran que $2$ del punt $3$"
+    Volem resoldre $|x-3|>2$.
+
+    Primer resolem la condició contrària, tal com hem fet fins ara:
+
+    $$|x-3|\leq 2 \qquad\Rightarrow\qquad 1 \leq x \leq 5$$
+
+    La solució d'aquesta és l'interval $[1,5]$. Els punts que busquem són els que en queden fora:
+
+    $$(-\infty,1)\cup(5,+\infty)$$
+
+    Comprovem-ho amb dos valors concrets: $x=6$ dona $|6-3|=3$, que sí que és més gran que $2$; en canvi $x=1$ dona $|1-3|=2$, que **no** és més gran que $2$, i per això l'extrem queda exclòs.
+
 ## Inequacions lineals
 
 Una inequació lineal és una desigualtat amb una incògnita on les expressions implicades són polinomis de grau $1$. Ja les vas resoldre en cursos anteriors i el mètode és pràcticament el mateix que amb les equacions de primer grau... amb una diferència important que cal vigilar.
