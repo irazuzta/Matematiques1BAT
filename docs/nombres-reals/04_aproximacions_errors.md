@@ -60,4 +60,26 @@ L'error absolut es mesura en les mateixes unitats que la magnitud, però per si 
     Mateix error absolut, però resultats ben diferents: l'error relatiu deixa clar que un metre és insignificant en 100 km, però inacceptable en la llargada d'una taula.
 
 !!! note "Cota de l'error en un arrodoniment"
-    En arrodonir a $n$ xifres decimals, l'error absolut mai supera mitja unitat de l'última xifra conservada. Per exemple, arrodonint a les centèsimes ($n=2$), l'error és sempre inferior a $0{,}005$.
+    En arrodonir a $n$ xifres decimals, l'error absolut mai supera mitja unitat de l'última xifra conservada. Per exemple, arrodonint a les centèsimes ($n=2$), l'error no supera $0{,}005$.
+
+!!! example "**Exemple:** Comprovació de la cota en arrodonir"
+    Arrodonim $x = 8{,}2793$ a les centèsimes: $x' = 8{,}28$.
+
+    $$E_a = |8{,}2793 - 8{,}28| = 0{,}0007 \leq 0{,}005$$
+
+    Ara mirem el cas més desfavorable: $x = 8{,}275$. Com que la tercera xifra decimal és un $5$, arrodonim a $x' = 8{,}28$, i llavors
+
+    $$E_a = |8{,}275 - 8{,}28| = 0{,}005$$
+
+    Aquí l'error **iguala** la cota: per això en diem cota, un màxim que mai se supera però que sí que es pot arribar a assolir.
+
+!!! example "**Exemple:** Acotar el valor real a partir d'un arrodoniment"
+    Un cronòmetre marca $12{,}4\,\text{s}$, arrodonits a la dècima. Quin marge de valors pot tenir el temps real $t$?
+
+    Com que l'arrodoniment és a $n=1$ xifra decimal, la cota de l'error és $0{,}5 \cdot 10^{-1} = 0{,}05$:
+
+    $$|t - 12{,}4| \leq 0{,}05$$
+
+    Això dona, en principi, $12{,}35 \leq t \leq 12{,}45$. Però cal vigilar l'extrem superior: si $t=12{,}45$, la xifra de les centèsimes és un $5$ i arrodoneix cap amunt, $12{,}45 \to 12{,}5$, no a $12{,}4$. Aquest valor, doncs, no arrodoneix a $12{,}4$ i queda fora:
+
+    $$12{,}35 \leq t < 12{,}45$$
