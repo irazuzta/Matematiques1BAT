@@ -83,3 +83,9 @@ L'error absolut es mesura en les mateixes unitats que la magnitud, però per si 
     Això dona, en principi, $12{,}35 \leq t \leq 12{,}45$. Però cal vigilar l'extrem superior: si $t=12{,}45$, la xifra de les centèsimes és un $5$ i arrodoneix cap amunt, $12{,}45 \to 12{,}5$, no a $12{,}4$. Aquest valor, doncs, no arrodoneix a $12{,}4$ i queda fora:
 
     $$12{,}35 \leq t < 12{,}45$$
+
+    Dit amb notació d'interval:
+
+    $$t \in [12{,}35,\ 12{,}45)$$
+
+    Fixa't en el paral·lelisme amb l'entorn d'un punt de [Intervals i valor absolut](03_intervals_valor_absolut.md#valor-absolut): allà buscàvem els $x$ a una distància menor que $r$ d'un punt $a$, és a dir $|x-a|<r \Leftrightarrow x \in (a-r,\,a+r)$, un interval sempre obert pels dos costats. Aquí el plantejament és el mateix —una distància màxima respecte d'un valor central—, però com que la igualtat sí que es pot arribar a donar en un dels costats (i no en l'altre, per la regla d'arrodoniment), l'interval resultant és semiobert enlloc de totalment obert.
