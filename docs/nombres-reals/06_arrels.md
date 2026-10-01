@@ -269,7 +269,7 @@ Quan els índexs són diferents, no podem aplicar directament el producte o el q
 Vegem ara com combinar aquestes propietats per resoldre problemes habituals: treure les arrels d'un denominador i sumar radicals semblants.
 
 !!! example "**Exemple:** Racionalització de denominadors"
-    Sovint interessa eliminar les arrels del denominador d'una fracció (per exemple, per poder-la sumar amb altres fraccions).
+    Sovint interessa eliminar les arrels del denominador d'una fracció (per exemple, per poder-la sumar amb altres fraccions). Comencem pel cas més habitual, l'arrel quadrada; més endavant veurem què cal fer amb índexs més grans.
 
     1. $$
         \frac{3}{\sqrt{5}}
@@ -292,6 +292,45 @@ Vegem ara com combinar aquestes propietats per resoldre problemes habituals: tre
     $$(a+b)(a-b) = a^2 - b^2.$$
 
     Si $a$ o $b$ són arrels, en elevar-les al quadrat es converteixen en nombres enters, i el denominador queda net de radicals.
+
+!!! tip "Propietat: racionalitzar arrels d'índex més gran que 2"
+    Quan el denominador és una arrel d'índex $n$ amb el radicand elevat a un exponent $k$ (amb $k<n$), és a dir $\sqrt[n]{a^k}$, multipliquem numerador i denominador per $\sqrt[n]{a^{\,n-k}}$: l'exponent que falta perquè la suma arribi a $n$. D'aquesta manera
+
+    $$\sqrt[n]{a^k}\cdot\sqrt[n]{a^{\,n-k}} = \sqrt[n]{a^{n}} = a,$$
+
+    i el radical desapareix del denominador.
+
+    En el cas particular de l'arrel quadrada ($n=2$, $k=1$) l'exponent que falta és també $1$: per això fins ara sempre hem multiplicat "per la mateixa arrel". Amb índexs més grans ja no n'hi ha prou: cal fixar-se en quin exponent falta.
+
+!!! example "**Exemple:** Racionalització amb arrel cúbica, cas senzill"
+    $$
+    \frac{5}{\sqrt[3]{x}}
+    = \frac{5}{\sqrt[3]{x}} \cdot \frac{\sqrt[3]{x^{2}}}{\sqrt[3]{x^{2}}}
+    = \frac{5\sqrt[3]{x^{2}}}{\sqrt[3]{x^{3}}}
+    = \frac{5\sqrt[3]{x^{2}}}{x}.
+    $$
+
+    Al radicand hi havia $x^1$ i l'índex és $3$: ens faltava $x^{3-1}=x^2$ perquè l'exponent arribés a $3$ i l'arrel es convertís en $x$.
+
+!!! example "**Exemple:** Racionalització amb arrel cúbica, radicand amb exponent"
+    $$
+    \frac{1}{\sqrt[3]{x^{2}}}
+    = \frac{1}{\sqrt[3]{x^{2}}} \cdot \frac{\sqrt[3]{x}}{\sqrt[3]{x}}
+    = \frac{\sqrt[3]{x}}{\sqrt[3]{x^{3}}}
+    = \frac{\sqrt[3]{x}}{x}.
+    $$
+
+    Aquesta vegada el radicand ja tenia exponent $2$, així que només faltava $x^{3-2}=x^1$.
+
+!!! example "**Exemple:** Racionalització amb índex 5"
+    $$
+    \frac{4}{\sqrt[5]{x^{3}}}
+    = \frac{4}{\sqrt[5]{x^{3}}} \cdot \frac{\sqrt[5]{x^{2}}}{\sqrt[5]{x^{2}}}
+    = \frac{4\sqrt[5]{x^{2}}}{\sqrt[5]{x^{5}}}
+    = \frac{4\sqrt[5]{x^{2}}}{x}.
+    $$
+
+    Amb índex $5$ i radicand $x^3$, calia completar amb $x^{5-3}=x^2$.
 
 !!! example "**Exemple:** Suma i resta de radicals"
     Només podem sumar o restar radicals amb el mateix índex i el mateix radicand; sovint cal extreure factors primer perquè hi coincideixin:
