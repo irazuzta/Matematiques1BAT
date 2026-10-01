@@ -386,18 +386,34 @@ Resol cada inequació per separat i després interseca les dues solucions.
 - **b)** $\dfrac{1}{\sqrt{n}}$, amb $n\in\mathbb{N}$
 - **c)** $\dfrac{a-b}{\sqrt{a}+\sqrt{b}}$, amb $a,b\in\mathbb{N}$ i $a\neq b$
 
-**70.** Simplifica combinant diverses propietats: $\sqrt{18}+\dfrac{4}{\sqrt2}-\sqrt{50}$.
+**70.** Racionalitza el denominador (arrel cúbica):
 
-**71.** *(aplicat)* Els catets d'un triangle rectangle fan $a=\sqrt{18}$ i $b=\sqrt{32}$. Calcula, simplificant el resultat, la hipotenusa $c=\sqrt{a^2+b^2}$.
+| | |
+|:--|:--|
+| **a)** $\dfrac{2}{\sqrt[3]{x}}$ | **b)** $\dfrac{5}{\sqrt[3]{x^2}}$ |
+| **c)** $\dfrac{3}{\sqrt[3]{2}}$ | **d)** $\dfrac{4}{\sqrt[3]{4}}$ |
+| **e)** $\dfrac{1}{\sqrt[3]{3x}}$, amb $x>0$ | **f)** $\dfrac{10}{\sqrt[3]{25}}$ |
 
-**72.** *(aplicat)* El costat d'un quadrat mesura $\ell=3\sqrt2\,\text{cm}$. Calcula, simplificant:
+**71.** Racionalitza, indicant per quin factor cal multiplicar en cada cas:
+
+- **a)** $\dfrac{6}{\sqrt[4]{x^3}}$
+- **b)** $\dfrac{2}{\sqrt[5]{x^2}}$, amb $x>0$
+- **c)** $\dfrac{2}{\sqrt[3]{4x^2}}$, amb $x>0$
+- **d)** $\dfrac{3}{2\sqrt[4]{x^3}}$, amb $x>0$
+- **e)** $\dfrac{a}{\sqrt[n]{a^{n-1}}}$, amb $a>0$ i $n\in\mathbb{N}$, $n\geq 2$
+
+**72.** Simplifica combinant diverses propietats: $\sqrt{18}+\dfrac{4}{\sqrt2}-\sqrt{50}$.
+
+**73.** *(aplicat)* Els catets d'un triangle rectangle fan $a=\sqrt{18}$ i $b=\sqrt{32}$. Calcula, simplificant el resultat, la hipotenusa $c=\sqrt{a^2+b^2}$.
+
+**74.** *(aplicat)* El costat d'un quadrat mesura $\ell=3\sqrt2\,\text{cm}$. Calcula, simplificant:
 
 - **a)** L'àrea del quadrat.
 - **b)** La diagonal (recorda que la diagonal d'un quadrat de costat $\ell$ és $\ell\sqrt2$).
 
-**73.** Comprova, amb $a=9$ i $b=4$, que $\sqrt{a+b}\neq\sqrt{a}+\sqrt{b}$ en general. Calcula els dos costats i compara.
+**75.** Comprova, amb $a=9$ i $b=4$, que $\sqrt{a+b}\neq\sqrt{a}+\sqrt{b}$ en general. Calcula els dos costats i compara.
 
-**74.** Simplifica $\dfrac{\sqrt{x^5}}{\sqrt{x}}$, amb $x>0$, sense radicals al denominador i amb l'exponent més senzill possible.
+**76.** Simplifica $\dfrac{\sqrt{x^5}}{\sqrt{x}}$, amb $x>0$, sense radicals al denominador i amb l'exponent més senzill possible.
 
 ---
 
@@ -405,21 +421,21 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 ### 6.1 Definició i càlcul directe
 
-**75.** Escriu en forma de logaritme:
+**77.** Escriu en forma de logaritme:
 
 | | |
 |:--|:--|
 | **a)** $2^5=32$ | **b)** $10^3=1000$ |
 | **c)** $5^0=1$ | **d)** $3^{-2}=\dfrac{1}{9}$ |
 
-**76.** Escriu en forma de potència:
+**78.** Escriu en forma de potència:
 
 | | |
 |:--|:--|
 | **a)** $\log_2 16=4$ | **b)** $\log 100=2$ |
 | **c)** $\log_3 1=0$ | **d)** $\log_5 5=1$ |
 
-**77.** Calcula sense calculadora:
+**79.** Calcula sense calculadora:
 
 | | |
 |:--|:--|
@@ -427,7 +443,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 | **c)** $\log 10000$ | **d)** $\log_5 1$ |
 | **e)** $\log_7 7$ | **f)** $\ln e$ |
 
-**78.** Calcula sense calculadora, escrivint prèviament el nombre com una potència de la base:
+**80.** Calcula sense calculadora, escrivint prèviament el nombre com una potència de la base:
 
 | | |
 |:--|:--|
@@ -436,45 +452,45 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 ### 6.2 Propietats amb valors numèrics
 
-**79.** Aplica la propietat del logaritme d'un producte per desenvolupar:
+**81.** Aplica la propietat del logaritme d'un producte per desenvolupar:
 
 - **a)** $\log_2\left(4\cdot 8\right)$
 - **b)** $\log\left(5\cdot 20\right)$
 - **c)** $\log_3\left(x\cdot y\right)$, amb $x,y>0$
 
-**80.** Aplica la propietat del logaritme d'un quocient:
+**82.** Aplica la propietat del logaritme d'un quocient:
 
 - **a)** $\log_2 \dfrac{32}{4}$
 - **b)** $\log \dfrac{1000}{10}$
 - **c)** $\log_5 \dfrac{x}{25}$, amb $x>0$
 
-**81.** Aplica la propietat de la potència:
+**83.** Aplica la propietat de la potència:
 
 | | |
 |:--|:--|
 | **a)** $\log_2 8^5$ | **b)** $\log_3 9^{-2}$ |
 | **c)** $\log\left(10^7\right)$ | **d)** $\log_a a^n$ |
 
-**82.** Aplica la propietat de l'arrel:
+**84.** Aplica la propietat de l'arrel:
 
 - **a)** $\log_2 \sqrt[3]{8}$
 - **b)** $\log_5\sqrt{25}$
 - **c)** $\log_3\sqrt[4]{81}$
 
-**83.** Desenvolupa aplicant totes les propietats necessàries: $\log_2\left(\dfrac{8\sqrt2}{4}\right)$.
+**85.** Desenvolupa aplicant totes les propietats necessàries: $\log_2\left(\dfrac{8\sqrt2}{4}\right)$.
 
-**84.** Desenvolupa: $\log\left(\dfrac{100\cdot\sqrt{10}}{1000}\right)$.
+**86.** Desenvolupa: $\log\left(\dfrac{100\cdot\sqrt{10}}{1000}\right)$.
 
-**85.** Redueix a un sol logaritme:
+**87.** Redueix a un sol logaritme:
 
 | | |
 |:--|:--|
 | **a)** $\log_2 5+\log_2 3$ | **b)** $\log 20-\log 4$ |
 | **c)** $3\log_5 2$ | **d)** $\dfrac12 \log_3 9$ |
 
-**86.** Redueix a un sol logaritme i calcula'n el valor: $2\log_2 3-\log_2 \dfrac{9}{4}$.
+**88.** Redueix a un sol logaritme i calcula'n el valor: $2\log_2 3-\log_2 \dfrac{9}{4}$.
 
-**87.** Utilitza el canvi de base per expressar en base $10$ (deixa'l indicat, sense calcular-lo):
+**89.** Utilitza el canvi de base per expressar en base $10$ (deixa'l indicat, sense calcular-lo):
 
 - **a)** $\log_2 7$
 - **b)** $\log_5 12$
@@ -483,35 +499,35 @@ Resol cada inequació per separat i després interseca les dues solucions.
 
 > En tots els exercicis d'aquest apartat, suposem $a>0$, $a\neq1$, i totes les variables ($x$, $y$, $z$) estrictament positives.
 
-**88.** Desenvolupa aplicant les propietats dels logaritmes:
+**90.** Desenvolupa aplicant les propietats dels logaritmes:
 
 | | |
 |:--|:--|
 | **a)** $\log_a\left(x^3 y^2\right)$ | **b)** $\log_a \dfrac{x^2}{y^3}$ |
 | **c)** $\log_a \dfrac{xy}{z}$ | **d)** $\log_a \sqrt{x}$ |
 
-**89.** Desenvolupa completament, fins que no quedi cap producte, quocient, potència ni arrel dins d'un logaritme:
+**91.** Desenvolupa completament, fins que no quedi cap producte, quocient, potència ni arrel dins d'un logaritme:
 
 | | |
 |:--|:--|
 | **a)** $\log_a \dfrac{x^3\sqrt{y}}{z^2}$ | **b)** $\log_a \sqrt{\dfrac{x}{y}}$ |
 | **c)** $\log_a \dfrac{x^2\sqrt[3]{y}}{z}$ | **d)** $\log_a \left(x\sqrt{yz}\right)$ |
 
-**90.** Redueix a un sol logaritme:
+**92.** Redueix a un sol logaritme:
 
 | | |
 |:--|:--|
 | **a)** $2\log_a x+3\log_a y$ | **b)** $\log_a x-\dfrac12\log_a y$ |
 | **c)** $\log_a x+\log_a y-\log_a z$ | **d)** $4\log_a x$ |
 
-**91.** Redueix a un sol logaritme:
+**93.** Redueix a un sol logaritme:
 
 | | |
 |:--|:--|
 | **a)** $3\log_a x-\log_a y-2\log_a z$ | **b)** $\dfrac12\left(\log_a x+\log_a y\right)$ |
 | **c)** $2\log_a x-\dfrac13\log_a y$ | **d)** $\dfrac13\log_a x+\dfrac23\log_a y-\log_a z$ |
 
-**92.** Sabent que $\log_a 2=m$ i $\log_a 3=n$, expressa en funció de $m$ i $n$:
+**94.** Sabent que $\log_a 2=m$ i $\log_a 3=n$, expressa en funció de $m$ i $n$:
 
 | | |
 |:--|:--|
@@ -519,7 +535,7 @@ Resol cada inequació per separat i després interseca les dues solucions.
 | **c)** $\log_a \dfrac{3}{2}$ | **d)** $\log_a \sqrt{2}$ |
 | **e)** $\log_a 18$ | **f)** $\log_a \dfrac{8}{9}$ |
 
-**93.** Sabent que $\log 2 \approx 0{,}301$, calcula sense calculadora (recorda que $\log 10=1$):
+**95.** Sabent que $\log 2 \approx 0{,}301$, calcula sense calculadora (recorda que $\log 10=1$):
 
 | | |
 |:--|:--|
@@ -527,58 +543,58 @@ Resol cada inequació per separat i després interseca les dues solucions.
 | **c)** $\log 50$ | **d)** $\log 0{,}2$ |
 | **e)** $\log \sqrt{2}$ | **f)** $\log 40$ |
 
-**94.** Anomenem $L=\log_a x$. Expressa en funció de $L$ i simplifica al màxim:
+**96.** Anomenem $L=\log_a x$. Expressa en funció de $L$ i simplifica al màxim:
 
 $$\log_a x^2-\log_a \sqrt{x}+\log_a \dfrac{1}{x}$$
 
-**95.** Demostra, utilitzant el canvi de base, que per a qualsevol $a,b>0$ amb $a\neq1$ i $b\neq1$ es compleix
+**97.** Demostra, utilitzant el canvi de base, que per a qualsevol $a,b>0$ amb $a\neq1$ i $b\neq1$ es compleix
 
 $$\log_a b \cdot \log_b a = 1$$
 
-**96.** Demostra que $\log_{a^2} x = \dfrac12 \log_a x$. *(Indicació: aplica el canvi de base a la base $a$.)*
+**98.** Demostra que $\log_{a^2} x = \dfrac12 \log_a x$. *(Indicació: aplica el canvi de base a la base $a$.)*
 
 ### 6.4 Aplicacions
 
-**97.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0\left(1+i\right)^t$ i el logaritme per aïllar $t$.)*
+**99.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0\left(1+i\right)^t$ i el logaritme per aïllar $t$.)*
 
-**98.** *(aplicat)* La magnitud $M$ d'un terratrèmol (escala de Richter) es relaciona amb l'energia alliberada $E$ mitjançant $M=\dfrac{2}{3}\log\left(\dfrac{E}{E_0}\right)$, amb $E_0$ constant. Si un terratrèmol allibera $1000$ vegades més energia que un altre ($E=1000\,E_1$), quant més gran és la seva magnitud $M$ respecte a $M_1$? *(Calcula $M-M_1$.)*
+**100.** *(aplicat)* La magnitud $M$ d'un terratrèmol (escala de Richter) es relaciona amb l'energia alliberada $E$ mitjançant $M=\dfrac{2}{3}\log\left(\dfrac{E}{E_0}\right)$, amb $E_0$ constant. Si un terratrèmol allibera $1000$ vegades més energia que un altre ($E=1000\,E_1$), quant més gran és la seva magnitud $M$ respecte a $M_1$? *(Calcula $M-M_1$.)*
 
 ---
 
 ## 7. Problemes de repàs i aplicacions
 
-**99.** *(repàs)* Simplifica combinant potències i arrels: $\sqrt{2^6}\cdot 2^{-1}$.
+**101.** *(repàs)* Simplifica combinant potències i arrels: $\sqrt{2^6}\cdot 2^{-1}$.
 
-**100.** *(repàs)* Calcula, en notació científica: $\left(2\cdot10^3\right)^2 \cdot \left(5\cdot10^{-2}\right)$.
+**102.** *(repàs)* Calcula, en notació científica: $\left(2\cdot10^3\right)^2 \cdot \left(5\cdot10^{-2}\right)$.
 
-**101.** *(repàs)* Simplifica $\sqrt{\dfrac{4\cdot10^{-2}}{9}}$ i expressa el resultat com una fracció.
+**103.** *(repàs)* Simplifica $\sqrt{\dfrac{4\cdot10^{-2}}{9}}$ i expressa el resultat com una fracció.
 
-**102.** *(repàs)* Troba l'interval solució de $|x-3|<\sqrt{16}$.
+**104.** *(repàs)* Troba l'interval solució de $|x-3|<\sqrt{16}$.
 
-**103.** *(repàs)* Calcula l'error relatiu, en tant per cent, de l'aproximació $\sqrt2 \approx 1{,}414$ (arrodoneix a $3$ xifres decimals).
+**105.** *(repàs)* Calcula l'error relatiu, en tant per cent, de l'aproximació $\sqrt2 \approx 1{,}414$ (arrodoneix a $3$ xifres decimals).
 
-**104.** *(repàs · aplicat)* Una població de bacteris es multiplica per $2$ cada hora, segons $N\left(t\right)=N_0\cdot 2^t$, amb $N_0=500$.
+**106.** *(repàs · aplicat)* Una població de bacteris es multiplica per $2$ cada hora, segons $N\left(t\right)=N_0\cdot 2^t$, amb $N_0=500$.
 
 - **a)** Quants bacteris hi ha al cap de $5$ hores?
 - **b)** Quantes hores calen perquè la població arribi a $64\,000$ bacteris?
 
-**105.** *(repàs · aplicat)* Un dipòsit cúbic té un volum de $V=125\,\text{m}^3$.
+**107.** *(repàs · aplicat)* Un dipòsit cúbic té un volum de $V=125\,\text{m}^3$.
 
 - **a)** Calcula, sense calculadora, l'aresta del cub ($V=a^3 \Rightarrow a=\sqrt[3]{V}$).
 - **b)** Si es vol doblar el volum, quina hauria de ser la nova aresta $a'$? Deixa-la com a radical simplificat.
 
-**106.** *(repàs · aplicat)* La intensitat sonora $\beta$ (en decibels) es calcula com $\beta=10\log\left(\dfrac{I}{I_0}\right)$, amb $I_0=10^{-12}\,\text{W/m}^2$ el llindar d'audició. Calcula la intensitat sonora, en decibels, d'un so amb $I=10^{-4}\,\text{W/m}^2$.
+**108.** *(repàs · aplicat)* La intensitat sonora $\beta$ (en decibels) es calcula com $\beta=10\log\left(\dfrac{I}{I_0}\right)$, amb $I_0=10^{-12}\,\text{W/m}^2$ el llindar d'audició. Calcula la intensitat sonora, en decibels, d'un so amb $I=10^{-4}\,\text{W/m}^2$.
 
-**107.** *(repàs global)* Simplifica pas a pas fins a obtenir un únic nombre:
+**109.** *(repàs global)* Simplifica pas a pas fins a obtenir un únic nombre:
 
 $$\dfrac{\sqrt{50}-\sqrt{8}}{\sqrt2} + \log_2 16 - |{-3}|$$
 
-**108.** *(repàs global)* Considera $A=\dfrac{3^2\cdot\sqrt4}{3}$ i $B=\log_2\left(\dfrac{32}{4}\right)$.
+**110.** *(repàs global)* Considera $A=\dfrac{3^2\cdot\sqrt4}{3}$ i $B=\log_2\left(\dfrac{32}{4}\right)$.
 
 - **a)** Calcula el valor numèric de $A$ i de $B$.
 - **b)** Troba l'interval solució de $|x-A|<B$.
 
-**109.** Digues si cada afirmació és certa o falsa. Si és falsa, dona un contraexemple:
+**111.** Digues si cada afirmació és certa o falsa. Si és falsa, dona un contraexemple:
 
 - **a)** $\sqrt{a^2}=a$ per a tot $a\in\mathbb{R}$.
 - **b)** $|a+b|=|a|+|b|$ per a tot $a,b\in\mathbb{R}$.
@@ -587,7 +603,7 @@ $$\dfrac{\sqrt{50}-\sqrt{8}}{\sqrt2} + \log_2 16 - |{-3}|$$
 - **e)** Si $|x|<3$, aleshores $x<3$.
 - **f)** $\left(a+b\right)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
 
-**110.** *(aplicat)* El període d'oscil·lació $T$ d'un pèndol simple de longitud $L$ ve donat per
+**112.** *(aplicat)* El període d'oscil·lació $T$ d'un pèndol simple de longitud $L$ ve donat per
 
 $$T=2\pi\sqrt{\dfrac{L}{g}},$$
 

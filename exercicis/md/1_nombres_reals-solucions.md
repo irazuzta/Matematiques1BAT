@@ -79,48 +79,50 @@
 **67.** a) $\dfrac{2\sqrt3}{3}$ · b) $\dfrac{\sqrt3}{2}$ · c) $\dfrac{2\sqrt5}{3}$.
 **68.** a) $\sqrt5+2$ · b) $\dfrac{\sqrt7-1}{2}$ · c) $\dfrac{6+2\sqrt2}{7}$.
 **69.** a) $5\sqrt3+5\sqrt2$ · b) $\dfrac{\sqrt n}{n}$ · c) $\sqrt a-\sqrt b$.
-**70.** $0$.
-**71.** $c=5\sqrt2$.
-**72.** a) $18\,\text{cm}^2$ · b) $6\,\text{cm}$.
-**73.** $\sqrt{13}\approx3{,}606\neq5$.
-**74.** $x^2$.
+**70.** a) $\dfrac{2\sqrt[3]{x^2}}{x}$ · b) $\dfrac{5\sqrt[3]{x}}{x}$ · c) $\dfrac{3\sqrt[3]{4}}{2}$ · d) $2\sqrt[3]{2}$ · e) $\dfrac{\sqrt[3]{9x^2}}{3x}$ · f) $2\sqrt[3]{5}$.
+**71.** a) $\dfrac{6\sqrt[4]{x}}{x}$ · b) $\dfrac{2\sqrt[5]{x^3}}{x}$ · c) $\dfrac{\sqrt[3]{2x}}{x}$ · d) $\dfrac{3\sqrt[4]{x}}{2x}$ · e) $\sqrt[n]{a}$.
+**72.** $0$.
+**73.** $c=5\sqrt2$.
+**74.** a) $18\,\text{cm}^2$ · b) $6\,\text{cm}$.
+**75.** $\sqrt{13}\approx3{,}606\neq5$.
+**76.** $x^2$.
 
 **Bloc 6.**
-**75.** a) $\log_2 32=5$ · b) $\log 1000=3$ · c) $\log_5 1=0$ · d) $\log_3\tfrac19=-2$.
-**76.** a) $2^4=16$ · b) $10^2=100$ · c) $3^0=1$ · d) $5^1=5$.
-**77.** a) $3$ · b) $4$ · c) $4$ · d) $0$ · e) $1$ · f) $1$.
-**78.** a) $-2$ · b) $-3$ · c) $\tfrac12$ · d) $\tfrac23$.
-**79.** a) $2+3=5$ · b) $\log5+\log20=2$ · c) $\log_3x+\log_3y$.
-**80.** a) $5-2=3$ · b) $3-1=2$ · c) $\log_5x-2$.
-**81.** a) $15$ · b) $-4$ · c) $7$ · d) $n$.
-**82.** a) $1$ · b) $1$ · c) $1$.
-**83.** $1{,}5$.
-**84.** $-0{,}5$.
-**85.** a) $\log_2 15$ · b) $\log 5$ · c) $\log_5 8$ · d) $\log_3 3=1$.
-**86.** $\log_2 4=2$.
-**87.** a) $\dfrac{\log 7}{\log 2}$ · b) $\dfrac{\log 12}{\log 5}$.
-**88.** a) $3\log_a x+2\log_a y$ · b) $2\log_a x-3\log_a y$ · c) $\log_a x+\log_a y-\log_a z$ · d) $\tfrac12\log_a x$.
-**89.** a) $3\log_a x+\tfrac12\log_a y-2\log_a z$ · b) $\tfrac12\left(\log_a x-\log_a y\right)$ · c) $2\log_a x+\tfrac13\log_a y-\log_a z$ · d) $\log_a x+\tfrac12\log_a y+\tfrac12\log_a z$.
-**90.** a) $\log_a\left(x^2y^3\right)$ · b) $\log_a\dfrac{x}{\sqrt y}$ · c) $\log_a\dfrac{xy}{z}$ · d) $\log_a x^4$.
-**91.** a) $\log_a\dfrac{x^3}{yz^2}$ · b) $\log_a\sqrt{xy}$ · c) $\log_a\dfrac{x^2}{\sqrt[3]{y}}$ · d) $\log_a\dfrac{\sqrt[3]{xy^2}}{z}$.
-**92.** a) $m+n$ · b) $2m+n$ · c) $n-m$ · d) $\tfrac{m}{2}$ · e) $m+2n$ · f) $3m-2n$.
-**93.** a) $0{,}699$ · b) $0{,}602$ · c) $1{,}699$ · d) $-0{,}699$ · e) $0{,}1505$ · f) $1{,}602$.
-**94.** $\tfrac12 L$ (ja que $2L-\tfrac12L-L=\tfrac12L$).
-**95.** Pel canvi de base, $\log_b a=\dfrac{\log_a a}{\log_a b}=\dfrac{1}{\log_a b}$. Per tant $\log_a b\cdot\log_b a=\log_a b\cdot\dfrac{1}{\log_a b}=1$.
-**96.** $\log_{a^2}x=\dfrac{\log_a x}{\log_a a^2}=\dfrac{\log_a x}{2}=\tfrac12\log_a x$.
-**97.** $\approx8{,}6$ anys.
-**98.** $M-M_1=2$.
+**77.** a) $\log_2 32=5$ · b) $\log 1000=3$ · c) $\log_5 1=0$ · d) $\log_3\tfrac19=-2$.
+**78.** a) $2^4=16$ · b) $10^2=100$ · c) $3^0=1$ · d) $5^1=5$.
+**79.** a) $3$ · b) $4$ · c) $4$ · d) $0$ · e) $1$ · f) $1$.
+**80.** a) $-2$ · b) $-3$ · c) $\tfrac12$ · d) $\tfrac23$.
+**81.** a) $2+3=5$ · b) $\log5+\log20=2$ · c) $\log_3x+\log_3y$.
+**82.** a) $5-2=3$ · b) $3-1=2$ · c) $\log_5x-2$.
+**83.** a) $15$ · b) $-4$ · c) $7$ · d) $n$.
+**84.** a) $1$ · b) $1$ · c) $1$.
+**85.** $1{,}5$.
+**86.** $-0{,}5$.
+**87.** a) $\log_2 15$ · b) $\log 5$ · c) $\log_5 8$ · d) $\log_3 3=1$.
+**88.** $\log_2 4=2$.
+**89.** a) $\dfrac{\log 7}{\log 2}$ · b) $\dfrac{\log 12}{\log 5}$.
+**90.** a) $3\log_a x+2\log_a y$ · b) $2\log_a x-3\log_a y$ · c) $\log_a x+\log_a y-\log_a z$ · d) $\tfrac12\log_a x$.
+**91.** a) $3\log_a x+\tfrac12\log_a y-2\log_a z$ · b) $\tfrac12\left(\log_a x-\log_a y\right)$ · c) $2\log_a x+\tfrac13\log_a y-\log_a z$ · d) $\log_a x+\tfrac12\log_a y+\tfrac12\log_a z$.
+**92.** a) $\log_a\left(x^2y^3\right)$ · b) $\log_a\dfrac{x}{\sqrt y}$ · c) $\log_a\dfrac{xy}{z}$ · d) $\log_a x^4$.
+**93.** a) $\log_a\dfrac{x^3}{yz^2}$ · b) $\log_a\sqrt{xy}$ · c) $\log_a\dfrac{x^2}{\sqrt[3]{y}}$ · d) $\log_a\dfrac{\sqrt[3]{xy^2}}{z}$.
+**94.** a) $m+n$ · b) $2m+n$ · c) $n-m$ · d) $\tfrac{m}{2}$ · e) $m+2n$ · f) $3m-2n$.
+**95.** a) $0{,}699$ · b) $0{,}602$ · c) $1{,}699$ · d) $-0{,}699$ · e) $0{,}1505$ · f) $1{,}602$.
+**96.** $\tfrac12 L$ (ja que $2L-\tfrac12L-L=\tfrac12L$).
+**97.** Pel canvi de base, $\log_b a=\dfrac{\log_a a}{\log_a b}=\dfrac{1}{\log_a b}$. Per tant $\log_a b\cdot\log_b a=\log_a b\cdot\dfrac{1}{\log_a b}=1$.
+**98.** $\log_{a^2}x=\dfrac{\log_a x}{\log_a a^2}=\dfrac{\log_a x}{2}=\tfrac12\log_a x$.
+**99.** $\approx8{,}6$ anys.
+**100.** $M-M_1=2$.
 
 **Bloc 7.**
-**99.** $4$.
-**100.** $2\cdot10^5$.
-**101.** $\tfrac1{15}$.
-**102.** $\left(-1,7\right)$.
-**103.** $\approx0{,}015\%$.
-**104.** a) $16\,000$ · b) $7$ hores.
-**105.** a) $5\,\text{m}$ · b) $5\sqrt[3]{2}\,\text{m}$.
-**106.** $80\,\text{dB}$.
-**107.** $4$.
-**108.** a) $A=6$, $B=3$ · b) $\left(3,9\right)$.
-**109.** a) F ($a=-2$: $\sqrt{4}=2\neq-2$; en realitat $\sqrt{a^2}=|a|$) · b) F ($a=1$, $b=-1$: $0\neq2$) · c) F ($x=y=1$: $\log2\neq0$) · d) C · e) C · f) F ($a=b=1$: $4\neq2$).
-**110.** Si $T_2=2T_1$, aleshores $2\pi\sqrt{\tfrac{L_2}{g}}=2\cdot2\pi\sqrt{\tfrac{L_1}{g}}$. Simplificant $2\pi$ i $g$: $\sqrt{L_2}=2\sqrt{L_1}$. Elevant al quadrat, $L_2=4L_1$.
+**101.** $4$.
+**102.** $2\cdot10^5$.
+**103.** $\tfrac1{15}$.
+**104.** $\left(-1,7\right)$.
+**105.** $\approx0{,}015\%$.
+**106.** a) $16\,000$ · b) $7$ hores.
+**107.** a) $5\,\text{m}$ · b) $5\sqrt[3]{2}\,\text{m}$.
+**108.** $80\,\text{dB}$.
+**109.** $4$.
+**110.** a) $A=6$, $B=3$ · b) $\left(3,9\right)$.
+**111.** a) F ($a=-2$: $\sqrt{4}=2\neq-2$; en realitat $\sqrt{a^2}=|a|$) · b) F ($a=1$, $b=-1$: $0\neq2$) · c) F ($x=y=1$: $\log2\neq0$) · d) C · e) C · f) F ($a=b=1$: $4\neq2$).
+**112.** Si $T_2=2T_1$, aleshores $2\pi\sqrt{\tfrac{L_2}{g}}=2\cdot2\pi\sqrt{\tfrac{L_1}{g}}$. Simplificant $2\pi$ i $g$: $\sqrt{L_2}=2\sqrt{L_1}$. Elevant al quadrat, $L_2=4L_1$.
