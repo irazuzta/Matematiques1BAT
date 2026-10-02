@@ -149,16 +149,6 @@ Hi ha tres casos de multiplicació de polinomis que apareixen tan sovint que val
 
     Fixa't que $(2x^2)^2=4x^4$ (quadrem el coeficient $2$ i apliquem $(x^2)^2=x^4$), no $2x^4$.
 
-!!! tip "Quan els dos termes són negatius"
-    Si els dos termes dins el parèntesi són negatius, pots treure signe menys factor comú abans d'elevar al quadrat, ja que $(-u)^2=u^2$:
-
-    $$(-x-4y)^2=\left[-(x+4y)\right]^2=(x+4y)^2=x^2+8xy+16y^2$$
-
-    (També es pot fer directament amb $a=-x$, $b=-4y$: dona el mateix resultat.)
-
-!!! note "Les identitats, llegides a l'inrevés"
-    Les mateixes identitats es poden llegir de dreta a esquerra per **reconèixer** si una expressió ja desenvolupada prové d'un quadrat o d'una suma per diferència. Per exemple, $4x^2-12x+9=(2x-3)^2$. Aquesta lectura inversa serà molt útil en factoritzar polinomis, en l'apartat següent.
-
 ## Divisió de polinomis
 
 !!! example "**Exemple:** Divisió de polinomis"
