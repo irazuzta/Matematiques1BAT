@@ -116,6 +116,49 @@ Per multiplicar dos polinomis, apliquem la **propietat distributiva**: multipliq
 
     En l'exemple anterior: $\text{grau}(p)=2$, $\text{grau}(q)=1$, i el producte té grau $2+1=3$, tal com esperàvem.
 
+## Identitats notables
+
+Hi ha tres casos de multiplicació de polinomis que apareixen tan sovint que val la pena reconèixer-los i calcular-los directament, sense haver de fer tota la distributiva.
+
+!!! abstract "Definició: les tres identitats notables"
+    Per a qualssevol expressions $a$ i $b$:
+
+    - **Quadrat d'una suma:** $(a+b)^2=a^2+2ab+b^2$
+    - **Quadrat d'una diferència:** $(a-b)^2=a^2-2ab+b^2$
+    - **Suma per diferència:** $(a+b)(a-b)=a^2-b^2$
+
+!!! example "**Exemple:** Aplicació directa"
+    $$(x+3)^2=x^2+6x+9$$
+
+    $$(x-5)^2=x^2-10x+25$$
+
+    $$(x+4)(x-4)=x^2-16$$
+
+!!! tip "Quan $a$ o $b$ porten coeficient o exponent"
+    Si $a$ (o $b$) és ell mateix un monomi amb coeficient i/o exponent, cal elevar-lo **sencer** al quadrat, aplicant les propietats de les potències: $\left(k\cdot x^n\right)^2=k^2\cdot x^{2n}$.
+
+!!! example "**Exemple:** Identitat amb coeficients i exponents"
+    Desenvolupem $(2x^2-3y)^2$. Aquí $a=2x^2$ i $b=3y$:
+
+    $$
+    \begin{aligned}
+    (2x^2-3y)^2 &= (2x^2)^2 - 2\cdot(2x^2)\cdot(3y) + (3y)^2 \\
+    &= 4x^4 - 12x^2y + 9y^2
+    \end{aligned}
+    $$
+
+    Fixa't que $(2x^2)^2=4x^4$ (quadrem el coeficient $2$ i apliquem $(x^2)^2=x^4$), no $2x^4$.
+
+!!! tip "Quan els dos termes són negatius"
+    Si els dos termes dins el parèntesi són negatius, pots treure signe menys factor comú abans d'elevar al quadrat, ja que $(-u)^2=u^2$:
+
+    $$(-x-4y)^2=\left[-(x+4y)\right]^2=(x+4y)^2=x^2+8xy+16y^2$$
+
+    (També es pot fer directament amb $a=-x$, $b=-4y$: dona el mateix resultat.)
+
+!!! note "Les identitats, llegides a l'inrevés"
+    Les mateixes identitats es poden llegir de dreta a esquerra per **reconèixer** si una expressió ja desenvolupada prové d'un quadrat o d'una suma per diferència. Per exemple, $4x^2-12x+9=(2x-3)^2$. Aquesta lectura inversa serà molt útil en factoritzar polinomis, en l'apartat següent.
+
 ## Divisió de polinomis
 
 !!! example "**Exemple:** Divisió de polinomis"
