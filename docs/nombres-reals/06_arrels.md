@@ -67,31 +67,23 @@ Això només és cert quan $\sqrt[n]{a}$ existeix com a nombre real, i això dep
 
 ## Arrels com a potències
 
-Una arrel no és res més que una potència mirada del revés: $b$ és arrel $n$-èsima d'$a$ quan $b^n=a$.
+Fins ara l'exponent sempre ha estat un nombre enter. Però, què hauria de significar una potència amb exponent $\tfrac1n$? Per decidir-ho no partim de zero: exigim que es compleixin les mateixes propietats de les potències que ja coneixem, en particular la de la potència d'una potència:
 
-$$
-b^n=a
-\quad \Longleftrightarrow \quad
-b=\text{arrel $n$-èsima d'}a.
-$$
+$$\left(a^p\right)^q = a^{p\cdot q}.$$
 
-Ja sabem que $\left(\sqrt[n]{a}\right)^n = a$. Elevem tots dos costats d'aquesta igualtat a l'exponent $\tfrac{1}{n}$:
+Si volem que aquesta propietat també sigui certa amb exponents fraccionaris, aleshores $a^{\tfrac1n}$ hauria de complir
 
-$$
-\left(\left(\sqrt[n]{a}\right)^n\right)^{\tfrac{1}{n}} = a^{\tfrac{1}{n}}.
-$$
+$$\left(a^{\tfrac1n}\right)^n = a^{\tfrac1n \cdot n} = a^1 = a.$$
 
-Al costat esquerre apliquem la propietat de la potència d'una potència (multiplicar els exponents): $n \cdot \tfrac{1}{n}=1$, així que
+És a dir: $a^{\tfrac1n}$ ha de ser un nombre que, elevat a $n$, torni a donar $a$.
 
-$$
-\left(\sqrt[n]{a}\right)^{n \cdot \tfrac{1}{n}} = \left(\sqrt[n]{a}\right)^{1} = \sqrt[n]{a}.
-$$
+Però això és exactament la definició d'arrel $n$-èsima que acabem de veure: $\sqrt[n]{a}$ és, per definició, un nombre tal que $\left(\sqrt[n]{a}\right)^n=a$.
 
-I per tant, a la força:
+Tant $a^{\tfrac1n}$ com $\sqrt[n]{a}$ compleixen, doncs, la mateixa condició. I com que (sota les mateixes condicions d'existència que ja hem vist: $a\geq0$ si $n$ és parell, qualsevol $a$ si $n$ és senar) només hi ha un nombre real que la compleixi —l'arrel principal—, necessàriament han de coincidir:
 
-$$\sqrt[n]{a} = a^{\tfrac{1}{n}}.$$
+$$a^{\tfrac1n} = \sqrt[n]{a}.$$
 
-No és una tria arbitrària de notació: és una conseqüència directa de les propietats de les potències. Arribem així a la definició següent:
+No és, doncs, una tria arbitrària de notació: és l'única manera de definir l'exponent $\tfrac1n$ que no trenca les propietats de les potències que ja coneixies. Arribem així a la definició següent:
 
 !!! abstract "Definició: expressió d'un radical com a potència"
     Siguin $m,n \in \mathbb{N}$ amb $n>0$. Definim
