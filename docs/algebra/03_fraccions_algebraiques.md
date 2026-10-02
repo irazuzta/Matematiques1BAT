@@ -1,5 +1,49 @@
 # Fraccions algebraiques
 
+## Màxim comú divisor i mínim comú múltiple de polinomis
+
+Abans d'operar amb fraccions algebraiques, ens convé saber calcular el MCD i el MCM de polinomis: els farem servir tot seguit per simplificar i per reduir a denominador comú.
+
+!!! abstract "Definició: MCD i MCM de polinomis"
+    Donats dos polinomis $A(x)$ i $B(x)$, el seu **màxim comú divisor** $\text{MCD}[A(x),B(x)]$ és el polinomi de grau més gran que divideix alhora $A(x)$ i $B(x)$; el seu **mínim comú múltiple** $\text{MCM}[A(x),B(x)]$ és el polinomi de grau més petit que és múltiple alhora d'$A(x)$ i $B(x)$.
+
+    Es calculen igual que amb els nombres enters: factoritzem els dos polinomis i...
+
+    - El MCD és el producte dels factors **comuns**, cadascun amb l'**exponent més petit** amb què apareix.
+    - El MCM és el producte de **tots** els factors (comuns o no), cadascun amb l'**exponent més gran** amb què apareix.
+
+!!! example "**Exemple:** MCD i MCM sense factors repetits"
+    Calculem el MCD i el MCM de $A(x)=x^2-4$ i $B(x)=x^2+x-6$.
+
+    Factoritzem tots dos:
+
+    $$A(x) = (x-2)(x+2) \qquad B(x) = (x-2)(x+3)$$
+
+    L'únic factor comú és $(x-2)$, amb exponent $1$ als dos polinomis:
+
+    $$\text{MCD}[A(x),B(x)] = x-2$$
+
+    El MCM inclou tots els factors que apareixen (comuns o no), cadascun amb l'exponent més gran:
+
+    $$\text{MCM}[A(x),B(x)] = (x-2)(x+2)(x+3)$$
+
+!!! example "**Exemple:** MCD i MCM amb un factor repetit"
+    Calculem el MCD i el MCM de $A(x)=x^3-2x^2+x$ i $B(x)=x^2-x$.
+
+    Factoritzem:
+
+    $$A(x) = x(x-1)^2 \qquad B(x) = x(x-1)$$
+
+    Els factors comuns són $x$ i $(x-1)$. Per al MCD ens quedem amb l'exponent més petit de cadascun ($x^1$ i $(x-1)^1$):
+
+    $$\text{MCD}[A(x),B(x)] = x(x-1)$$
+
+    Per al MCM ens quedem amb l'exponent més gran de cadascun ($x^1$ i $(x-1)^2$):
+
+    $$\text{MCM}[A(x),B(x)] = x(x-1)^2$$
+
+    (En aquest cas, com que $A(x)$ ja conté tots els factors de $B(x)$ amb exponent igual o més gran, el MCM coincideix amb $A(x)$ mateix.)
+
 ## Definició i simplificació
 
 Igual que les fraccions numèriques es formen amb dos nombres enters, les fraccions algebraiques es formen amb dos polinomis, i es comporten de manera molt semblant.
@@ -13,7 +57,7 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
 !!! example "**Exemple:** Simplificació d'una fracció algebraica"
     Simplifiquem $\dfrac{x^2-4}{x^2+x-6}$.
 
-    Factoritzem numerador i denominador:
+    Factoritzem numerador i denominador (el mateix parell de polinomis que hem fet servir per calcular-ne el MCD i el MCM):
 
     $$x^2-4 = (x-2)(x+2)$$
 
