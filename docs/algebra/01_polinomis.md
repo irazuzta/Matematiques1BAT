@@ -161,15 +161,7 @@ Per dividir dos polinomis, procedim com en una divisió numèrica:
 En acabar, sempre s'ha de complir $D(x)=d(x)\cdot q(x)+r(x)$.
 
 !!! example "**Exemple:** Divisió de polinomis"
-    Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ entre $d(x) = x^2+1$.
-
-    **Pas 1.** Dividim els termes principals: $x^3:x^2=x$. Multipliquem $x(x^2+1)=x^3+x$ i restem: $(x^3-2x^2+4x-1)-(x^3+x)=-2x^2+3x-1$.
-
-    **Pas 2.** Tornem a dividir els termes principals: $-2x^2:x^2=-2$. Multipliquem $-2(x^2+1)=-2x^2-2$ i restem: $(-2x^2+3x-1)-(-2x^2-2)=3x+1$.
-
-    Com que $3x+1$ té grau $1$, inferior al grau $2$ del divisor, acabem: el quocient és $x-2$ i el residu és $3x+1$.
-
-    Per tant:
+    Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ entre $d(x) = x^2+1$. El resultat de la divisió és:
 
     $$
     \begin{aligned}
