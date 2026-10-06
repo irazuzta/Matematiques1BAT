@@ -13,6 +13,64 @@
   font-size: inherit;
 }
 
+/* Disposició visual de la divisió llarga de polinomis. */
+.md-typeset .divisio-llarga-visual {
+  margin: 1rem auto;
+  max-width: 42rem;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.md-typeset .divisio-llarga-visual__titol {
+  font-weight: 700;
+  text-align: left;
+}
+
+.md-typeset .divisio-llarga-visual__operacio {
+  min-width: 30rem;
+}
+
+.md-typeset .divisio-llarga-visual table {
+  background: transparent;
+  border-collapse: collapse;
+  color: inherit;
+  margin: 0.6rem auto;
+  width: auto;
+}
+
+.md-typeset .divisio-llarga-visual td {
+  border: 0;
+  min-width: 4.4rem;
+  padding: 0.22rem 0.55rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.md-typeset .divisio-llarga-visual__divisor,
+.md-typeset .divisio-llarga-visual__quocient {
+  border-left: 0.12rem solid currentColor !important;
+  min-width: 7.5rem !important;
+  text-align: center !important;
+}
+
+.md-typeset .divisio-llarga-visual__quocient {
+  border-top: 0.12rem solid currentColor !important;
+  font-weight: 700;
+}
+
+.md-typeset .divisio-llarga-visual__resta td:not(:last-child) {
+  border-bottom: 0.08rem solid currentColor;
+}
+
+.md-typeset .divisio-llarga-visual__residu td {
+  font-weight: 700;
+}
+
+.md-typeset .divisio-llarga-visual__peu {
+  font-size: 0.85em;
+  text-align: left;
+}
+
 /* ------------------------------------------------------------------
    Impressió dels llibrets (pàgines llibre.md de cada bloc)
 

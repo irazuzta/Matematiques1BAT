@@ -54,13 +54,13 @@ Aquest concepte el farem servir sovint més endavant, per exemple per comprovar 
 ## Suma i resta de polinomis
 
 !!! abstract "Definició: suma i resta de polinomis"
-    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=\max(n,m)$. Si cal, completem amb coeficients $0$ els graus que no tinguin terme i fins a completar al grau màxim dels polinomis. Definim
+    Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=\max(n,m)$. Si cal, completem amb coeficients $0$ els graus que no tinguin terme fins al grau màxim dels polinomis. Definim
 
     $$(p+q)(x) = p(x)+q(x) = \sum_{i=0}^k (a_i+b_i)\,x^i$$
 
     $$(p-q)(x) = p(x)-q(x) = \sum_{i=0}^k (a_i-b_i)\,x^i$$
 
-    És a dir, sumem (o restem) els coeficients dels termes del mateix grau (termes semblants) i obtenim un nou polinomi de grau $k$
+    És a dir, sumem (o restem) els coeficients dels termes del mateix grau (termes semblants). El polinomi resultant té grau **com a màxim** $k$: si els coeficients principals es cancel·len, el grau disminueix. Si tots els termes es cancel·len, obtenim el polinomi zero, al qual no assignarem cap grau en aquests apunts.
 
 !!! example "**Exemple:** Suma de polinomis"
     Siguin $p(x)=2x^4-3x^3+x-5$ i $q(x)=x^4+2x^3-4x^2+3$. Agrupem termes semblants:
@@ -151,8 +151,25 @@ Hi ha tres casos de multiplicació de polinomis que apareixen tan sovint que val
 
 ## Divisió de polinomis
 
+Per dividir dos polinomis, procedim com en una divisió numèrica:
+
+1. Ordenem dividend i divisor de grau més gran a grau més petit i escrivim amb coeficient $0$ els termes que falten.
+2. Dividim el terme de grau més alt del dividend pel terme de grau més alt del divisor; el resultat és el terme següent del quocient.
+3. Multipliquem tot el divisor per aquest terme i restem el resultat del dividend.
+4. Repetim el procés fins que el residu tingui grau inferior al divisor.
+
+En acabar, sempre s'ha de complir $D(x)=d(x)\cdot q(x)+r(x)$.
+
 !!! example "**Exemple:** Divisió de polinomis"
-    Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ entre $d(x) = x^2+1$. El resultat de la divisió és:
+    Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ entre $d(x) = x^2+1$.
+
+    **Pas 1.** Dividim els termes principals: $x^3:x^2=x$. Multipliquem $x(x^2+1)=x^3+x$ i restem: $(x^3-2x^2+4x-1)-(x^3+x)=-2x^2+3x-1$.
+
+    **Pas 2.** Tornem a dividir els termes principals: $-2x^2:x^2=-2$. Multipliquem $-2(x^2+1)=-2x^2-2$ i restem: $(-2x^2+3x-1)-(-2x^2-2)=3x+1$.
+
+    Com que $3x+1$ té grau $1$, inferior al grau $2$ del divisor, acabem: el quocient és $x-2$ i el residu és $3x+1$.
+
+    Per tant:
 
     $$
     \begin{aligned}
@@ -176,6 +193,22 @@ Hi ha tres casos de multiplicació de polinomis que apareixen tan sovint que val
     \end{aligned}
     $$
 
+<div class="divisio-llarga-visual" role="img" aria-label="Divisió llarga en format clàssic de x al cub menys dos x al quadrat més quatre x menys u entre x al quadrat més u. El divisor és a la dreta, el quocient a sota i el residu és tres x més u.">
+  <div class="divisio-llarga-visual__titol">La mateixa divisió en la forma clàssica</div>
+  <div class="divisio-llarga-visual__operacio">
+    <table aria-hidden="true">
+      <tbody>
+        <tr class="divisio-llarga-visual__dividend"><td><var>x</var><sup>3</sup></td><td>−2<var>x</var><sup>2</sup></td><td>+4<var>x</var></td><td>−1</td><td class="divisio-llarga-visual__divisor"><var>x</var><sup>2</sup> + 1</td></tr>
+        <tr class="divisio-llarga-visual__resta"><td>−<var>x</var><sup>3</sup></td><td></td><td>−<var>x</var></td><td></td><td class="divisio-llarga-visual__quocient"><var>x</var> − 2</td></tr>
+        <tr><td></td><td>−2<var>x</var><sup>2</sup></td><td>+3<var>x</var></td><td>−1</td><td></td></tr>
+        <tr class="divisio-llarga-visual__resta"><td></td><td>+2<var>x</var><sup>2</sup></td><td></td><td>+2</td><td></td></tr>
+        <tr class="divisio-llarga-visual__residu"><td></td><td></td><td>3<var>x</var></td><td>+1</td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="divisio-llarga-visual__peu">Les files subratllades mostren el producte que restem en cada pas. L'última fila és el residu.</div>
+</div>
+
 
 !!! abstract "Definició: divisió de polinomis"
     Donats dos polinomis $D(x)$ (dividend) i $d(x)$ (divisor, amb $d(x)\neq 0$), sempre existeixen dos polinomis únics $q(x)$ (quocient) i $r(x)$ (residu) tals que
@@ -191,10 +224,10 @@ Hi ha tres casos de multiplicació de polinomis que apareixen tan sovint que val
 
 ## Regla de Ruffini
 
-Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de dividir un polinomi $p(x)$ entre un polinomi de grau 1 de la forma $q(x) = x-a$. N'hi ha prou de treballar amb els coeficients de $p(x)$ i el valor d'$a$.
+Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de dividir un polinomi $p(x)$ entre un divisor de grau 1 de la forma $d(x)=x-a$. N'hi ha prou de treballar amb els coeficients de $p(x)$ i el valor d'$a$.
 
 !!! example "**Exemple:** Ruffini amb residu diferent de zero"
-    Dividim $p(x) = 2x^3-3x^2+x-4$ entre $q(x) = x-2$ (és a dir, $a=2$):
+    Dividim $p(x) = 2x^3-3x^2+x-4$ entre $d(x)=x-2$ (és a dir, $a=2$):
 
     | | $2$ | $-3$ | $1$ | $-4$ |
     |---|---|---|---|---|
@@ -217,7 +250,7 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de di
 
     $$p(x) = (x-1)(x^2-5x+6)$$
     
-    En aquest cas $(x-1)$ i $(x^2-5x+6)$ són divisors de $p(x)$
+    En aquest cas $(x-1)$ i $(x^2-5x+6)$ són divisors de $p(x)$.
 
 
 
@@ -234,7 +267,7 @@ Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de di
     Aquesta propietat serà clau per trobar arrels de polinomis: si trobem un valor $a$ tal que el residu de Ruffini és $0$, sabrem que $a$ és una arrel de $p(x)$, o sigui $p(a)=0$.
     
 !!! tip "Teorema del factor"
-    $a$ és una arrel de $p(x)$ si, i només si $(x-a)$ és divisor de $p(x)$
+    $a$ és una arrel de $p(x)$ si, i només si, $(x-a)$ és divisor de $p(x)$.
 
     $$p(a) = 0 \ \Leftrightarrow \ x-a \text{ és divisor de } p(x)$$
 

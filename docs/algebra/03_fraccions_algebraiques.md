@@ -5,7 +5,9 @@
 Abans d'operar amb fraccions algebraiques, ens convé saber calcular el MCD i el MCM de polinomis: els farem servir tot seguit per simplificar i per reduir a denominador comú.
 
 !!! abstract "Definició: MCD i MCM de polinomis"
-    Donats dos polinomis $A(x)$ i $B(x)$, el seu **màxim comú divisor** $\text{MCD}[A(x),B(x)]$ és el polinomi de grau més gran que divideix alhora $A(x)$ i $B(x)$; el seu **mínim comú múltiple** $\text{MCM}[A(x),B(x)]$ és el polinomi de grau més petit que és múltiple alhora d'$A(x)$ i $B(x)$.
+    Donats dos polinomis no nuls $A(x)$ i $B(x)$, el seu **màxim comú divisor** $\text{MCD}[A(x),B(x)]$ és el polinomi de grau més gran que divideix alhora $A(x)$ i $B(x)$; el seu **mínim comú múltiple** $\text{MCM}[A(x),B(x)]$ és el polinomi de grau més petit que és múltiple alhora d'$A(x)$ i $B(x)$.
+
+    Amb coeficients reals, multiplicar un divisor o un múltiple per una constant no nul·la no en canvia el paper. Per obtenir una resposta única, en aquests apunts donarem sempre el MCD i el MCM en forma **mònica**, és a dir, amb coeficient principal $1$.
 
     Es calculen igual que amb els nombres enters: factoritzem els dos polinomis i...
 
@@ -52,7 +54,7 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
     Una **fracció algebraica** és el quocient de dos polinomis $\dfrac{P(x)}{Q(x)}$, amb $Q(x)$ no nul.
 
 !!! tip "Propietat: simplificació"
-    Si el numerador i el denominador tenen un factor comú, es pot simplificar la fracció dividint tots dos pel mateix factor — igual que amb les fraccions numèriques. Per detectar-ho, factoritzem primer numerador i denominador.
+    Si el numerador i el denominador tenen un factor comú, es pot simplificar la fracció dividint tots dos pel mateix factor — igual que amb les fraccions numèriques. Per detectar-ho, factoritzem primer numerador i denominador. Els valors que anul·laven el denominador original continuen exclosos encara que algun factor desaparegui en simplificar.
 
 !!! example "**Exemple:** Simplificació d'una fracció algebraica"
     Simplifiquem $\dfrac{x^2-4}{x^2+x-6}$.
@@ -73,7 +75,7 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
     $$
 
 !!! note "Compte amb el domini"
-    Encara que en simplificar la fracció desaparegui el factor $(x-2)$, el valor $x=2$ continua sent un valor prohibit: no el podem substituir, perquè anul·lava el denominador de la fracció original.
+    Encara que en simplificar la fracció desaparegui el factor $(x-2)$, el valor $x=2$ continua sent un valor prohibit: no el podem substituir, perquè anul·lava el denominador de la fracció original. En aquest exemple, el domini original és $\mathbb{R}\setminus\{-3,2\}$.
 
 ## Suma i resta de fraccions algebraiques
 
@@ -90,6 +92,8 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
     \end{aligned}
     $$
 
+    L'operació és vàlida per a $x\neq0,-1$.
+
 !!! example "**Exemple:** Resta de fraccions algebraiques"
     Restem $\dfrac{x}{x-1} - \dfrac{1}{x}$. El denominador comú és $x(x-1)$:
 
@@ -99,6 +103,8 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
     &= \frac{x^2-(x-1)}{x(x-1)} = \frac{x^2-x+1}{x(x-1)}
     \end{aligned}
     $$
+
+    L'operació és vàlida per a $x\neq0,1$.
 
 ## Multiplicació i divisió de fraccions algebraiques
 
@@ -111,6 +117,8 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
 
     $$\frac{P(x)}{Q(x)} : \frac{M(x)}{N(x)} = \frac{P(x)}{Q(x)} \cdot \frac{N(x)}{M(x)}$$
 
+    En totes dues operacions cal exigir $Q(x)\neq0$ i $N(x)\neq0$. En el quocient, a més, la segona fracció no pot valer zero; per tant, també cal exigir $M(x)\neq0$.
+
 !!! example "**Exemple:** Producte de fraccions algebraiques"
     $$
     \begin{aligned}
@@ -118,6 +126,8 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
     &= \frac{2(x+1)}{x-3}
     \end{aligned}
     $$
+
+    L'expressió original exigeix $x\neq0,3$; la restricció $x\neq0$ es conserva després de simplificar.
 
 !!! example "**Exemple:** Quocient de fraccions algebraiques"
     $$
@@ -127,11 +137,13 @@ Igual que les fraccions numèriques es formen amb dos nombres enters, les fracci
     \end{aligned}
     $$
 
+    L'expressió original exigeix $x\neq-2,0,1$: $x=0$ anul·la un denominador original i $x=1$ faria que la fracció divisora valgués zero.
+
 ## Taula resum
 
 | Operació | Com es fa |
 | --- | --- |
-| Simplificació | Factoritzar numerador i denominador i eliminar el factor comú |
+| Simplificació | Factoritzar numerador i denominador, cancel·lar el factor comú i conservar les exclusions del domini original |
 | Suma i resta | Reduir a denominador comú i sumar/restar numeradors |
 | Producte | Numerador per numerador, denominador per denominador |
 | Quocient | Multiplicar per la fracció inversa de la segona |

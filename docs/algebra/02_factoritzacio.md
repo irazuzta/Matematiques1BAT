@@ -20,7 +20,7 @@ Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruff
     on cada factor $(x-r_i)$ correspon a una arrel real ($r_i$) de $p(x)$, i cada factor de grau $2$ té discriminant negatiu (no té arrels reals).
 
 !!! note "Un paral·lelisme amb els nombres enters"
-    Aquesta factorització polinomis és anàloga al que ja coneixes amb els nombres enters.
+    Aquesta factorització de polinomis és anàloga al que ja coneixes amb els nombres enters.
 
     - Un **nombre primer** és un enter més gran que $1$ que només és divisible per $1$ i per ell mateix, és a dir, no es pot descompondre en factors més petits. És un concepte similar al de **polinomi irreductible**, ja que no es pot factoritzar.
     - El **teorema fonamental de l'aritmètica** diu que tot nombre enter més gran que $1$ es pot escriure, de manera única (llevat de l'ordre), com un producte de nombres primers. Per exemple, $60 = 2^2\cdot 3\cdot 5$.
