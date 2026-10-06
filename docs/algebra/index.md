@@ -7,3 +7,7 @@ En aquest bloc treballarem els polinomis: què són, com s'operen i com es facto
 - [Polinomis](01_polinomis.md)
 - [Factorització de polinomis](02_factoritzacio.md)
 - [Fraccions algebraiques](03_fraccions_algebraiques.md)
+
+## Per practicar
+
+- [Exercicis i problemes](exercicis.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb problemes en context i exercicis inspirats en les PAU. També es pot descarregar en PDF.
