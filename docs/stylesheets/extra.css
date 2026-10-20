@@ -135,3 +135,10 @@
     max-width: 100% !important;
   }
 }
+
+/* Elements només per a la versió en línia (no entren al llibre imprimible). */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

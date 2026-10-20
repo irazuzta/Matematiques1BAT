@@ -1,0 +1,348 @@
+/* Laboratori de polinomis (algebra/laboratori.md) */
+
+.lab {
+  margin: 1rem 0 2rem;
+}
+
+.lab-input {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 0.6rem;
+}
+
+.lab-input__label {
+  font-size: 1.1em;
+}
+
+.lab-input input {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  color: var(--md-default-fg-color);
+  flex: 1 1 14rem;
+  font-family: var(--md-code-font, monospace);
+  font-size: 0.95rem;
+  min-width: 10rem;
+  padding: 0.55rem 0.75rem;
+}
+
+.lab-input input:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
+}
+
+.lab-examples {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.4rem 0 0.6rem;
+}
+
+.lab-examples__t {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+.lab-chip,
+.lab-tool {
+  background: transparent;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 1rem;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.15rem 0.7rem;
+}
+
+.lab-chip:hover,
+.lab-tool:hover,
+.lab-chip:focus-visible,
+.lab-tool:focus-visible {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+.lab-help {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  margin: 0.1rem 0 0.6rem;
+}
+
+.lab-help code {
+  font-size: 0.95em;
+}
+
+.lab-error {
+  background: rgba(255, 82, 82, 0.1);
+  border-left: 0.2rem solid #ff5252;
+  border-radius: 0.2rem;
+  margin: 0.6rem 0;
+  padding: 0.5rem 0.8rem;
+}
+
+.lab-out.is-stale {
+  opacity: 0.4;
+}
+
+.lab-card,
+.lab-result {
+  background: var(--md-code-bg-color);
+  border-left: 0.2rem solid var(--md-accent-fg-color);
+  border-radius: 0.2rem;
+  margin: 1rem 0;
+  padding: 0.1rem 1rem 0.5rem;
+}
+
+.lab-result h3,
+.lab-plotwrap h3,
+.lab-rootsec h3,
+.lab-stepsec h3 {
+  margin-top: 1.4rem;
+}
+
+.lab-result h3 {
+  margin-top: 0.8rem;
+}
+
+.lab-poly,
+.lab-final,
+.lab-math {
+  /* position: perquè el MathML ocult de KaTeX (absolut) quedi retallat pel scroll */
+  overflow-x: auto;
+  position: relative;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.lab-final__alt {
+  margin-bottom: 0;
+}
+
+.lab-note {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85em;
+}
+
+/* Gràfica */
+.lab-plot {
+  margin: 0.5rem 0 1rem;
+}
+
+.lab-plot__box {
+  width: 100%;
+}
+
+.lab-plot__svg {
+  cursor: crosshair;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  touch-action: pan-y;
+  user-select: none;
+  width: 100%;
+}
+
+.lab-plot__svg.is-drag {
+  cursor: grabbing;
+}
+
+.lab-plot__grid line {
+  stroke: var(--md-default-fg-color--lightest);
+  stroke-width: 1;
+}
+
+.lab-plot__axes line {
+  stroke: var(--md-default-fg-color--light);
+  stroke-width: 1.5;
+}
+
+.lab-plot__frame {
+  fill: none;
+  stroke: var(--md-default-fg-color--lighter);
+}
+
+.lab-plot__ticks text {
+  fill: var(--md-default-fg-color--light);
+  font-size: 11px;
+}
+
+.lab-plot__curve {
+  fill: none;
+  stroke: var(--md-typeset-a-color, #3f51b5);
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+
+.lab-plot__roots circle {
+  fill: var(--md-accent-fg-color);
+  stroke: var(--md-default-bg-color);
+  stroke-width: 1.5;
+}
+
+.lab-plot__roots text {
+  fill: var(--md-default-fg-color);
+  font-size: 12px;
+  paint-order: stroke;
+  stroke: var(--md-default-bg-color);
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.lab-plot__pts circle {
+  fill: var(--md-default-fg-color);
+  stroke: var(--md-default-bg-color);
+  stroke-width: 1.5;
+}
+
+.lab-plot__pts circle.is-root {
+  fill: var(--md-accent-fg-color);
+}
+
+.lab-plot__pts text {
+  fill: var(--md-default-fg-color);
+  font-size: 12px;
+  paint-order: stroke;
+  stroke: var(--md-default-bg-color);
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.lab-plot__svg.is-static {
+  cursor: default;
+  touch-action: auto;
+}
+
+.lab-demo {
+  margin: 0.8rem auto;
+  max-width: 34rem;
+}
+
+.lab-plot__hover line {
+  stroke: var(--md-default-fg-color--lighter);
+  stroke-dasharray: 3 3;
+}
+
+.lab-plot__hover circle {
+  fill: var(--md-typeset-a-color, #3f51b5);
+  stroke: var(--md-default-bg-color);
+  stroke-width: 1.5;
+}
+
+.lab-plot__readout {
+  fill: var(--md-default-fg-color);
+  font-family: var(--md-code-font, monospace);
+  font-size: 12px;
+}
+
+.lab-plot__bar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.lab-plot__hint {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.75rem;
+}
+
+/* Taules dins del laboratori: que no desbordin en pantalles estretes */
+.lab .md-typeset__table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  position: relative;
+}
+
+/* Taules de Ruffini */
+.lab-ruffini {
+  margin: 0.4rem auto;
+  text-align: center;
+}
+
+.lab-ruffini table {
+  margin: 0 auto;
+}
+
+.md-typeset .lab-ruffini th,
+.md-typeset .lab-ruffini td {
+  text-align: center;
+}
+
+/* Pas a pas */
+.md-typeset ol.lab-steps {
+  counter-reset: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lab-step {
+  border-left: 0.15rem solid var(--md-default-fg-color--lighter);
+  margin: 1.2rem 0;
+  padding: 0 0 0 1rem;
+}
+
+.md-typeset ol.lab-steps > li {
+  margin-left: 0;
+}
+
+.lab-step__head {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+}
+
+.lab-step__n {
+  background: var(--md-accent-fg-color);
+  border-radius: 50%;
+  color: var(--md-accent-bg-color, #fff);
+  flex: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  margin-left: -1.85rem;
+  text-align: center;
+  width: 1.6rem;
+}
+
+.md-typeset .lab-step__title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.lab-step__body p {
+  margin: 0.5rem 0;
+}
+
+@media print {
+  .lab-input,
+  .lab-examples,
+  .lab-help,
+  .lab-plot__bar {
+    display: none;
+  }
+}
+
+/* Les taules amb fórmules (KaTeX) no han de fer créixer la pàgina en pantalles
+   estretes: el contenidor ha de ser "position: relative" perquè el MathML ocult
+   de KaTeX (posicionat en absolut) quedi retallat pel seu scroll. */
+.md-typeset__scrollwrap {
+  position: relative;
+}
+
+/* Taules de valors petites (exemples): columnes estretes i centrades. */
+.md-typeset .lab-taula table:not([class]) th,
+.md-typeset .lab-taula table:not([class]) td {
+  min-width: 0;
+  padding: 0.5em 0.8em;
+  text-align: center;
+}

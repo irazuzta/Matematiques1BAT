@@ -11,3 +11,11 @@ En aquest bloc treballarem els polinomis: què són, com s'operen i com es facto
 ## Per practicar
 
 - [Exercicis i problemes](exercicis.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb problemes en context i exercicis inspirats en les PAU. També es pot descarregar en PDF.
+
+<div class="no-print" markdown="1">
+
+## Eines interactives
+
+- [Laboratori de polinomis](laboratori.md) — escrius un polinomi i en veus la gràfica, les arrels i la factorització pas a pas.
+
+</div>
