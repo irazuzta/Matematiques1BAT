@@ -2,7 +2,7 @@
 
 > Llistat d'exercicis per practicar i consolidar els continguts del bloc. Segueix l'ordre dels apunts i inclou exercicis de diferents nivells de dificultat.
 
-[Descarrega el llistat en PDF](../assets/exercicis/2_algebra.pdf)
+[Descarrega el llistat en PDF](../assets/exercicis/2_algebra.pdf) · [Solucionari pas a pas](solucionari/index.md)
 
 ---
 

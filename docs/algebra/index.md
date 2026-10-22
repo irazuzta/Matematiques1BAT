@@ -14,6 +14,10 @@ En aquest bloc treballarem els polinomis: què són, com s'operen i com es facto
 
 <div class="no-print" markdown="1">
 
+## Solucionari
+
+- [Solucionari pas a pas](solucionari/index.md) — resolució detallada de tots els exercicis de la relació, un document per bloc.
+
 ## Eines interactives
 
 - [Laboratori de polinomis](laboratori.md) — escrius un polinomi i en veus la gràfica, les arrels i la factorització pas a pas.
