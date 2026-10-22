@@ -77,12 +77,12 @@
 | | |
 |:--|:--|
 | **a)** $x^3-5x^2+6x$ | **b)** $2x^3+2x^2-12x$ |
-| **c)** $x^4-9x^2$ | **d)** $3x^3-12x$ |
+| **c)** $x^4-9x^2$ | **d)** $3x^3-12x^2+12x$ |
 
 **12.** Factoritza completament (totes les arrels són enteres):
 
 - **a)** $x^3-2x^2-5x+6$
-- **b)** $x^3+2x^2-5x-6$
+- **b)** $x^3-3x-2$
 
 **13.** Factoritza completament (queda un factor de grau $2$ irreductible):
 
@@ -98,6 +98,7 @@
 
 - **a)** $2x^3-4x^2-32x+64$
 - **b)** $3x^3+3x^2-12x-12$
+- **c)** $2x^3+2x^2-2x-2$
 
 **16.** Factoritza completament cada polinomi (no hi ha cap indicació de quin cas és cadascun):
 
@@ -105,7 +106,11 @@
 - **b)** $x^3-4x^2+6x-4$
 - **c)** $x^3+x^2-3x-3$
 - **d)** $2x^3-3x^2-11x+6$
-- **e)** $3x^3-5x^2-4x+4$
+- **e)** $x^3-x^2-8x+12$
+- **f)** $x^4-x^3-7x^2+x+6$
+- **g)** $x^4-2x^3-3x^2+4x+4$
+- **h)** $x^5-2x^4-x^3+2x^2$
+- **i)** $x^5-2x^3+2x^2-3x+2$
 
 **17.** Factoritza completament $x^5-3x^4-5x^3+15x^2+4x-12$ (totes les arrels són enteres).
 

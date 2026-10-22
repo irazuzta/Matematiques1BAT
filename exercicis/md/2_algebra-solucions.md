@@ -15,12 +15,12 @@
 **10.** a) $x^2+8xy+16y^2$ · b) $4x^2-12x+9$, igual que $(2x-3)^2$ perquè $(-u)^2=u^2$ (aquí $u=2x-3$) · c) $1-9x^2$ · d) $(2x-3)^2$.
 
 **Bloc 2.**
-**11.** a) $x(x-2)(x-3)$ · b) $2x(x-2)(x+3)$ · c) $x^2(x-3)(x+3)$ · d) $3x(x-2)(x+2)$.
-**12.** a) $(x-3)(x-1)(x+2)$ · b) $(x-2)(x+1)(x+3)$.
+**11.** a) $x(x-2)(x-3)$ · b) $2x(x-2)(x+3)$ · c) $x^2(x-3)(x+3)$ · d) $3x(x-2)^2$, amb $\Delta=0$ al factor de grau $2$.
+**12.** a) $(x-3)(x-1)(x+2)$ · b) $(x-2)(x+1)^2$ ($x=-1$ és arrel doble).
 **13.** a) $(x-1)(x^2-2x+2)$, $\Delta=-4$ · b) $(x-1)(x^2+2x+3)$, $\Delta=-8$.
 **14.** a) $(x-2)(x-\sqrt2)(x+\sqrt2)$ · b) $(x-1)(x-\sqrt3)(x+\sqrt3)$.
-**15.** a) $2(x-2)(x-4)(x+4)$ · b) $3(x-2)(x+1)(x+2)$.
-**16.** a) $(x-1)(x-2)(x+3)$ · b) $(x-2)(x^2-2x+2)$, $\Delta=-4$ · c) $(x+1)(x-\sqrt3)(x+\sqrt3)$ · d) $2(x-3)(x+2)\left(x-\tfrac12\right)$ · e) $3(x-2)(x+1)\left(x-\tfrac23\right)$.
+**15.** a) $2(x-2)(x-4)(x+4)$ · b) $3(x-2)(x+1)(x+2)$ · c) $2(x-1)(x+1)^2$ ($x=-1$ és arrel doble).
+**16.** a) $(x-1)(x-2)(x+3)$ · b) $(x-2)(x^2-2x+2)$, $\Delta=-4$ · c) $(x+1)(x-\sqrt3)(x+\sqrt3)$ · d) $2(x-3)(x+2)\left(x-\tfrac12\right)$ · e) $(x-2)^2(x+3)$ ($x=2$ és arrel doble; $\Delta=0$) · f) $(x-3)(x-1)(x+1)(x+2)$ · g) $(x-2)^2(x+1)^2$ (dues arrels dobles) · h) $x^2(x-2)(x-1)(x+1)$ · i) $(x-1)^2(x+2)(x^2+1)$ ($x=1$ és arrel doble; $x^2+1$ té $\Delta=-4$).
 **17.** $(x-3)(x-2)(x-1)(x+1)(x+2)$.
 **18.** $(x-2)(x-1)(x+1)(x+3)(x^2+x+1)$, $\Delta=-3$.
 **19.** $(x^2-2x+2)(x^2+2x+2)=x^4+4$ (comprova-ho desenvolupant); els dos factors tenen $\Delta=-4<0$, són irreductibles.
