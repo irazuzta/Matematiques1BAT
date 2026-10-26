@@ -1,11 +1,15 @@
-# Solucionari — Intervals i valor absolut
+# Intervals i valor absolut
 
-Resolució pas a pas dels exercicis 6–24 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
+Exercicis 6–24. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 6
 
-> **Enunciat.** Escriu en forma d'interval, classifica'l (obert, tancat, semiobert, semirecta) i representa'l sobre la recta real: a) Nombres reals més grans que $2$ i menors o iguals que $7$. · b) Nombres reals menors que $-1$. · c) Nombres reals més grans o iguals que $0$. · d) Nombres reals entre $-3$ i $3$, ambdós inclosos.
+Escriu en forma d'interval, classifica'l (obert, tancat, semiobert, semirecta) i representa'l sobre la recta real:
+
+- **a)** Nombres reals més grans que $2$ i menors o iguals que $7$.
+- **b)** Nombres reals menors que $-1$.
+- **c)** Nombres reals més grans o iguals que $0$.
+- **d)** Nombres reals entre $-3$ i $3$, ambdós inclosos.
 
 ??? note "Mostra la solució"
 
@@ -27,7 +31,12 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 7
 
-> **Enunciat.** Per a cada interval, indica'n el tipus, escriu la desigualtat equivalent i representa'l sobre la recta real: a) $[-3,5)$ · b) $(2,+\infty)$ · c) $(-\infty,4]$ · d) $(0,1)$
+Per a cada interval, indica'n el tipus, escriu la desigualtat equivalent i representa'l sobre la recta real:
+
+| | |
+|:--|:--|
+| **a)** $\left[-3,5\right)$ | **b)** $\left(2,+\infty\right)$ |
+| **c)** $\left(-\infty,4\right]$ | **d)** $\left(0,1\right)$ |
 
 ??? note "Mostra la solució"
 
@@ -51,7 +60,13 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 8
 
-> **Enunciat.** Calcula: a) $|7|$ · b) $|-7|$ · c) $|0|$ · d) $|3-8|$ · e) $|8-3|$ · f) $-|-4|$
+Calcula:
+
+| | |
+|:--|:--|
+| **a)** $\lvert 7\rvert$ | **b)** $\lvert -7\rvert$ |
+| **c)** $\lvert 0\rvert$ | **d)** $\lvert 3-8\rvert$ |
+| **e)** $\lvert 8-3\rvert$ | **f)** $-\lvert -4\rvert$ |
 
 ??? note "Mostra la solució"
 
@@ -83,7 +98,12 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 9
 
-> **Enunciat.** Calcula la distància entre cada parell de punts: a) $a=2,\ b=9$ · b) $a=-5,\ b=-1$ · c) $a=4,\ b=-3$ · d) $a=6,\ b=-2$
+Calcula la distància entre cada parell de punts:
+
+| | |
+|:--|:--|
+| **a)** $a=2,\ b=9$ | **b)** $a=-5,\ b=-1$ |
+| **c)** $a=4,\ b=-3$ | **d)** $a=6,\ b=-2$ |
 
 ??? note "Mostra la solució"
 
@@ -107,7 +127,11 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 10
 
-> **Enunciat.** Troba l'interval $(e_1,e_2)$ format pels punts que estan a una distància menor que $r$ del punt $a$: a) $a=5,\ r=3$ · b) $a=-2,\ r=4$ · c) $a=0,\ r=1{,}5$
+Troba l'interval $\left(e_1,e_2\right)$ format pels punts que estan a una distància menor que $r$ del punt $a$:
+
+- **a)** $a=5,\ r=3$
+- **b)** $a=-2,\ r=4$
+- **c)** $a=0,\ r=1{,}5$
 
 ??? note "Mostra la solució"
 
@@ -127,7 +151,16 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 11
 
-> **Enunciat.** Resol i escriu la solució com a interval o, quan calgui, com a unió d'intervals. Recorda que $d(x,a)=|x-a|$, de manera que les dues notacions són equivalents: a) $|x-3|<5$ · b) $d(x,-2)<4$ · c) $|x-1|\leq 6$ · d) $d(x,-5)<2$ · e) $|x-2|>3$ · f) $d(x,-1)\geq 4$ · g) $d(x,4)>1$ · h) $|x+3|\geq 2$
+Resol i escriu la solució com a interval o, quan calgui, com a unió d'intervals. Recorda que $d\left(x,a\right)=|x-a|$, de manera que les dues notacions són equivalents:
+
+| | |
+|:--|:--|
+| **a)** $\lvert x-3\rvert<5$ | **b)** $d\left(x,-2\right)<4$ |
+| **c)** $\lvert x-1\rvert\leq 6$ | **d)** $d\left(x,-5\right)<2$ |
+| **e)** $\lvert x-2\rvert>3$ | **f)** $d\left(x,-1\right)\geq 4$ |
+| **g)** $d\left(x,4\right)>1$ | **h)** $\lvert x+3\rvert\geq 2$ |
+
+*(Als apartats e)–h) la solució és el complementari d'un entorn: els punts que queden **lluny** del centre, no a prop.)*
 
 ??? note "Mostra la solució"
 
@@ -185,7 +218,11 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 12
 
-> **Enunciat.** Troba $a$ i $r$ tals que l'interval solució de $|x-a|<r$ (o $\leq$, segons el cas) sigui: a) $(1,9)$ · b) $(-4,4)$ · c) $[-3,11]$
+Troba $a$ i $r$ tals que l'interval solució de $|x-a|<r$ (o $\leq$, segons el cas) sigui:
+
+- **a)** $\left(1,9\right)$
+- **b)** $\left(-4,4\right)$
+- **c)** $\left[-3,11\right]$
 
 ??? note "Mostra la solució"
 
@@ -207,7 +244,7 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 13
 
-> **Enunciat.** Resol $|2x-6|<10$. *(Indicació: pots treure factor comú $2$ dins el valor absolut abans d'aïllar.)*
+Resol $|2x-6|<10$. *(Indicació: pots treure factor comú $2$ dins el valor absolut abans d'aïllar.)*
 
 ??? note "Mostra la solució"
 
@@ -225,7 +262,7 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 14
 
-> **Enunciat.** Resol $|3x+9|\leq 21$.
+Resol $|3x+9|\leq 21$.
 
 ??? note "Mostra la solució"
 
@@ -243,7 +280,12 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 15
 
-> **Enunciat.** Resol les inequacions lineals següents (sense valor absolut) i expressa la solució com a interval: a) $3x-4>11$ · b) $-2x+7\leq 1$ · c) $5x-3<7$ · d) $-4x-1\geq 11$
+Resol les inequacions lineals següents (sense valor absolut) i expressa la solució com a interval:
+
+| | |
+|:--|:--|
+| **a)** $3x-4>11$ | **b)** $-2x+7\leq 1$ |
+| **c)** $5x-3<7$ | **d)** $-4x-1\geq 11$ |
 
 ??? note "Mostra la solució"
 
@@ -283,7 +325,11 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 16
 
-> **Enunciat.** Resol: a) $\dfrac{x}{2}-3>1$ · b) $2(x-1)\leq 3x+4$ · c) $\dfrac{2x-1}{3}\geq 5$
+Resol:
+
+- **a)** $\dfrac{x}{2}-3>1$
+- **b)** $2\left(x-1\right)\leq 3x+4$
+- **c)** $\dfrac{2x-1}{3}\geq 5$
 
 ??? note "Mostra la solució"
 
@@ -311,7 +357,7 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 17
 
-> **Enunciat.** *(aplicat)* La temperatura $T$ (en °C) d'una sala es manté dins un marge de $\pm 1{,}5$ °C respecte al valor de consigna de $21$ °C. Escriu aquesta condició amb un valor absolut i troba l'interval de temperatures possibles.
+*(aplicat)* La temperatura $T$ (en °C) d'una sala es manté dins un marge de $\pm 1{,}5$ °C respecte al valor de consigna de $21$ °C. Escriu aquesta condició amb un valor absolut i troba l'interval de temperatures possibles.
 
 ??? note "Mostra la solució"
 
@@ -327,7 +373,10 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 18
 
-> **Enunciat.** *(aplicat)* Una peça mecànica ha de tenir una longitud de $50\,\text{mm}$ amb una tolerància màxima de $0{,}2\,\text{mm}$. a) Escriu la condició amb valor absolut que ha de complir la longitud $\ell$. · b) Troba l'interval de longituds acceptades.
+*(aplicat)* Una peça mecànica ha de tenir una longitud de $50\,\text{mm}$ amb una tolerància màxima de $0{,}2\,\text{mm}$.
+
+- **a)** Escriu la condició amb valor absolut que ha de complir la longitud $\ell$.
+- **b)** Troba l'interval de longituds acceptades.
 
 ??? note "Mostra la solució"
 
@@ -343,7 +392,10 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 19
 
-> **Enunciat.** *(aplicat)* Dos vaixells naveguen per una mateixa ruta rectilínia; les seves posicions respecte a un far són $p_1=12\,\text{km}$ i $p_2=-5\,\text{km}$ (negatiu si són a l'altre costat del far). a) Calcula la distància entre els dos vaixells. · b) Una boia està ancorada a la posició $p=3\,\text{km}$. Un tercer vaixell s'ha de mantenir a una distància màxima de $8\,\text{km}$ de la boia: escriu la condició amb valor absolut i troba l'interval de posicions on es pot trobar.
+*(aplicat)* Dos vaixells naveguen per una mateixa ruta rectilínia; les seves posicions respecte a un far són $p_1=12\,\text{km}$ i $p_2=-5\,\text{km}$ (negatiu si són a l'altre costat del far).
+
+- **a)** Calcula la distància entre els dos vaixells.
+- **b)** Una boia està ancorada a la posició $p=3\,\text{km}$. Un tercer vaixell s'ha de mantenir a una distància màxima de $8\,\text{km}$ de la boia: escriu la condició amb valor absolut i troba l'interval de posicions on es pot trobar.
 
 ??? note "Mostra la solució"
 
@@ -361,7 +413,11 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 20
 
-> **Enunciat.** *(aplicat)* En una carretera recta, el punt quilomètric $0$ marca l'entrada d'un poble i una antena de telefonia està situada al punt $p=7\,\text{km}$. La normativa obliga que qualsevol habitatge estigui a **més** de $2\,\text{km}$ de l'antena. (Considerem la carretera com una recta il·limitada.) a) Escriu amb un valor absolut la condició que ha de complir la posició $x$ d'un habitatge. · b) Troba el conjunt de posicions permeses i expressa'l com a unió d'intervals. · c) Un habitatge construït al punt quilomètric $8{,}5$ compleix la normativa?
+*(aplicat)* En una carretera recta, el punt quilomètric $0$ marca l'entrada d'un poble i una antena de telefonia està situada al punt $p=7\,\text{km}$. La normativa obliga que qualsevol habitatge estigui a **més** de $2\,\text{km}$ de l'antena. (Considerem la carretera com una recta il·limitada.)
+
+- **a)** Escriu amb un valor absolut la condició que ha de complir la posició $x$ d'un habitatge.
+- **b)** Troba el conjunt de posicions permeses i expressa'l com a unió d'intervals.
+- **c)** Un habitatge construït al punt quilomètric $8{,}5$ compleix la normativa?
 
 ??? note "Mostra la solució"
 
@@ -383,7 +439,7 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 21
 
-> **Enunciat.** Troba tots els $x\in\mathbb{R}$ que compleixen alhora $|x-4|<6$ i $x>1$. Expressa la solució com a interval (intersecció).
+Troba tots els $x\in\mathbb{R}$ que compleixen alhora $|x-4|<6$ i $x>1$. Expressa la solució com a interval (intersecció).
 
 ??? note "Mostra la solució"
 
@@ -401,7 +457,7 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 22
 
-> **Enunciat.** Escriu com un sol interval el conjunt de nombres reals que compleixen $-3\leq x<5$ o bé $4<x\leq 9$ (unió). Simplifica el resultat.
+Escriu com un sol interval el conjunt de nombres reals que compleixen $-3\leq x<5$ o bé $4<x\leq 9$ (unió). Simplifica el resultat.
 
 ??? note "Mostra la solució"
 
@@ -413,7 +469,12 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 23
 
-> **Enunciat.** Donats els conjunts $A$ i $B$, calcula $A\cap B$ i $A\cup B$, i expressa el resultat com a interval (o unió d'intervals) sempre que es pugui: a) $A=[-2,5)$, $B=(1,8]$ · b) $A=(-\infty,3]$, $B=(0,+\infty)$ · c) $A=[-4,-1]$, $B=[2,6]$ · d) $A=(-3,4)$, $B=[0,+\infty)$
+Donats els conjunts $A$ i $B$, calcula $A\cap B$ i $A\cup B$, i expressa el resultat com a interval (o unió d'intervals) sempre que es pugui:
+
+| | |
+|:--|:--|
+| **a)** $A=\left[-2,5\right)$, $B=\left(1,8\right]$ | **b)** $A=\left(-\infty,3\right]$, $B=\left(0,+\infty\right)$ |
+| **c)** $A=\left[-4,-1\right]$, $B=\left[2,6\right]$ | **d)** $A=\left(-3,4\right)$, $B=\left[0,+\infty\right)$ |
 
 ??? note "Mostra la solució"
 
@@ -446,7 +507,11 @@ Teoria: [Intervals i valor absolut](../03_intervals_valor_absolut.md).
 
 ### Exercici 24
 
-> **Enunciat.** Troba el conjunt de nombres reals que compleixen alhora les dues condicions $|x-1|<4$ i $|x+2|>1$. Resol cada inequació per separat i després interseca les dues solucions.
+Troba el conjunt de nombres reals que compleixen alhora les dues condicions
+
+$$|x-1|<4 \qquad\text{i}\qquad |x+2|>1$$
+
+Resol cada inequació per separat i després interseca les dues solucions.
 
 ??? note "Mostra la solució"
 

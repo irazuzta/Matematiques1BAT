@@ -1,11 +1,12 @@
-# Solucionari — Exercicis inspirats en les PAU
+# Exercicis inspirats en les PAU
 
-Resolució pas a pas dels exercicis 36–48 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_factoritzacio.md), [Fraccions algebraiques](../03_fraccions_algebraiques.md).
+Exercicis 36–48. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+
+> Aquests exercicis estan inspirats en proves PAU (Selectivitat) dels darrers anys (2022–2026). És important tenir en compte que, als exàmens originals, aquests càlculs formen part d'un problema més ampli —normalment de càlcul, matrius o geometria, propis de 2n de Batxillerat— i aquí n'aïllem només el fragment o procediment algebraic (factorització, equacions, fraccions algebraiques...) que té relació directa amb aquest tema.
 
 ### Exercici 36
 
-> **Enunciat.** *(PAU 2024)* Factoritza completament $x^3-4x^2+4x$ i troba'n totes les arrels.
+*(PAU 2024)* Factoritza completament $x^3-4x^2+4x$ i troba'n totes les arrels.
 
 ??? note "Mostra la solució"
 
@@ -23,7 +24,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 37
 
-> **Enunciat.** *(PAU 2026)* Factoritza completament $2x^3-8x$ i troba'n totes les arrels.
+*(PAU 2026)* Factoritza completament $2x^3-8x$ i troba'n totes les arrels.
 
 ??? note "Mostra la solució"
 
@@ -41,7 +42,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 38
 
-> **Enunciat.** *(PAU 2022)* Factoritza el denominador i indica el domini de $f(x)=\dfrac{9}{x^2+x-2}$.
+*(PAU 2022)* Factoritza el denominador i indica el domini de $f(x)=\dfrac{9}{x^2+x-2}$.
 
 ??? note "Mostra la solució"
 
@@ -61,7 +62,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 39
 
-> **Enunciat.** *(PAU 2023)* Resol per factorització l'equació $4x^2-10x-6=0$.
+*(PAU 2023)* Resol per factorització l'equació $4x^2-10x-6=0$.
 
 ??? note "Mostra la solució"
 
@@ -87,7 +88,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 40
 
-> **Enunciat.** *(PAU 2024)* Factoritza completament i resol $x^3-7x^2+6x=0$.
+*(PAU 2024)* Factoritza completament i resol $x^3-7x^2+6x=0$.
 
 ??? note "Mostra la solució"
 
@@ -111,7 +112,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 41
 
-> **Enunciat.** *(PAU 2022, guiat)* Comprova, factoritzant, que $x^3-3a^2x+2a^3=(x-a)^2(x+2a)$.
+*(PAU 2022, guiat)* Comprova, factoritzant, que $x^3-3a^2x+2a^3=(x-a)^2(x+2a)$.
 
 ??? note "Mostra la solució"
 
@@ -142,7 +143,10 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 42
 
-> **Enunciat.** *(PAU 2025)* Resol: a) $x^3+1=0$ (dona només la solució real) · b) si $a^3=8$, troba el valor real de $a$
+*(PAU 2025)* Resol:
+
+- **a)** $x^3+1=0$ (dona només la solució real)
+- **b)** si $a^3=8$, troba el valor real de $a$
 
 ??? note "Mostra la solució"
 
@@ -170,7 +174,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 43
 
-> **Enunciat.** *(PAU 2025)* Factoritza completament $4p^3-5p^4$ i troba'n totes les arrels.
+*(PAU 2025)* Factoritza completament $4p^3-5p^4$ i troba'n totes les arrels.
 
 ??? note "Mostra la solució"
 
@@ -186,7 +190,10 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 44
 
-> **Enunciat.** *(PAU 2025)* Donada $f(x)=\dfrac{x^2-2x}{x-1}$: a) Factoritza el numerador i troba els punts de tall amb l'eix $X$. · b) Comprova si existeix cap valor de $x$ que compleixi $x^2-2x+2=(x-1)^2$.
+*(PAU 2025)* Donada $f(x)=\dfrac{x^2-2x}{x-1}$:
+
+- **a)** Factoritza el numerador i troba els punts de tall amb l'eix $X$.
+- **b)** Comprova si existeix cap valor de $x$ que compleixi $x^2-2x+2=(x-1)^2$.
 
 ??? note "Mostra la solució"
 
@@ -212,7 +219,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 45
 
-> **Enunciat.** *(PAU 2024)* Resol l'equació $3x^2+2x+2=x^2+2x+4$ (passa-ho tot a un costat i factoritza).
+*(PAU 2024)* Resol l'equació $3x^2+2x+2=x^2+2x+4$ (passa-ho tot a un costat i factoritza).
 
 ??? note "Mostra la solució"
 
@@ -232,7 +239,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 46
 
-> **Enunciat.** *(PAU 2024)* Resol per factorització $x^2-2x-15=0$.
+*(PAU 2024)* Resol per factorització $x^2-2x-15=0$.
 
 ??? note "Mostra la solució"
 
@@ -252,7 +259,10 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 47
 
-> **Enunciat.** *(PAU 2025)* Troba els valors del paràmetre que anul·len cada expressió, factoritzant-la: a) $p^2-1$ · b) $\lambda^2+3\lambda-10$
+*(PAU 2025)* Troba els valors del paràmetre que anul·len cada expressió, factoritzant-la:
+
+- **a)** $p^2-1$
+- **b)** $\lambda^2+3\lambda-10$
 
 ??? note "Mostra la solució"
 
@@ -274,7 +284,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 48
 
-> **Enunciat.** *(PAU 2026)* Troba els valors de $m$ que anul·len $m^2-4m+3$, factoritzant-lo.
+*(PAU 2026)* Troba els valors de $m$ que anul·len $m^2-4m+3$, factoritzant-lo.
 
 ??? note "Mostra la solució"
 

@@ -26,6 +26,6 @@ Aquesta obra està subjecta a una llicència de [Reconeixement-NoComercial-Compa
 
 **Claude** (Anthropic) i **Gemini** (Google) s'han utilitzat per generar fórmules LaTeX, gràfics i diagrames (amb TikZ), i per adaptar les idees i els apunts originals a codi Markdown. Els autors n'han revisat el contingut i se'n fan responsables.
 
-Els **solucionaris pas a pas** dels exercicis (apartat «Solucionari» de cada tema) s'han generat amb **Claude** (Anthropic) i se n'han verificat els resultats amb programari de càlcul simbòlic. Si hi trobes cap error, comunica'ns-ho.
+Les **solucions pas a pas** dels exercicis (apartat «Per practicar» de cada tema) s'han generat amb **Claude** (Anthropic) i se n'han verificat els resultats amb programari de càlcul simbòlic. Si hi trobes cap error, comunica'ns-ho.
 
 Els **laboratoris i les eines interactives** (per exemple, el Laboratori de polinomis) també s'han programat amb **Claude** (Anthropic) i se n'han contrastat els resultats amb programari de càlcul simbòlic.

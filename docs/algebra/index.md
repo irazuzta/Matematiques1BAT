@@ -10,13 +10,9 @@ En aquest bloc treballarem els polinomis: què són, com s'operen i com es facto
 
 ## Per practicar
 
-- [Exercicis i problemes](exercicis.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb problemes en context i exercicis inspirats en les PAU. També es pot descarregar en PDF.
+- [Exercicis i problemes](practicar/index.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb problemes en context i exercicis inspirats en les PAU. Cada exercici té la solució pas a pas plegada. També es pot descarregar en PDF amb solucions.
 
 <div class="no-print" markdown="1">
-
-## Solucionari
-
-- [Solucionari pas a pas](solucionari/index.md) — resolució detallada de tots els exercicis de la relació, un document per bloc.
 
 ## Eines interactives
 

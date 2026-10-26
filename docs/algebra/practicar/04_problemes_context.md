@@ -1,11 +1,10 @@
-# Solucionari — Problemes en context
+# Problemes en context
 
-Resolució pas a pas dels exercicis 28–35 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_factoritzacio.md), [Fraccions algebraiques](../03_fraccions_algebraiques.md).
+Exercicis 28–35. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 28
 
-> **Enunciat.** Un rectangle té una àrea de $x^3-x^2-4x+4$ i un dels costats fa $x-1$. Troba, factoritzant, l'expressió de l'altre costat i determina per a quins valors de $x$ totes dues longituds són positives.
+*(aplicat)* Un rectangle té una àrea de $x^3-x^2-4x+4$ i un dels costats fa $x-1$. Troba, factoritzant, l'expressió de l'altre costat i determina per a quins valors de $x$ totes dues longituds són positives.
 
 ??? note "Mostra la solució"
 
@@ -34,7 +33,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 29
 
-> **Enunciat.** Un dipòsit prismàtic té un volum $V(x)=x^3+2x^2-5x-6$. Si dues de les seves dimensions són $x+1$ i $x-2$, troba la tercera i determina per a quins valors de $x$ les tres dimensions són positives.
+*(aplicat)* Un dipòsit prismàtic té un volum $V(x)=x^3+2x^2-5x-6$. Si dues de les seves dimensions són $x+1$ i $x-2$, troba la tercera i determina per a quins valors de $x$ les tres dimensions són positives.
 
 ??? note "Mostra la solució"
 
@@ -72,7 +71,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 30
 
-> **Enunciat.** Simplifica $\dfrac{x^2-9}{x-3}$, indica el valor exclòs del domini original i avalua el resultat per a $x=5$.
+*(aplicat)* Simplifica $\dfrac{x^2-9}{x-3}$, indica el valor exclòs del domini original i avalua el resultat per a $x=5$.
 
 ??? note "Mostra la solució"
 
@@ -90,7 +89,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 31
 
-> **Enunciat.** Factoritza i simplifica $\dfrac{x^3-4x}{x^2-x-2}$, i indica els valors exclosos del domini original.
+Factoritza i simplifica $\dfrac{x^3-4x}{x^2-x-2}$, i indica els valors exclosos del domini original.
 
 ??? note "Mostra la solució"
 
@@ -118,7 +117,7 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 32
 
-> **Enunciat.** Factoritza, simplifica i indica els valors de $x$ pels quals l'expressió original no està definida: $\dfrac{x^3-2x^2-3x}{x^2-9}$.
+Factoritza, simplifica i indica els valors de $x$ pels quals l'expressió original no està definida: $\dfrac{x^3-2x^2-3x}{x^2-9}$.
 
 ??? note "Mostra la solució"
 
@@ -146,7 +145,10 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 33
 
-> **Enunciat.** D'una làmina de cartró rectangular de $20\,\text{cm}\times12\,\text{cm}$ es retalla un quadrat de costat $x$ a cada cantonada i es doblega per formar una caixa sense tapa. Perquè la caixa es pugui construir, cal que $0<x<6$. · a) Expressa el volum $V(x)$ de la caixa com un polinomi. · b) Calcula el volum per a $x=2\,\text{cm}$.
+*(aplicat)* D'una làmina de cartró rectangular de $20\,\text{cm}\times12\,\text{cm}$ es retalla un quadrat de costat $x$ a cada cantonada i es doblega per formar una caixa sense tapa. Perquè la caixa es pugui construir, cal que $0<x<6$.
+
+- **a)** Expressa el volum $V(x)$ de la caixa com un polinomi.
+- **b)** Calcula el volum per a $x=2\,\text{cm}$.
 
 ??? note "Mostra la solució"
 
@@ -188,7 +190,11 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 34
 
-> **Enunciat.** Una empresa estima que, en fabricar $x$ centenars d'unitats d'un producte, els ingressos (en milers d'€) són $I(x)=x^3-x^2-2x+8$ i els costos són $C(x)=x^2+3x+2$. · a) Calcula el benefici $B(x)=I(x)-C(x)$. · b) Factoritza $B(x)$ i troba els punts d'equilibri (valors de $x>0$ pels quals el benefici és nul). · c) Avalua $B(2)$ i interpreta el signe del resultat.
+*(aplicat)* Una empresa estima que, en fabricar $x$ centenars d'unitats d'un producte, els ingressos (en milers d'€) són $I(x)=x^3-x^2-2x+8$ i els costos són $C(x)=x^2+3x+2$.
+
+- **a)** Calcula el benefici $B(x)=I(x)-C(x)$.
+- **b)** Factoritza $B(x)$ i troba els punts d'equilibri (valors de $x>0$ pels quals el benefici és nul).
+- **c)** Avalua $B(2)$ i interpreta el signe del resultat.
 
 ??? note "Mostra la solució"
 
@@ -235,7 +241,10 @@ Teoria: [Polinomis](../01_polinomis.md), [Factorització de polinomis](../02_fac
 
 ### Exercici 35
 
-> **Enunciat.** El nombre d'usuaris (en milers) d'una aplicació mòbil, $t$ mesos després del llançament, es modelitza per $N(t)=t^3-5t^2+2t+8$. · a) Calcula $N(5)$. · b) Factoritza $N(t)$ i indica per a quins valors de $t\geq0$ el model prediu zero usuaris.
+El nombre d'usuaris (en milers) d'una aplicació mòbil, $t$ mesos després del llançament, es modelitza per $N(t)=t^3-5t^2+2t+8$.
+
+- **a)** Calcula $N(5)$.
+- **b)** Factoritza $N(t)$ i indica per a quins valors de $t\geq0$ el model prediu zero usuaris.
 
 ??? note "Mostra la solució"
 

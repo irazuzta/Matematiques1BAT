@@ -17,12 +17,4 @@ Recorda que aquestes eines et serviran durant tot el curs, així que val la pena
 
 ## Per practicar
 
-- [Exercicis i problemes](exercicis.md) — relació d'exercicis de tot el bloc, ordenada com els apartats i amb repàs acumulatiu. També es pot descarregar en PDF.
-
-<div class="no-print" markdown="1">
-
-## Solucionari
-
-- [Solucionari pas a pas](solucionari/index.md) — resolució detallada de tots els exercicis de la relació, un document per bloc.
-
-</div>
+- [Exercicis i problemes](practicar/index.md) — relació d'exercicis de tot el bloc, ordenada com els apartats i amb repàs acumulatiu. Cada exercici té la solució pas a pas plegada. També es pot descarregar en PDF amb solucions.

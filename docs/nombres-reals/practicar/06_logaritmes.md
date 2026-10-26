@@ -1,13 +1,17 @@
-# Solucionari — Logaritmes
+# Logaritmes
 
-Resolució pas a pas dels exercicis 77–100 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Logaritmes](../07_logaritmes.md).
+Exercicis 77–100. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ## 6.1 Definició i càlcul directe
 
 ### Exercici 77
 
-> **Enunciat.** Escriu en forma de logaritme: a) $2^5=32$ · b) $10^3=1000$ · c) $5^0=1$ · d) $3^{-2}=\dfrac{1}{9}$
+Escriu en forma de logaritme:
+
+| | |
+|:--|:--|
+| **a)** $2^5=32$ | **b)** $10^3=1000$ |
+| **c)** $5^0=1$ | **d)** $3^{-2}=\dfrac{1}{9}$ |
 
 ??? note "Mostra la solució"
 
@@ -31,7 +35,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 78
 
-> **Enunciat.** Escriu en forma de potència: a) $\log_2 16=4$ · b) $\log 100=2$ · c) $\log_3 1=0$ · d) $\log_5 5=1$
+Escriu en forma de potència:
+
+| | |
+|:--|:--|
+| **a)** $\log_2 16=4$ | **b)** $\log 100=2$ |
+| **c)** $\log_3 1=0$ | **d)** $\log_5 5=1$ |
 
 ??? note "Mostra la solució"
 
@@ -55,7 +64,13 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 79
 
-> **Enunciat.** Calcula sense calculadora: a) $\log_2 8$ · b) $\log_3 81$ · c) $\log 10000$ · d) $\log_5 1$ · e) $\log_7 7$ · f) $\ln e$
+Calcula sense calculadora:
+
+| | |
+|:--|:--|
+| **a)** $\log_2 8$ | **b)** $\log_3 81$ |
+| **c)** $\log 10000$ | **d)** $\log_5 1$ |
+| **e)** $\log_7 7$ | **f)** $\ln e$ |
 
 ??? note "Mostra la solució"
 
@@ -87,7 +102,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 80
 
-> **Enunciat.** Calcula sense calculadora, escrivint prèviament el nombre com una potència de la base: a) $\log_2 \dfrac{1}{4}$ · b) $\log_3 \dfrac{1}{27}$ · c) $\log_5 \sqrt5$ · d) $\log_2 \sqrt[3]{4}$
+Calcula sense calculadora, escrivint prèviament el nombre com una potència de la base:
+
+| | |
+|:--|:--|
+| **a)** $\log_2 \dfrac{1}{4}$ | **b)** $\log_3 \dfrac{1}{27}$ |
+| **c)** $\log_5 \sqrt5$ | **d)** $\log_2 \sqrt[3]{4}$ |
 
 ??? note "Mostra la solució"
 
@@ -121,7 +141,11 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 81
 
-> **Enunciat.** Aplica la propietat del logaritme d'un producte per desenvolupar: a) $\log_2\left(4\cdot 8\right)$ · b) $\log\left(5\cdot 20\right)$ · c) $\log_3\left(x\cdot y\right)$, amb $x,y>0$
+Aplica la propietat del logaritme d'un producte per desenvolupar:
+
+- **a)** $\log_2\left(4\cdot 8\right)$
+- **b)** $\log\left(5\cdot 20\right)$
+- **c)** $\log_3\left(x\cdot y\right)$, amb $x,y>0$
 
 ??? note "Mostra la solució"
 
@@ -151,7 +175,11 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 82
 
-> **Enunciat.** Aplica la propietat del logaritme d'un quocient: a) $\log_2 \dfrac{32}{4}$ · b) $\log \dfrac{1000}{10}$ · c) $\log_5 \dfrac{x}{25}$, amb $x>0$
+Aplica la propietat del logaritme d'un quocient:
+
+- **a)** $\log_2 \dfrac{32}{4}$
+- **b)** $\log \dfrac{1000}{10}$
+- **c)** $\log_5 \dfrac{x}{25}$, amb $x>0$
 
 ??? note "Mostra la solució"
 
@@ -183,7 +211,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 83
 
-> **Enunciat.** Aplica la propietat de la potència: a) $\log_2 8^5$ · b) $\log_3 9^{-2}$ · c) $\log\left(10^7\right)$ · d) $\log_a a^n$
+Aplica la propietat de la potència:
+
+| | |
+|:--|:--|
+| **a)** $\log_2 8^5$ | **b)** $\log_3 9^{-2}$ |
+| **c)** $\log\left(10^7\right)$ | **d)** $\log_a a^n$ |
 
 ??? note "Mostra la solució"
 
@@ -215,7 +248,11 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 84
 
-> **Enunciat.** Aplica la propietat de l'arrel: a) $\log_2 \sqrt[3]{8}$ · b) $\log_5\sqrt{25}$ · c) $\log_3\sqrt[4]{81}$
+Aplica la propietat de l'arrel:
+
+- **a)** $\log_2 \sqrt[3]{8}$
+- **b)** $\log_5\sqrt{25}$
+- **c)** $\log_3\sqrt[4]{81}$
 
 ??? note "Mostra la solució"
 
@@ -247,7 +284,7 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 85
 
-> **Enunciat.** Desenvolupa aplicant totes les propietats necessàries: $\log_2\left(\dfrac{8\sqrt2}{4}\right)$.
+Desenvolupa aplicant totes les propietats necessàries: $\log_2\left(\dfrac{8\sqrt2}{4}\right)$.
 
 ??? note "Mostra la solució"
 
@@ -269,7 +306,7 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 86
 
-> **Enunciat.** Desenvolupa: $\log\left(\dfrac{100\cdot\sqrt{10}}{1000}\right)$.
+Desenvolupa: $\log\left(\dfrac{100\cdot\sqrt{10}}{1000}\right)$.
 
 ??? note "Mostra la solució"
 
@@ -291,7 +328,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 87
 
-> **Enunciat.** Redueix a un sol logaritme: a) $\log_2 5+\log_2 3$ · b) $\log 20-\log 4$ · c) $3\log_5 2$ · d) $\dfrac12 \log_3 9$
+Redueix a un sol logaritme:
+
+| | |
+|:--|:--|
+| **a)** $\log_2 5+\log_2 3$ | **b)** $\log 20-\log 4$ |
+| **c)** $3\log_5 2$ | **d)** $\dfrac12 \log_3 9$ |
 
 ??? note "Mostra la solució"
 
@@ -331,7 +373,7 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 88
 
-> **Enunciat.** Redueix a un sol logaritme i calcula'n el valor: $2\log_2 3-\log_2 \dfrac{9}{4}$.
+Redueix a un sol logaritme i calcula'n el valor: $2\log_2 3-\log_2 \dfrac{9}{4}$.
 
 ??? note "Mostra la solució"
 
@@ -347,7 +389,10 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 89
 
-> **Enunciat.** Utilitza el canvi de base per expressar en base $10$ (deixa'l indicat, sense calcular-lo): a) $\log_2 7$ · b) $\log_5 12$
+Utilitza el canvi de base per expressar en base $10$ (deixa'l indicat, sense calcular-lo):
+
+- **a)** $\log_2 7$
+- **b)** $\log_5 12$
 
 ??? note "Mostra la solució"
 
@@ -367,7 +412,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 90
 
-> **Enunciat.** Desenvolupa aplicant les propietats dels logaritmes: a) $\log_a\left(x^3 y^2\right)$ · b) $\log_a \dfrac{x^2}{y^3}$ · c) $\log_a \dfrac{xy}{z}$ · d) $\log_a \sqrt{x}$
+Desenvolupa aplicant les propietats dels logaritmes:
+
+| | |
+|:--|:--|
+| **a)** $\log_a\left(x^3 y^2\right)$ | **b)** $\log_a \dfrac{x^2}{y^3}$ |
+| **c)** $\log_a \dfrac{xy}{z}$ | **d)** $\log_a \sqrt{x}$ |
 
 ??? note "Mostra la solució"
 
@@ -401,7 +451,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 91
 
-> **Enunciat.** Desenvolupa completament, fins que no quedi cap producte, quocient, potència ni arrel dins d'un logaritme: a) $\log_a \dfrac{x^3\sqrt{y}}{z^2}$ · b) $\log_a \sqrt{\dfrac{x}{y}}$ · c) $\log_a \dfrac{x^2\sqrt[3]{y}}{z}$ · d) $\log_a \left(x\sqrt{yz}\right)$
+Desenvolupa completament, fins que no quedi cap producte, quocient, potència ni arrel dins d'un logaritme:
+
+| | |
+|:--|:--|
+| **a)** $\log_a \dfrac{x^3\sqrt{y}}{z^2}$ | **b)** $\log_a \sqrt{\dfrac{x}{y}}$ |
+| **c)** $\log_a \dfrac{x^2\sqrt[3]{y}}{z}$ | **d)** $\log_a \left(x\sqrt{yz}\right)$ |
 
 ??? note "Mostra la solució"
 
@@ -439,7 +494,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 92
 
-> **Enunciat.** Redueix a un sol logaritme: a) $2\log_a x+3\log_a y$ · b) $\log_a x-\dfrac12\log_a y$ · c) $\log_a x+\log_a y-\log_a z$ · d) $4\log_a x$
+Redueix a un sol logaritme:
+
+| | |
+|:--|:--|
+| **a)** $2\log_a x+3\log_a y$ | **b)** $\log_a x-\dfrac12\log_a y$ |
+| **c)** $\log_a x+\log_a y-\log_a z$ | **d)** $4\log_a x$ |
 
 ??? note "Mostra la solució"
 
@@ -475,7 +535,12 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 93
 
-> **Enunciat.** Redueix a un sol logaritme: a) $3\log_a x-\log_a y-2\log_a z$ · b) $\dfrac12\left(\log_a x+\log_a y\right)$ · c) $2\log_a x-\dfrac13\log_a y$ · d) $\dfrac13\log_a x+\dfrac23\log_a y-\log_a z$
+Redueix a un sol logaritme:
+
+| | |
+|:--|:--|
+| **a)** $3\log_a x-\log_a y-2\log_a z$ | **b)** $\dfrac12\left(\log_a x+\log_a y\right)$ |
+| **c)** $2\log_a x-\dfrac13\log_a y$ | **d)** $\dfrac13\log_a x+\dfrac23\log_a y-\log_a z$ |
 
 ??? note "Mostra la solució"
 
@@ -513,7 +578,13 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 94
 
-> **Enunciat.** Sabent que $\log_a 2=m$ i $\log_a 3=n$, expressa en funció de $m$ i $n$: a) $\log_a 6$ · b) $\log_a 12$ · c) $\log_a \dfrac{3}{2}$ · d) $\log_a \sqrt{2}$ · e) $\log_a 18$ · f) $\log_a \dfrac{8}{9}$
+Sabent que $\log_a 2=m$ i $\log_a 3=n$, expressa en funció de $m$ i $n$:
+
+| | |
+|:--|:--|
+| **a)** $\log_a 6$ | **b)** $\log_a 12$ |
+| **c)** $\log_a \dfrac{3}{2}$ | **d)** $\log_a \sqrt{2}$ |
+| **e)** $\log_a 18$ | **f)** $\log_a \dfrac{8}{9}$ |
 
 ??? note "Mostra la solució"
 
@@ -557,7 +628,13 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 95
 
-> **Enunciat.** Sabent que $\log 2 \approx 0{,}301$, calcula sense calculadora (recorda que $\log 10=1$): a) $\log 5$ · b) $\log 4$ · c) $\log 50$ · d) $\log 0{,}2$ · e) $\log \sqrt{2}$ · f) $\log 40$
+Sabent que $\log 2 \approx 0{,}301$, calcula sense calculadora (recorda que $\log 10=1$):
+
+| | |
+|:--|:--|
+| **a)** $\log 5$ | **b)** $\log 4$ |
+| **c)** $\log 50$ | **d)** $\log 0{,}2$ |
+| **e)** $\log \sqrt{2}$ | **f)** $\log 40$ |
 
 ??? note "Mostra la solució"
 
@@ -589,7 +666,9 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 96
 
-> **Enunciat.** Anomenem $L=\log_a x$. Expressa en funció de $L$ i simplifica al màxim: $\log_a x^2-\log_a \sqrt{x}+\log_a \dfrac{1}{x}$
+Anomenem $L=\log_a x$. Expressa en funció de $L$ i simplifica al màxim:
+
+$$\log_a x^2-\log_a \sqrt{x}+\log_a \dfrac{1}{x}$$
 
 ??? note "Mostra la solució"
 
@@ -609,7 +688,9 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 97
 
-> **Enunciat.** Demostra, utilitzant el canvi de base, que per a qualsevol $a,b>0$ amb $a\neq1$ i $b\neq1$ es compleix $\log_a b \cdot \log_b a = 1$
+Demostra, utilitzant el canvi de base, que per a qualsevol $a,b>0$ amb $a\neq1$ i $b\neq1$ es compleix
+
+$$\log_a b \cdot \log_b a = 1$$
 
 ??? note "Mostra la solució"
 
@@ -631,7 +712,7 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 98
 
-> **Enunciat.** Demostra que $\log_{a^2} x = \dfrac12 \log_a x$. *(Indicació: aplica el canvi de base a la base $a$.)*
+Demostra que $\log_{a^2} x = \dfrac12 \log_a x$. *(Indicació: aplica el canvi de base a la base $a$.)*
 
 ??? note "Mostra la solució"
 
@@ -655,7 +736,7 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 99
 
-> **Enunciat.** *(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0\left(1+i\right)^t$ i el logaritme per aïllar $t$.)*
+*(aplicat)* Un capital de $C_0=5\,000$ € s'inverteix a un interès compost anual del $4\%$. Quants anys calen, aproximadament, perquè el capital arribi a $C_f=7\,000$ €? *(Usa $C_f=C_0\left(1+i\right)^t$ i el logaritme per aïllar $t$.)*
 
 ??? note "Mostra la solució"
 
@@ -683,7 +764,7 @@ Teoria: [Logaritmes](../07_logaritmes.md).
 
 ### Exercici 100
 
-> **Enunciat.** *(aplicat)* La magnitud $M$ d'un terratrèmol (escala de Richter) es relaciona amb l'energia alliberada $E$ mitjançant $M=\dfrac{2}{3}\log\left(\dfrac{E}{E_0}\right)$, amb $E_0$ constant. Si un terratrèmol allibera $1000$ vegades més energia que un altre ($E=1000\,E_1$), quant més gran és la seva magnitud $M$ respecte a $M_1$? *(Calcula $M-M_1$.)*
+*(aplicat)* La magnitud $M$ d'un terratrèmol (escala de Richter) es relaciona amb l'energia alliberada $E$ mitjançant $M=\dfrac{2}{3}\log\left(\dfrac{E}{E_0}\right)$, amb $E_0$ constant. Si un terratrèmol allibera $1000$ vegades més energia que un altre ($E=1000\,E_1$), quant més gran és la seva magnitud $M$ respecte a $M_1$? *(Calcula $M-M_1$.)*
 
 ??? note "Mostra la solució"
 

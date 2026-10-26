@@ -1,6 +1,8 @@
-# Solucionari d'Àlgebra
+# Per practicar
 
-Resolució **pas a pas** dels exercicis de la llista [Exercicis i problemes](../exercicis.md), dividida per blocs perquè sigui més fàcil de consultar. Abans de mirar la solució, intenta resoldre l'exercici pel teu compte; després contrasta el procediment, no només el resultat final.
+Relació d'exercicis de tot el bloc, ordenada com els apartats de la teoria. Cada exercici té la **solució pas a pas** plegada: intenta'l primer i desplega-la després per comprovar el procediment.
+
+[Descarrega el llistat en PDF, amb solucions](../../assets/exercicis/2_algebra-complet.pdf)
 
 | Bloc | Exercicis |
 |:--|:--:|

@@ -1,11 +1,10 @@
-# Solucionari — Aproximacions i errors
+# Aproximacions i errors
 
-Resolució pas a pas dels exercicis 25–33 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
+Exercicis 25–33. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 25
 
-> **Enunciat.** Sigui $e=2{,}718281828\ldots$ el nombre d'Euler. Trunca'l i arrodoneix-lo a $2$ i a $4$ xifres decimals.
+Sigui $e=2{,}718281828\ldots$ el nombre d'Euler. Trunca'l i arrodoneix-lo a $2$ i a $4$ xifres decimals.
 
 ??? note "Mostra la solució"
 
@@ -23,7 +22,12 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 26
 
-> **Enunciat.** Indica el nombre de xifres significatives de: a) $0{,}0072$ · b) $308{,}40$ · c) $1{,}0500$ · d) $6000$ (suposa que ve de mesurar amb precisió de milers)
+Indica el nombre de xifres significatives de:
+
+- **a)** $0{,}0072$
+- **b)** $308{,}40$
+- **c)** $1{,}0500$
+- **d)** $6000$ (suposa que ve de mesurar amb precisió de milers)
 
 ??? note "Mostra la solució"
 
@@ -47,7 +51,7 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 27
 
-> **Enunciat.** El valor exacte d'una magnitud és $x=12{,}763$ i s'aproxima per $x'=12{,}8$. Calcula l'error absolut i l'error relatiu (en tant per cent, arrodonit a $2$ xifres decimals).
+El valor exacte d'una magnitud és $x=12{,}763$ i s'aproxima per $x'=12{,}8$. Calcula l'error absolut i l'error relatiu (en tant per cent, arrodonit a $2$ xifres decimals).
 
 ??? note "Mostra la solució"
 
@@ -65,7 +69,10 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 28
 
-> **Enunciat.** Un topògraf mesura la longitud d'un pont i obté $x'=248\,\text{m}$, mentre que el valor exacte és $x=250\,\text{m}$. a) Calcula l'error absolut. · b) Calcula l'error relatiu en tant per cent.
+Un topògraf mesura la longitud d'un pont i obté $x'=248\,\text{m}$, mentre que el valor exacte és $x=250\,\text{m}$.
+
+- **a)** Calcula l'error absolut.
+- **b)** Calcula l'error relatiu en tant per cent.
 
 ??? note "Mostra la solució"
 
@@ -83,7 +90,7 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 29
 
-> **Enunciat.** *(aplicat)* Es mesuren dues longituds amb el mateix error absolut d'$1\,\text{cm}$: la llargada d'un llapis ($15\,\text{cm}$) i la d'un camp de futbol ($100\,\text{m}$). Calcula l'error relatiu en cada cas i comenta quina mesura és relativament més precisa.
+*(aplicat)* Es mesuren dues longituds amb el mateix error absolut d'$1\,\text{cm}$: la llargada d'un llapis ($15\,\text{cm}$) i la d'un camp de futbol ($100\,\text{m}$). Calcula l'error relatiu en cada cas i comenta quina mesura és relativament més precisa.
 
 ??? note "Mostra la solució"
 
@@ -103,7 +110,7 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 30
 
-> **Enunciat.** Un nombre s'ha arrodonit a les centèsimes i s'ha obtingut $x'=7{,}42$. Entre quins valors es pot trobar el valor exacte $x$? Expressa la resposta en forma d'interval i vigila quins extrems s'inclouen i quins no.
+Un nombre s'ha arrodonit a les centèsimes i s'ha obtingut $x'=7{,}42$. Entre quins valors es pot trobar el valor exacte $x$? Expressa la resposta en forma d'interval i vigila quins extrems s'inclouen i quins no.
 
 ??? note "Mostra la solució"
 
@@ -122,7 +129,12 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 31
 
-> **Enunciat.** Cada valor següent s'ha obtingut per arrodoniment. Dona una fita de l'error absolut i una fita de l'error relatiu (en tant per cent, amb dues xifres decimals): a) $x'=3{,}25$ (a les centèsimes) · b) $x'=48{,}6$ (a les dècimes) · c) $x'=1200$ (a les desenes) · d) $x'=0{,}038$ (a les mil·lèsimes)
+Cada valor següent s'ha obtingut per arrodoniment. Dona una fita de l'error absolut i una fita de l'error relatiu (en tant per cent, amb dues xifres decimals):
+
+| | |
+|:--|:--|
+| **a)** $x'=3{,}25$ (a les centèsimes) | **b)** $x'=48{,}6$ (a les dècimes) |
+| **c)** $x'=1200$ (a les desenes) | **d)** $x'=0{,}038$ (a les mil·lèsimes) |
 
 ??? note "Mostra la solució"
 
@@ -158,7 +170,7 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 32
 
-> **Enunciat.** Volem aproximar $\pi=3{,}14159265\ldots$ per arrodoniment, de manera que l'error relatiu sigui inferior al $0{,}01\%$. Quantes xifres decimals cal conservar com a mínim? Justifica-ho amb la fita de l'error i comprova després què passa si en conserves una menys.
+Volem aproximar $\pi=3{,}14159265\ldots$ per arrodoniment, de manera que l'error relatiu sigui inferior al $0{,}01\%$. Quantes xifres decimals cal conservar com a mínim? Justifica-ho amb la fita de l'error i comprova després què passa si en conserves una menys.
 
 ??? note "Mostra la solució"
 
@@ -196,7 +208,7 @@ Teoria: [Aproximacions i errors](../04_aproximacions_errors.md)
 
 ### Exercici 33
 
-> **Enunciat.** *(aplicat)* La velocitat de la llum és $c=299\,792\,458\,\text{m/s}$, que sovint s'aproxima per $c'=300\,000\,000\,\text{m/s}$. Calcula l'error relatiu comès, en tant per cent (arrodoneix a $2$ xifres decimals). *(Enllaça amb la notació científica que ve tot seguit.)*
+*(aplicat)* La velocitat de la llum és $c=299\,792\,458\,\text{m/s}$, que sovint s'aproxima per $c'=300\,000\,000\,\text{m/s}$. Calcula l'error relatiu comès, en tant per cent (arrodoneix a $2$ xifres decimals). *(Enllaça amb la notació científica que ve tot seguit.)*
 
 ??? note "Mostra la solució"
 

@@ -1,11 +1,17 @@
-# Solucionari — El conjunt dels nombres reals i la recta real
+# El conjunt dels nombres reals i la recta real
 
-Resolució pas a pas dels exercicis 1–5 de [Exercicis i problemes](../exercicis.md).
-Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [La recta real: relació d'ordre](../02_recta_real.md).
+Exercicis 1–5. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 1
 
-> **Enunciat.** Classifica cada nombre indicant a quins conjunts pertany ($\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}\setminus\mathbb{Q}$; un nombre pot pertànyer a més d'un): a) $-7$ · b) $\dfrac{3}{4}$ · c) $\sqrt{16}$ · d) $\sqrt{5}$ · e) $0$ · f) $2{,}5$ · g) $-\dfrac{9}{3}$ · h) $\pi$
+Classifica cada nombre indicant a quins conjunts pertany ($\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}\setminus\mathbb{Q}$; un nombre pot pertànyer a més d'un):
+
+| | |
+|:--|:--|
+| **a)** $-7$ | **b)** $\dfrac{3}{4}$ |
+| **c)** $\sqrt{16}$ | **d)** $\sqrt{5}$ |
+| **e)** $0$ | **f)** $2{,}5$ |
+| **g)** $-\dfrac{9}{3}$ | **h)** $\pi$ |
 
 ??? note "Mostra la solució"
 
@@ -51,7 +57,12 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [La rec
 
 ### Exercici 2
 
-> **Enunciat.** Digues si cada afirmació és certa o falsa, i justifica-ho breument: a) $\mathbb{N}\subset\mathbb{Z}$ · b) $\sqrt{2}\in\mathbb{Q}$ · c) Tot nombre enter és racional. · d) $0{,}\overline{6}$ és irracional.
+Digues si cada afirmació és certa o falsa, i justifica-ho breument:
+
+- **a)** $\mathbb{N}\subset\mathbb{Z}$
+- **b)** $\sqrt{2}\in\mathbb{Q}$
+- **c)** Tot nombre enter és racional.
+- **d)** $0{,}\overline{6}$ és irracional.
 
 ??? note "Mostra la solució"
 
@@ -90,7 +101,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [La rec
 
 ### Exercici 3
 
-> **Enunciat.** Ordena de més petit a més gran: $-3$, $\dfrac{7}{2}$, $-1{,}5$, $4$, $0$.
+Ordena de més petit a més gran: $-3$, $\dfrac{7}{2}$, $-1{,}5$, $4$, $0$.
 
 ??? note "Mostra la solució"
 
@@ -106,7 +117,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [La rec
 
 ### Exercici 4
 
-> **Enunciat.** Sense calculadora, decideix quin nombre és més gran, $\dfrac{2}{3}$ o $0{,}68$ passant-los primer tots a decimal i després tots a fracció.
+Sense calculadora, decideix quin nombre és més gran, $\dfrac{2}{3}$ o $0{,}68$ passant-los primer tots a decimal i després tots a fracció.
 
 ??? note "Mostra la solució"
 
@@ -138,7 +149,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [La rec
 
 ### Exercici 5
 
-> **Enunciat.** Situa aproximadament sobre una recta real els nombres $-2$, $1{,}5$, $\pi$ i $-\sqrt{2}$ (n'hi ha prou amb dues xifres decimals d'aproximació).
+Situa aproximadament sobre una recta real els nombres $-2$, $1{,}5$, $\pi$ i $-\sqrt{2}$ (n'hi ha prou amb dues xifres decimals d'aproximació).
 
 ??? note "Mostra la solució"
 

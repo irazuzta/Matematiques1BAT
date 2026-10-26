@@ -1,6 +1,8 @@
-# Solucionari de Nombres reals
+# Per practicar
 
-Resolució **pas a pas** dels exercicis de la llista [Exercicis i problemes](../exercicis.md), dividida per blocs perquè sigui més fàcil de consultar. Abans de mirar la solució, intenta resoldre l'exercici pel teu compte; després contrasta el procediment, no només el resultat final.
+Relació d'exercicis de tot el bloc, ordenada com els apartats de la teoria. Cada exercici té la **solució pas a pas** plegada: intenta'l primer i desplega-la després per comprovar el procediment.
+
+[Descarrega el llistat en PDF, amb solucions](../../assets/exercicis/1_nombres_reals-complet.pdf)
 
 | Bloc | Exercicis |
 |:--|:--:|

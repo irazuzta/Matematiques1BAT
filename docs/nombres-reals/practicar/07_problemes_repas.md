@@ -1,11 +1,10 @@
-# Solucionari — Problemes de repàs i aplicacions
+# Problemes de repàs i aplicacions
 
-Resolució pas a pas dels exercicis 101–112 de [Exercicis i problemes](../exercicis.md).
-Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Intervals i valor absolut](../03_intervals_valor_absolut.md), [Aproximacions i errors](../04_aproximacions_errors.md), [Potències](../05_potencies.md), [Arrels i radicals](../06_arrels.md), [Logaritmes](../07_logaritmes.md).
+Exercicis 101–112. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 101
 
-> **Enunciat.** Simplifica combinant potències i arrels: $\sqrt{2^6}\cdot 2^{-1}$.
+*(repàs)* Simplifica combinant potències i arrels: $\sqrt{2^6}\cdot 2^{-1}$.
 
 ??? note "Mostra la solució"
 
@@ -19,7 +18,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 102
 
-> **Enunciat.** Calcula, en notació científica: $\left(2\cdot10^3\right)^2 \cdot \left(5\cdot10^{-2}\right)$.
+*(repàs)* Calcula, en notació científica: $\left(2\cdot10^3\right)^2 \cdot \left(5\cdot10^{-2}\right)$.
 
 ??? note "Mostra la solució"
 
@@ -45,7 +44,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 103
 
-> **Enunciat.** Simplifica $\sqrt{\dfrac{4\cdot10^{-2}}{9}}$ i expressa el resultat com una fracció.
+*(repàs)* Simplifica $\sqrt{\dfrac{4\cdot10^{-2}}{9}}$ i expressa el resultat com una fracció.
 
 ??? note "Mostra la solució"
 
@@ -67,7 +66,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 104
 
-> **Enunciat.** Troba l'interval solució de $|x-3|<\sqrt{16}$.
+*(repàs)* Troba l'interval solució de $|x-3|<\sqrt{16}$.
 
 ??? note "Mostra la solució"
 
@@ -83,7 +82,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 105
 
-> **Enunciat.** Calcula l'error relatiu, en tant per cent, de l'aproximació $\sqrt2 \approx 1{,}414$ (arrodoneix a $3$ xifres decimals).
+*(repàs)* Calcula l'error relatiu, en tant per cent, de l'aproximació $\sqrt2 \approx 1{,}414$ (arrodoneix a $3$ xifres decimals).
 
 ??? note "Mostra la solució"
 
@@ -105,7 +104,10 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 106
 
-> **Enunciat.** Una població de bacteris es multiplica per $2$ cada hora, segons $N\left(t\right)=N_0\cdot 2^t$, amb $N_0=500$. a) Quants bacteris hi ha al cap de $5$ hores? · b) Quantes hores calen perquè la població arribi a $64\,000$ bacteris?
+*(repàs · aplicat)* Una població de bacteris es multiplica per $2$ cada hora, segons $N\left(t\right)=N_0\cdot 2^t$, amb $N_0=500$.
+
+- **a)** Quants bacteris hi ha al cap de $5$ hores?
+- **b)** Quantes hores calen perquè la població arribi a $64\,000$ bacteris?
 
 ??? note "Mostra la solució"
 
@@ -135,7 +137,10 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 107
 
-> **Enunciat.** Un dipòsit cúbic té un volum de $V=125\,\text{m}^3$. a) Calcula, sense calculadora, l'aresta del cub ($V=a^3 \Rightarrow a=\sqrt[3]{V}$). · b) Si es vol doblar el volum, quina hauria de ser la nova aresta $a'$? Deixa-la com a radical simplificat.
+*(repàs · aplicat)* Un dipòsit cúbic té un volum de $V=125\,\text{m}^3$.
+
+- **a)** Calcula, sense calculadora, l'aresta del cub ($V=a^3 \Rightarrow a=\sqrt[3]{V}$).
+- **b)** Si es vol doblar el volum, quina hauria de ser la nova aresta $a'$? Deixa-la com a radical simplificat.
 
 ??? note "Mostra la solució"
 
@@ -165,7 +170,7 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 108
 
-> **Enunciat.** La intensitat sonora $\beta$ (en decibels) es calcula com $\beta=10\log\left(\dfrac{I}{I_0}\right)$, amb $I_0=10^{-12}\,\text{W/m}^2$ el llindar d'audició. Calcula la intensitat sonora, en decibels, d'un so amb $I=10^{-4}\,\text{W/m}^2$.
+*(repàs · aplicat)* La intensitat sonora $\beta$ (en decibels) es calcula com $\beta=10\log\left(\dfrac{I}{I_0}\right)$, amb $I_0=10^{-12}\,\text{W/m}^2$ el llindar d'audició. Calcula la intensitat sonora, en decibels, d'un so amb $I=10^{-4}\,\text{W/m}^2$.
 
 ??? note "Mostra la solució"
 
@@ -187,7 +192,9 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 109
 
-> **Enunciat.** Simplifica pas a pas fins a obtenir un únic nombre: $\dfrac{\sqrt{50}-\sqrt{8}}{\sqrt2} + \log_2 16 - |{-3}|$.
+*(repàs global)* Simplifica pas a pas fins a obtenir un únic nombre:
+
+$$\dfrac{\sqrt{50}-\sqrt{8}}{\sqrt2} + \log_2 16 - |{-3}|$$
 
 ??? note "Mostra la solució"
 
@@ -213,7 +220,10 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 110
 
-> **Enunciat.** Considera $A=\dfrac{3^2\cdot\sqrt4}{3}$ i $B=\log_2\left(\dfrac{32}{4}\right)$. a) Calcula el valor numèric de $A$ i de $B$. · b) Troba l'interval solució de $|x-A|<B$.
+*(repàs global)* Considera $A=\dfrac{3^2\cdot\sqrt4}{3}$ i $B=\log_2\left(\dfrac{32}{4}\right)$.
+
+- **a)** Calcula el valor numèric de $A$ i de $B$.
+- **b)** Troba l'interval solució de $|x-A|<B$.
 
 ??? note "Mostra la solució"
 
@@ -241,7 +251,14 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 111
 
-> **Enunciat.** Digues si cada afirmació és certa o falsa. Si és falsa, dona un contraexemple: a) $\sqrt{a^2}=a$ per a tot $a\in\mathbb{R}$ · b) $|a+b|=|a|+|b|$ per a tot $a,b\in\mathbb{R}$ · c) $\log\left(x+y\right)=\log x+\log y$ per a tot $x,y>0$ · d) $\sqrt[3]{a}$ existeix per a tot $a\in\mathbb{R}$ · e) Si $|x|<3$, aleshores $x<3$ · f) $\left(a+b\right)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
+Digues si cada afirmació és certa o falsa. Si és falsa, dona un contraexemple:
+
+- **a)** $\sqrt{a^2}=a$ per a tot $a\in\mathbb{R}$.
+- **b)** $|a+b|=|a|+|b|$ per a tot $a,b\in\mathbb{R}$.
+- **c)** $\log\left(x+y\right)=\log x+\log y$ per a tot $x,y>0$.
+- **d)** $\sqrt[3]{a}$ existeix per a tot $a\in\mathbb{R}$.
+- **e)** Si $|x|<3$, aleshores $x<3$.
+- **f)** $\left(a+b\right)^2=a^2+b^2$ per a tot $a,b\in\mathbb{R}$.
 
 ??? note "Mostra la solució"
 
@@ -273,7 +290,11 @@ Teoria: [El conjunt dels nombres reals](../01_conjunt_nombres_reals.md), [Interv
 
 ### Exercici 112
 
-> **Enunciat.** El període d'oscil·lació $T$ d'un pèndol simple de longitud $L$ ve donat per $T=2\pi\sqrt{\dfrac{L}{g}}$, on $g$ és l'acceleració de la gravetat (constant). Demostra que, per aconseguir que el període es dupliqui, cal multiplicar la longitud del pèndol per $4$.
+*(aplicat)* El període d'oscil·lació $T$ d'un pèndol simple de longitud $L$ ve donat per
+
+$$T=2\pi\sqrt{\dfrac{L}{g}},$$
+
+on $g$ és l'acceleració de la gravetat (constant). Demostra que, per aconseguir que el període es dupliqui, cal multiplicar la longitud del pèndol per $4$.
 
 ??? note "Mostra la solució"
 

@@ -1,11 +1,16 @@
-# Solucionari — Arrels i radicals
+# Arrels i radicals
 
-Resolució pas a pas dels exercicis 49–76 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Arrels i radicals](../06_arrels.md).
+Exercicis 49–76. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 49
 
-> **Enunciat.** Calcula, si existeix, cada arrel. Si no existeix a $\mathbb{R}$, digues-ho: a) $\sqrt{25}$ · b) $\sqrt[3]{-27}$ · c) $\sqrt{-9}$ · d) $\sqrt[4]{16}$ · e) $\sqrt[5]{-32}$ · f) $\sqrt[3]{0}$
+Calcula, si existeix, cada arrel. Si no existeix a $\mathbb{R}$, digues-ho:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt{25}$ | **b)** $\sqrt[3]{-27}$ |
+| **c)** $\sqrt{-9}$ | **d)** $\sqrt[4]{16}$ |
+| **e)** $\sqrt[5]{-32}$ | **f)** $\sqrt[3]{0}$ |
 
 ??? note "Mostra la solució"
 
@@ -35,7 +40,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 50
 
-> **Enunciat.** Digues quantes arrels reals té cada equació i escriu-les: a) $x^2=49$ · b) $x^3=-8$ · c) $x^2=-4$ · d) $x^4=81$
+Digues quantes arrels reals té cada equació i escriu-les:
+
+| | |
+|:--|:--|
+| **a)** $x^2=49$ | **b)** $x^3=-8$ |
+| **c)** $x^2=-4$ | **d)** $x^4=81$ |
 
 ??? note "Mostra la solució"
 
@@ -57,7 +67,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 51
 
-> **Enunciat.** Escriu cada radical com una potència d'exponent fraccionari: a) $\sqrt[3]{5}$ · b) $\sqrt[4]{2^3}$ · c) $\sqrt{7}$ · d) $\sqrt[5]{x^2}$
+Escriu cada radical com una potència d'exponent fraccionari:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt[3]{5}$ | **b)** $\sqrt[4]{2^3}$ |
+| **c)** $\sqrt{7}$ | **d)** $\sqrt[5]{x^2}$ |
 
 ??? note "Mostra la solució"
 
@@ -75,7 +90,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 52
 
-> **Enunciat.** Escriu cada potència com un radical: a) $3^{1/2}$ · b) $2^{2/3}$ · c) $x^{3/4}$ · d) $5^{1/4}$
+Escriu cada potència com un radical:
+
+| | |
+|:--|:--|
+| **a)** $3^{1/2}$ | **b)** $2^{2/3}$ |
+| **c)** $x^{3/4}$ | **d)** $5^{1/4}$ |
 
 ??? note "Mostra la solució"
 
@@ -91,7 +111,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 53
 
-> **Enunciat.** Simplifica reduint l'índex tant com sigui possible: a) $\sqrt[6]{4}$ · b) $\sqrt[4]{9}$ · c) $\sqrt[8]{16}$ · d) $\sqrt[6]{27}$
+Simplifica reduint l'índex tant com sigui possible:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt[6]{4}$ | **b)** $\sqrt[4]{9}$ |
+| **c)** $\sqrt[8]{16}$ | **d)** $\sqrt[6]{27}$ |
 
 ??? note "Mostra la solució"
 
@@ -115,7 +140,14 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 54
 
-> **Enunciat.** Extreu tots els factors possibles de cada radical (suposa $x>0$, $a>0$): a) $\sqrt{75}$ · b) $\sqrt[3]{54}$ · c) $\sqrt{200}$ · d) $\sqrt[3]{128}$ · e) $\sqrt{x^5}$ · f) $\sqrt[3]{8x^4}$ · g) $\sqrt[4]{\dfrac{x^8}{16}}$ · h) $\sqrt{18a^3}$
+Extreu tots els factors possibles de cada radical (suposa $x>0$, $a>0$):
+
+| | |
+|:--|:--|
+| **a)** $\sqrt{75}$ | **b)** $\sqrt[3]{54}$ |
+| **c)** $\sqrt{200}$ | **d)** $\sqrt[3]{128}$ |
+| **e)** $\sqrt{x^5}$ | **f)** $\sqrt[3]{8x^4}$ |
+| **g)** $\sqrt[4]{\dfrac{x^8}{16}}$ | **h)** $\sqrt{18a^3}$ |
 
 ??? note "Mostra la solució"
 
@@ -157,7 +189,13 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 55
 
-> **Enunciat.** Introdueix els factors dins del radical i simplifica (suposa $x>0$, $a>0$): a) $3\sqrt{2}$ · b) $2\sqrt[3]{5}$ · c) $x\sqrt{x}$ · d) $4\sqrt[3]{2}$ · e) $\dfrac{2}{a}\sqrt{\dfrac{a^3}{4}}$ · f) $\dfrac{1}{2}\sqrt{20}$
+Introdueix els factors dins del radical i simplifica (suposa $x>0$, $a>0$):
+
+| | |
+|:--|:--|
+| **a)** $3\sqrt{2}$ | **b)** $2\sqrt[3]{5}$ |
+| **c)** $x\sqrt{x}$ | **d)** $4\sqrt[3]{2}$ |
+| **e)** $\dfrac{2}{a}\sqrt{\dfrac{a^3}{4}}$ | **f)** $\dfrac{1}{2}\sqrt{20}$ |
 
 ??? note "Mostra la solució"
 
@@ -191,7 +229,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 56
 
-> **Enunciat.** Opera primer el radicand i després extreu els factors que puguis: a) $\sqrt{\dfrac{1}{4}+\dfrac{1}{9}}$ · b) $\sqrt{\dfrac{x}{4}+2x}$, amb $x\geq 0$ · c) $\sqrt[3]{27x^2+27}$ · d) $\sqrt{4x^2+4x+1}$
+Opera primer el radicand i després extreu els factors que puguis:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt{\dfrac{1}{4}+\dfrac{1}{9}}$ | **b)** $\sqrt{\dfrac{x}{4}+2x}$, amb $x\geq 0$ |
+| **c)** $\sqrt[3]{27x^2+27}$ | **d)** $\sqrt{4x^2+4x+1}$ |
 
 ??? note "Mostra la solució"
 
@@ -223,7 +266,7 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 57
 
-> **Enunciat.** Sense calculadora, ordena de més petit a més gran, passant-los prèviament a índex comú: $\sqrt{2}$, $\sqrt[3]{3}$, $\sqrt[6]{5}$, $\sqrt[3]{4}$.
+Sense calculadora, ordena de més petit a més gran, passant-los prèviament a índex comú: $\sqrt{2}$, $\sqrt[3]{3}$, $\sqrt[6]{5}$, $\sqrt[3]{4}$.
 
 ??? note "Mostra la solució"
 
@@ -237,7 +280,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 58
 
-> **Enunciat.** Multiplica i simplifica: a) $\sqrt{3}\cdot\sqrt{12}$ · b) $\sqrt[3]{2}\cdot\sqrt[3]{4}$ · c) $\sqrt{5}\cdot\sqrt{20}$ · d) $\sqrt[4]{2}\cdot\sqrt[4]{8}$
+Multiplica i simplifica:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt{3}\cdot\sqrt{12}$ | **b)** $\sqrt[3]{2}\cdot\sqrt[3]{4}$ |
+| **c)** $\sqrt{5}\cdot\sqrt{20}$ | **d)** $\sqrt[4]{2}\cdot\sqrt[4]{8}$ |
 
 ??? note "Mostra la solució"
 
@@ -261,7 +309,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 59
 
-> **Enunciat.** Divideix i simplifica: a) $\dfrac{\sqrt{50}}{\sqrt{2}}$ · b) $\dfrac{\sqrt[3]{54}}{\sqrt[3]{2}}$ · c) $\dfrac{\sqrt{45}}{\sqrt{5}}$ · d) $\dfrac{\sqrt[4]{48}}{\sqrt[4]{3}}$
+Divideix i simplifica:
+
+| | |
+|:--|:--|
+| **a)** $\dfrac{\sqrt{50}}{\sqrt{2}}$ | **b)** $\dfrac{\sqrt[3]{54}}{\sqrt[3]{2}}$ |
+| **c)** $\dfrac{\sqrt{45}}{\sqrt{5}}$ | **d)** $\dfrac{\sqrt[4]{48}}{\sqrt[4]{3}}$ |
 
 ??? note "Mostra la solució"
 
@@ -285,7 +338,10 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 60
 
-> **Enunciat.** Opera i simplifica, portant primer els radicals a índex comú: a) $\sqrt{2}\cdot\sqrt[3]{2}$ · b) $\dfrac{\sqrt[3]{9}}{\sqrt{3}}$
+Opera i simplifica, portant primer els radicals a índex comú:
+
+- **a)** $\sqrt{2}\cdot\sqrt[3]{2}$
+- **b)** $\dfrac{\sqrt[3]{9}}{\sqrt{3}}$
 
 ??? note "Mostra la solució"
 
@@ -307,7 +363,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 61
 
-> **Enunciat.** Simplifica: a) $\sqrt{\sqrt{16}}$ · b) $\sqrt[3]{\sqrt[4]{x}}$ · c) $\left(\sqrt[3]{5}\right)^2$ · d) $\left(\sqrt{7}\right)^4$
+Simplifica:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt{\sqrt{16}}$ | **b)** $\sqrt[3]{\sqrt[4]{x}}$ |
+| **c)** $\left(\sqrt[3]{5}\right)^2$ | **d)** $\left(\sqrt{7}\right)^4$ |
 
 ??? note "Mostra la solució"
 
@@ -329,7 +390,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 62
 
-> **Enunciat.** Expressa cada expressió com un sol radical i simplifica: a) $\sqrt{5\sqrt{5}}$ · b) $\sqrt[3]{2\sqrt{2}}$ · c) $\dfrac{\left(\sqrt[3]{16}\right)^2}{\sqrt{32}}$ · d) $\sqrt{3\sqrt[3]{3}}$
+Expressa cada expressió com un sol radical i simplifica:
+
+| | |
+|:--|:--|
+| **a)** $\sqrt{5\sqrt{5}}$ | **b)** $\sqrt[3]{2\sqrt{2}}$ |
+| **c)** $\dfrac{\left(\sqrt[3]{16}\right)^2}{\sqrt{32}}$ | **d)** $\sqrt{3\sqrt[3]{3}}$ |
 
 ??? note "Mostra la solució"
 
@@ -355,7 +421,11 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 63
 
-> **Enunciat.** Suma o resta els radicals (ja són semblants): a) $3\sqrt2+5\sqrt2$ · b) $7\sqrt[3]{3}-2\sqrt[3]{3}$ · c) $2\sqrt5-6\sqrt5+\sqrt5$
+Suma o resta els radicals (ja són semblants):
+
+- **a)** $3\sqrt2+5\sqrt2$
+- **b)** $7\sqrt[3]{3}-2\sqrt[3]{3}$
+- **c)** $2\sqrt5-6\sqrt5+\sqrt5$
 
 ??? note "Mostra la solució"
 
@@ -375,7 +445,11 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 64
 
-> **Enunciat.** Extreu factors per identificar els radicals semblants i suma'ls: a) $\sqrt{8}+\sqrt{18}$ · b) $\sqrt{50}-\sqrt{32}$ · c) $2\sqrt{12}+3\sqrt{27}$
+Extreu factors per identificar els radicals semblants i suma'ls:
+
+- **a)** $\sqrt{8}+\sqrt{18}$
+- **b)** $\sqrt{50}-\sqrt{32}$
+- **c)** $2\sqrt{12}+3\sqrt{27}$
 
 ??? note "Mostra la solució"
 
@@ -395,7 +469,11 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 65
 
-> **Enunciat.** Calcula i simplifica (suposa $a>0$, $x>0$): a) $3\sqrt{20}-2\sqrt{45}+\sqrt{80}$ · b) $4\sqrt[3]{8a}-\sqrt[3]{27a}$ · c) $\sqrt{9x}+\sqrt{25x}-\sqrt{4x}$
+Calcula i simplifica (suposa $a>0$, $x>0$):
+
+- **a)** $3\sqrt{20}-2\sqrt{45}+\sqrt{80}$
+- **b)** $4\sqrt[3]{8a}-\sqrt[3]{27a}$
+- **c)** $\sqrt{9x}+\sqrt{25x}-\sqrt{4x}$
 
 ??? note "Mostra la solució"
 
@@ -417,7 +495,12 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 66
 
-> **Enunciat.** Racionalitza el denominador: a) $\dfrac{5}{\sqrt3}$ · b) $\dfrac{2}{\sqrt5}$ · c) $\dfrac{6}{\sqrt2}$ · d) $\dfrac{1}{\sqrt7}$
+Racionalitza el denominador:
+
+| | |
+|:--|:--|
+| **a)** $\dfrac{5}{\sqrt3}$ | **b)** $\dfrac{2}{\sqrt5}$ |
+| **c)** $\dfrac{6}{\sqrt2}$ | **d)** $\dfrac{1}{\sqrt7}$ |
 
 ??? note "Mostra la solució"
 
@@ -441,7 +524,11 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 67
 
-> **Enunciat.** Racionalitza: a) $\dfrac{4}{2\sqrt3}$ · b) $\dfrac{3}{\sqrt{12}}$ · c) $\dfrac{10}{3\sqrt5}$
+Racionalitza:
+
+- **a)** $\dfrac{4}{2\sqrt3}$
+- **b)** $\dfrac{3}{\sqrt{12}}$
+- **c)** $\dfrac{10}{3\sqrt5}$
 
 ??? note "Mostra la solució"
 
@@ -465,7 +552,11 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 68
 
-> **Enunciat.** Racionalitza utilitzant el conjugat: a) $\dfrac{1}{\sqrt5-2}$ · b) $\dfrac{3}{\sqrt7+1}$ · c) $\dfrac{2}{3-\sqrt2}$
+Racionalitza utilitzant el conjugat:
+
+- **a)** $\dfrac{1}{\sqrt5-2}$
+- **b)** $\dfrac{3}{\sqrt7+1}$
+- **c)** $\dfrac{2}{3-\sqrt2}$
 
 ??? note "Mostra la solució"
 
@@ -491,7 +582,11 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 69
 
-> **Enunciat.** Racionalitza i simplifica: a) $\dfrac{5}{\sqrt3-\sqrt2}$ · b) $\dfrac{1}{\sqrt{n}}$, amb $n\in\mathbb{N}$ · c) $\dfrac{a-b}{\sqrt{a}+\sqrt{b}}$, amb $a,b\in\mathbb{N}$ i $a\neq b$
+Racionalitza i simplifica:
+
+- **a)** $\dfrac{5}{\sqrt3-\sqrt2}$
+- **b)** $\dfrac{1}{\sqrt{n}}$, amb $n\in\mathbb{N}$
+- **c)** $\dfrac{a-b}{\sqrt{a}+\sqrt{b}}$, amb $a,b\in\mathbb{N}$ i $a\neq b$
 
 ??? note "Mostra la solució"
 
@@ -517,7 +612,13 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 70
 
-> **Enunciat.** Racionalitza el denominador (arrel cúbica): a) $\dfrac{2}{\sqrt[3]{x}}$ · b) $\dfrac{5}{\sqrt[3]{x^2}}$ · c) $\dfrac{3}{\sqrt[3]{2}}$ · d) $\dfrac{4}{\sqrt[3]{4}}$ · e) $\dfrac{1}{\sqrt[3]{3x}}$, amb $x>0$ · f) $\dfrac{10}{\sqrt[3]{25}}$
+Racionalitza el denominador (arrel cúbica):
+
+| | |
+|:--|:--|
+| **a)** $\dfrac{2}{\sqrt[3]{x}}$ | **b)** $\dfrac{5}{\sqrt[3]{x^2}}$ |
+| **c)** $\dfrac{3}{\sqrt[3]{2}}$ | **d)** $\dfrac{4}{\sqrt[3]{4}}$ |
+| **e)** $\dfrac{1}{\sqrt[3]{3x}}$, amb $x>0$ | **f)** $\dfrac{10}{\sqrt[3]{25}}$ |
 
 ??? note "Mostra la solució"
 
@@ -561,7 +662,13 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 71
 
-> **Enunciat.** Racionalitza, indicant per quin factor cal multiplicar en cada cas: a) $\dfrac{6}{\sqrt[4]{x^3}}$ · b) $\dfrac{2}{\sqrt[5]{x^2}}$, amb $x>0$ · c) $\dfrac{2}{\sqrt[3]{4x^2}}$, amb $x>0$ · d) $\dfrac{3}{2\sqrt[4]{x^3}}$, amb $x>0$ · e) $\dfrac{a}{\sqrt[n]{a^{n-1}}}$, amb $a>0$ i $n\in\mathbb{N}$, $n\geq 2$
+Racionalitza, indicant per quin factor cal multiplicar en cada cas:
+
+- **a)** $\dfrac{6}{\sqrt[4]{x^3}}$
+- **b)** $\dfrac{2}{\sqrt[5]{x^2}}$, amb $x>0$
+- **c)** $\dfrac{2}{\sqrt[3]{4x^2}}$, amb $x>0$
+- **d)** $\dfrac{3}{2\sqrt[4]{x^3}}$, amb $x>0$
+- **e)** $\dfrac{a}{\sqrt[n]{a^{n-1}}}$, amb $a>0$ i $n\in\mathbb{N}$, $n\geq 2$
 
 ??? note "Mostra la solució"
 
@@ -599,7 +706,7 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 72
 
-> **Enunciat.** Simplifica combinant diverses propietats: $\sqrt{18}+\dfrac{4}{\sqrt2}-\sqrt{50}$.
+Simplifica combinant diverses propietats: $\sqrt{18}+\dfrac{4}{\sqrt2}-\sqrt{50}$.
 
 ??? note "Mostra la solució"
 
@@ -615,7 +722,7 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 73
 
-> **Enunciat.** *(aplicat)* Els catets d'un triangle rectangle fan $a=\sqrt{18}$ i $b=\sqrt{32}$. Calcula, simplificant el resultat, la hipotenusa $c=\sqrt{a^2+b^2}$.
+*(aplicat)* Els catets d'un triangle rectangle fan $a=\sqrt{18}$ i $b=\sqrt{32}$. Calcula, simplificant el resultat, la hipotenusa $c=\sqrt{a^2+b^2}$.
 
 ??? note "Mostra la solució"
 
@@ -627,7 +734,10 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 74
 
-> **Enunciat.** *(aplicat)* El costat d'un quadrat mesura $\ell=3\sqrt2\,\text{cm}$. Calcula, simplificant: a) L'àrea del quadrat. · b) La diagonal (recorda que la diagonal d'un quadrat de costat $\ell$ és $\ell\sqrt2$).
+*(aplicat)* El costat d'un quadrat mesura $\ell=3\sqrt2\,\text{cm}$. Calcula, simplificant:
+
+- **a)** L'àrea del quadrat.
+- **b)** La diagonal (recorda que la diagonal d'un quadrat de costat $\ell$ és $\ell\sqrt2$).
 
 ??? note "Mostra la solució"
 
@@ -645,7 +755,7 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 75
 
-> **Enunciat.** Comprova, amb $a=9$ i $b=4$, que $\sqrt{a+b}\neq\sqrt{a}+\sqrt{b}$ en general. Calcula els dos costats i compara.
+Comprova, amb $a=9$ i $b=4$, que $\sqrt{a+b}\neq\sqrt{a}+\sqrt{b}$ en general. Calcula els dos costats i compara.
 
 ??? note "Mostra la solució"
 
@@ -659,7 +769,7 @@ Teoria: [Arrels i radicals](../06_arrels.md).
 
 ### Exercici 76
 
-> **Enunciat.** Simplifica $\dfrac{\sqrt{x^5}}{\sqrt{x}}$, amb $x>0$, sense radicals al denominador i amb l'exponent més senzill possible.
+Simplifica $\dfrac{\sqrt{x^5}}{\sqrt{x}}$, amb $x>0$, sense radicals al denominador i amb l'exponent més senzill possible.
 
 ??? note "Mostra la solució"
 

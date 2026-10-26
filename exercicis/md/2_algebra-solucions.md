@@ -28,12 +28,12 @@
 
 **Bloc 3.**
 **21.** a) MCD$=x-3$, MCM$=(x-3)(x+3)(x+2)$ · b) MCD$=x+1$, MCM$=x(x-1)(x+1)^2$.
-**22.** a) $\dfrac{x-1}{x+1}$, $x\neq-1$ · b) $\dfrac{x+2}{x-3}$, $x\neq2,3$ · c) $\dfrac{x}{x-3}$, $x\neq-3,3$ · d) $x+1$, $x\neq0,1$.
-**23.** a) F; el membre esquerre no exclou cap valor real i el dret exclou $x=-2$ · b) C per a $x\neq-3,3$ · c) F, amb $x\neq0$ · d) C per a $x\neq2$.
-**24.** a) $\dfrac{3x-1}{x^2-1}$, $x\neq-1,1$ · b) $\dfrac{2}{x^2-4}$, $x\neq-2,2$ · c) $\dfrac{x^2+3x-9}{x(x-3)}$, $x\neq0,3$.
-**25.** a) $\dfrac{x+1}{x+3}$, $x\neq-3,1$ · b) $x+2$, $x\neq-1,2$.
-**26.** $\dfrac{2x-1}{x(x+1)}$, $x\neq-1,0$.
-**27.** a) és vàlida per a $x\neq-1,1$ · b) és vàlida per a $x\neq-1$; en tots dos casos, opera el costat esquerre fins a obtenir el dret.
+**22.** a) $\dfrac{x-1}{x+1}$ · b) $\dfrac{x+2}{x-3}$ · c) $\dfrac{x}{x-3}$ · d) $x+1$.
+**23.** a) F (per a $x=1$: $\frac35\neq\frac13$) · b) C · c) F (per a $x=1$: $\frac32\neq3$) · d) C.
+**24.** a) $\dfrac{3x-1}{x^2-1}$ · b) $\dfrac{2}{x^2-4}$ · c) $\dfrac{x^2+3x-9}{x(x-3)}$.
+**25.** a) $\dfrac{x+1}{x+3}$ · b) $x+2$.
+**26.** $\dfrac{2x-1}{x(x+1)}$.
+**27.** Les dues són certes: opera el membre esquerre fins a obtenir el dret.
 
 **Bloc 4.**
 **28.** L'altre costat és $x^2-4=(x-2)(x+2)$; totes dues longituds són positives si $x>2$.

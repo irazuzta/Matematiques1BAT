@@ -1,11 +1,16 @@
-# Solucionari — Potències
+# Potències
 
-Resolució pas a pas dels exercicis 34–48 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Potències](../05_potencies.md).
+Exercicis 34–48. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 34
 
-> **Enunciat.** Calcula: a) $2^5$ · b) $\left(-3\right)^4$ · c) $-3^4$ · d) $5^0$ · e) $10^{-2}$ · f) $\left(\dfrac{2}{3}\right)^2$
+Calcula:
+
+| | |
+|:--|:--|
+| **a)** $2^5$ | **b)** $\left(-3\right)^4$ |
+| **c)** $-3^4$ | **d)** $5^0$ |
+| **e)** $10^{-2}$ | **f)** $\left(\dfrac{2}{3}\right)^2$ |
 
 ??? note "Mostra la solució"
 
@@ -47,7 +52,13 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 35
 
-> **Enunciat.** Aplica les propietats de les potències per simplificar (deixa el resultat com una única potència): a) $3^4\cdot 3^2$ · b) $\dfrac{5^7}{5^3}$ · c) $\left(2^3\right)^2$ · d) $7^2\cdot 7^{-5}$ · e) $\dfrac{4^{-1}}{4^{2}}$
+Aplica les propietats de les potències per simplificar (deixa el resultat com una única potència):
+
+| | |
+|:--|:--|
+| **a)** $3^4\cdot 3^2$ | **b)** $\dfrac{5^7}{5^3}$ |
+| **c)** $\left(2^3\right)^2$ | **d)** $7^2\cdot 7^{-5}$ |
+| **e)** $\dfrac{4^{-1}}{4^{2}}$ | |
 
 ??? note "Mostra la solució"
 
@@ -83,7 +94,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 36
 
-> **Enunciat.** Calcula el valor numèric de cada apartat de l'exercici anterior.
+Calcula el valor numèric de cada apartat de l'exercici anterior.
 
 ??? note "Mostra la solució"
 
@@ -129,7 +140,12 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 37
 
-> **Enunciat.** Simplifica i calcula el resultat: a) $\left(2\cdot 3\right)^2$ · b) $\left(\dfrac{3}{5}\right)^{-2}$ · c) $2^3\cdot 2^{-1}\cdot 2^2$ · d) $\dfrac{\left(-2\right)^5}{\left(-2\right)^2}$
+Simplifica i calcula el resultat:
+
+| | |
+|:--|:--|
+| **a)** $\left(2\cdot 3\right)^2$ | **b)** $\left(\dfrac{3}{5}\right)^{-2}$ |
+| **c)** $2^3\cdot 2^{-1}\cdot 2^2$ | **d)** $\dfrac{\left(-2\right)^5}{\left(-2\right)^2}$ |
 
 ??? note "Mostra la solució"
 
@@ -163,7 +179,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 38
 
-> **Enunciat.** Simplifica $\dfrac{2^5\cdot 4^2}{8^3}$ escrivint-ho tot amb la mateixa base, i calcula'n el valor.
+Simplifica $\dfrac{2^5\cdot 4^2}{8^3}$ escrivint-ho tot amb la mateixa base, i calcula'n el valor.
 
 ??? note "Mostra la solució"
 
@@ -187,7 +203,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 39
 
-> **Enunciat.** Simplifica $\dfrac{3^4\cdot 9}{27^2}$ escrivint-ho tot amb base $3$.
+Simplifica $\dfrac{3^4\cdot 9}{27^2}$ escrivint-ho tot amb base $3$.
 
 ??? note "Mostra la solució"
 
@@ -207,7 +223,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 40
 
-> **Enunciat.** Simplifica, amb $x\neq 0$: $\left(\dfrac{2x}{3}\right)^3 \cdot \left(\dfrac{3}{2x}\right)^2$
+Simplifica, amb $x\neq 0$: $\left(\dfrac{2x}{3}\right)^3 \cdot \left(\dfrac{3}{2x}\right)^2$.
 
 ??? note "Mostra la solució"
 
@@ -230,7 +246,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 41
 
-> **Enunciat.** Simplifica combinant les propietats: $\dfrac{\left(2^3\right)^2\cdot 2^{-4}}{2^5\cdot 2^{-7}}$
+Simplifica combinant les propietats: $\dfrac{\left(2^3\right)^2\cdot 2^{-4}}{2^5\cdot 2^{-7}}$.
 
 ??? note "Mostra la solució"
 
@@ -253,7 +269,12 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 42
 
-> **Enunciat.** Simplifica cada expressió com una única potència (totes les variables són no nul·les): a) $\dfrac{a^5\cdot a^{-2}}{a^{-3}\cdot a^4}$ · b) $\dfrac{\left(x^2\right)^3\cdot x^{-1}}{x^4}$ · c) $\left(\dfrac{x^3}{y^2}\right)^2\cdot\dfrac{y^3}{x^4}$ · d) $\dfrac{\left(2a^2\right)^3}{4a^5}$
+Simplifica cada expressió com una única potència (totes les variables són no nul·les):
+
+| | |
+|:--|:--|
+| **a)** $\dfrac{a^5\cdot a^{-2}}{a^{-3}\cdot a^4}$ | **b)** $\dfrac{\left(x^2\right)^3\cdot x^{-1}}{x^4}$ |
+| **c)** $\left(\dfrac{x^3}{y^2}\right)^2\cdot\dfrac{y^3}{x^4}$ | **d)** $\dfrac{\left(2a^2\right)^3}{4a^5}$ |
 
 ??? note "Mostra la solució"
 
@@ -310,7 +331,12 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 43
 
-> **Enunciat.** Escriu en notació científica: a) $53\,000$ · b) $0{,}00048$ · c) $7\,200\,000$ · d) $0{,}0000006$
+Escriu en notació científica:
+
+| | |
+|:--|:--|
+| **a)** $53\,000$ | **b)** $0{,}00048$ |
+| **c)** $7\,200\,000$ | **d)** $0{,}0000006$ |
 
 ??? note "Mostra la solució"
 
@@ -334,7 +360,12 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 44
 
-> **Enunciat.** Escriu en forma decimal ordinària: a) $3{,}2\cdot 10^5$ · b) $9\cdot 10^{-3}$ · c) $1{,}05\cdot 10^{2}$ · d) $6{,}7\cdot 10^{-6}$
+Escriu en forma decimal ordinària:
+
+| | |
+|:--|:--|
+| **a)** $3{,}2\cdot 10^5$ | **b)** $9\cdot 10^{-3}$ |
+| **c)** $1{,}05\cdot 10^{2}$ | **d)** $6{,}7\cdot 10^{-6}$ |
 
 ??? note "Mostra la solució"
 
@@ -358,7 +389,12 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 45
 
-> **Enunciat.** Calcula i expressa el resultat en notació científica: a) $\left(3\cdot10^4\right)\cdot\left(2\cdot10^3\right)$ · b) $\left(6\cdot10^{-2}\right)\cdot\left(5\cdot10^{5}\right)$ · c) $\dfrac{8\cdot10^7}{2\cdot10^3}$ · d) $\dfrac{9\cdot10^{-2}}{3\cdot10^{4}}$
+Calcula i expressa el resultat en notació científica:
+
+| | |
+|:--|:--|
+| **a)** $\left(3\cdot10^4\right)\cdot\left(2\cdot10^3\right)$ | **b)** $\left(6\cdot10^{-2}\right)\cdot\left(5\cdot10^{5}\right)$ |
+| **c)** $\dfrac{8\cdot10^7}{2\cdot10^3}$ | **d)** $\dfrac{9\cdot10^{-2}}{3\cdot10^{4}}$ |
 
 ??? note "Mostra la solució"
 
@@ -394,7 +430,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 46
 
-> **Enunciat.** Calcula, expressant el resultat en notació científica correcta: $\dfrac{\left(4\cdot10^{-3}\right)\cdot\left(6\cdot10^{8}\right)}{3\cdot10^{2}}$
+Calcula, expressant el resultat en notació científica correcta: $\dfrac{\left(4\cdot10^{-3}\right)\cdot\left(6\cdot10^{8}\right)}{3\cdot10^{2}}$.
 
 ??? note "Mostra la solució"
 
@@ -417,7 +453,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 47
 
-> **Enunciat.** *(aplicat)* Un virus té un diàmetre aproximat de $1\cdot10^{-7}\,\text{m}$. Quants virus, un al costat de l'altre, calen per completar $1\,\text{cm}$?
+*(aplicat)* Un virus té un diàmetre aproximat de $1\cdot10^{-7}\,\text{m}$. Quants virus, un al costat de l'altre, calen per completar $1\,\text{cm}$?
 
 ??? note "Mostra la solució"
 
@@ -436,7 +472,7 @@ Teoria: [Potències](../05_potencies.md).
 
 ### Exercici 48
 
-> **Enunciat.** *(aplicat)* La massa del Sol és aproximadament $1{,}8\cdot10^{30}\,\text{kg}$ i la de la Terra, $6\cdot10^{24}\,\text{kg}$. Quantes vegades més gran és la massa del Sol respecte a la de la Terra? Expressa el resultat en notació científica.
+*(aplicat)* La massa del Sol és aproximadament $1{,}8\cdot10^{30}\,\text{kg}$ i la de la Terra, $6\cdot10^{24}\,\text{kg}$. Quantes vegades més gran és la massa del Sol respecte a la de la Terra? Expressa el resultat en notació científica.
 
 ??? note "Mostra la solució"
 

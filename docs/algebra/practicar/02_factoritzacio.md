@@ -1,11 +1,15 @@
-# Solucionari — Factorització de polinomis
+# Factorització de polinomis
 
-Resolució pas a pas dels exercicis 11–20 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01_polinomis.md).
+Exercicis 11–20. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 11
 
-> **Enunciat.** Factoritza completament: a) $x^3-5x^2+6x$ · b) $2x^3+2x^2-12x$ · c) $x^4-9x^2$ · d) $3x^3-12x^2+12x$
+Factoritza completament:
+
+| | |
+|:--|:--|
+| **a)** $x^3-5x^2+6x$ | **b)** $2x^3+2x^2-12x$ |
+| **c)** $x^4-9x^2$ | **d)** $3x^3-12x^2+12x$ |
 
 ??? note "Mostra la solució"
 
@@ -53,7 +57,10 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 12
 
-> **Enunciat.** Factoritza completament (totes les arrels són enteres): a) $x^3-2x^2-5x+6$ · b) $x^3-3x-2$
+Factoritza completament (totes les arrels són enteres):
+
+- **a)** $x^3-2x^2-5x+6$
+- **b)** $x^3-3x-2$
 
 ??? note "Mostra la solució"
 
@@ -100,7 +107,10 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 13
 
-> **Enunciat.** Factoritza completament (queda un factor de grau $2$ irreductible): a) $x^3-3x^2+4x-2$ · b) $x^3+x^2+x-3$
+Factoritza completament (queda un factor de grau $2$ irreductible):
+
+- **a)** $x^3-3x^2+4x-2$
+- **b)** $x^3+x^2+x-3$
 
 ??? note "Mostra la solució"
 
@@ -144,7 +154,10 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 14
 
-> **Enunciat.** Factoritza completament (les arrels del factor de grau $2$ són reals però irracionals): a) $x^3-2x^2-2x+4$ · b) $x^3-x^2-3x+3$
+Factoritza completament (les arrels del factor de grau $2$ són reals però irracionals):
+
+- **a)** $x^3-2x^2-2x+4$
+- **b)** $x^3-x^2-3x+3$
 
 ??? note "Mostra la solució"
 
@@ -186,7 +199,11 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 15
 
-> **Enunciat.** Factoritza completament (el polinomi no és mònic: treu primer el factor comú numèric): a) $2x^3-4x^2-32x+64$ · b) $3x^3+3x^2-12x-12$ · c) $2x^3+2x^2-2x-2$
+Factoritza completament (el polinomi no és mònic: treu primer el factor comú numèric):
+
+- **a)** $2x^3-4x^2-32x+64$
+- **b)** $3x^3+3x^2-12x-12$
+- **c)** $2x^3+2x^2-2x-2$
 
 ??? note "Mostra la solució"
 
@@ -243,7 +260,17 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 16
 
-> **Enunciat.** Factoritza completament cada polinomi (no hi ha cap indicació de quin cas és cadascun): a) $x^3-7x+6$ · b) $x^3-4x^2+6x-4$ · c) $x^3+x^2-3x-3$ · d) $2x^3-3x^2-11x+6$ · e) $x^3-x^2-8x+12$ · f) $x^4-x^3-7x^2+x+6$ · g) $x^4-2x^3-3x^2+4x+4$ · h) $x^5-2x^4-x^3+2x^2$ · i) $x^5-2x^3+2x^2-3x+2$
+Factoritza completament cada polinomi (no hi ha cap indicació de quin cas és cadascun):
+
+- **a)** $x^3-7x+6$
+- **b)** $x^3-4x^2+6x-4$
+- **c)** $x^3+x^2-3x-3$
+- **d)** $2x^3-3x^2-11x+6$
+- **e)** $x^3-x^2-8x+12$
+- **f)** $x^4-x^3-7x^2+x+6$
+- **g)** $x^4-2x^3-3x^2+4x+4$
+- **h)** $x^5-2x^4-x^3+2x^2$
+- **i)** $x^5-2x^3+2x^2-3x+2$
 
 ??? note "Mostra la solució"
 
@@ -421,7 +448,7 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 17
 
-> **Enunciat.** Factoritza completament $x^5-3x^4-5x^3+15x^2+4x-12$ (totes les arrels són enteres).
+Factoritza completament $x^5-3x^4-5x^3+15x^2+4x-12$ (totes les arrels són enteres).
 
 ??? note "Mostra la solució"
 
@@ -458,7 +485,7 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 18
 
-> **Enunciat.** Factoritza completament $x^6+2x^5-5x^4-7x^3-2x^2+5x+6$ (quatre arrels són enteres i queda un factor de grau $2$ irreductible).
+Factoritza completament $x^6+2x^5-5x^4-7x^3-2x^2+5x+6$ (quatre arrels són enteres i queda un factor de grau $2$ irreductible).
 
 ??? note "Mostra la solució"
 
@@ -502,7 +529,7 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 19
 
-> **Enunciat.** *(guiat)* Comprova, multiplicant, que $x^4+4=(x^2-2x+2)(x^2+2x+2)$, i comprova després que els dos factors de grau $2$ són irreductibles.
+*(guiat)* Comprova, multiplicant, que $x^4+4=(x^2-2x+2)(x^2+2x+2)$, i comprova després que els dos factors de grau $2$ són irreductibles.
 
 ??? note "Mostra la solució"
 
@@ -535,7 +562,10 @@ Teoria: [Factorització de polinomis](../02_factoritzacio.md), [Polinomis](../01
 
 ### Exercici 20
 
-> **Enunciat.** Troba un polinomi que tingui exactament les arrels indicades: a) $2$, $-1$ i $3$ · b) $0$ i $-2$ (doble)
+Troba un polinomi que tingui exactament les arrels indicades:
+
+- **a)** $2$, $-1$ i $3$
+- **b)** $0$ i $-2$ (doble)
 
 ??? note "Mostra la solució"
 

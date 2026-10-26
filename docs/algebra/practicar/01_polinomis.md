@@ -1,11 +1,15 @@
-# Solucionari — Polinomis
+# Polinomis
 
-Resolució pas a pas dels exercicis 1–10 de [Exercicis i problemes](../exercicis.md).
-Teoria: [Polinomis](../01_polinomis.md)
+Exercicis 1–10. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 1
 
-> **Enunciat.** Per a cada polinomi, indica'n el grau, el coeficient principal i el terme independent: a) $3x^4-2x^3+x-7$ · b) $-5x^3+4x^2-1$ · c) $x^5-3x^2$ · d) $8$
+Per a cada polinomi, indica'n el grau, el coeficient principal i el terme independent:
+
+| | |
+|:--|:--|
+| **a)** $3x^4-2x^3+x-7$ | **b)** $-5x^3+4x^2-1$ |
+| **c)** $x^5-3x^2$ | **d)** $8$ |
 
 ??? note "Mostra la solució"
 
@@ -29,7 +33,12 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 2
 
-> **Enunciat.** Avalua cada polinomi en el valor indicat i digues si es tracta d'una arrel: a) $p(x)=x^3-4x+3$ en $x=1$ · b) $p(x)=x^3-4x+3$ en $x=2$ · c) $q(x)=2x^2-5x-3$ en $x=3$ · d) $q(x)=2x^2-5x-3$ en $x=-1$
+Avalua cada polinomi en el valor indicat i digues si es tracta d'una arrel:
+
+- **a)** $p(x)=x^3-4x+3$ en $x=1$
+- **b)** $p(x)=x^3-4x+3$ en $x=2$
+- **c)** $q(x)=2x^2-5x-3$ en $x=3$
+- **d)** $q(x)=2x^2-5x-3$ en $x=-1$
 
 ??? note "Mostra la solució"
 
@@ -65,7 +74,7 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 3
 
-> **Enunciat.** Donats $p(x)=2x^3-x^2+4x-1$ i $q(x)=-x^3+3x^2-2x+5$, calcula $p(x)+q(x)$ i $p(x)-q(x)$.
+Donats $p(x)=2x^3-x^2+4x-1$ i $q(x)=-x^3+3x^2-2x+5$, calcula $p(x)+q(x)$ i $p(x)-q(x)$.
 
 ??? note "Mostra la solució"
 
@@ -95,7 +104,12 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 4
 
-> **Enunciat.** Desenvolupa: a) $(2x-1)(x^2+3x-2)$ · b) $(x+3)^2$ · c) $(x-2)(x+2)$
+Desenvolupa:
+
+| | |
+|:--|:--|
+| **a)** $(2x-1)(x^2+3x-2)$ | **b)** $(x+3)^2$ |
+| **c)** $(x-2)(x+2)$ |  |
 
 ??? note "Mostra la solució"
 
@@ -125,7 +139,10 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 5
 
-> **Enunciat.** Divideix i indica el quocient i el residu: a) $(2x^3-3x^2+4x-5):(x^2-1)$ · b) $(x^4-1):(x^2+1)$
+Divideix i indica el quocient i el residu:
+
+- **a)** $(2x^3-3x^2+4x-5):(x^2-1)$
+- **b)** $(x^4-1):(x^2+1)$
 
 ??? note "Mostra la solució"
 
@@ -174,7 +191,11 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 6
 
-> **Enunciat.** Divideix per Ruffini, indicant el quocient i el residu: a) $(x^3-6x^2+11x-6):(x-2)$ · b) $(2x^3+x^2-5x+2):(x+2)$ · c) $(x^4-5x^2+4):(x-1)$
+Divideix per Ruffini, indicant el quocient i el residu:
+
+- **a)** $(x^3-6x^2+11x-6):(x-2)$
+- **b)** $(2x^3+x^2-5x+2):(x+2)$
+- **c)** $(x^4-5x^2+4):(x-1)$
 
 ??? note "Mostra la solució"
 
@@ -213,7 +234,10 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 7
 
-> **Enunciat.** Sense fer la divisió completa, aplica el teorema del residu i el teorema del factor: a) Calcula el residu de dividir $P(x)=2x^3-5x^2+3x+4$ entre $x-2$. · b) Determina el valor de $k$ perquè $x-2$ sigui divisor de $P(x)=x^3+kx^2-5x+6$.
+Sense fer la divisió completa, aplica el teorema del residu i el teorema del factor:
+
+- **a)** Calcula el residu de dividir $P(x)=2x^3-5x^2+3x+4$ entre $x-2$.
+- **b)** Determina el valor de $k$ perquè $x-2$ sigui divisor de $P(x)=x^3+kx^2-5x+6$.
 
 ??? note "Mostra la solució"
 
@@ -248,7 +272,12 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 8
 
-> **Enunciat.** Desenvolupa aplicant la identitat notable corresponent: a) $(x+6)^2$ · b) $(x-3)^2$ · c) $(2x+1)^2$ · d) $(x+5)(x-5)$
+Desenvolupa aplicant la identitat notable corresponent:
+
+| | |
+|:--|:--|
+| **a)** $(x+6)^2$ | **b)** $(x-3)^2$ |
+| **c)** $(2x+1)^2$ | **d)** $(x+5)(x-5)$ |
 
 ??? note "Mostra la solució"
 
@@ -278,7 +307,12 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 9
 
-> **Enunciat.** Desenvolupa (vigila els coeficients i els exponents en elevar al quadrat): a) $(2x^2-3y)^2$ · b) $(3x-2y^2)^2$ · c) $(x^3+2y)^2$ · d) $(4x^2-y^3)(4x^2+y^3)$
+Desenvolupa (vigila els coeficients i els exponents en elevar al quadrat):
+
+| | |
+|:--|:--|
+| **a)** $(2x^2-3y)^2$ | **b)** $(3x-2y^2)^2$ |
+| **c)** $(x^3+2y)^2$ | **d)** $(4x^2-y^3)(4x^2+y^3)$ |
 
 ??? note "Mostra la solució"
 
@@ -325,7 +359,12 @@ Teoria: [Polinomis](../01_polinomis.md)
 
 ### Exercici 10
 
-> **Enunciat.** Desenvolupa, parant atenció als signes: a) $(-x-4y)^2$ · b) $(-2x+3)^2$. Compara el resultat amb el de $(2x-3)^2$: per què donen el mateix? · c) $(-3x-1)(3x-1)$ *(indicació: treu primer signe menys factor comú d'un dels dos factors)* · d) Digues quina identitat notable s'amaga darrere de $4x^2-12x+9$ i escriu-la com un quadrat.
+Desenvolupa, parant atenció als signes:
+
+- **a)** $(-x-4y)^2$
+- **b)** $(-2x+3)^2$. Compara el resultat amb el de $(2x-3)^2$: per què donen el mateix?
+- **c)** $(-3x-1)(3x-1)$ *(indicació: treu primer signe menys factor comú d'un dels dos factors)*
+- **d)** Digues quina identitat notable s'amaga darrere de $4x^2-12x+9$ i escriu-la com un quadrat.
 
 ??? note "Mostra la solució"
 
