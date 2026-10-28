@@ -10,3 +10,7 @@ El mètode de resolució canvia segons el tipus d'equació, però la idea de fon
 - [Equacions racionals i irracionals](02_equacions_racionals_irracionals.md) — fraccions algebraiques i arrels amb la incògnita.
 - [Equacions exponencials i logarítmiques](03_equacions_exponencials_logaritmiques.md) — la incògnita a l'exponent o dins d'un logaritme.
 - [Nota històrica](04_nota_historica.md) — de Babilònia a Galois: la història de la resolució d'equacions.
+
+## Per practicar
+
+- [Exercicis i problemes](practicar/index.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb problemes on apareixen els diferents tipus d'equacions. Cada exercici té la solució pas a pas plegada. També es pot descarregar en PDF amb solucions.
