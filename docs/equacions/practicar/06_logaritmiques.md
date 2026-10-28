@@ -93,34 +93,48 @@ Resol i comprova les solucions:
 
 Resol aplicant les propietats dels logaritmes:
 
-- **a)** $2\log x-\log(x-2)=2\log 3$
+- **a)** $\log\sqrt{3x+5}+\log\sqrt{x}=1$
 - **b)** $\log(3x+1)-\log(2x-3)=1-\log 5$
 - **c)** $\ln x+\ln(x-1)=\ln 6$
 - **d)** $(\log x)^2-3\log x+2=0$
-- **e)** *(més difícil)* $\log_2 x+\log_4 x=6$
+- **e)** *(més difícil)* $\log_2(x-16)=\log_4(x-4)$
 
 ??? note "Mostra la solució"
 
-    **a)** Primer apliquem la propietat del logaritme d'una potència als dos costats ($2\log x=\log x^2$, $2\log 3=\log 3^2=\log 9$) i després la del quocient:
+    **a)** Escrivim les arrels com a potències, $\sqrt{A}=A^{1/2}$, i apliquem la propietat del logaritme d'una potència, $\log A^{n}=n\log A$:
+
+    $$
+    \log\sqrt{3x+5}+\log\sqrt{x}=\frac12\log(3x+5)+\frac12\log x=1.
+    $$
+
+    Multipliquem els dos membres per $2$ i apliquem la propietat del producte, $\log A+\log B=\log(AB)$:
 
     $$
     \begin{aligned}
-    \log x^2-\log(x-2)=\log 9 &\Rightarrow \log\frac{x^2}{x-2}=\log 9\\
-    &\Rightarrow \frac{x^2}{x-2}=9\\
-    &\Rightarrow x^2=9x-18\\
-    &\Rightarrow x^2-9x+18=0\\
-    &\Rightarrow x=\frac{9\pm\sqrt{81-72}}{2}=\frac{9\pm 3}{2}
+    \log(3x+5)+\log x&=2\\
+    \log\big(x(3x+5)\big)&=2
     \end{aligned}
     $$
 
-    Obtenim les candidates $x=6$ i $x=3$.
+    Per la definició de logaritme ($\log A=2 \Leftrightarrow A=10^2$):
 
-    Comprovació: l'argument d'un logaritme ha de ser positiu.
+    $$
+    \begin{aligned}
+    x(3x+5)&=100\\
+    3x^2+5x-100&=0
+    \end{aligned}
+    $$
 
-    - $x=3$: $x=3>0$ i $x-2=1>0$. Vàlida.
-    - $x=6$: $x=6>0$ i $x-2=4>0$. Vàlida.
+    $$
+    x=\frac{-5\pm\sqrt{25+1200}}{6}=\frac{-5\pm 35}{6}\;\Rightarrow\; x_1=5,\quad x_2=-\frac{20}{3}.
+    $$
 
-    **Resposta:** $x=3$ i $x=6$
+    Comprovació: els arguments dels logaritmes han de ser positius (i les arrels han d'existir).
+
+    - $x=5$: $3\cdot 5+5=20>0$ i $5>0$. És vàlida: $\log\sqrt{20}+\log\sqrt{5}=\log\sqrt{100}=\log 10=1$.
+    - $x=-\dfrac{20}{3}$: $\sqrt{x}$ no existeix, perquè el radicand és negatiu. No és vàlida.
+
+    **Resposta:** $x=5$
 
     **b)** Escrivim $1=\log 10$ i apliquem la propietat del quocient als dos costats:
 
@@ -179,27 +193,42 @@ Resol aplicant les propietats dels logaritmes:
 
     **Resposta:** $x=10$ i $x=100$
 
-    **e)** Els logaritmes tenen bases diferents. Apliquem la propietat del canvi de base per passar $\log_4 x$ a base $2$:
+    **e)** Els logaritmes tenen bases diferents. Passem $\log_4$ a base $2$ amb la propietat del canvi de base:
 
     $$
-    \log_4 x=\frac{\log_2 x}{\log_2 4}=\frac{\log_2 x}{2}
+    \log_4(x-4)=\frac{\log_2(x-4)}{\log_2 4}=\frac{\log_2(x-4)}{2}.
     $$
 
-    Substituïm a l'equació i agrupem:
+    Substituïm, multipliquem per $2$ i apliquem la propietat de la potència, $n\log_2 A=\log_2 A^n$:
 
     $$
     \begin{aligned}
-    \log_2 x+\frac{\log_2 x}{2}=6 &\Rightarrow 2\log_2 x+\log_2 x=12\\
-    &\Rightarrow 3\log_2 x=12\\
-    &\Rightarrow \log_2 x=4
+    \log_2(x-16)&=\frac12\log_2(x-4)\\
+    2\log_2(x-16)&=\log_2(x-4)\\
+    \log_2(x-16)^2&=\log_2(x-4)
     \end{aligned}
     $$
 
-    Per la definició de logaritme, $x=2^4=16$.
+    Igualem els arguments i resolem:
 
-    Comprovació: l'argument $x=16$ és positiu. A més, $\log_2 16+\log_4 16=4+2=6$. Vàlida.
+    $$
+    \begin{aligned}
+    (x-16)^2&=x-4\\
+    x^2-32x+256&=x-4\\
+    x^2-33x+260&=0
+    \end{aligned}
+    $$
 
-    **Resposta:** $x=16$
+    $$
+    x=\frac{33\pm\sqrt{1089-1040}}{2}=\frac{33\pm 7}{2}\;\Rightarrow\; x_1=20,\quad x_2=13.
+    $$
+
+    Comprovació: l'argument d'un logaritme ha de ser positiu.
+
+    - $x=20$: $x-16=4>0$ i $x-4=16>0$. És vàlida: $\log_2 4=2$ i $\log_4 16=2$.
+    - $x=13$: $x-16=-3<0$. No és vàlida. En passar de $2\log_2(x-16)$ a $\log_2(x-16)^2$ hem perdut el signe de $x-16$, i per això ha aparegut aquesta solució falsa.
+
+    **Resposta:** $x=20$
 
 ### Exercici 27
 

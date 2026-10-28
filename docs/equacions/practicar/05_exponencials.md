@@ -87,16 +87,13 @@ Resol expressant els dos membres com a potències de la mateixa base:
 
 ### Exercici 22
 
-Resol traient factor comú:
-
-- **a)** $2^{x+1}+2^{x}+2^{x-1}=28$
-- **b)** $3^{x+2}-3^{x}=72$
+Resol traient factor comú: $2^{x+1}+2^{x}+2^{x-1}=28$.
 
 ??? note "Mostra la solució"
 
     Descomponem cada potència amb la propietat $a^{x+k}=a^x\cdot a^k$ (i $a^{x-k}=\dfrac{a^x}{a^k}$), traiem factor comú la potència $a^x$, l'aïllem i acabem igualant potències.
 
-    **a)** Descomponem: $2^{x+1}=2^x\cdot 2$ i $2^{x-1}=2^x\cdot 2^{-1}=\dfrac{2^x}{2}$. Traiem factor comú $2^x$:
+    Descomponem: $2^{x+1}=2^x\cdot 2$ i $2^{x-1}=2^x\cdot 2^{-1}=\dfrac{2^x}{2}$. Traiem factor comú $2^x$:
 
     $$
     \begin{aligned}
@@ -110,18 +107,6 @@ Resol traient factor comú:
 
     **Resposta:** $x=3$
 
-    **b)** Descomponem $3^{x+2}=3^x\cdot 3^2=9\cdot 3^x$ i traiem factor comú $3^x$:
-
-    $$
-    \begin{aligned}
-    9\cdot 3^x-3^x&=72\\
-    3^x(9-1)&=72\\
-    8\cdot 3^x&=72 \;\Rightarrow\; 3^x=9=3^2 \;\Rightarrow\; x=2.
-    \end{aligned}
-    $$
-
-    **Resposta:** $x=2$
-
 ### Exercici 23
 
 Resol fent un canvi de variable:
@@ -129,11 +114,12 @@ Resol fent un canvi de variable:
 - **a)** $4^{x}-5\cdot 2^{x}+4=0$
 - **b)** $9^{x}-2\cdot 3^{x}-3=0$
 - **c)** $2^{x}+2^{1-x}=3$
-- **d)** $a^{2x}-(a+1)\,a^{x}+a=0$, amb $a>0$ i $a\neq1$
+- **d)** *(més difícil)* $2^{3x}-3\cdot 2^{2x+1}+3\cdot 2^{x+2}=8$
+- **e)** $a^{2x}-(a+1)\,a^{x}+a=0$, amb $a>0$ i $a\neq1$
 
 ??? note "Mostra la solució"
 
-    En tots els apartats fem un canvi de variable que converteix l'equació exponencial en una equació de segon grau. Recordem que una potència de base positiva sempre és positiva ($a^x>0$ per a tot $x$), per tant només ens serveixen els valors de $t$ positius.
+    En tots els apartats fem un canvi de variable que converteix l'equació exponencial en una equació polinòmica (normalment de segon grau). Recordem que una potència de base positiva sempre és positiva ($a^x>0$ per a tot $x$), per tant només ens serveixen els valors de $t$ positius.
 
     **a)** Fem el canvi $t=2^x$. Per la propietat $(a^m)^n=a^{mn}$, $4^x=(2^2)^x=(2^x)^2=t^2$. L'equació queda:
 
@@ -188,7 +174,45 @@ Resol fent un canvi de variable:
 
     **Resposta:** $x=0$, $x=1$
 
-    **d)** Fem el canvi $t=a^x$. Per la propietat $(a^m)^n=a^{mn}$, tenim $a^{2x}=(a^x)^2=t^2$, i l'equació queda
+    **d)** Fem el canvi $t=2^x$ i expressem cada potència en funció de $t$ amb les propietats $(a^m)^n=a^{mn}$ i $a^{m+n}=a^m\cdot a^n$:
+
+    $$
+    \begin{aligned}
+    2^{3x}&=(2^x)^3=t^3,\\
+    2^{2x+1}&=2^{2x}\cdot 2=2t^2,\\
+    2^{x+2}&=2^x\cdot 2^2=4t.
+    \end{aligned}
+    $$
+
+    L'equació queda:
+
+    $$
+    \begin{aligned}
+    t^3-3\cdot 2t^2+3\cdot 4t&=8\\
+    t^3-6t^2+12t-8&=0
+    \end{aligned}
+    $$
+
+    Aquesta vegada surt una equació de tercer grau. Busquem arrels entre els divisors de $8$ i provem $t=2$: $8-24+24-8=0$. Apliquem Ruffini:
+
+    | | $1$ | $-6$ | $12$ | $-8$ |
+    |:--:|:--:|:--:|:--:|:--:|
+    | $2$ | | $2$ | $-8$ | $8$ |
+    | | $\textbf{1}$ | $\textbf{-4}$ | $\textbf{4}$ | $\boxed{0}$ |
+
+    El quocient és $t^2-4t+4=(t-2)^2$, amb $\Delta=16-16=0$. Per tant $t=2$ és una arrel triple:
+
+    $$
+    t^3-6t^2+12t-8=(t-2)^3=0 \;\Rightarrow\; t=2.
+    $$
+
+    El valor $t=2$ és positiu. Desfem el canvi: $2^x=2=2^1 \Rightarrow x=1$.
+
+    Comprovem-ho a l'equació original: $2^{3}-3\cdot 2^{3}+3\cdot 2^{3}=8-24+24=8$. Es compleix.
+
+    **Resposta:** $x=1$
+
+    **e)** Fem el canvi $t=a^x$. Per la propietat $(a^m)^n=a^{mn}$, tenim $a^{2x}=(a^x)^2=t^2$, i l'equació queda
 
     $$
     t^2-(a+1)\,t+a=0 .

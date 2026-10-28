@@ -13,7 +13,7 @@
 
 **Bloc 2.**
 **8.** a) $x=\pm2$, $x=\pm3$ · b) $x=\pm1$ ($t=-4$ no dona solucions) · c) no té solució ($t=-2$ i $t=-3$ són negatius) · d) $x=0$ (doble), $x=\pm3$.
-**9.** a) $x=\pm1$, $x=\pm\sqrt3$ · b) $x=\pm2$ · c) $x=\pm\dfrac{\sqrt3}{3}$ (totes dues dobles).
+**9.** a) $x=\pm1$, $x=\pm\sqrt3$ · b) $x=1$, $x=-2$ (amb $t=x^3$, el valor $t=-8$ sí que dona solució) · c) $x=\pm\dfrac{\sqrt3}{3}$ (totes dues dobles).
 **10.** a) $x=1$, $x=2$, $x=-3$ · b) $x=1$ (doble), $x=3$ · c) $x=1$ (el factor $x^2+1$ no té arrels reals).
 **11.** a) $x=1$ (doble), $x=\pm2$ · b) $x=\pm1$, $x=-2$, $x=\dfrac32$ · c) $x=1$ (doble), $x=-1$.
 **12.** $m=-1$; les solucions són $x=1$ i $x=\pm2$.
@@ -32,13 +32,13 @@
 
 **Bloc 5.**
 **21.** a) $x=\pm2$ · b) $x=2$, $x=3$ · c) $x=-2$ · d) $x=-5$ · e) $x=-1$.
-**22.** a) $x=3$ · b) $x=2$.
-**23.** a) $x=0$, $x=2$ · b) $x=1$ ($3^x=-1$ no té solució) · c) $x=0$, $x=1$ · d) $x=0$, $x=1$ (per a qualsevol valor de $a$).
+**22.** $x=3$.
+**23.** a) $x=0$, $x=2$ · b) $x=1$ ($3^x=-1$ no té solució) · c) $x=0$, $x=1$ · d) $x=1$ (amb $t=2^x$ surt $(t-2)^3=0$) · e) $x=0$, $x=1$ (per a qualsevol valor de $a$).
 **24.** a) $x=\log_3 20=\dfrac{\log 20}{\log 3}\approx 2{,}7268$ · b) $x=1+\log_2 5\approx 3{,}3219$ · c) $x=\dfrac{\ln 6}{2}\approx 0{,}8959$ · d) $x=\dfrac{\log 3}{\log 3-\log 2}\approx 2{,}7095$.
 
 **Bloc 6.**
 **25.** a) $x=\pm5$ (totes dues vàlides) · b) $x=9$ ($x=-1$ no és vàlida) · c) $x=2$, $x=3$ · d) $x=2$ ($x=-5$ no és vàlida).
-**26.** a) $x=3$, $x=6$ · b) $x=7$ · c) $x=3$ ($x=-2$ no és vàlida) · d) $x=10$, $x=100$ · e) $x=16$.
+**26.** a) $x=5$ ($x=-\dfrac{20}{3}$ no és vàlida) · b) $x=7$ · c) $x=3$ ($x=-2$ no és vàlida) · d) $x=10$, $x=100$ · e) $x=20$ ($x=13$ no és vàlida).
 **27.** a) $x=3$ ($x=-3$ no pot ser base) · b) $x=9$.
 **28.** a) $x=\log_b\dfrac{y}{a}=\dfrac{\log y-\log a}{\log b}$ · b) $x=c\cdot 10^{y/k}$ · c) $x=\dfrac{ab^2}{\sqrt{c}}$.
 

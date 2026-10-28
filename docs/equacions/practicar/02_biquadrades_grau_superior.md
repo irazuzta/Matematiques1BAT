@@ -68,10 +68,10 @@ Resol les equacions biquadrades següents:
 
 ### Exercici 9
 
-Resol, reduint-les primer a una equació biquadrada:
+Resol fent un canvi de variable que les redueixi a una equació de segon grau:
 
 - **a)** $(x^2-2)^2=1$
-- **b)** $(x^2+1)(x^2-3)=5$
+- **b)** $x^6+7x^3-8=0$
 - **c)** $9x^4-6x^2+1=0$
 
 ??? note "Mostra la solució"
@@ -99,28 +99,20 @@ Resol, reduint-les primer a una equació biquadrada:
 
     **Resposta:** $x=\pm 1$, $x=\pm\sqrt3$
 
-    **b)** Multipliquem els dos parèntesis i ho passem tot al primer membre:
+    **b)** Ara els exponents són $6$ i $3$, i $x^6=(x^3)^2$. Fem el canvi $t=x^3$ i l'equació queda de segon grau: $t^2+7t-8=0$.
 
     $$
-    \begin{aligned}
-    (x^2+1)(x^2-3)&=5\\
-    x^4-3x^2+x^2-3&=5\\
-    x^4-2x^2-8&=0
-    \end{aligned}
+    t=\frac{-7\pm\sqrt{49+32}}{2}=\frac{-7\pm 9}{2}\;\Rightarrow\; t_1=1,\quad t_2=-8.
     $$
 
-    Fem $t=x^2$: $t^2-2t-8=0$.
+    Desfem el canvi. Ara hem de fer una arrel **cúbica** i, a diferència de l'arrel quadrada, un nombre negatiu sí que té arrel cúbica real:
 
-    $$
-    t=\frac{2\pm\sqrt{4+32}}{2}=\frac{2\pm 6}{2}\;\Rightarrow\; t_1=4,\quad t_2=-2.
-    $$
+    - $t_1=1 \;\Rightarrow\; x^3=1 \;\Rightarrow\; x=\sqrt[3]{1}=1$
+    - $t_2=-8 \;\Rightarrow\; x^3=-8 \;\Rightarrow\; x=\sqrt[3]{-8}=-2$
 
-    Desfem el canvi:
+    Fixem-nos en la diferència amb les biquadrades: allà un valor negatiu de $t=x^2$ no donava solucions, mentre que aquí $t=x^3$ pot ser negatiu. A més, cada valor de $t$ dona una sola solució, no dues.
 
-    - $t_1=4 \;\Rightarrow\; x^2=4 \;\Rightarrow\; x=\pm 2$
-    - $t_2=-2 \;\Rightarrow\; x^2=-2$, sense solució real ($x^2$ no pot ser negatiu).
-
-    **Resposta:** $x=\pm 2$
+    **Resposta:** $x=1$, $x=-2$
 
     **c)** Ja és biquadrada. Fem $t=x^2$: $9t^2-6t+1=0$. El discriminant és
 
