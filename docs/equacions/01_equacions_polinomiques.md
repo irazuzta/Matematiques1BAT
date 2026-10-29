@@ -79,6 +79,46 @@ Segurament ja has resolt moltes equacions abans. Comencem posant nom, de manera 
 
     $$x=\frac{-4\pm\sqrt{0}}{8}=-\frac{4}{8}=-\frac{1}{2} \quad \text{(solució doble)}.$$
 
+## Equacions de segon grau incompletes
+
+Una equació de segon grau $ax^2+bx+c=0$ és **incompleta** quan li falta el terme de primer grau ($b=0$) o el terme independent ($c=0$). En aquests casos no cal la fórmula: les podem resoldre de manera més ràpida.
+
+!!! abstract "Cas 1: falta el terme de primer grau (b = 0)"
+    L'equació és de la forma $ax^2+c=0$. Aïllem $x^2$ i fem l'arrel quadrada, recordant que hi ha dos signes:
+
+    $$ax^2+c=0 \;\Rightarrow\; x^2=-\frac{c}{a} \;\Rightarrow\; x=\pm\sqrt{-\frac{c}{a}}.$$
+
+    Si $-\dfrac{c}{a}>0$, hi ha dues solucions oposades. Si $-\dfrac{c}{a}<0$, l'equació no té solució, perquè un quadrat no pot ser negatiu.
+
+!!! example "**Exemple:** Equació incompleta sense terme de primer grau"
+    Resolem $2x^2-18=0$:
+
+    $$2x^2=18 \;\Rightarrow\; x^2=9 \;\Rightarrow\; x=\pm\sqrt{9}=\pm 3.$$
+
+    Les solucions són $x_1=3$ i $x_2=-3$.
+
+    En canvi, l'equació $x^2+4=0$ no té solució: ens quedaria $x^2=-4$, i cap nombre real elevat al quadrat dona un resultat negatiu.
+
+!!! abstract "Cas 2: falta el terme independent (c = 0)"
+    L'equació és de la forma $ax^2+bx=0$. Traiem factor comú $x$ i fem servir que un producte val zero si i només si algun dels factors val zero:
+
+    $$ax^2+bx=0 \;\Rightarrow\; x(ax+b)=0 \;\Rightarrow\; x=0 \quad \text{o} \quad x=-\frac{b}{a}.$$
+
+    Sempre hi ha dues solucions, i una d'elles és $x=0$.
+
+!!! example "**Exemple:** Equació incompleta sense terme independent"
+    Resolem $3x^2-12x=0$. Traiem factor comú $3x$:
+
+    $$3x^2-12x=0 \;\Rightarrow\; 3x(x-4)=0.$$
+
+    - $3x=0 \;\Rightarrow\; x=0$
+    - $x-4=0 \;\Rightarrow\; x=4$
+
+    Les solucions són $x_1=0$ i $x_2=4$.
+
+!!! note "Compte: no dividim per x"
+    Seria un error passar de $3x^2=12x$ a $3x=12$ dividint per $x$: obtindríem només $x=4$ i perdríem la solució $x=0$. Per això sempre traiem factor comú.
+
 ## Equacions de grau superior
 
 Per a graus més grans que 2, sovint cal reduir l'equació a una que ja sabem resoldre.
@@ -132,5 +172,7 @@ Per a graus més grans que 2, sovint cal reduir l'equació a una que ja sabem re
 | --- | --- | --- |
 | Primer grau | $ax+b=0,\ a\neq 0$ | $x=-\dfrac{b}{a}$ |
 | Segon grau | $ax^2+bx+c=0,\ a\neq 0$ | $x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$ |
+| Segon grau incompleta ($b=0$) | $ax^2+c=0$ | $x=\pm\sqrt{-\dfrac{c}{a}}$, si $-\dfrac{c}{a}\geq 0$ |
+| Segon grau incompleta ($c=0$) | $ax^2+bx=0$ | $x(ax+b)=0 \Rightarrow x=0,\ x=-\dfrac{b}{a}$ |
 | Biquadrada | $ax^4+bx^2+c=0$ | Canvi $t=x^2$, i després $x=\pm\sqrt{t}$ |
 | Grau $\geq 3$ | $P(x)=0$ | Factoritzar $P(x)$ (per exemple, amb Ruffini) |
