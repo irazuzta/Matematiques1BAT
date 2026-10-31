@@ -1,6 +1,6 @@
 # Equacions de primer i segon grau
 
-Exercicis 1–7. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 1–9. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 ### Exercici 1
 
@@ -348,6 +348,99 @@ Considera l'equació $x^2-6x+k=0$.
 
 ### Exercici 6
 
+Considera l'equació $x^2+kx+9=0$.
+
+- **a)** Troba els valors de $k$ perquè tingui una solució doble i calcula-la en cada cas.
+- **b)** Per a quins valors de $k$ té dues solucions diferents?
+
+??? note "Mostra la solució"
+
+    Una equació de segon grau té una solució doble quan el discriminant és zero, dues solucions diferents quan és positiu i cap solució quan és negatiu. Aquí $a=1$, $b=k$ i $c=9$, de manera que
+
+    $$
+    \Delta=k^2-4\cdot 1\cdot 9=k^2-36.
+    $$
+
+    **a)** Imposem $\Delta=0$:
+
+    $$
+    k^2-36=0 \;\Rightarrow\; k^2=36 \;\Rightarrow\; k=\pm 6.
+    $$
+
+    Hi ha dos valors de $k$. Quan $\Delta=0$ la fórmula queda $x=\dfrac{-b\pm 0}{2a}=\dfrac{-b}{2a}$. Calculem la solució doble en cada cas:
+
+    - $k=6$: $x^2+6x+9=(x+3)^2=0 \;\Rightarrow\; x=-3$ (doble).
+    - $k=-6$: $x^2-6x+9=(x-3)^2=0 \;\Rightarrow\; x=3$ (doble).
+
+    **Resposta:** $k=6$, amb solució doble $x=-3$, o bé $k=-6$, amb solució doble $x=3$
+
+    **b)** Imposem $\Delta>0$:
+
+    $$
+    k^2-36>0 \;\Leftrightarrow\; k^2>36.
+    $$
+
+    El quadrat d'un nombre és més gran que $36$ quan el seu valor absolut és més gran que $6$: $|k|>6$, és a dir, $k<-6$ o $k>6$. Per exemple, per a $k=10$ tenim $\Delta=64>0$ (dues solucions), mentre que per a $k=0$ tenim $\Delta=-36<0$ (cap solució).
+
+    **Resposta:** $k<-6$ o $k>6$, és a dir, $k\in(-\infty,-6)\cup(6,+\infty)$
+
+### Exercici 7
+
+Considera l'equació $(k-1)x^2-2kx+k+3=0$.
+
+- **a)** Per a quin valor de $k$ l'equació és de primer grau? Resol-la en aquest cas.
+- **b)** Troba $k$ perquè tingui una solució doble i calcula-la.
+- **c)** Per a quins valors de $k$ no té solució?
+
+??? note "Mostra la solució"
+
+    **a)** L'equació és de segon grau mentre el coeficient de $x^2$ no sigui zero. Si $k-1=0$, és a dir, $k=1$, el terme de $x^2$ desapareix:
+
+    $$
+    (1-1)x^2-2\cdot 1\cdot x+1+3=0 \;\Rightarrow\; -2x+4=0 \;\Rightarrow\; x=2.
+    $$
+
+    **Resposta:** per a $k=1$ l'equació és de primer grau, i la solució és $x=2$
+
+    **b)** Per a $k\neq 1$ l'equació és de segon grau, amb $a=k-1$, $b=-2k$ i $c=k+3$. Calculem el discriminant:
+
+    $$
+    \begin{aligned}
+    \Delta&=(-2k)^2-4(k-1)(k+3)\\
+    &=4k^2-4\left(k^2+2k-3\right)\\
+    &=4k^2-4k^2-8k+12\\
+    &=12-8k
+    \end{aligned}
+    $$
+
+    Hi ha solució doble quan $\Delta=0$:
+
+    $$
+    12-8k=0 \;\Rightarrow\; k=\frac{12}{8}=\frac32.
+    $$
+
+    Com que $k=\dfrac32\neq 1$, l'equació és de segon grau. La solució doble és $x=\dfrac{-b}{2a}=\dfrac{2k}{2(k-1)}=\dfrac{k}{k-1}$:
+
+    $$
+    x=\frac{\frac32}{\frac32-1}=\frac{\frac32}{\frac12}=3.
+    $$
+
+    Ho comprovem: per a $k=\dfrac32$ l'equació és $\dfrac12x^2-3x+\dfrac92=0$ i, multiplicant per $2$, $x^2-6x+9=(x-3)^2=0$.
+
+    **Resposta:** $k=\dfrac32$, amb solució doble $x=3$
+
+    **c)** L'equació de segon grau no té solució quan $\Delta<0$:
+
+    $$
+    12-8k<0 \;\Rightarrow\; 12<8k \;\Rightarrow\; k>\frac32.
+    $$
+
+    El cas $k=1$ (primer grau) sí que té solució, però $1<\dfrac32$, així que no afecta la resposta. Per a la resta de valors, $k<\dfrac32$ amb $k\neq 1$, l'equació té dues solucions.
+
+    **Resposta:** $k>\dfrac32$
+
+### Exercici 8
+
 Escriu una equació de segon grau amb coeficients enters que tingui com a solucions:
 
 - **a)** $x=3$ i $x=-5$.
@@ -377,7 +470,7 @@ Escriu una equació de segon grau amb coeficients enters que tingui com a soluci
 
     **Resposta:** $9x^2-12x+4=0$ (o qualsevol múltiple d'aquesta equació)
 
-### Exercici 7
+### Exercici 9
 
 Resol les equacions següents, on $a$ i $b$ són constants:
 

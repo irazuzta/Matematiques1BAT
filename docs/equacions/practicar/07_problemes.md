@@ -1,10 +1,10 @@
 # Problemes
 
-Exercicis 29–41. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 32–44. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 > En tots els problemes, comprova que les solucions obtingudes tenen sentit en el context.
 
-### Exercici 29
+### Exercici 32
 
 Un rectangle té un perímetre de $34$ m i una diagonal de $13$ m. Quines dimensions té?
 
@@ -38,7 +38,7 @@ Un rectangle té un perímetre de $34$ m i una diagonal de $13$ m. Quines dimens
 
     **Resposta:** El rectangle fa $12$ m per $5$ m.
 
-### Exercici 30
+### Exercici 33
 
 Un grup d'amics lloga una furgoneta per $360$ € i se'n reparteixen el cost a parts iguals. Si fossin tres amics més, cadascun pagaria $20$ € menys. Quants amics són?
 
@@ -71,7 +71,7 @@ Un grup d'amics lloga una furgoneta per $360$ € i se'n reparteixen el cost a p
 
     **Resposta:** Són $6$ amics (i cadascun paga $60$ €).
 
-### Exercici 31
+### Exercici 34
 
 Dues aixetes juntes omplen un dipòsit en $6$ hores. La primera, sola, tarda $5$ hores més que la segona. Quant tarda cada aixeta a omplir el dipòsit sola?
 
@@ -105,7 +105,7 @@ Dues aixetes juntes omplen un dipòsit en $6$ hores. La primera, sola, tarda $5$
 
     **Resposta:** La segona aixeta tarda $10$ hores i la primera, $15$ hores.
 
-### Exercici 32
+### Exercici 35
 
 Un ciclista recorre $120$ km. Si anés $10$ km/h més ràpid, tardaria una hora menys. A quina velocitat va?
 
@@ -137,7 +137,7 @@ Un ciclista recorre $120$ km. Si anés $10$ km/h més ràpid, tardaria una hora 
 
     **Resposta:** El ciclista va a $30$ km/h.
 
-### Exercici 33
+### Exercici 36
 
 La diagonal d'un rectangle fa $5$ cm i la seva àrea és de $12\ \text{cm}^2$. Calcula'n les dimensions.
 
@@ -179,7 +179,7 @@ La diagonal d'un rectangle fa $5$ cm i la seva àrea és de $12\ \text{cm}^2$. C
 
     **Resposta:** El rectangle fa $4$ cm per $3$ cm.
 
-### Exercici 34
+### Exercici 37
 
 *(més difícil)* D'una làmina quadrada de cartró de $12$ cm de costat retallem un quadrat de costat $x$ a cada cantonada i, doblegant les vores, formem una caixa sense tapa. Quant ha de valer $x$ perquè el volum de la caixa sigui de $128\ \text{cm}^3$?
 
@@ -227,7 +227,7 @@ La diagonal d'un rectangle fa $5$ cm i la seva àrea és de $12\ \text{cm}^2$. C
 
     **Resposta:** Hem de retallar quadrats de $x=2$ cm de costat (la caixa fa $8$ cm per $8$ cm de base i $2$ cm d'altura).
 
-### Exercici 35
+### Exercici 38
 
 El període d'un pèndol (el temps que tarda a fer una oscil·lació completa) és $T=2\pi\sqrt{\dfrac{L}{g}}$, amb $L$ en metres, $T$ en segons i $g=9{,}8\ \text{m/s}^2$.
 
@@ -264,7 +264,7 @@ El període d'un pèndol (el temps que tarda a fer una oscil·lació completa) �
 
     **Resposta:** El pèndol ha de fer uns $2{,}23$ m de longitud.
 
-### Exercici 36
+### Exercici 39
 
 Una població de bacteris es duplica cada $3$ hores. Si inicialment n'hi ha $500$, el nombre de bacteris al cap de $t$ hores és $N(t)=500\cdot 2^{t/3}$. Quant de temps ha de passar perquè n'hi hagi $64\,000$?
 
@@ -292,7 +292,7 @@ Una població de bacteris es duplica cada $3$ hores. Si inicialment n'hi ha $500
 
     **Resposta:** Han de passar $21$ hores.
 
-### Exercici 37
+### Exercici 40
 
 Un capital $C$ col·locat a interès compost del $r\,\%$ anual es converteix, al cap de $t$ anys, en $C_t=C\left(1+\dfrac{r}{100}\right)^{t}$.
 
@@ -343,7 +343,7 @@ Un capital $C$ col·locat a interès compost del $r\,\%$ anual es converteix, al
 
     **Resposta:** Al $3\,\%$ el capital tarda uns $23{,}45$ anys a duplicar-se, i al $6\,\%$, uns $11{,}90$ anys.
 
-### Exercici 38
+### Exercici 41
 
 El cesi-137 té un període de semidesintegració de $30$ anys: cada $30$ anys, la quantitat que en queda es redueix a la meitat. Quant de temps ha de passar perquè en quedi només el $10\,\%$ de la quantitat inicial?
 
@@ -381,7 +381,7 @@ El cesi-137 té un període de semidesintegració de $30$ anys: cada $30$ anys, 
 
     **Resposta:** Han de passar uns $99{,}66$ anys (gairebé un segle).
 
-### Exercici 39
+### Exercici 42
 
 El nivell sonor, en decibels, d'un so d'intensitat $I$ és $L=10\log\dfrac{I}{I_0}$, on $I_0$ és la intensitat mínima audible.
 
@@ -430,7 +430,7 @@ El nivell sonor, en decibels, d'un so d'intensitat $I$ és $L=10\log\dfrac{I}{I_
 
     **Resposta:** El nivell sonor augmenta $10\log 2\approx 3{,}01$ dB.
 
-### Exercici 40
+### Exercici 43
 
 La magnitud $M$ d'un terratrèmol a l'escala de Richter és $M=\log\dfrac{A}{A_0}$, on $A$ és l'amplitud de les ones que registra el sismògraf i $A_0$ és una amplitud de referència. A més, l'energia $E$ alliberada (en joules) compleix $\log E=4{,}8+1{,}5M$.
 
@@ -501,7 +501,7 @@ La magnitud $M$ d'un terratrèmol a l'escala de Richter és $M=\log\dfrac{A}{A_0
 
     **Resposta:** El terratrèmol té magnitud $6$.
 
-### Exercici 41
+### Exercici 44
 
 La pressió atmosfèrica disminueix amb l'altitud segons $p(h)=p_0\,e^{-kh}$, on $p_0=1013$ hPa és la pressió al nivell del mar, $h$ és l'altitud en metres i $k=1{,}2\cdot 10^{-4}\ \text{m}^{-1}$. Un altímetre baromètric mesura la pressió i en dedueix l'altitud.
 

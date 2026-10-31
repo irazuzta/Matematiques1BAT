@@ -1,8 +1,8 @@
 # Equacions irracionals
 
-Exercicis 17–20. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 20–23. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
-### Exercici 17
+### Exercici 20
 
 Resol i comprova les solucions:
 
@@ -104,7 +104,7 @@ Resol i comprova les solucions:
 
     **Resposta:** no té solució ($x=5$ no és vàlida: una arrel quadrada no pot valer $-2$).
 
-### Exercici 18
+### Exercici 21
 
 Resol les equacions amb dos radicals següents:
 
@@ -237,7 +237,7 @@ Resol les equacions amb dos radicals següents:
 
     **Resposta:** $x=4$ ($x=-\dfrac47$ no és vàlida).
 
-### Exercici 19
+### Exercici 22
 
 Resol l'equació $\sqrt[3]{x^3-7}=x-1$. Cal comprovar les solucions quan l'arrel és cúbica?
 
@@ -271,7 +271,7 @@ Resol l'equació $\sqrt[3]{x^3-7}=x-1$. Cal comprovar les solucions quan l'arrel
 
     **Resposta:** $x=2$, $x=-1$.
 
-### Exercici 20
+### Exercici 23
 
 Troba $k$ perquè $x=5$ sigui solució de l'equació $\sqrt{x+k}=x-1$. Per a aquest valor de $k$, resol l'equació i comprova les solucions.
 

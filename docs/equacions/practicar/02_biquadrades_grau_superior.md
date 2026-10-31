@@ -1,8 +1,8 @@
 # Equacions biquadrades i de grau superior
 
-Exercicis 8–13. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 10–16. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
-### Exercici 8
+### Exercici 10
 
 Resol les equacions biquadrades següents:
 
@@ -66,7 +66,7 @@ Resol les equacions biquadrades següents:
 
     **Resposta:** $x=0$ (doble), $x=\pm 3$
 
-### Exercici 9
+### Exercici 11
 
 Resol fent un canvi de variable que les redueixi a una equació de segon grau:
 
@@ -136,7 +136,7 @@ Resol fent un canvi de variable que les redueixi a una equació de segon grau:
 
     **Resposta:** $x=\dfrac{\sqrt3}{3}$ (doble) i $x=-\dfrac{\sqrt3}{3}$ (doble)
 
-### Exercici 10
+### Exercici 12
 
 Resol factoritzant el polinomi amb Ruffini:
 
@@ -207,7 +207,7 @@ Resol factoritzant el polinomi amb Ruffini:
 
     **Resposta:** $x=1$ (el factor $x^2+1$ no té arrels reals)
 
-### Exercici 11
+### Exercici 13
 
 Resol les equacions següents:
 
@@ -292,7 +292,7 @@ Resol les equacions següents:
 
     **Resposta:** $x=1$ (doble), $x=-1$
 
-### Exercici 12
+### Exercici 14
 
 Troba el valor de $m$ perquè $x=2$ sigui solució de l'equació $x^3+mx^2-4x+4=0$ i, després, resol-la.
 
@@ -326,7 +326,7 @@ Troba el valor de $m$ perquè $x=2$ sigui solució de l'equació $x^3+mx^2-4x+4=
 
     **Resposta:** $m=-1$; les solucions són $x=1$, $x=2$ i $x=-2$
 
-### Exercici 13
+### Exercici 15
 
 Troba $k$ perquè $x=3$ sigui solució de l'equació $x^4+kx^2-18=0$ i, després, troba'n totes les solucions.
 
@@ -357,3 +357,57 @@ Troba $k$ perquè $x=3$ sigui solució de l'equació $x^4+kx^2-18=0$ i, després
     Com era d'esperar, $x=3$ és una de les solucions.
 
     **Resposta:** $k=-7$; les solucions són $x=3$ i $x=-3$
+
+### Exercici 16
+
+Considera l'equació biquadrada $x^4-5x^2+k=0$.
+
+- **a)** Troba $k$ perquè $x=0$ sigui solució i troba'n les altres solucions.
+- **b)** Troba $k$ perquè l'equació en $t=x^2$ tingui una solució doble. Quantes solucions té aleshores la biquadrada?
+- **c)** Per a quins valors de $k$ la biquadrada no té cap solució?
+
+??? note "Mostra la solució"
+
+    Fem el canvi $t=x^2$, i l'equació es converteix en $t^2-5t+k=0$. Recordem que cada valor $t>0$ dona dues solucions $x=\pm\sqrt{t}$, que $t=0$ dona $x=0$ i que un valor $t<0$ no en dona cap.
+
+    **a)** Si $x=0$ és solució, en substituir-la obtenim $0-0+k=0$, és a dir, $k=0$. L'equació queda:
+
+    $$
+    x^4-5x^2=0 \;\Rightarrow\; x^2\left(x^2-5\right)=0.
+    $$
+
+    - $x^2=0 \;\Rightarrow\; x=0$ (doble)
+    - $x^2=5 \;\Rightarrow\; x=\pm\sqrt5$
+
+    **Resposta:** $k=0$; les solucions són $x=0$ (doble) i $x=\pm\sqrt5$
+
+    **b)** L'equació en $t$ té una solució doble quan el seu discriminant és zero:
+
+    $$
+    \Delta=(-5)^2-4\cdot 1\cdot k=25-4k=0 \;\Rightarrow\; k=\frac{25}{4}.
+    $$
+
+    Aleshores $t=\dfrac{5}{2}$ (doble). Com que és positiu, desfem el canvi:
+
+    $$
+    x^2=\frac52 \;\Rightarrow\; x=\pm\sqrt{\frac52}=\pm\frac{\sqrt{10}}{2}.
+    $$
+
+    La biquadrada té dues solucions diferents, i cadascuna és doble, perquè $x^4-5x^2+\dfrac{25}{4}=\left(x^2-\dfrac52\right)^2$.
+
+    **Resposta:** $k=\dfrac{25}{4}$; la biquadrada té dues solucions, $x=\pm\dfrac{\sqrt{10}}{2}$, totes dues dobles
+
+    **c)** La biquadrada no té cap solució quan l'equació en $t$ no té cap solució positiva o nul·la. Mirem els dos casos possibles:
+
+    - Si $\Delta=25-4k<0$, l'equació en $t$ no té solucions, i la biquadrada tampoc.
+    - Si $\Delta\geq 0$, una de les solucions és $t=\dfrac{5+\sqrt{25-4k}}{2}$. Com que $\sqrt{25-4k}\geq 0$, tenim $t\geq\dfrac52>0$, i aquest valor sempre dona dues solucions $x=\pm\sqrt{t}$.
+
+    Per tant, la biquadrada no té solució exactament quan $\Delta<0$:
+
+    $$
+    25-4k<0 \;\Rightarrow\; k>\frac{25}{4}.
+    $$
+
+    Per exemple, per a $k=7$, l'equació $t^2-5t+7=0$ té $\Delta=25-28=-3<0$, i la biquadrada no té solució.
+
+    **Resposta:** $k>\dfrac{25}{4}$

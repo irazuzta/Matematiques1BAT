@@ -1,8 +1,8 @@
 # Equacions racionals
 
-Exercicis 14–16. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 17–19. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
-### Exercici 14
+### Exercici 17
 
 Resol i comprova les solucions:
 
@@ -129,7 +129,7 @@ Resol i comprova les solucions:
 
     **Resposta:** $x=-1+\sqrt2$, $\;x=-1-\sqrt2$
 
-### Exercici 15
+### Exercici 18
 
 Resol:
 
@@ -192,7 +192,7 @@ Resol:
 
     **Resposta:** $x=2$, $\;x=-3$
 
-### Exercici 16
+### Exercici 19
 
 Troba el valor de $a$ perquè $x=3$ sigui solució de l'equació $\dfrac{a}{x-1}+\dfrac{1}{x+1}=1$ i, per a aquest valor, resol l'equació.
 

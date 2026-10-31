@@ -1,8 +1,8 @@
 # Equacions exponencials
 
-Exercicis 21–24. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 24–27. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
-### Exercici 21
+### Exercici 24
 
 Resol expressant els dos membres com a potències de la mateixa base:
 
@@ -85,7 +85,7 @@ Resol expressant els dos membres com a potències de la mateixa base:
 
     **Resposta:** $x=-1$
 
-### Exercici 22
+### Exercici 25
 
 Resol traient factor comú: $2^{x+1}+2^{x}+2^{x-1}=28$.
 
@@ -107,7 +107,7 @@ Resol traient factor comú: $2^{x+1}+2^{x}+2^{x-1}=28$.
 
     **Resposta:** $x=3$
 
-### Exercici 23
+### Exercici 26
 
 Resol fent un canvi de variable:
 
@@ -240,7 +240,7 @@ Resol fent un canvi de variable:
 
     **Resposta:** $x=0$, $\;x=1$ (per a qualsevol valor de $a$ amb $a>0$, $a\neq1$)
 
-### Exercici 24
+### Exercici 27
 
 Resol aplicant logaritmes. Dona la solució exacta i una aproximació amb quatre decimals:
 

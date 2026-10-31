@@ -6,10 +6,10 @@ Relació d'exercicis i problemes d'equacions, ordenada com els apartats de la te
 
 | Bloc | Exercicis |
 |:--|:--:|
-| [Equacions de primer i segon grau](01_primer_segon_grau.md) | 1–7 |
-| [Equacions biquadrades i de grau superior](02_biquadrades_grau_superior.md) | 8–13 |
-| [Equacions racionals](03_racionals.md) | 14–16 |
-| [Equacions irracionals](04_irracionals.md) | 17–20 |
-| [Equacions exponencials](05_exponencials.md) | 21–24 |
-| [Equacions logarítmiques](06_logaritmiques.md) | 25–28 |
-| [Problemes](07_problemes.md) | 29–41 |
+| [Equacions de primer i segon grau](01_primer_segon_grau.md) | 1–9 |
+| [Equacions biquadrades i de grau superior](02_biquadrades_grau_superior.md) | 10–16 |
+| [Equacions racionals](03_racionals.md) | 17–19 |
+| [Equacions irracionals](04_irracionals.md) | 20–23 |
+| [Equacions exponencials](05_exponencials.md) | 24–27 |
+| [Equacions logarítmiques](06_logaritmiques.md) | 28–31 |
+| [Problemes](07_problemes.md) | 32–44 |

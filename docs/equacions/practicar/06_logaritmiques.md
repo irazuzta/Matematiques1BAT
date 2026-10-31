@@ -1,8 +1,8 @@
 # Equacions logarítmiques
 
-Exercicis 25–28. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 28–31. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
-### Exercici 25
+### Exercici 28
 
 Resol i comprova les solucions:
 
@@ -89,7 +89,7 @@ Resol i comprova les solucions:
 
     **Resposta:** $x=2$
 
-### Exercici 26
+### Exercici 29
 
 Resol aplicant les propietats dels logaritmes:
 
@@ -230,7 +230,7 @@ Resol aplicant les propietats dels logaritmes:
 
     **Resposta:** $x=20$
 
-### Exercici 27
+### Exercici 30
 
 Troba $x$ aplicant la definició de logaritme:
 
@@ -266,7 +266,7 @@ Troba $x$ aplicant la definició de logaritme:
 
     **Resposta:** $x=9$
 
-### Exercici 28
+### Exercici 31
 
 Aïlla $x$ en cada fórmula (totes les constants són positives i $b\neq1$):
 
