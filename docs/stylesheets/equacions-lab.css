@@ -1,0 +1,166 @@
+/* Laboratori d'equacions (equacions/laboratori.md). Fa servir també les
+   classes .lab-* de laboratori.css. */
+
+.eq-input input {
+  flex: 1 1 9rem;
+  min-width: 7rem;
+}
+
+.eq-input__eq {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+@media (max-width: 30em) {
+  .eq-input input {
+    flex-basis: 100%;
+  }
+  .eq-input__eq {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.eq-summary {
+  text-align: center;
+}
+
+.eq-sols {
+  margin: 0.2rem 0 0.4rem;
+}
+
+/* Botons per triar el tipus de gràfica */
+.eq-seg {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 1rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0 0 0.6rem;
+  overflow: hidden;
+}
+
+.eq-seg__b {
+  background: transparent;
+  border: 0;
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.25rem 0.85rem;
+}
+
+.eq-seg__b:hover,
+.eq-seg__b:focus-visible {
+  color: var(--md-accent-fg-color);
+}
+
+.eq-seg__b.is-on {
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color, #fff);
+}
+
+/* Llegenda */
+.eq-legend {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  gap: 0.3rem 1.4rem;
+  overflow-x: auto;
+  position: relative;
+}
+
+.eq-legend__i {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.45rem;
+}
+
+.eq-sw {
+  border-radius: 0.1rem;
+  display: inline-block;
+  flex: none;
+  height: 0.22rem;
+  width: 1.5rem;
+}
+
+/* Corbes i solucions */
+.eq-curve {
+  fill: none;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+}
+
+.eq-curve.is-l,
+.eq-hov.is-l {
+  stroke: var(--md-typeset-a-color, #3f51b5);
+}
+
+.eq-sw.is-l,
+.eq-hov.is-l {
+  background: var(--md-typeset-a-color, #3f51b5);
+  fill: var(--md-typeset-a-color, #3f51b5);
+}
+
+.eq-curve.is-r {
+  stroke: #2e9d5b;
+}
+
+.eq-sw.is-r,
+.eq-hov.is-r {
+  background: #2e9d5b;
+  fill: #2e9d5b;
+}
+
+[data-md-color-scheme="slate"] .eq-curve.is-r {
+  stroke: #5ccf8b;
+}
+
+[data-md-color-scheme="slate"] .eq-sw.is-r,
+[data-md-color-scheme="slate"] .eq-hov.is-r {
+  background: #5ccf8b;
+  fill: #5ccf8b;
+}
+
+.eq-hov {
+  stroke: var(--md-default-bg-color);
+  stroke-width: 1.5;
+}
+
+.eq-drop {
+  stroke: var(--md-default-fg-color--light);
+  stroke-dasharray: 4 3;
+  stroke-width: 1.2;
+}
+
+.eq-pt {
+  fill: var(--md-default-fg-color);
+  stroke: var(--md-default-bg-color);
+  stroke-width: 1.5;
+}
+
+.eq-root {
+  fill: var(--md-accent-fg-color);
+  stroke: var(--md-default-bg-color);
+  stroke-width: 1.5;
+}
+
+.eq-marks text {
+  fill: var(--md-default-fg-color);
+  font-size: 12px;
+  paint-order: stroke;
+  stroke: var(--md-default-bg-color);
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.eq-demo {
+  margin: 0.8rem auto;
+  max-width: 34rem;
+}
+
+@media print {
+  .eq-seg {
+    display: none;
+  }
+}

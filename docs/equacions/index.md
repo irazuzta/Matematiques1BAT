@@ -14,3 +14,11 @@ El mètode de resolució canvia segons el tipus d'equació, però la idea de fon
 ## Per practicar
 
 - [Exercicis i problemes](practicar/index.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb problemes on apareixen els diferents tipus d'equacions. Cada exercici té la solució pas a pas plegada. També es pot descarregar en PDF amb solucions.
+
+<div class="no-print" markdown="1">
+
+## Eines interactives
+
+- [Laboratori d'equacions](laboratori.md) — escrius una equació i en veus la interpretació gràfica (on es tallen els dos membres) i la resolució pas a pas.
+
+</div>
