@@ -329,17 +329,38 @@
   function startsWithDigit(t) {
     return /^[0-9]/.test(t);
   }
+  var SUBST = null; // si no és null, la x s'escriu com aquest valor (comprovacions)
+  function substTeX(n, valTeX) {
+    SUBST = valTeX;
+    try {
+      return toTeX(n);
+    } finally {
+      SUBST = null;
+    }
+  }
+  function isX(n) {
+    return n.t === "x" && SUBST !== null;
+  }
+  function xNeg(n) {
+    return isX(n) && /^-/.test(SUBST);
+  }
+  function xFrac(n) {
+    return isX(n) && /\\dfrac/.test(SUBST);
+  }
+  function wrap(t) {
+    return "\\left(" + t + "\\right)";
+  }
   function toTeX(n) {
     switch (n.t) {
       case "num":
         return numTeX(n);
       case "x":
-        return "x";
+        return SUBST !== null ? SUBST : "x";
       case "const":
         return n.v === "e" ? "e" : "\\pi";
       case "neg": {
         var inner = toTeX(n.a);
-        return "-" + (prec(n.a) <= 1.5 ? "\\left(" + inner + "\\right)" : inner);
+        return "-" + (prec(n.a) <= 1.5 || xNeg(n.a) ? "\\left(" + inner + "\\right)" : inner);
       }
       case "fn": {
         var a = toTeX(n.a);
@@ -353,16 +374,17 @@
       case "bin": {
         var A = toTeX(n.a);
         var B = toTeX(n.b);
-        if (n.op === "+") return A + (/^-/.test(B) ? "" : "+") + B;
-        if (n.op === "-") return A + "-" + (prec(n.b) <= 1.5 ? "\\left(" + B + "\\right)" : B);
+        if (n.op === "+") return A + (xNeg(n.b) ? "+" + wrap(B) : (/^-/.test(B) ? "" : "+") + B);
+        if (n.op === "-") return A + "-" + (prec(n.b) <= 1.5 || xNeg(n.b) ? "\\left(" + B + "\\right)" : B);
         if (n.op === "/") return "\\dfrac{" + A + "}{" + B + "}";
         if (n.op === "^") {
-          var base = prec(n.a) < 5 || n.a.t === "fn" ? "\\left(" + A + "\\right)" : A;
+          var base = prec(n.a) < 5 || n.a.t === "fn" || xNeg(n.a) || xFrac(n.a) ? "\\left(" + A + "\\right)" : A;
           return base + (B.length === 1 ? "^" + B : "^{" + B + "}");
         }
         // producte
-        var Ap = prec(n.a) < 2 ? "\\left(" + A + "\\right)" : A;
-        var Bp = prec(n.b) < 2 || (n.b.t === "bin" && n.b.op === "*") ? "\\left(" + B + "\\right)" : B;
+        var Ap = prec(n.a) < 2 || xNeg(n.a) ? "\\left(" + A + "\\right)" : A;
+        var Bp = prec(n.b) < 2 || (n.b.t === "bin" && n.b.op === "*") || xNeg(n.b) ? "\\left(" + B + "\\right)" : B;
+        if (xFrac(n.a) || xFrac(n.b) || isX(n.a) || (isX(n.b) && !xNeg(n.b))) return Ap + "\\cdot " + Bp;
         if (prec(n.b) < 2) return Ap + Bp;
         if (startsWithDigit(Bp)) return Ap + "\\cdot " + Bp;
         return Ap + (n.a.t === "num" || n.a.t === "const" || n.implicit ? "" : "\\cdot ") + Bp;
@@ -442,6 +464,12 @@
   function eqTeX(p) {
     return polyTeX(p) + "=0";
   }
+  // línia de comprovació; si l'expressió és llarga, el resultat va a la línia següent
+  function checkLine(name, expr, val) {
+    if (expr === val) return "\\text{" + name + ": }&{" + expr + "}";
+    var long = expr.replace(/\\(left|right|dfrac|cdot)/g, "").length > 20;
+    return "\\text{" + name + ": }&{" + expr + "}" + (long ? "\\\\ &=" : "=") + val;
+  }
   function plural(n, s, p) {
     return n === 1 ? s : p;
   }
@@ -460,7 +488,7 @@
     var tb = b.sign() < 0 ? "(" + texQ(b) + ")" : texQ(b);
     var tc = c.sign() < 0 ? "(" + texQ(c) + ")" : texQ(c);
     blocks.push(P("Identifiquem els coeficients: $a=" + ta + "$, $b=" + texQ(b) + "$, $c=" + texQ(c) + "$. Calculem el discriminant:"));
-    blocks.push(M("\\Delta=b^2-4ac=" + tb + "^2-4\\cdot " + (a.sign() < 0 ? "(" + ta + ")" : ta) + "\\cdot " + tc + "=" + texQ(D)));
+    blocks.push(M("\\begin{aligned}\\Delta&=b^2-4ac\\\\ &=" + tb + "^2-4\\cdot " + (a.sign() < 0 ? "(" + ta + ")" : ta) + "\\cdot " + tc + "=" + texQ(D) + "\\end{aligned}"));
     var twoA = new Q(2).mul(a);
     if (D.sign() < 0) {
       blocks.push(P("Com que $\\Delta<0$, l'equació **no té cap solució real**: l'arrel quadrada d'un nombre negatiu no és un nombre real."));
@@ -482,29 +510,29 @@
     var C = c.n * (L / c.d);
     var DI = B * B - 4n * A * C;
     var sq = sqrtSimplify(DI);
-    var head = v + "=\\dfrac{-b\\pm\\sqrt{\\Delta}}{2a}=\\dfrac{" + texQ(b.neg()) + "\\pm\\sqrt{" + texQ(D) + "}}{" + texQ(twoA) + "}";
+    var head = v + "&=\\dfrac{-b\\pm\\sqrt{\\Delta}}{2a}\\\\ &=\\dfrac{" + texQ(b.neg()) + "\\pm\\sqrt{" + texQ(D) + "}}{" + texQ(twoA) + "}";
     if (sq.n === 1n) {
       var r1 = new Q(-B + sq.m, 2n * A);
       var r2 = new Q(-B - sq.m, 2n * A);
       if (L === 1n) head += "=\\dfrac{" + texQ(b.neg()) + "\\pm " + sq.m + "}{" + texQ(twoA) + "}";
-      blocks.push(M(head));
+      blocks.push(M("\\begin{aligned}" + head + "\\end{aligned}"));
       var lo = r1.cmp(r2) < 0 ? r1 : r2;
       var hi = r1.cmp(r2) < 0 ? r2 : r1;
       blocks.push(M(v + "_1=" + texQ(lo) + ",\\qquad " + v + "_2=" + texQ(hi)));
       sols.push(ratSol(lo), ratSol(hi));
     } else {
-      blocks.push(M(head));
+      blocks.push(M("\\begin{aligned}" + head + "\\end{aligned}"));
       var s1 = surdSol(-B, -sq.m, sq.n, 2n * A);
       var s2 = surdSol(-B, sq.m, sq.n, 2n * A);
       var pair = s1.val < s2.val ? [s1, s2] : [s2, s1];
       if (sq.m !== 1n || L !== 1n) blocks.push(P("Simplifiquem l'arrel ($\\sqrt{" + DI + "}" + (sq.m === 1n ? "" : "=" + sq.m + "\\sqrt{" + sq.n + "}") + "$" + (L !== 1n ? ", després de multiplicar els coeficients per $" + L + "$ per treure denominadors" : "") + "):"));
-      blocks.push(M(v + "_1=" + pair[0].tex + "\\approx " + texDec(pair[0].val, 4) + ",\\qquad " + v + "_2=" + pair[1].tex + "\\approx " + texDec(pair[1].val, 4)));
+      blocks.push(M("\\begin{aligned}" + v + "_1&=" + pair[0].tex + "\\approx " + texDec(pair[0].val, 4) + "\\\\ " + v + "_2&=" + pair[1].tex + "\\approx " + texDec(pair[1].val, 4) + "\\end{aligned}"));
       sols.push(pair[0], pair[1]);
     }
     return { blocks: blocks, sols: sols, D: D };
   }
 
-  function solvePoly(pl, pr, texL, texR) {
+  function solvePoly(pl, pr, texL, texR, tl, tr) {
     var steps = [];
     function step(title, blocks) {
       steps.push({ title: title, blocks: blocks });
@@ -685,20 +713,25 @@
         var eq = s.approxTeX ? lhs + s.tex : lhs + "=" + s.tex;
         return eq + (s.mult > 1 ? "\\ \\text{(" + (s.mult === 2 ? "doble" : s.mult === 3 ? "triple" : "multiplicitat " + s.mult) + ")}" : "");
       });
-      fb.push(P("L'equació té " + nw(sols.length) + " " + plural(sols.length, "solució real", "solucions reals") + ":"));
-      fb.push(M(list.join(",\\qquad ")));
+      fb.push(P("L'equació té " + nw(sols.length) + " " + plural(sols.length, "solució real", "solucions reals") + ": " + list.map(function (t) { return "$" + t + "$"; }).join(", ") + "."));
       // comprovació amb les solucions racionals
       var checks = [];
       sols.forEach(function (s) {
         if (!s.rational) return;
-        var vl = pevalQ(pl, s.rational);
-        var vr = pevalQ(pr, s.rational);
-        checks.push("x=" + s.tex + ":\\quad \\text{primer membre}=" + texQ(vl) + ",\\quad \\text{segon membre}=" + texQ(vr));
+        var vl = texQ(pevalQ(pl, s.rational));
+        var vr = texQ(pevalQ(pr, s.rational));
+        var sl = substTeX(tl, s.tex);
+        var sr = substTeX(tr, s.tex);
+        checks.push({
+          head: "Per a $x=" + s.tex + "$:",
+          tex: "\\begin{aligned}" + checkLine("primer membre", sl, vl) + "\\\\ " + checkLine("segon membre", sr, vr) + "\\end{aligned}",
+        });
       });
       if (checks.length) {
-        fb.push(P("**Comprovació.** Substituïm a l'equació original:"));
+        fb.push(P("**Comprovació.** Substituïm cada solució als dos membres de l'equació original i veiem que donen el mateix valor."));
         checks.forEach(function (ch) {
-          fb.push(M(ch));
+          fb.push(P(ch.head));
+          fb.push(M(ch.tex));
         });
       }
       fb.push(P("A la gràfica, cada solució és l'abscissa d'un punt on es tallen les dues corbes."));
@@ -835,7 +868,7 @@
       var d = Math.max(deg(pl), deg(pr));
       var r;
       try {
-        r = solvePoly(pl, pr, texL, texR);
+        r = solvePoly(pl, pr, texL, texR, tl, tr);
       } catch (e2) {
         if (e2 && e2.polyError) throw EqErr(e2.message);
         throw e2;
@@ -861,7 +894,8 @@
     else {
       blocks.push(P("Hem trobat " + nw(sols.length) + " " + plural(sols.length, "solució", "solucions") + ". En cada una comprovem que els dos membres donen (aproximadament) el mateix valor:"));
       sols.forEach(function (s, i) {
-        blocks.push(M("x_{" + (i + 1) + "}" + (s.approxTeX ? s.tex : "=" + s.tex) + ":\\quad \\text{primer membre}\\approx " + texDec(fl(s.val), 4) + ",\\quad \\text{segon membre}\\approx " + texDec(fr(s.val), 4)));
+        blocks.push(P("Per a $x_{" + (i + 1) + "}" + (s.approxTeX ? s.tex : "=" + s.tex) + "$:"));
+        blocks.push(M("\\begin{aligned}\\text{primer membre}&\\approx " + texDec(fl(s.val), 4) + "\\\\ \\text{segon membre}&\\approx " + texDec(fr(s.val), 4) + "\\end{aligned}"));
       });
     }
     blocks.push(P("Per resoldre-la de manera exacta, fes servir el mètode del seu tipus (vegeu la teoria): aïllar i elevar al quadrat les arrels, igualar bases o aplicar logaritmes, multiplicar pel denominador comú... i **comprova sempre les solucions**."));

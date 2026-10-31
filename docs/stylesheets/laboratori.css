@@ -346,3 +346,10 @@
   padding: 0.5em 0.8em;
   text-align: center;
 }
+
+/* Taules de Ruffini compactes (també en mòbil). */
+.md-typeset .lab-ruffini table th,
+.md-typeset .lab-ruffini table td {
+  min-width: 0;
+  padding: 0.35em 0.65em;
+}

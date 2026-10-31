@@ -11,14 +11,46 @@ Una equació és una igualtat entre dues expressions, $f(x)=g(x)$. Cada membre e
 
     <div class="eq-demo" data-l="x^2" data-r="x+2" data-mode="two" markdown="1"></div>
 
-    Es tallen en els punts $(-1,1)$ i $(2,4)$. Les solucions de l'equació són les abscisses d'aquests punts, $x=-1$ i $x=2$. Ho podem comprovar: $(-1)^2=1=-1+2$ i $2^2=4=2+2$.
+    Es tallen en els punts $(-1,1)$ i $(2,4)$. Les solucions de l'equació són les abscisses d'aquests punts, $x=-1$ i $x=2$. Ho comprovem substituint cada valor al primer membre ($x^2$) i al segon ($x+2$):
+
+    $$
+    \begin{alignedat}{2}
+    x=-1:&\quad (-1)^2=1, &\qquad -1+2&=1\\
+    x=2:&\quad 2^2=4, & 2+2&=4
+    \end{alignedat}
+    $$
+
+    En tots dos casos els dos membres donen el mateix valor.
 
 !!! tip "Solucions i punts de tall"
-    $$a \text{ és solució de } f(x)=g(x) \ \Leftrightarrow\ f(a)=g(a) \ \Leftrightarrow\ \text{les gràfiques de } y=f(x) \text{ i } y=g(x) \text{ es tallen en el punt } (a,f(a))$$
+    Un nombre $a$ és solució de l'equació $f(x)=g(x)$ si, i només si, les gràfiques de $y=f(x)$ i $y=g(x)$ es tallen en un punt d'abscissa $a$:
+
+    $$
+    \begin{aligned}
+    a \text{ és solució} &\ \Leftrightarrow\ f(a)=g(a)\\
+    &\ \Leftrightarrow\ \text{les gràfiques es tallen}\\
+    &\phantom{\ \Leftrightarrow\ }\ \text{en el punt } (a,f(a))
+    \end{aligned}
+    $$
 
     Si les dues gràfiques no es tallen, l'equació no té solució.
 
-També ho podem mirar d'una altra manera. Si passem tots els termes al primer membre, l'equació queda $f(x)-g(x)=0$, i les solucions són els punts on la gràfica de $y=f(x)-g(x)$ **talla l'eix $OX$**, com les arrels d'un polinomi (mira el [Laboratori de polinomis](../algebra/laboratori.md)). Per a l'exemple anterior, $x^2-(x+2)=x^2-x-2$:
+També ho podem mirar d'una altra manera. Si passem tots els termes al primer membre, l'equació queda $f(x)-g(x)=0$, i les solucions són els punts on la gràfica de $y=f(x)-g(x)$ **talla l'eix $OX$**, com les arrels d'un polinomi (mira el [Laboratori de polinomis](../algebra/laboratori.md)).
+
+Per a l'exemple anterior, passem tots els termes al primer membre:
+
+$$x^2-(x+2)=0 \;\Rightarrow\; x^2-x-2=0$$
+
+i resolem l'equació de segon grau:
+
+$$
+\begin{aligned}
+x&=\frac{1\pm\sqrt{1+8}}{2}=\frac{1\pm 3}{2}\\
+&\Rightarrow\; x_1=-1,\quad x_2=2
+\end{aligned}
+$$
+
+A la gràfica de $y=x^2-x-2$, aquestes solucions són els punts de tall amb l'eix $OX$:
 
 <div class="eq-demo" data-l="x^2" data-r="x+2" data-mode="diff" markdown="1"></div>
 

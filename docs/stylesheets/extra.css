@@ -142,3 +142,18 @@
     display: none !important;
   }
 }
+
+/* Pantalles estretes (mòbil): evitem l'scroll horitzontal de fórmules i
+   taules. Les fórmules destacades es fan una mica més petites i les
+   cel·les de les taules ja no tenen l'amplada mínima de Material. */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .katex-display > .katex {
+    font-size: 1.05em;
+  }
+
+  .md-typeset table:not([class]) th,
+  .md-typeset table:not([class]) td {
+    min-width: 0;
+    padding: 0.55em 0.7em;
+  }
+}

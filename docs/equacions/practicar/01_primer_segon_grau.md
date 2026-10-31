@@ -513,8 +513,10 @@ Resol les equacions següents, on $a$ i $b$ són constants:
 
     $$
     x=\frac{(a+b)\pm(a-b)}{2}\;\Rightarrow\;
-    x_1=\frac{a+b+a-b}{2}=\frac{2a}{2}=a,\quad
-    x_2=\frac{a+b-a+b}{2}=\frac{2b}{2}=b .
+    \begin{aligned}
+    x_1&=\frac{a+b+a-b}{2}=\frac{2a}{2}=a\\
+    x_2&=\frac{a+b-a+b}{2}=\frac{2b}{2}=b
+    \end{aligned}
     $$
 
     També ho podíem veure factoritzant: dos nombres que sumen $a+b$ i multiplicats donen $ab$ són $a$ i $b$, per tant $x^2-(a+b)x+ab=(x-a)(x-b)$. Si $a=b$, les dues solucions coincideixen (solució doble).

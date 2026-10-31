@@ -33,9 +33,10 @@ Resol i comprova les solucions:
     Resolem l'equació de segon grau $2x^2-3x-2=0$:
 
     $$
-    x=\frac{3\pm\sqrt{(-3)^2-4\cdot2\cdot(-2)}}{2\cdot2}=\frac{3\pm\sqrt{25}}{4}=\frac{3\pm5}{4}
-    \Rightarrow
-    x_1=\frac{8}{4}=2,\quad x_2=\frac{-2}{4}=-\frac12 .
+    \begin{aligned}
+    x&=\frac{3\pm\sqrt{(-3)^2-4\cdot2\cdot(-2)}}{2\cdot2}=\frac{3\pm\sqrt{25}}{4}=\frac{3\pm5}{4}\\
+    &\Rightarrow\; x_1=\frac{8}{4}=2,\quad x_2=\frac{-2}{4}=-\frac12
+    \end{aligned}
     $$
 
     Comprovem si alguna de les solucions candidates anul·la un denominador de l'equació original ($x$ o $x+1$):

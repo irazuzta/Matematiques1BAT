@@ -317,7 +317,12 @@ Factoritza completament cada polinomi (no hi ha cap indicació de quin cas és c
 
     **d)** El polinomi no és mònic. Les arrels enteres són divisors del terme independent $6$: $\pm1,\pm2,\pm3,\pm6$. Provem:
 
-    $$p(1)=-6\neq0\qquad p(-1)=12\neq0\qquad p(2)=-12\neq0\qquad p(3)=54-27-33+6=0$$
+    $$
+    \begin{aligned}
+    p(1)&=-6\neq0, & p(-1)&=12\neq0,\\
+    p(2)&=-12\neq0, & p(3)&=54-27-33+6=0
+    \end{aligned}
+    $$
 
     | | $2$ | $-3$ | $-11$ | $6$ |
     |:--:|:--:|:--:|:--:|:--:|
@@ -545,8 +550,10 @@ Factoritza completament $x^6+2x^5-5x^4-7x^3-2x^2+5x+6$ (quatre arrels són enter
     Si preferim desenvolupar terme a terme:
 
     $$\begin{aligned}
-    (x^2-2x+2)(x^2+2x+2) &= x^4+2x^3+2x^2-2x^3-4x^2-4x+2x^2+4x+4\\
-    &=x^4+(2x^3-2x^3)+(2x^2-4x^2+2x^2)+(-4x+4x)+4\\
+    (x^2-2x+2)(x^2+2x+2) &= x^4+2x^3+2x^2-2x^3-4x^2-4x\\
+    &\quad\ +2x^2+4x+4\\
+    &=x^4+(2x^3-2x^3)+(2x^2-4x^2+2x^2)\\
+    &\quad\ +(-4x+4x)+4\\
     &=x^4+4
     \end{aligned}$$
 

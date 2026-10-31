@@ -959,14 +959,14 @@
       var bb = poly[1];
       var cc = poly[0];
       var Dpoly = bb.mul(bb).sub(new Q(4).mul(aa).mul(cc));
-      bl.push(M("\\Delta=b^2-4ac=" + texQPar(bb) + "^2-4\\cdot" + texQPar(aa) + "\\cdot" + texQPar(cc) + "=" + texQ(Dpoly)));
+      bl.push(M("\\begin{aligned}\\Delta&=b^2-4ac\\\\ &=" + texQPar(bb) + "^2-4\\cdot" + texQPar(aa) + "\\cdot" + texQPar(cc) + "=" + texQ(Dpoly) + "\\end{aligned}"));
       var out = { type: null };
       if (D > 0n) {
         var qr = quadRoots(al, be, ga);
         var sq = sqrtSimplify(D);
         if (sq.n === 1n) {
           bl.push(P("$\\Delta>0$ i és un quadrat perfecte ($\\sqrt{" + D + "}=" + sq.m + "$), així que hi ha dues arrels racionals:"));
-          bl.push(M("x=\\dfrac{-b\\pm\\sqrt{\\Delta}}{2a}=\\dfrac{" + texQ(bb.neg()) + "\\pm " + sq.m + "}{" + texQ(aa.mul(new Q(2))) + "}\\ \\Rightarrow\\ x_1=" + texQ(qr[0].q) + ",\\quad x_2=" + texQ(qr[1].q)));
+          bl.push(M("\\begin{aligned}x&=\\dfrac{-b\\pm\\sqrt{\\Delta}}{2a}=\\dfrac{" + texQ(bb.neg()) + "\\pm " + sq.m + "}{" + texQ(aa.mul(new Q(2))) + "}\\\\ &\\Rightarrow\\ x_1=" + texQ(qr[0].q) + ",\\quad x_2=" + texQ(qr[1].q) + "\\end{aligned}"));
           out.type = "rat";
         } else {
           var simp = sq.m > 1n ? "\\sqrt{" + D + "}=" + sq.m + "\\sqrt{" + sq.n + "}" : "\\sqrt{" + D + "}";
@@ -975,7 +975,7 @@
             var den = aa.mul(new Q(2));
             return "\\dfrac{" + texQ(bb.neg()) + "\\pm " + (sq.m > 1n ? sq.m : "") + "\\sqrt{" + sq.n + "}}{" + texQ(den) + "}";
           })()));
-          bl.push(M("x_1=" + rootSignedTeX(qr[0]) + ",\\quad x_2=" + rootSignedTeX(qr[1]) + "\\qquad(\\approx " + texDec(rootNum(qr[0])) + ",\\ " + texDec(rootNum(qr[1])) + ")"));
+          bl.push(M("\\begin{aligned}x_1&=" + rootSignedTeX(qr[0]) + "\\approx " + texDec(rootNum(qr[0])) + "\\\\ x_2&=" + rootSignedTeX(qr[1]) + "\\approx " + texDec(rootNum(qr[1])) + "\\end{aligned}"));
           out.type = "surd";
         }
         out.roots = qr;

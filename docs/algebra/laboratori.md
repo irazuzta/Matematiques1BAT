@@ -39,7 +39,13 @@ Un polinomi $p(x)$ és una funció: a cada valor de $x$ li correspon un únic va
 !!! tip "Arrels i punts de tall amb l'eix $OX$"
     Tots els punts de l'eix $OX$ tenen $y=0$. Per tant, $a$ és arrel de $p(x)$ si, i només si, la gràfica passa pel punt $(a,0)$, és a dir, si la talla l'eix $OX$ en aquest punt:
 
-    $$a \text{ és arrel de } p(x) \ \Leftrightarrow\ p(a)=0 \ \Leftrightarrow\ \text{la gràfica passa pel punt } (a,0)$$
+    $$
+    \begin{aligned}
+    a \text{ és arrel de } p(x) &\ \Leftrightarrow\ p(a)=0\\
+    &\ \Leftrightarrow\ \text{la gràfica passa}\\
+    &\phantom{\ \Leftrightarrow\ }\ \text{pel punt } (a,0)
+    \end{aligned}
+    $$
 
 ## Prova-ho amb el teu polinomi
 
