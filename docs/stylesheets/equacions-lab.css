@@ -164,3 +164,63 @@
     display: none;
   }
 }
+
+/* Inequacions (teoria): tram de la corba que compleix la desigualtat (verd)
+   i interval solució sobre l'eix OX (vermell) */
+.eq-curve.ineq-on {
+  stroke: #2e9d5b;
+  stroke-width: 4;
+}
+
+.ineq-band {
+  stroke: #d32f2f;
+  stroke-linecap: butt;
+  stroke-width: 4;
+}
+
+.ineq-end {
+  stroke: #d32f2f;
+  stroke-width: 2;
+}
+
+.ineq-end.is-closed {
+  fill: #d32f2f;
+}
+
+.ineq-end.is-open {
+  fill: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .eq-curve.ineq-on {
+  stroke: #5ccf8b;
+}
+
+[data-md-color-scheme="slate"] .ineq-band,
+[data-md-color-scheme="slate"] .ineq-end {
+  stroke: #ff6b6b;
+}
+
+[data-md-color-scheme="slate"] .ineq-end.is-closed {
+  fill: #ff6b6b;
+}
+
+/* Dues gràfiques una al costat de l'altra (en mòbil, una sota l'altra) */
+.md-typeset .ineq-pair {
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.md-typeset .ineq-pair > div > p {
+  margin-top: 0.3em;
+  text-align: center;
+}
+
+/* Llegenda de les gràfiques d'inequacions */
+.md-typeset .ineq-sw {
+  height: 1em;
+  margin-right: 0.35em;
+  overflow: visible;
+  vertical-align: -0.15em;
+  width: 2.1em;
+}

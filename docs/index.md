@@ -8,7 +8,7 @@ Aquest lloc recull, tema per tema, el contingut treballat a classe, amb explicac
 
 - [Nombres reals](nombres-reals/index.md) — el conjunt dels nombres reals, la recta real, intervals, valor absolut, aproximacions i errors, potències, arrels i logaritmes.
 - [Àlgebra](algebra/index.md) — polinomis, factorització de polinomis i fraccions algebraiques.
-- [Equacions](equacions/index.md) — equacions polinòmiques, racionals i irracionals, i exponencials i logarítmiques.
+- [Equacions i inequacions](equacions/index.md) — equacions polinòmiques, racionals i irracionals, exponencials i logarítmiques, sistemes d'equacions i inequacions.
 - [Geometria analítica](geometria/index.md) — vectors al pla, sistema de referència, equacions de la recta, paral·lelisme, perpendicularitat, posició relativa i mètrica.
 - [Anàlisi matemàtica](analisi/index.md) — funcions, transformacions, operacions, límits i continuïtat.
 

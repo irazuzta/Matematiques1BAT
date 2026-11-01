@@ -97,6 +97,8 @@
     this.box.appendChild(this.svg);
     this.curves = [];
     this.marks = [];
+    this.bands = null; // inequacions: [{lo, hi, loC, hiC}] sobre l'eix OX
+    this.cond = null; // inequacions: funció y -> bool (tram de la corba que la compleix)
     this.mode = "two";
     this.view = { x0: -5, x1: 5, y0: -5, y1: 5 };
     this.W = 600;
@@ -128,6 +130,11 @@
     else this.fit();
   };
   Plot.prototype.fit = function () {
+    if (this.opts.view) {
+      this.view = Object.assign({}, this.opts.view);
+      this.draw();
+      return;
+    }
     var xs = this.marks.map(function (m) { return m.x; });
     var x0, x1;
     if (xs.length) {
@@ -302,13 +309,42 @@
       }
       g.appendChild(svg("path", { d: d, class: "eq-curve " + cv.cls }));
     });
+    // inequacions: trams de la corba que compleixen la desigualtat
+    var cond = this.cond;
+    if (cond && this.curves.length) {
+      var f0 = this.curves[0].f;
+      var dOn = "";
+      var on = false;
+      for (var q = 0; q <= N; q++) {
+        var xq = v.x0 + ((v.x1 - v.x0) * q) / N;
+        var yq = f0(xq);
+        if (!isFinite(yq) || !cond(yq)) {
+          on = false;
+          continue;
+        }
+        yq = Math.max(mid - big, Math.min(mid + big, yq));
+        dOn += (on ? "L" : "M") + sx(xq).toFixed(2) + " " + sy(yq).toFixed(2);
+        on = true;
+      }
+      if (dOn) g.appendChild(svg("path", { d: dOn, class: "eq-curve ineq-on" }));
+    }
     s.appendChild(g);
 
     // solucions
     var two = this.mode === "two";
     var gm = svg("g", { class: "eq-marks" });
     var axisY = v.y0 < 0 && v.y1 > 0 ? sy(0) : v.y0 >= 0 ? mt + ph : mt;
-    this.marks.forEach(function (m, idx) {
+    var bands = this.bands;
+    if (bands) {
+      bands.forEach(function (b) {
+        var X0 = b.lo === -Infinity ? ml : Math.max(ml, sx(b.lo));
+        var X1 = b.hi === Infinity ? ml + pw : Math.min(ml + pw, sx(b.hi));
+        if (X1 - X0 > 0.5) gm.appendChild(svg("line", { x1: X0, x2: X1, y1: axisY, y2: axisY, class: "ineq-band" }));
+      });
+    }
+    var prevLX = null;
+    var prevAlt = false;
+    this.marks.forEach(function (m) {
       if (m.x < v.x0 || m.x > v.x1) return;
       var X = sx(m.x);
       if (two && m.y >= v.y0 && m.y <= v.y1) {
@@ -319,9 +355,13 @@
         cpt.appendChild(ti);
         gm.appendChild(cpt);
       }
-      gm.appendChild(svg("circle", { cx: X, cy: axisY, r: two ? 4 : 5.5, class: "eq-root" }));
+      if (bands) gm.appendChild(svg("circle", { cx: X, cy: axisY, r: 5, class: m.inSol ? "ineq-end is-closed" : "ineq-end is-open" }));
+      else gm.appendChild(svg("circle", { cx: X, cy: axisY, r: two ? 4 : 5.5, class: "eq-root" }));
       var below = !(two && m.y < 0) && axisY < mt + ph - 22;
-      var alt = idx % 2 === 1 && !two;
+      // en mode "tot en un membre", etiqueta a sobre només si és a prop de l'anterior
+      var alt = !two && prevLX !== null && Math.abs(X - prevLX) < 34 && !prevAlt;
+      prevAlt = alt;
+      prevLX = X;
       var ty = below ? axisY + (alt ? -11 : 19) : axisY - 11;
       var tt = svg("text", { x: X, y: ty, "text-anchor": "middle" });
       tt.textContent = m.label + (m.mult > 1 ? " (×" + m.mult + ")" : "");
@@ -646,9 +686,90 @@
     }
   }
 
+  /* ---------- gràfiques d'inequacions de la teoria (no interactives) ----------
+     <div class="ineq-demo" data-poly="x^2-x-6" data-rel="<" data-labels="−2;3"
+          data-view="-4,5,-8,8"></div>
+     Sense data-rel només es dibuixa la paràbola i els punts de tall. */
+
+  var RELS = {
+    "<": function (y) { return y < 0; },
+    "<=": function (y) { return y <= 0; },
+    ">": function (y) { return y > 0; },
+    ">=": function (y) { return y >= 0; },
+  };
+
+  function ineqBands(f, roots, rel) {
+    var test = RELS[rel];
+    var strict = rel === "<" || rel === ">";
+    var tol = 1e-9;
+    var rs = roots.slice().sort(function (a, b) { return a - b; });
+    // peces ordenades: interval, punt, interval, punt, ..., interval
+    var pieces = [];
+    var edges = [-Infinity].concat(rs, [Infinity]);
+    for (var i = 0; i < edges.length - 1; i++) {
+      var a = edges[i];
+      var b = edges[i + 1];
+      var t = a === -Infinity ? (b === Infinity ? 0 : b - 1) : b === Infinity ? a + 1 : (a + b) / 2;
+      var y = f(t);
+      pieces.push({ lo: a, hi: b, pt: false, ok: Math.abs(y) > tol && test(y) });
+      if (b !== Infinity) pieces.push({ lo: b, hi: b, pt: true, ok: !strict });
+    }
+    var out = [];
+    var cur = null;
+    pieces.forEach(function (p) {
+      if (!p.ok) {
+        if (cur) out.push(cur);
+        cur = null;
+        return;
+      }
+      if (!cur) cur = { lo: p.lo, hi: p.hi, loC: p.pt, hiC: p.pt };
+      else {
+        cur.hi = p.hi;
+        cur.hiC = p.pt;
+      }
+    });
+    if (cur) out.push(cur);
+    return out;
+  }
+
+  function mountIneq() {
+    var EQ = window.EqLab;
+    var nodes = document.querySelectorAll(".ineq-demo");
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      if (node.getAttribute("data-ready") || !EQ) continue;
+      node.setAttribute("data-ready", "1");
+      try {
+        var poly = node.getAttribute("data-poly");
+        var rel = node.getAttribute("data-rel");
+        rel = { lt: "<", le: "<=", gt: ">", ge: ">=" }[rel] || rel;
+        var r = EQ.solve(poly, "0");
+        var labels = (node.getAttribute("data-labels") || "").split(";").filter(function (t) { return t; });
+        var view = null;
+        var vv = (node.getAttribute("data-view") || "").split(",").map(Number);
+        if (vv.length === 4 && vv.every(isFinite)) view = { x0: vv[0], x1: vv[1], y0: vv[2], y1: vv[3] };
+        node.classList.add("lab-plot");
+        var plot = new Plot(node, { static: true, aspect: 0.5, view: view, label: "Gràfica de y = " + poly });
+        var hasRel = !!RELS[rel];
+        var strict = rel === "<" || rel === ">";
+        var marks = r.sols.map(function (s, k) { return { x: s.val, y: 0, label: labels[k] || s.label, mult: 1, inSol: !strict }; });
+        if (hasRel) {
+          plot.bands = ineqBands(r.fl, r.sols.map(function (s) { return s.val; }), rel);
+          plot.cond = RELS[rel];
+        }
+        plot.set([{ f: r.fl, cls: "is-l" }], marks, "diff", false);
+      } catch (e) {
+        if (window.console) console.error(e);
+      }
+    }
+  }
+
+  window.EqLabIneqBands = ineqBands;
+
   function init() {
     mount();
     mountDemos();
+    mountIneq();
   }
 
   if (typeof document$ !== "undefined" && document$.subscribe) document$.subscribe(init);

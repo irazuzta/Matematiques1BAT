@@ -1,10 +1,10 @@
 # Problemes
 
-Exercicis 32–44. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
+Exercicis 43–60. Intenta resoldre cada exercici abans de desplegar-ne la solució pas a pas.
 
 > En tots els problemes, comprova que les solucions obtingudes tenen sentit en el context.
 
-### Exercici 32
+### Exercici 43
 
 Un rectangle té un perímetre de $34$ m i una diagonal de $13$ m. Quines dimensions té?
 
@@ -38,7 +38,7 @@ Un rectangle té un perímetre de $34$ m i una diagonal de $13$ m. Quines dimens
 
     **Resposta:** El rectangle fa $12$ m per $5$ m.
 
-### Exercici 33
+### Exercici 44
 
 Un grup d'amics lloga una furgoneta per $360$ € i se'n reparteixen el cost a parts iguals. Si fossin tres amics més, cadascun pagaria $20$ € menys. Quants amics són?
 
@@ -71,7 +71,7 @@ Un grup d'amics lloga una furgoneta per $360$ € i se'n reparteixen el cost a p
 
     **Resposta:** Són $6$ amics (i cadascun paga $60$ €).
 
-### Exercici 34
+### Exercici 45
 
 Dues aixetes juntes omplen un dipòsit en $6$ hores. La primera, sola, tarda $5$ hores més que la segona. Quant tarda cada aixeta a omplir el dipòsit sola?
 
@@ -105,7 +105,7 @@ Dues aixetes juntes omplen un dipòsit en $6$ hores. La primera, sola, tarda $5$
 
     **Resposta:** La segona aixeta tarda $10$ hores i la primera, $15$ hores.
 
-### Exercici 35
+### Exercici 46
 
 Un ciclista recorre $120$ km. Si anés $10$ km/h més ràpid, tardaria una hora menys. A quina velocitat va?
 
@@ -137,7 +137,7 @@ Un ciclista recorre $120$ km. Si anés $10$ km/h més ràpid, tardaria una hora 
 
     **Resposta:** El ciclista va a $30$ km/h.
 
-### Exercici 36
+### Exercici 47
 
 La diagonal d'un rectangle fa $5$ cm i la seva àrea és de $12\ \text{cm}^2$. Calcula'n les dimensions.
 
@@ -179,7 +179,7 @@ La diagonal d'un rectangle fa $5$ cm i la seva àrea és de $12\ \text{cm}^2$. C
 
     **Resposta:** El rectangle fa $4$ cm per $3$ cm.
 
-### Exercici 37
+### Exercici 48
 
 *(més difícil)* D'una làmina quadrada de cartró de $12$ cm de costat retallem un quadrat de costat $x$ a cada cantonada i, doblegant les vores, formem una caixa sense tapa. Quant ha de valer $x$ perquè el volum de la caixa sigui de $128\ \text{cm}^3$?
 
@@ -227,7 +227,7 @@ La diagonal d'un rectangle fa $5$ cm i la seva àrea és de $12\ \text{cm}^2$. C
 
     **Resposta:** Hem de retallar quadrats de $x=2$ cm de costat (la caixa fa $8$ cm per $8$ cm de base i $2$ cm d'altura).
 
-### Exercici 38
+### Exercici 49
 
 El període d'un pèndol (el temps que tarda a fer una oscil·lació completa) és $T=2\pi\sqrt{\dfrac{L}{g}}$, amb $L$ en metres, $T$ en segons i $g=9{,}8\ \text{m/s}^2$.
 
@@ -264,7 +264,7 @@ El període d'un pèndol (el temps que tarda a fer una oscil·lació completa) �
 
     **Resposta:** El pèndol ha de fer uns $2{,}23$ m de longitud.
 
-### Exercici 39
+### Exercici 50
 
 Una població de bacteris es duplica cada $3$ hores. Si inicialment n'hi ha $500$, el nombre de bacteris al cap de $t$ hores és $N(t)=500\cdot 2^{t/3}$. Quant de temps ha de passar perquè n'hi hagi $64\,000$?
 
@@ -292,7 +292,7 @@ Una població de bacteris es duplica cada $3$ hores. Si inicialment n'hi ha $500
 
     **Resposta:** Han de passar $21$ hores.
 
-### Exercici 40
+### Exercici 51
 
 Un capital $C$ col·locat a interès compost del $r\,\%$ anual es converteix, al cap de $t$ anys, en $C_t=C\left(1+\dfrac{r}{100}\right)^{t}$.
 
@@ -343,7 +343,7 @@ Un capital $C$ col·locat a interès compost del $r\,\%$ anual es converteix, al
 
     **Resposta:** Al $3\,\%$ el capital tarda uns $23{,}45$ anys a duplicar-se, i al $6\,\%$, uns $11{,}90$ anys.
 
-### Exercici 41
+### Exercici 52
 
 El cesi-137 té un període de semidesintegració de $30$ anys: cada $30$ anys, la quantitat que en queda es redueix a la meitat. Quant de temps ha de passar perquè en quedi només el $10\,\%$ de la quantitat inicial?
 
@@ -381,7 +381,7 @@ El cesi-137 té un període de semidesintegració de $30$ anys: cada $30$ anys, 
 
     **Resposta:** Han de passar uns $99{,}66$ anys (gairebé un segle).
 
-### Exercici 42
+### Exercici 53
 
 El nivell sonor, en decibels, d'un so d'intensitat $I$ és $L=10\log\dfrac{I}{I_0}$, on $I_0$ és la intensitat mínima audible.
 
@@ -430,7 +430,7 @@ El nivell sonor, en decibels, d'un so d'intensitat $I$ és $L=10\log\dfrac{I}{I_
 
     **Resposta:** El nivell sonor augmenta $10\log 2\approx 3{,}01$ dB.
 
-### Exercici 43
+### Exercici 54
 
 La magnitud $M$ d'un terratrèmol a l'escala de Richter és $M=\log\dfrac{A}{A_0}$, on $A$ és l'amplitud de les ones que registra el sismògraf i $A_0$ és una amplitud de referència. A més, l'energia $E$ alliberada (en joules) compleix $\log E=4{,}8+1{,}5M$.
 
@@ -501,7 +501,7 @@ La magnitud $M$ d'un terratrèmol a l'escala de Richter és $M=\log\dfrac{A}{A_0
 
     **Resposta:** El terratrèmol té magnitud $6$.
 
-### Exercici 44
+### Exercici 55
 
 La pressió atmosfèrica disminueix amb l'altitud segons $p(h)=p_0\,e^{-kh}$, on $p_0=1013$ hPa és la pressió al nivell del mar, $h$ és l'altitud en metres i $k=1{,}2\cdot 10^{-4}\ \text{m}^{-1}$. Un altímetre baromètric mesura la pressió i en dedueix l'altitud.
 
@@ -556,3 +556,144 @@ La pressió atmosfèrica disminueix amb l'altitud segons $p(h)=p_0\,e^{-kh}$, on
     Comprovem-ho: $1013\cdot e^{-1{,}2\cdot 10^{-4}\cdot 3080}=1013\cdot e^{-0{,}3696}\approx 700$ hPa. És coherent amb l'apartat a): la pressió és una mica més alta que al cim de l'Aneto, i per tant som una mica més avall.
 
     **Resposta:** Som a una altitud d'uns $3080$ m.
+
+### Exercici 56
+
+Una empresa de lloguer de cotxes ofereix dues tarifes: la tarifa A costa $40$ € fixos més $0{,}20$ € per quilòmetre, i la tarifa B costa $0{,}35$ € per quilòmetre, sense cap quantitat fixa. A partir de quants quilòmetres surt més a compte la tarifa A?
+
+??? note "Mostra la solució"
+
+    Anomenem $x$ el nombre de quilòmetres que fem. El cost de cada tarifa, en euros, és:
+
+    $$
+    \begin{aligned}
+    \text{Tarifa A}&:\quad 40+0{,}20x\\
+    \text{Tarifa B}&:\quad 0{,}35x
+    \end{aligned}
+    $$
+
+    La tarifa A surt més a compte quan costa menys que la B:
+
+    $$
+    \begin{aligned}
+    40+0{,}20x&<0{,}35x\\
+    40&<0{,}35x-0{,}20x\\
+    40&<0{,}15x\\
+    x&>\frac{40}{0{,}15}=\frac{800}{3}\approx 266{,}67
+    \end{aligned}
+    $$
+
+    Comprovem-ho amb $267$ km: la tarifa A costa $40+0{,}20\cdot 267=93{,}40$ € i la B, $0{,}35\cdot 267=93{,}45$ €.
+
+    **Resposta:** La tarifa A surt més a compte a partir de $267$ km (més de $266{,}67$ km).
+
+### Exercici 57
+
+La nota final d'una assignatura es calcula amb el $40\,\%$ de la mitjana dels exàmens parcials i el $60\,\%$ de la nota de l'examen final. La mitjana dels parcials d'en Pau és $4{,}5$. Quina nota ha de treure, com a mínim, a l'examen final per aprovar (nota final $\geq 5$)?
+
+??? note "Mostra la solució"
+
+    Anomenem $x$ la nota de l'examen final. La nota de l'assignatura és $0{,}4\cdot 4{,}5+0{,}6x$, i ha de ser com a mínim $5$:
+
+    $$
+    \begin{aligned}
+    0{,}4\cdot 4{,}5+0{,}6x&\geq 5\\
+    1{,}8+0{,}6x&\geq 5\\
+    0{,}6x&\geq 3{,}2\\
+    x&\geq\frac{3{,}2}{0{,}6}=\frac{16}{3}\approx 5{,}33
+    \end{aligned}
+    $$
+
+    Comprovem-ho: $1{,}8+0{,}6\cdot\dfrac{16}{3}=1{,}8+3{,}2=5$.
+
+    **Resposta:** Ha de treure com a mínim $\dfrac{16}{3}\approx 5{,}33$ a l'examen final.
+
+### Exercici 58
+
+Llancem una pilota cap amunt i la seva altura, en metres, al cap de $t$ segons és $h(t)=20t-5t^2$. Durant quant de temps la pilota és a més de $15$ m d'altura?
+
+??? note "Mostra la solució"
+
+    La pilota és a més de $15$ m d'altura quan $h(t)>15$. Ho passem tot a l'esquerra:
+
+    $$
+    \begin{aligned}
+    20t-5t^2&>15\\
+    -5t^2+20t-15&>0\\
+    t^2-4t+3&<0
+    \end{aligned}
+    $$
+
+    A l'últim pas hem dividit per $-5$: **girem la desigualtat**. Ara el coeficient de $t^2$ és positiu i la paràbola és $\cup$. Els punts de tall:
+
+    $$
+    \begin{aligned}
+    t&=\frac{4\pm\sqrt{16-12}}{2}=\frac{4\pm 2}{2}\\
+    &\Rightarrow\; t_1=1,\quad t_2=3
+    \end{aligned}
+    $$
+
+    Volem que sigui $<0$: **entre** les arrels, és a dir, $t\in(1,3)$. Comprovem-ho amb $t=2$: $h(2)=40-20=20>15$.
+
+    **Resposta:** La pilota és a més de $15$ m entre $t=1$ s i $t=3$ s, és a dir, durant $2$ segons.
+
+### Exercici 59
+
+Un rectangle té $20$ m de perímetre. Entre quins valors pot estar la longitud d'un dels costats perquè l'àrea sigui, com a mínim, de $21\ \text{m}^2$?
+
+??? note "Mostra la solució"
+
+    Anomenem $x$ la longitud d'un dels costats, en metres. Com que el perímetre és $20$ m, la suma de dos costats contigus és $10$ m, i l'altre costat fa $10-x$. Per tant, $0<x<10$.
+
+    L'àrea ha de ser com a mínim de $21\ \text{m}^2$:
+
+    $$
+    \begin{aligned}
+    x(10-x)&\geq 21\\
+    10x-x^2&\geq 21\\
+    0&\geq x^2-10x+21
+    \end{aligned}
+    $$
+
+    (ho hem passat tot a la dreta perquè el coeficient de $x^2$ quedi positiu). És a dir, $x^2-10x+21\leq 0$. La paràbola és $\cup$ i els punts de tall són:
+
+    $$
+    \begin{aligned}
+    x&=\frac{10\pm\sqrt{100-84}}{2}=\frac{10\pm 4}{2}\\
+    &\Rightarrow\; x_1=3,\quad x_2=7
+    \end{aligned}
+    $$
+
+    Volem que sigui $\leq 0$: **entre** les arrels, incloses. L'interval $[3,7]$ està dins de $(0,10)$, i per tant totes aquestes longituds tenen sentit. Per exemple, si $x=3$, l'altre costat fa $7$ i l'àrea és exactament $21\ \text{m}^2$.
+
+    **Resposta:** El costat ha de fer entre $3$ m i $7$ m (ambdós inclosos).
+
+### Exercici 60
+
+El benefici mensual d'una empresa, en euros, quan fabrica i ven $x$ unitats d'un producte és $B(x)=-x^2+120x-2000$. Quantes unitats ha de vendre perquè tingui beneficis, és a dir, perquè $B(x)>0$?
+
+??? note "Mostra la solució"
+
+    Volem que $B(x)>0$:
+
+    $$
+    \begin{aligned}
+    -x^2+120x-2000&>0\\
+    x^2-120x+2000&<0
+    \end{aligned}
+    $$
+
+    Hem multiplicat per $-1$ i hem **girat la desigualtat**. La paràbola $y=x^2-120x+2000$ és $\cup$ i els punts de tall són:
+
+    $$
+    \begin{aligned}
+    x&=\frac{120\pm\sqrt{14400-8000}}{2}=\frac{120\pm 80}{2}\\
+    &\Rightarrow\; x_1=20,\quad x_2=100
+    \end{aligned}
+    $$
+
+    Volem que sigui $<0$: **entre** les arrels, sense incloure-les, és a dir, $x\in(20,100)$. Amb $20$ o $100$ unitats el benefici és exactament $0$. Comprovem un valor de dins: $B(50)=-2500+6000-2000=1500>0$.
+
+    Com que el nombre d'unitats és un nombre natural, ha de ser entre $21$ i $99$.
+
+    **Resposta:** Ha de vendre entre $21$ i $99$ unitats.

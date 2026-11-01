@@ -1,4 +1,4 @@
-# Equacions
+# Equacions i inequacions
 
 En aquest tema posem en pràctica tot el que hem après sobre nombres, potències, arrels i logaritmes per resoldre **equacions**: igualtats on hem de trobar els valors que les fan certes. Repassarem les equacions polinòmiques (de primer grau, segon grau, biquadrades i de grau superior), les racionals i irracionals, i les exponencials i logarítmiques.
 

@@ -157,3 +157,9 @@
     padding: 0.55em 0.7em;
   }
 }
+
+/* Taules d'apartats d'exercicis: el Markdown obliga a posar una fila de
+   capçalera, però la deixem buida. L'amaguem perquè no quedi una franja buida. */
+.md-typeset table:not([class]) thead:not(:has(th:not(:empty))) {
+  display: none;
+}

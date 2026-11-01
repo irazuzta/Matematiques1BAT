@@ -1,6 +1,6 @@
-# Solucions — Equacions
+# Solucions — Equacions i inequacions
 
-> Respostes finals del llistat d'exercicis del bloc d'Equacions.
+> Respostes finals del llistat d'exercicis del bloc d'Equacions i inequacions.
 
 **Bloc 1.**
 **1.** a) $x=\dfrac{13}{2}$ · b) $x=\dfrac{15}{2}$ · c) qualsevol nombre real és solució (és una identitat) · d) no té solució.
@@ -46,16 +46,36 @@
 **31.** a) $x=\log_b\dfrac{y}{a}=\dfrac{\log y-\log a}{\log b}$ · b) $x=c\cdot 10^{y/k}$ · c) $x=\dfrac{ab^2}{\sqrt{c}}$.
 
 **Bloc 7.**
-**32.** $12$ m i $5$ m.
-**33.** $6$ amics (paguen $60$ € cadascun).
-**34.** La segona, $10$ h; la primera, $15$ h.
-**35.** $30$ km/h.
-**36.** $4$ cm i $3$ cm (surt l'equació biquadrada $x^4-25x^2+144=0$).
-**37.** $x=2$ cm. L'equació $x(12-2x)^2=128$ també té la solució $x=8$, que no té sentit ($12-2x<0$).
-**38.** a) $T\approx 2{,}01$ s · b) $L=\dfrac{9{,}8\cdot 9}{4\pi^2}\approx 2{,}23$ m.
-**39.** $21$ hores.
-**40.** a) $t=\dfrac{\log 2}{\log\left(1+\frac{r}{100}\right)}$ · b) $t\approx 23{,}45$ anys al $3\,\%$ i $t\approx 11{,}90$ anys al $6\,\%$.
-**41.** $\left(\dfrac12\right)^{t/30}=0{,}1 \Rightarrow t=\dfrac{30}{\log 2}\approx 99{,}66$ anys.
-**42.** a) $10^5=100\,000$ vegades · b) $10\log 2\approx 3{,}01$ dB.
-**43.** a) $10^2=100$ vegades · b) $10^{3}=1000$ vegades · c) $M=6$.
-**44.** a) $p\approx 673{,}3$ hPa · b) $h=\dfrac{1}{k}\ln\dfrac{p_0}{p}$ · c) $h\approx 3080$ m.
+**32.** a) $(3,4)$ i $(4,3)$ · b) $(-1,-3)$ i $\left(\dfrac95,\dfrac{13}{5}\right)$ · c) $(-1,3)$ i $(4,8)$ · d) $(5,3)$.
+**33.** a) $(2,3)$ i $(3,2)$ · b) $(2,4)$ i $(4,2)$ · c) $(3,2)$ i $\left(\dfrac52,\dfrac52\right)$ · d) $(6,4)$ i $(-8,-3)$.
+**34.** a) $(3,1)$; el parell $(9,7)$ és una solució falsa · b) $(9,2)$; el parell $(16,9)$ és una solució falsa · c) $(6,3)$; el parell $(1,-2)$ és una solució falsa · d) $(9,4)$.
+**35.** a) $(3,1)$ · b) $(1,2)$ i $(2,1)$ · c) $(2,1)$ · d) $(1,2)$.
+**36.** a) $(100,10)$ · b) $(8,4)$; el parell $(-4,-8)$ no és vàlid · c) $(2,5)$ i $(5,2)$ · d) $(4,3)$; el parell $(-3,-4)$ no és vàlid.
+**37.** a) $x+y=14$, $x^2+y^2=100$: el rectangle fa $8$ m per $6$ m · b) $(1,-2)$ i $(3,0)$ · c) $4$ i $6$ · d) $(3,4)$ i $(4,3)$.
+
+**Bloc 8.**
+**38.** a) $(-1,+\infty)$ · b) $(-\infty,1)$ · c) $(-\infty,-2]$ · d) $(-\infty,2)$ · e) no té solució · f) $\mathbb{R}$.
+**39.** a) $[1,4]$ · b) $(-5,0)$ · c) $\left(-\infty,-\dfrac23\right)\cup\left(\dfrac23,+\infty\right)$ · d) $[-3,5]$ · e) $(-2,3)$ · f) $(-\infty,-3]\cup\left[-\dfrac12,+\infty\right)$.
+**40.** a) $\mathbb{R}$ · b) $x=3$ · c) no té solució · d) $\mathbb{R}\setminus\left\{-\dfrac12\right\}$ · e) no té solució · f) $\mathbb{R}\setminus\{5\}$.
+**41.** a) $[-3,2]$ · b) $(-\infty,1)\cup(5,+\infty)$ · c) $\left[-\dfrac13,3\right]$ · d) $(0,2)$ · e) $x=3$ · f) $\left(\dfrac{1-\sqrt5}{2},\dfrac{1+\sqrt5}{2}\right)$ · g) és de primer grau: $\left(-\dfrac32,+\infty\right)$ · h) no té solució.
+**42.** a) Si $m>0$, $\left(\dfrac3m,+\infty\right)$; si $m<0$, $\left(-\infty,\dfrac3m\right)$; si $m=0$, no té solució · b) $-4<k<4$ · c) dues solucions si $m<1$; cap si $m>1$ · d) $p=-3$, $q=-10$ · e) $k=6$, amb solució $x=3$, i $k=-6$, amb solució $x=-3$.
+
+**Bloc 9.**
+**43.** $12$ m i $5$ m.
+**44.** $6$ amics (paguen $60$ € cadascun).
+**45.** La segona, $10$ h; la primera, $15$ h.
+**46.** $30$ km/h.
+**47.** $4$ cm i $3$ cm (surt l'equació biquadrada $x^4-25x^2+144=0$).
+**48.** $x=2$ cm. L'equació $x(12-2x)^2=128$ també té la solució $x=8$, que no té sentit ($12-2x<0$).
+**49.** a) $T\approx 2{,}01$ s · b) $L=\dfrac{9{,}8\cdot 9}{4\pi^2}\approx 2{,}23$ m.
+**50.** $21$ hores.
+**51.** a) $t=\dfrac{\log 2}{\log\left(1+\frac{r}{100}\right)}$ · b) $t\approx 23{,}45$ anys al $3\,\%$ i $t\approx 11{,}90$ anys al $6\,\%$.
+**52.** $\left(\dfrac12\right)^{t/30}=0{,}1 \Rightarrow t=\dfrac{30}{\log 2}\approx 99{,}66$ anys.
+**53.** a) $10^5=100\,000$ vegades · b) $10\log 2\approx 3{,}01$ dB.
+**54.** a) $10^2=100$ vegades · b) $10^{3}=1000$ vegades · c) $M=6$.
+**55.** a) $p\approx 673{,}3$ hPa · b) $h=\dfrac{1}{k}\ln\dfrac{p_0}{p}$ · c) $h\approx 3080$ m.
+**56.** $40+0{,}20x<0{,}35x \Rightarrow x>266{,}67$: a partir de $267$ km.
+**57.** $0{,}4\cdot 4{,}5+0{,}6x\geq 5 \Rightarrow x\geq\dfrac{16}{3}\approx 5{,}33$.
+**58.** $20t-5t^2>15 \Rightarrow t\in(1,3)$: durant $2$ segons.
+**59.** $x(10-x)\geq 21 \Rightarrow x\in[3,7]$: entre $3$ m i $7$ m.
+**60.** $x\in(20,100)$: entre $21$ i $99$ unitats.

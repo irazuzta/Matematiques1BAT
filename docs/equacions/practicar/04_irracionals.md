@@ -32,7 +32,7 @@ Resol i comprova les solucions:
     Com que hem elevat al quadrat, comprovem les dues candidates a l'equació original:
 
     - $x=4$: $\sqrt{4+5}=\sqrt9=3$ i $4-1=3$. Es compleix, és vàlida.
-    - $x=-1$: $\sqrt{-1+5}=\sqrt4=2$, però $-1-1=-2$. Com que $2\neq-2$, no és vàlida (és una solució estranya).
+    - $x=-1$: $\sqrt{-1+5}=\sqrt4=2$, però $-1-1=-2$. Com que $2\neq-2$, no és vàlida (és una solució falsa).
 
     **Resposta:** $x=4$ ($x=-1$ no és vàlida).
 
@@ -100,7 +100,7 @@ Resol i comprova les solucions:
     x-1=4 \Rightarrow x=5.
     $$
 
-    Comprovem a l'equació original: $2+\sqrt{5-1}=2+\sqrt4=2+2=4\neq0$. Per tant, $x=5$ no és vàlida. En elevar al quadrat hem "perdut" el signe negatiu de $-2$, i per això ha aparegut una solució estranya.
+    Comprovem a l'equació original: $2+\sqrt{5-1}=2+\sqrt4=2+2=4\neq0$. Per tant, $x=5$ no és vàlida. En elevar al quadrat hem "perdut" el signe negatiu de $-2$, i per això ha aparegut una solució falsa.
 
     **Resposta:** no té solució ($x=5$ no és vàlida: una arrel quadrada no pot valer $-2$).
 
@@ -233,7 +233,7 @@ Resol les equacions amb dos radicals següents:
     - $x=4$: a l'esquerra, $\sqrt{9}+\sqrt{1}=3+1=4$; a la dreta, $2\sqrt4=2\cdot2=4$. És vàlida.
     - $x=-\dfrac47$: a l'equació original apareixen $\sqrt{x-3}=\sqrt{-\dfrac{25}{7}}$ i $\sqrt{x}=\sqrt{-\dfrac47}$, arrels quadrades de nombres negatius, que no són nombres reals. No és vàlida.
 
-    Aquesta solució estranya ha aparegut en ajuntar les dues arrels en una de sola: per a $x=-\dfrac47$ els dos factors $2x+1=-\dfrac17$ i $x-3=-\dfrac{25}{7}$ són negatius, però el seu producte $\dfrac{25}{49}$ és positiu, i per això sí que compleix $2\sqrt{(2x+1)(x-3)}=x+2$.
+    Aquesta solució falsa ha aparegut en ajuntar les dues arrels en una de sola: per a $x=-\dfrac47$ els dos factors $2x+1=-\dfrac17$ i $x-3=-\dfrac{25}{7}$ són negatius, però el seu producte $\dfrac{25}{49}$ és positiu, i per això sí que compleix $2\sqrt{(2x+1)(x-3)}=x+2$.
 
     **Resposta:** $x=4$ ($x=-\dfrac47$ no és vàlida).
 
@@ -243,7 +243,7 @@ Resol l'equació $\sqrt[3]{x^3-7}=x-1$. Cal comprovar les solucions quan l'arrel
 
 ??? note "Mostra la solució"
 
-    Quan l'arrel és cúbica, elevem els dos membres al cub. Aquesta transformació **no introdueix solucions estranyes**: a diferència del quadrat, dos nombres amb el mateix cub són iguals ($A^3=B^3 \Leftrightarrow A=B$), ja que el cub conserva el signe. A més, tot nombre real (també els negatius) té una arrel cúbica real. Tot i així, és bona pràctica comprovar les solucions.
+    Quan l'arrel és cúbica, elevem els dos membres al cub. Aquesta transformació **no introdueix solucions falses**: a diferència del quadrat, dos nombres amb el mateix cub són iguals ($A^3=B^3 \Leftrightarrow A=B$), ja que el cub conserva el signe. A més, tot nombre real (també els negatius) té una arrel cúbica real. Tot i així, és bona pràctica comprovar les solucions.
 
     L'arrel ja està aïllada. Elevem al cub. A la dreta usem el cub d'un binomi, $(a-b)^3=a^3-3a^2b+3ab^2-b^3$:
 
@@ -267,7 +267,7 @@ Resol l'equació $\sqrt[3]{x^3-7}=x-1$. Cal comprovar les solucions quan l'arrel
     - $x=2$: $\sqrt[3]{8-7}=\sqrt[3]{1}=1$ i $2-1=1$. És vàlida.
     - $x=-1$: $\sqrt[3]{-1-7}=\sqrt[3]{-8}=-2$ i $-1-1=-2$. És vàlida.
 
-    Com esperàvem, en elevar al cub no ha aparegut cap solució estranya.
+    Com esperàvem, en elevar al cub no ha aparegut cap solució falsa.
 
     **Resposta:** $x=2$, $x=-1$.
 
@@ -302,6 +302,6 @@ Troba $k$ perquè $x=5$ sigui solució de l'equació $\sqrt{x+k}=x-1$. Per a aqu
     Com que hem elevat al quadrat, comprovem les dues candidates a l'equació original:
 
     - $x=5$: $\sqrt{5+11}=\sqrt{16}=4$ i $5-1=4$. Es compleix, és vàlida.
-    - $x=-2$: $\sqrt{-2+11}=\sqrt9=3$, però $-2-1=-3$. Com que $3\neq-3$, no és vàlida (és una solució estranya, que ha aparegut en elevar al quadrat).
+    - $x=-2$: $\sqrt{-2+11}=\sqrt9=3$, però $-2-1=-3$. Com que $3\neq-3$, no és vàlida (és una solució falsa, que ha aparegut en elevar al quadrat).
 
     **Resposta:** $k=11$; l'única solució és $x=5$ ($x=-2$ no és vàlida)

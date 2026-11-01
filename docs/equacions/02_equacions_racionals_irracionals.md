@@ -73,12 +73,12 @@ Les solucions d'aquestes equacions són els valors reals $a$ que anul·len el nu
 
 El mètode general per resoldre aquestes equacions és aïllar l'arrel (o una de les arrels) i elevar els dos membres de la igualtat al quadrat (o a l'índex de l'arrel) per eliminar el radical.
 
-!!! note "Solucions estranyes"
+!!! note "Solucions falses"
     Elevar al quadrat els dos membres d'una igualtat **no és una operació equivalent**:
 
     $$A=B \;\Rightarrow\; A^2=B^2, \qquad \text{però} \qquad A^2=B^2 \;\Rightarrow\; A=\pm B.$$
 
-    Aquest procés pot introduir solucions que no són vàlides (anomenades *solucions estranyes*). Per això és **obligatori comprovar** totes les solucions candidates a l'equació *original*.
+    Aquest procés pot introduir solucions que no són vàlides (anomenades *solucions falses*). Per això és **obligatori comprovar** totes les solucions candidates a l'equació *original*.
 
 !!! example "**Exemple:** Equació irracional amb solució vàlida"
     Resolem l'equació:
@@ -107,7 +107,7 @@ El mètode general per resoldre aquestes equacions és aïllar l'arrel (o una de
 
         Com que $1=1$, la solució $x=-2$ **és vàlida**.
 
-!!! example "**Exemple:** Equació irracional amb solució estranya"
+!!! example "**Exemple:** Equació irracional amb solució falsa"
     Resolem una petita modificació de l'equació anterior:
 
     $$x - \sqrt{x^2+5} = 1.$$
@@ -132,7 +132,7 @@ El mètode general per resoldre aquestes equacions és aïllar l'arrel (o una de
 
         $$-2 - \sqrt{(-2)^2 + 5} = -2 - \sqrt{4 + 5} = -2 - \sqrt{9} = -2 - 3 = -5.$$
 
-        Com que $-5 \neq 1$, la solució $x=-2$ **no és vàlida** (és una solució estranya). L'equació no té cap solució real.
+        Com que $-5 \neq 1$, la solució $x=-2$ **no és vàlida** (és una solució falsa). L'equació no té cap solució real.
 
 ## Taula resum
 
