@@ -111,7 +111,11 @@ Les inequacions de primer grau es resolen com les equacions de primer grau: trai
 
 ### Una altra manera de mirar-ho
 
-L'exemple 1 és equivalent a $3x-12\leq 0$ (hem passat el $10$ a l'esquerra). Si dibuixem la recta $y=3x-12$, les solucions són els valors de $x$ on la recta és **per sota** de l'eix $OX$ o el toca:
+Tornem a la inequació de l'exemple 1, $3x-2\leq 10$. Si passem el $10$ a l'esquerra, obtenim la inequació equivalent
+
+$$3x-12\leq 0.$$
+
+Si dibuixem la recta $y=3x-12$, les solucions són els valors de $x$ on la recta és **per sota** de l'eix $OX$ o el toca:
 
 !!! note "Com llegim les gràfiques d'aquest apartat"
     * <svg class="ineq-sw" viewBox="0 0 30 14" aria-hidden="true"><path class="eq-curve ineq-on" d="M2 12 L28 2"/></svg> Tros de la gràfica que **compleix** la desigualtat.
