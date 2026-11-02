@@ -17,4 +17,8 @@ search:
 
 --8<-- "equacions/03_equacions_exponencials_logaritmiques.md"
 
+--8<-- "equacions/05_sistemes_equacions.md"
+
+--8<-- "equacions/06_inequacions.md"
+
 --8<-- "equacions/04_nota_historica.md"

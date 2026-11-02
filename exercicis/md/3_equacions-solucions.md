@@ -79,3 +79,20 @@
 **58.** $20t-5t^2>15 \Rightarrow t\in(1,3)$: durant $2$ segons.
 **59.** $x(10-x)\geq 21 \Rightarrow x\in[3,7]$: entre $3$ m i $7$ m.
 **60.** $x\in(20,100)$: entre $21$ i $99$ unitats.
+
+**Bloc 10.**
+**61.** a) $p=0$, $p=1$, $p=2$ · b) $\lambda=-1$ · c) $a=\pm 2$ · d) $k=-1$, $k=4$.
+**62.** a) $a=6$ · b) $x=\sqrt{20}=2\sqrt5\approx 4{,}47$.
+**63.** a) $a=\dfrac{2}{\sqrt3}=\dfrac{2\sqrt3}{3}$ · b) $a>\dfrac{2\sqrt3}{3}$.
+**64.** a) $a=3$ ($a=1$ no compleix $a>2$) · b) $m=-2$.
+**65.** El vèrtex és a $x=\dfrac52$: $a\cdot\dfrac52\cdot\left(-\dfrac52\right)=\dfrac{25}{4}\Rightarrow a=-1$, és a dir, $f(x)=-x^2+5x$.
+**66.** a) $x=0$, $x=1$, $x=3$ · b) $x=\dfrac32$.
+**67.** $x=\sqrt{27}=3\sqrt3\approx 5{,}20$ km ($x=-3\sqrt3$ no és vàlida).
+**68.** $h=\dfrac32$; la longitud mínima és $\sqrt{17}$.
+**69.** a) $x=1$; és positiu per a $x>1$ · b) $x=e$ · c) $x=\dfrac12$ · d) $x=0$, $x=1$.
+**70.** a) $(0,1)$, $(0,-1)$, $(1,0)$ i $(-1,0)$ · b) $a=-1$ · c) $\lambda=2$ o $\lambda=-5$: $(5,2,0)$ i $(-2,-5,-7)$.
+**71.** a) $\left(-\infty,-\sqrt3\right)\cup\left(\sqrt3,+\infty\right)$ · b) $(0,4)$ · c) $(-3,1)$ · d) $(-1,1)$.
+**72.** Es tallen a $x=-\dfrac12$ i $x=3$; $f$ és per sobre de $g$ a $\left(-\dfrac12,3\right)$.
+**73.** a) $3$ cm i $7$ cm · b) $4\leq x\leq 6$.
+**74.** a) Per Pitàgores, $x^2+h^2=10^2$ · b) $x=6$ mm o $x=8$ mm.
+**75.** a) $0<x<25$ · b) $x=10$ i $x=\dfrac{100}{3}$; només té sentit $x=10$ cm.

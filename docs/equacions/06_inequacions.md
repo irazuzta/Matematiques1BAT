@@ -187,8 +187,9 @@ Quan $\Delta>0$, l'equació $ax^2+bx+c=0$ té dues solucions, $x_1<x_2$, i la re
     2. Mirem el **signe de $a$**: si $a>0$, la paràbola és $\cup$; si $a<0$, és $\cap$.
     3. Resolem l'equació $ax^2+bx+c=0$ per trobar els **punts de tall** $x_1<x_2$.
     4. Fem un **esbós** de la paràbola: talla l'eix $OX$ a $x_1$ i $x_2$ i té la forma del pas 2.
-    5. **Llegim la solució** a l'esbós: per a $>0$, on la paràbola és per sobre de l'eix; per a $<0$, on és per sota.
-    6. Decidim els **extrems**: amb $\geq$ o $\leq$, $x_1$ i $x_2$ hi són inclosos (claudàtors); amb $>$ o $<$, no (parèntesis).
+    5. Fem la **taula de signes**: amb els punts de tall dividim la recta en intervals i hi anotem el signe que llegim a l'esbós ($+$ si la paràbola és per sobre de l'eix, $-$ si és per sota i $0$ als punts de tall). Si no tenim l'esbós, trobem el signe de cada interval calculant el polinomi en un valor qualsevol de dins.
+    6. **Llegim la solució** a la taula: per a $>0$, els intervals amb $+$; per a $<0$, els intervals amb $-$.
+    7. Decidim els **extrems**: amb $\geq$ o $\leq$, els punts de tall (amb signe $0$) hi són inclosos i fem servir claudàtors; amb $>$ o $<$, no hi són inclosos i fem servir parèntesis.
 
 Si $a>0$ ($\cup$), la paràbola és per sota de l'eix **entre** les arrels i per sobre **fora** de les arrels. Si $a<0$ ($\cap$), és al revés.
 
@@ -205,18 +206,22 @@ Si $a>0$ ($\cup$), la paràbola és per sota de l'eix **entre** les arrels i per
 
     <div class="ineq-demo" data-poly="x^2-x-6" data-rel="lt" data-view="-4,5,-8,8" markdown="1"></div>
 
-    Volem que sigui $<0$, és a dir, **per sota** de l'eix: això passa **entre** les arrels. Com que la desigualtat és estricta, els extrems no hi són inclosos:
+    Fem la taula de signes. Els signes es llegeixen a la gràfica; també els podem trobar amb un valor de prova a cada interval:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $(-\infty,-2)$ | $-2$ | $(-2,3)$ | $3$ | $(3,+\infty)$ |
+    |:--|:--:|:--:|:--:|:--:|:--:|
+    | Prova | $-3$ |  | $0$ |  | $4$ |
+    | $x^2-x-6$ | $6$ | $0$ | $-6$ | $0$ | $6$ |
+    | Signe | $+$ | $0$ | $-$ | $0$ | $+$ |
+    | $<0$? | no | no | **sí** | no | no |
+
+    </div>
+
+    Volem que sigui $<0$: ens quedem amb l'interval amb signe $-$, **entre** les arrels. Com que la desigualtat és estricta, els punts de tall (signe $0$) no hi són inclosos:
 
     $$(-2,3)$$
-
-    Comprovem-ho amb un valor de dins i un de fora:
-
-    $$
-    \begin{aligned}
-    x=0&:\quad 0^2-0-6=-6<0 &&\text{(és solució)}\\
-    x=4&:\quad 4^2-4-6=6\not<0 &&\text{(no és solució)}
-    \end{aligned}
-    $$
 
 !!! example "**Exemple 2:** $2x^2\geq x+3$"
     Primer la portem a la forma canònica:
@@ -235,7 +240,18 @@ Si $a>0$ ($\cup$), la paràbola és per sota de l'eix **entre** les arrels i per
 
     <div class="ineq-demo" data-poly="2x^2-x-3" data-rel="ge" data-labels="−1;3/2" data-view="-3,3.5,-5,6" markdown="1"></div>
 
-    Volem que sigui $\geq 0$: **per sobre** de l'eix o tallant-lo. Això passa **fora** de les arrels, i ara els extrems sí que hi són inclosos:
+    Fem la taula de signes:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $(-\infty,-1)$ | $-1$ | $(-1,\,3/2)$ | $3/2$ | $(3/2,+\infty)$ |
+    |:--|:--:|:--:|:--:|:--:|:--:|
+    | Signe | $+$ | $0$ | $-$ | $0$ | $+$ |
+    | $\geq 0$? | **sí** | **sí** | no | **sí** | **sí** |
+
+    </div>
+
+    Volem que sigui $\geq 0$: els intervals amb signe $+$, **fora** de les arrels, i també els punts de tall (signe $0$), perquè la desigualtat inclou l'igual:
 
     $$(-\infty,-1]\cup\left[\frac32,+\infty\right)$$
 
@@ -262,7 +278,18 @@ Si $a>0$ ($\cup$), la paràbola és per sota de l'eix **entre** les arrels i per
 
     <div class="ineq-demo" data-poly="-x^2+4x-3" data-rel="gt" data-view="-1,5,-5,3" markdown="1"></div>
 
-    Volem que sigui $>0$, **per sobre** de l'eix. Com que la paràbola és oberta cap avall, això passa **entre** les arrels:
+    Fem la taula de signes. Com que la paràbola és oberta cap avall, el signe $+$ ara és **entre** les arrels:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $(-\infty,1)$ | $1$ | $(1,3)$ | $3$ | $(3,+\infty)$ |
+    |:--|:--:|:--:|:--:|:--:|:--:|
+    | Signe | $-$ | $0$ | $+$ | $0$ | $-$ |
+    | $>0$? | no | no | **sí** | no | no |
+
+    </div>
+
+    Volem que sigui $>0$: l'interval amb signe $+$, sense els extrems:
 
     $$(1,3)$$
 
@@ -282,7 +309,18 @@ Si $a>0$ ($\cup$), la paràbola és per sota de l'eix **entre** les arrels i per
 
     <div class="ineq-demo" data-poly="x^2-9" data-rel="gt" data-view="-6,6,-11,8" markdown="1"></div>
 
-    Volem que sigui $>0$, **fora** de les arrels:
+    Fem la taula de signes:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $(-\infty,-3)$ | $-3$ | $(-3,3)$ | $3$ | $(3,+\infty)$ |
+    |:--|:--:|:--:|:--:|:--:|:--:|
+    | Signe | $+$ | $0$ | $-$ | $0$ | $+$ |
+    | $>0$? | **sí** | no | no | no | **sí** |
+
+    </div>
+
+    Volem que sigui $>0$: els intervals amb signe $+$, **fora** de les arrels:
 
     $$(-\infty,-3)\cup(3,+\infty)$$
 
@@ -311,6 +349,17 @@ La inequació, doncs, o bé es compleix per a **tots** els nombres reals, o bé 
 
     <div class="ineq-demo" data-poly="x^2+2x+3" data-rel="gt" data-view="-4,2,-2,8" markdown="1"></div>
 
+    Sense punts de tall, la taula té un sol interval, tota la recta:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $\mathbb{R}$ |
+    |:--|:--:|
+    | Signe | $+$ |
+    | $>0$? | **sí** |
+
+    </div>
+
     La desigualtat es compleix sempre. La solució és $\mathbb{R}$, és a dir, $(-\infty,+\infty)$.
 
     En canvi, la inequació $x^2+2x+3\leq 0$ **no té solució**: la paràbola mai és per sota de l'eix ni el toca.
@@ -329,6 +378,17 @@ La inequació, doncs, o bé es compleix per a **tots** els nombres reals, o bé 
     No hi ha punts de tall: la paràbola és sempre per sota de l'eix.
 
     <div class="ineq-demo" data-poly="-x^2+2x-5" data-rel="ge" data-view="-2,4,-9,2" markdown="1"></div>
+
+    La taula té un sol interval:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $\mathbb{R}$ |
+    |:--|:--:|
+    | Signe | $-$ |
+    | $\geq 0$? | no |
+
+    </div>
 
     Mai és $\geq 0$, i per tant la inequació **no té solució**. Ho escrivim $\varnothing$ (conjunt buit).
 
@@ -349,7 +409,15 @@ Quan $\Delta=0$, l'equació $ax^2+bx+c=0$ té una sola solució (doble), $x_0$. 
     \end{aligned}
     $$
 
-    De fet, $x^2-4x+4=(x-2)^2$. La paràbola toca l'eix a $x=2$ i, a la resta de punts, és per sobre.
+    De fet, $x^2-4x+4=(x-2)^2$. La paràbola toca l'eix a $x=2$ i, a la resta de punts, és per sobre. A la taula de signes es veu que el signe **no canvia** en passar per l'arrel doble:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $(-\infty,2)$ | $2$ | $(2,+\infty)$ |
+    |:--|:--:|:--:|:--:|
+    | Signe | $+$ | $0$ | $+$ |
+
+    </div>
 
     <div class="ineq-pair" markdown="1">
     <div markdown="1">
@@ -366,12 +434,12 @@ Quan $\Delta=0$, l'equació $ax^2+bx+c=0$ té una sola solució (doble), $x_0$. 
 
     Segons la desigualtat, obtenim quatre resultats diferents:
 
-    | Inequació | On és la paràbola? | Solució |
+    | Inequació | Què llegim a la taula? | Solució |
     |:--|:--|:--|
-    | ${x^2-4x+4>0}$ | per sobre, excepte a $x=2$ | ${\mathbb{R}\setminus\{2\}}$, és a dir, $(-\infty,2)\cup(2,+\infty)$ |
-    | ${x^2-4x+4\geq 0}$ | per sobre o tocant l'eix | $\mathbb{R}$ |
-    | ${x^2-4x+4<0}$ | mai per sota | no té solució ($\varnothing$) |
-    | ${x^2-4x+4\leq 0}$ | només toca l'eix a $x=2$ | $x=2$ |
+    | ${x^2-4x+4>0}$ | signe $+$ | ${\mathbb{R}\setminus\{2\}}$, és a dir, $(-\infty,2)\cup(2,+\infty)$ |
+    | ${x^2-4x+4\geq 0}$ | signe $+$ o $0$ | $\mathbb{R}$ |
+    | ${x^2-4x+4<0}$ | cap signe $-$ | no té solució ($\varnothing$) |
+    | ${x^2-4x+4\leq 0}$ | només el $0$, a $x=2$ | $x=2$ |
 
 !!! example "**Exemple 8:** $-x^2+6x-9\geq 0$"
     Ara $a=-1<0$ ($\cap$) i
@@ -384,7 +452,18 @@ Quan $\Delta=0$, l'equació $ax^2+bx+c=0$ té una sola solució (doble), $x_0$. 
     \end{aligned}
     $$
 
-    La paràbola és per sota de l'eix i només el toca a $x=3$. L'únic punt on és $\geq 0$ és el de tangència, i la solució és $x=3$.
+    La paràbola és per sota de l'eix i només el toca a $x=3$:
+
+    <div class="sign-table" markdown="1">
+
+    | $x$ | $(-\infty,3)$ | $3$ | $(3,+\infty)$ |
+    |:--|:--:|:--:|:--:|
+    | Signe | $-$ | $0$ | $-$ |
+    | $\geq 0$? | no | **sí** | no |
+
+    </div>
+
+    L'únic punt on és $\geq 0$ és el de tangència, i la solució és $x=3$.
 
 !!! note "Compte amb l'igual"
     En el cas tangent, el punt $x_0$ és solució només si la desigualtat inclou l'igual ($\geq$ o $\leq$). Amb $>$ o $<$ l'hem de treure.

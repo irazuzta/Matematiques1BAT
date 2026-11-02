@@ -224,3 +224,35 @@
   vertical-align: -0.15em;
   width: 2.1em;
 }
+
+/* Taules de signes de les inequacions: compactes perquè hi càpiguen
+   tots els intervals també al mòbil */
+.md-typeset .sign-table table:not([class]) {
+  font-size: 0.72rem;
+}
+
+.md-typeset .sign-table table:not([class]) th,
+.md-typeset .sign-table table:not([class]) td {
+  padding: 0.45em 0.55em;
+  text-align: center;
+}
+
+.md-typeset .sign-table table:not([class]) th:first-child,
+.md-typeset .sign-table table:not([class]) td:first-child {
+  text-align: left;
+}
+
+.md-typeset .sign-table table:not([class]) th + th,
+.md-typeset .sign-table table:not([class]) td + td {
+  border-left: 0.05rem solid var(--md-typeset-table-color);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .sign-table table:not([class]) {
+    font-size: 0.58rem;
+  }
+  .md-typeset .sign-table table:not([class]) th,
+  .md-typeset .sign-table table:not([class]) td {
+    padding: 0.4em 0.25em;
+  }
+}

@@ -15,3 +15,4 @@ Relació d'exercicis i problemes d'equacions i inequacions, ordenada com els apa
 | [Sistemes d'equacions](07_sistemes.md) | 32–37 |
 | [Inequacions](08_inequacions.md) | 38–42 |
 | [Problemes](09_problemes.md) | 43–60 |
+| [Exercicis inspirats en les PAU](10_pau.md) | 61–75 |
