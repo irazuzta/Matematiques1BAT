@@ -15,7 +15,7 @@ El mètode de resolució canvia segons el tipus d'equació, però la idea de fon
 
 <div class="no-print" markdown="1">
 
-**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/3_equacions.pdf), amb índex i paginació, a punt per imprimir a doble cara.
+**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/3_equacions.pdf).
 
 </div>
 

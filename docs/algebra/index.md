@@ -10,7 +10,7 @@ En aquest bloc treballarem els polinomis: què són, com s'operen i com es facto
 
 <div class="no-print" markdown="1">
 
-**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/2_algebra.pdf), amb índex i paginació, a punt per imprimir a doble cara.
+**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/2_algebra.pdf).
 
 </div>
 

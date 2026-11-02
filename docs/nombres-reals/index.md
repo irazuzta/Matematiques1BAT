@@ -17,7 +17,7 @@ Recorda que aquestes eines et serviran durant tot el curs, així que val la pena
 
 <div class="no-print" markdown="1">
 
-**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/1_nombres_reals.pdf), amb índex i paginació, a punt per imprimir a doble cara.
+**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/1_nombres_reals.pdf).
 
 </div>
 
