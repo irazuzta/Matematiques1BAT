@@ -1,0 +1,1735 @@
+% Contingut generat per llibre/llibre.py a partir de docs/equacions/.
+% No l'editis a mà: torna'l a generar.
+
+\chapter{Equacions i inequacions}
+
+En aquest tema posem en pràctica tot el que hem après sobre nombres, potències, arrels i logaritmes per resoldre \textbf{equacions}: igualtats on hem de trobar els valors que les fan certes. Repassarem les equacions polinòmiques (de primer grau, segon grau, biquadrades i de grau superior), les racionals i irracionals, i les exponencials i logarítmiques. Després resoldrem \textbf{sistemes d'equacions} no lineals i \textbf{inequacions} de primer i de segon grau, on les solucions ja no són valors aïllats sinó intervals.
+
+El mètode de resolució canvia segons el tipus d'equació, però la idea de fons és sempre la mateixa: transformar l'equació en una forma que ja sabem resoldre, i comprovar sempre les solucions obtingudes a l'equació original.
+
+\section{Equacions polinòmiques}
+
+\subsection{Definicions i conceptes bàsics}
+
+Segurament ja has resolt moltes equacions abans. Comencem posant nom, de manera formal, al que és una equació i a la seva solució.
+
+\begin{definicio}{Definició: equació i incògnita}
+Sigui $f(x)$ una expressió algebraica. Una \textbf{equació} amb una incògnita és una igualtat que, amb les transformacions que calguin, es pot escriure de la forma
+
+\[
+f(x)=0.
+\]
+
+$x$ s'anomena la \textbf{incògnita} de l'equació.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Equacions}
+Són exemples d'equacions:
+
+\[
+x-3=0, \qquad 5x-5=x+7.
+\]
+
+En el segon cas, la podem transformar:
+
+\[
+5x-5-x-7=0 \quad \Rightarrow \quad 4x-12=0,
+\]
+
+de manera que obtenim una expressió com la de la definició anterior.
+\end{exemple}
+
+\begin{definicio}{Definició: solució i equivalència}
+Direm que un valor real $a$ és una \textbf{solució} de l'equació $f(x)=0$ si es compleix que
+
+\[
+f(a)=0.
+\]
+
+Si dues equacions tenen les mateixes solucions, direm que són \textbf{equivalents}.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Comprovació de solucions}
+Si prenem les equacions de l'exemple anterior, en tots els casos $a=3$ n'és una solució:
+
+\[
+x-3=0 \;\longrightarrow\; 3-3=0,
+\]
+
+\[
+5x-5=x+7 \;\longrightarrow\; 5\cdot 3-5=10=3+7,
+\]
+
+\[
+4\cdot 3-12=0.
+\]
+
+Com que en tots els casos es tracta d'equacions de primer grau (que tenen una única solució), podem assegurar que les tres són equivalents.
+\end{exemple}
+
+\subsection{Equacions de primer i segon grau}
+
+\begin{definicio}{Definició: equació polinòmica}
+Una equació $p(x)=0$ és \textbf{polinòmica} si $p(x)$ és un polinomi. Parlarem aleshores del \textbf{grau de l'equació}, que coincideix amb el grau del polinomi.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Equacions de primer grau}
+Una equació de primer grau es pot escriure de forma equivalent com
+
+\[
+ax+b=0, \qquad a\neq 0.
+\]
+
+Té una única solució, que es pot escriure de manera general com
+
+\[
+x=-\frac{b}{a}.
+\]
+
+Fixa't en el cas especial en què $a=0$ després de simplificar:
+
+\[
+2x-3=2(x-1) \;\Rightarrow\; 2x-3=2x-2 \;\Rightarrow\; -1=0.
+\]
+
+No existeix cap valor real que compleixi aquesta igualtat: l'equació no té solució.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Equacions de segon grau}
+Una equació de segon grau es pot escriure com
+
+\[
+ax^2+bx+c=0, \qquad a\neq 0.
+\]
+
+Les solucions venen donades per la fórmula
+
+\[
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a},
+\]
+
+on $\Delta=b^2-4ac$ s'anomena \textbf{discriminant}. Segons el seu signe distingim tres casos:
+
+\begin{itemize}
+\item $\Delta>0$: dues solucions reals diferents.
+\item $\Delta=0$: una solució real (doble).
+\item $\Delta<0$: cap solució real.
+\end{itemize}
+
+Per exemple, a $4x^2+4x+1=0$ el discriminant és $\Delta=4^2-4\cdot4\cdot1=0$:
+
+\[
+x=\frac{-4\pm\sqrt{0}}{8}=-\frac{4}{8}=-\frac{1}{2} \quad \text{(solució doble)}.
+\]
+\end{exemple}
+
+\subsection{Equacions de segon grau incompletes}
+
+Una equació de segon grau $ax^2+bx+c=0$ és \textbf{incompleta} quan li falta el terme de primer grau ($b=0$) o el terme independent ($c=0$). En aquests casos no cal la fórmula: les podem resoldre de manera més ràpida.
+
+\begin{definicio}{Cas 1: falta el terme de primer grau (b = 0)}
+L'equació és de la forma $ax^2+c=0$. Aïllem $x^2$ i fem l'arrel quadrada, recordant que hi ha dos signes:
+
+\[
+ax^2+c=0 \;\Rightarrow\; x^2=-\frac{c}{a} \;\Rightarrow\; x=\pm\sqrt{-\frac{c}{a}}.
+\]
+
+Si $-\dfrac{c}{a}>0$, hi ha dues solucions oposades. Si $-\dfrac{c}{a}<0$, l'equació no té solució, perquè un quadrat no pot ser negatiu.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Equació incompleta sense terme de primer grau}
+Resolem $2x^2-18=0$:
+
+\[
+2x^2=18 \;\Rightarrow\; x^2=9 \;\Rightarrow\; x=\pm\sqrt{9}=\pm 3.
+\]
+
+Les solucions són $x_1=3$ i $x_2=-3$.
+
+En canvi, l'equació $x^2+4=0$ no té solució: ens quedaria $x^2=-4$, i cap nombre real elevat al quadrat dona un resultat negatiu.
+\end{exemple}
+
+\begin{definicio}{Cas 2: falta el terme independent (c = 0)}
+L'equació és de la forma $ax^2+bx=0$. Traiem factor comú $x$ i fem servir que un producte val zero si i només si algun dels factors val zero:
+
+\[
+ax^2+bx=0 \;\Rightarrow\; x(ax+b)=0 \;\Rightarrow\; x=0 \quad \text{o} \quad x=-\frac{b}{a}.
+\]
+
+Sempre hi ha dues solucions, i una d'elles és $x=0$.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Equació incompleta sense terme independent}
+Resolem $3x^2-12x=0$. Traiem factor comú $3x$:
+
+\[
+3x^2-12x=0 \;\Rightarrow\; 3x(x-4)=0.
+\]
+
+\begin{itemize}
+\item $3x=0 \;\Rightarrow\; x=0$
+\item $x-4=0 \;\Rightarrow\; x=4$
+\end{itemize}
+
+Les solucions són $x_1=0$ i $x_2=4$.
+\end{exemple}
+
+\begin{nota}{Compte: no dividim per x}
+Seria un error passar de $3x^2=12x$ a $3x=12$ dividint per $x$: obtindríem només $x=4$ i perdríem la solució $x=0$. Per això sempre traiem factor comú.
+\end{nota}
+
+\subsection{Equacions de grau superior}
+
+Per a graus més grans que 2, sovint cal reduir l'equació a una que ja sabem resoldre.
+
+\begin{exemple}{\textbf{Exemple:} Equacions biquadrades}
+Una \textbf{equació biquadrada} és una equació de grau 4 de la forma
+
+\[
+ax^4+bx^2+c=0.
+\]
+
+Per resoldre-la, fem el canvi de variable $t=x^2$. Resolem $x^4-10x^2+9=0$:
+
+\begin{enumerate}
+\item Fem el canvi $t=x^2$. L'equació es transforma en
+
+\[
+t^2-10t+9=0.
+\]
+\item Resolem l'equació de segon grau per a $t$:
+
+\[
+t=\frac{10\pm\sqrt{100-36}}{2}=\frac{10\pm8}{2}.
+\]
+
+Obtenim $t_1=9$ i $t_2=1$.
+\item Desfem el canvi de variable per a cada $t$ (recordant que $x=\pm\sqrt{t}$):
+
+\begin{itemize}
+\item $t_1=9 \;\Rightarrow\; x^2=9 \;\Rightarrow\; x=\pm\sqrt{9} \;\Rightarrow\; x=\pm 3$
+\item $t_2=1 \;\Rightarrow\; x^2=1 \;\Rightarrow\; x=\pm\sqrt{1} \;\Rightarrow\; x=\pm 1$
+\end{itemize}
+\end{enumerate}
+
+Per tant, les solucions de l'equació són $x_1=3$, $x_2=-3$, $x_3=1$ i $x_4=-1$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Equacions de grau superior a 2}
+Per a una equació $P(x)=0$ amb $\text{grau}(P)\ge 3$, el mètode habitual és factoritzar el polinomi, ja que les solucions de l'equació són les arrels del polinomi.
+
+Resolem $x^3-3x^2-9x+27=0$:
+
+\begin{enumerate}
+\item Busquem arrels enteres (divisors de $27$) i apliquem Ruffini. Provem $x=3$:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{r|rrrr}
+ & $1$ & $-3$ & $-9$ & $27$ \\
+$3$ &  & $3$ & $0$ & $-27$ \\ \hline
+ & $1$ & $0$ & $-9$ & $\boxed{0}$ \\
+\end{tabular}
+\end{center}
+\item El polinomi es factoritza com $(x-3)(x^2-9)=0$.
+\item Resolem l'equació de segon grau $x^2-9=0$, que dona $x=\pm\sqrt{9}$, és a dir, $x=3$ i $x=-3$.
+\item Les solucions són totes les arrels trobades:
+
+\[
+x=-3 \ \text{(simple)} \qquad \text{i} \qquad x=3 \ \text{(doble)}.
+\]
+\end{enumerate}
+\end{exemple}
+
+\subsection{Taula resum}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{lYY}
+\toprule
+\textbf{Tipus} & \textbf{Forma} & \textbf{Solucions} \\
+\midrule
+Primer grau & $ax+b=0,\ a\neq 0$ & $x=-\dfrac{b}{a}$ \\
+Segon grau & $ax^2+bx+c=0,\ a\neq 0$ & $x=\dfrac{-b\pm\sqrt{b^2-4ac}}{2a}$ \\
+Segon grau incompleta ($b=0$) & $ax^2+c=0$ & $x=\pm\sqrt{-\dfrac{c}{a}}$, si $-\dfrac{c}{a}\geq 0$ \\
+Segon grau incompleta ($c=0$) & $ax^2+bx=0$ & $x(ax+b)=0 \Rightarrow x=0,\ x=-\dfrac{b}{a}$ \\
+Biquadrada & $ax^4+bx^2+c=0$ & Canvi $t=x^2$, i després $x=\pm\sqrt{t}$ \\
+Grau $\geq 3$ & $P(x)=0$ & Factoritzar $P(x)$ (per exemple, amb Ruffini) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Equacions racionals i irracionals}
+
+\subsection{Equacions racionals}
+
+Una equació racional és aquella que involucra fraccions algebraiques.
+
+\begin{definicio}{Definició: equació racional}
+Direm que una equació és \textbf{racional} si es pot escriure, amb les transformacions que calguin, com
+
+\[
+F(x)=0,
+\]
+
+on $F(x)$ és una fracció algebraica. Una manera alternativa d'escriure-la és
+
+\[
+\frac{P(x)}{Q(x)} = 0,
+\]
+
+on $P(x)$ i $Q(x)$ són polinomis.
+\end{definicio}
+
+Les solucions d'aquestes equacions són els valors reals $a$ que anul·len el numerador ($P(a)=0$) però que, alhora, \textbf{no} anul·len el denominador ($Q(a) \neq 0$).
+
+\begin{nota}{Comprovar el domini}
+El pas més important en una equació racional és comprovar les solucions.
+
+Qualsevol valor $a$ que faci $Q(a)=0$ (que anul·li el denominador) \textbf{no pot ser solució}, encara que també anul·li el numerador.
+\end{nota}
+
+\begin{exemple}{\textbf{Exemple:} Resolució d'una equació racional (Cas 1)}
+Resolem l'equació:
+
+\[
+\frac{x^2-1}{x-1} = 1.
+\]
+
+\begin{enumerate}
+\item Transformem l'equació a la forma $\dfrac{P(x)}{Q(x)}=0$:
+
+\[
+\frac{x^2-1}{x-1} - 1 = 0 \;\Rightarrow\; \frac{(x^2-1)-(x-1)}{x-1}=0,
+\]
+
+\[
+\frac{x^2-x}{x-1} = 0.
+\]
+\item Resolem l'equació del numerador, $P(x)=0$:
+
+\[
+x^2-x=0 \;\Rightarrow\; x(x-1)=0.
+\]
+
+Les solucions candidates són $x=0$ i $x=1$.
+\item Comprovem les solucions al denominador $Q(x)=x-1$:
+
+\begin{itemize}
+\item $x=0 \Rightarrow Q(0) = 0-1 = -1 \neq 0$. Per tant, $x=0$ \textbf{és solució}.
+\item $x=1 \Rightarrow Q(1) = 1-1 = 0$. Com que anul·la el denominador, $x=1$ \textbf{no és solució}.
+\end{itemize}
+\end{enumerate}
+
+L'única solució de l'equació és $x=0$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Resolució d'una equació racional (Cas 2)}
+Resolem l'equació:
+
+\[
+\frac{x+1}{x-1}-\frac{4}{x^2-1}=0.
+\]
+
+\begin{enumerate}
+\item Operem per obtenir una única fracció (recordem que $x^2-1 = (x-1)(x+1)$):
+
+\[
+\frac{(x+1)(x+1)}{(x-1)(x+1)} - \frac{4}{x^2-1} = 0,
+\]
+
+\[
+\frac{(x+1)^2-4}{x^2-1} = 0 \;\Rightarrow\; \frac{x^2+2x+1-4}{x^2-1} = 0,
+\]
+
+\[
+\frac{x^2+2x-3}{x^2-1} = 0.
+\]
+\item Resolem $P(x)=0$: $x^2+2x-3=0$. Obtenim les solucions $x_1=1$ i $x_2=-3$.
+\item Comprovem les solucions al denominador $Q(x)=x^2-1$:
+
+\begin{itemize}
+\item $x_1=1 \Rightarrow Q(1) = 1^2-1 = 0$. Com que anul·la el denominador, \textbf{no és solució}.
+\item $x_2=-3 \Rightarrow Q(-3) = (-3)^2-1 = 8 \neq 0$. Per tant, $x=-3$ \textbf{és solució}.
+\end{itemize}
+\end{enumerate}
+
+L'única solució de l'equació és $x=-3$.
+\end{exemple}
+
+\subsection{Equacions irracionals}
+
+\begin{definicio}{Definició: equació irracional}
+Direm que una equació és \textbf{irracional} si conté la incògnita sota, almenys, un signe radical. És a dir, si la incògnita està dins d'alguna arrel.
+\end{definicio}
+
+El mètode general per resoldre aquestes equacions és aïllar l'arrel (o una de les arrels) i elevar els dos membres de la igualtat al quadrat (o a l'índex de l'arrel) per eliminar el radical.
+
+\begin{nota}{Solucions falses}
+Elevar al quadrat els dos membres d'una igualtat \textbf{no és una operació equivalent}:
+
+\[
+A=B \;\Rightarrow\; A^2=B^2, \qquad \text{però} \qquad A^2=B^2 \;\Rightarrow\; A=\pm B.
+\]
+
+Aquest procés pot introduir solucions que no són vàlides (anomenades \emph{solucions falses}). Per això és \textbf{obligatori comprovar} totes les solucions candidates a l'equació \emph{original}.
+\end{nota}
+
+\begin{exemple}{\textbf{Exemple:} Equació irracional amb solució vàlida}
+Resolem l'equació:
+
+\[
+x + \sqrt{x^2+5} = 1.
+\]
+
+\begin{enumerate}
+\item Aïllem l'arrel a un costat de la igualtat:
+
+\[
+\sqrt{x^2+5} = 1-x.
+\]
+\item Elevem els dos membres al quadrat:
+
+\[
+\left( \sqrt{x^2+5} \right)^2 = (1-x)^2,
+\]
+
+\[
+x^2+5 = 1 - 2x + x^2.
+\]
+\item Resolem l'equació resultant (que ja no és irracional):
+
+\[
+5 = 1 - 2x \;\Rightarrow\; 2x = 1 - 5 \;\Rightarrow\; 2x = -4.
+\]
+
+La solució candidata és $x = -2$.
+\item \textbf{Comprovació (obligatòria).} Substituïm $x=-2$ a l'equació \emph{original}:
+
+\[
+-2 + \sqrt{(-2)^2 + 5} = -2 + \sqrt{4 + 5} = -2 + \sqrt{9} = -2 + 3 = 1.
+\]
+
+Com que $1=1$, la solució $x=-2$ \textbf{és vàlida}.
+\end{enumerate}
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Equació irracional amb solució falsa}
+Resolem una petita modificació de l'equació anterior:
+
+\[
+x - \sqrt{x^2+5} = 1.
+\]
+
+\begin{enumerate}
+\item Aïllem l'arrel:
+
+\[
+-\sqrt{x^2+5} = 1-x.
+\]
+\item Elevem els dos membres al quadrat:
+
+\[
+\left( -\sqrt{x^2+5} \right)^2 = (1-x)^2,
+\]
+
+\[
+x^2+5 = 1 - 2x + x^2.
+\]
+\item Resolem l'equació resultant (fixa't que és la mateixa que a l'exemple anterior):
+
+\[
+5 = 1 - 2x \;\Rightarrow\; 2x = -4.
+\]
+
+La solució candidata és $x = -2$.
+\item \textbf{Comprovació (obligatòria).} Substituïm $x=-2$ a l'equació \emph{original}:
+
+\[
+-2 - \sqrt{(-2)^2 + 5} = -2 - \sqrt{4 + 5} = -2 - \sqrt{9} = -2 - 3 = -5.
+\]
+
+Com que $-5 \neq 1$, la solució $x=-2$ \textbf{no és vàlida} (és una solució falsa). L'equació no té cap solució real.
+\end{enumerate}
+\end{exemple}
+
+\subsection{Taula resum}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{lYY}
+\toprule
+\textbf{Tipus} & \textbf{Forma} & \textbf{Mètode} \\
+\midrule
+Racional & $\dfrac{P(x)}{Q(x)}=0$ & Resoldre $P(x)=0$ i descartar les solucions amb $Q(x)=0$ \\
+Irracional & Incògnita sota un radical & Aïllar l'arrel, elevar-la a l'índex, i comprovar-ho sempre a l'equació original \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Equacions exponencials i logarítmiques}
+
+\subsection{Equacions exponencials}
+
+\begin{definicio}{Definició: equació exponencial}
+Una equació és \textbf{exponencial} si apareix alguna potència amb la incògnita a l'exponent.
+\end{definicio}
+
+Per a aquestes equacions, com amb les irracionals, no hi ha una única estratègia de resolució. El resultat que farem servir, en general, és la propietat d'igualació de potències.
+
+\begin{propietat}{Propietat: igualació de potències}
+Si $a>0$ i $a\neq 1$, aleshores
+
+\[
+a^n = a^m \;\Leftrightarrow\; n=m.
+\]
+\end{propietat}
+
+A més, cal tenir presents les propietats de les potències (com $a^{n+m} = a^n \cdot a^m$) per transformar les expressions algebraiques que apareixen a l'equació.
+
+\begin{exemple}{\textbf{Exemple:} Extracció de factor comú}
+Resolem l'equació $3^{x+1} + 3^{x+2} = 36$.
+
+\begin{enumerate}
+\item Descomposem les potències usant les propietats:
+
+\[
+3^x \cdot 3^1 + 3^x \cdot 3^2 = 36.
+\]
+\item Traiem factor comú $3^x$:
+
+\[
+3^x (3+9) = 36.
+\]
+\item Resolem l'equació per a $3^x$:
+
+\[
+3^x \cdot 12 = 36 \;\Rightarrow\; 3^x = \frac{36}{12} = 3.
+\]
+\item Apliquem la propietat d'igualació (ja que $3 = 3^1$):
+
+\[
+3^x = 3^1 \;\Rightarrow\; x=1.
+\]
+\end{enumerate}
+\end{exemple}
+
+En algunes ocasions no és possible igualar les bases. En aquests casos, cal aplicar la definició de logaritme per aïllar l'exponent.
+
+\begin{exemple}{\textbf{Exemple:} Resolució aplicant logaritmes}
+Resolem l'equació $2^{x+2} = 5$.
+
+\begin{enumerate}
+\item Com que $5$ no és una potència clara de $2$, apliquem la definició de logaritme ($\log_a B = C \Leftrightarrow a^C = B$):
+
+\[
+x+2 = \log_2 5.
+\]
+\item Aïllem $x$:
+
+\[
+x = -2 + \log_2 5.
+\]
+\item \emph{(Opcional)} Càlcul i comprovació numèrica:
+
+\[
+x \simeq -2 + 2{,}3219 \simeq 0{,}3219.
+\]
+
+Si substituïm a l'equació original:
+
+\[
+2^{0{,}3219+2} = 2^{2{,}3219} \simeq 4{,}9999\ldots \approx 5.
+\]
+\end{enumerate}
+
+La solució és $x = -2 + \log_2 5$.
+\end{exemple}
+
+\subsection{Equacions logarítmiques}
+
+\begin{definicio}{Definició: equació logarítmica}
+De forma semblant a les equacions exponencials, direm que una equació és \textbf{logarítmica} quan la incògnita apareix dins d'algun logaritme, ja sigui a la base o a l'argument.
+\end{definicio}
+
+\begin{nota}{Comprovar les solucions}
+L'argument d'un logaritme \textbf{sempre ha de ser positiu}.
+
+És \textbf{obligatori comprovar} totes les solucions obtingudes sobre l'equació \emph{inicial}, i descartar aquelles que facin que un argument sigui zero o negatiu.
+\end{nota}
+
+Com abans, caldrà tenir en compte les propietats dels logaritmes per transformar l'equació en una expressió del tipus $\log_b M = \log_b N$. En aquest cas, podrem afirmar que $M=N$.
+
+\begin{exemple}{\textbf{Exemple:} Agrupant termes}
+Resolem $\log x - \log 4 = \log(x-2)$.
+
+\begin{enumerate}
+\item Apliquem la propietat de la resta de logaritmes:
+
+\[
+\log \frac{x}{4} = \log(x-2).
+\]
+\item Tenim una igualtat de logaritmes de la mateixa base, així que igualem els arguments:
+
+\[
+\frac{x}{4} = x-2.
+\]
+\item Resolem l'equació de primer grau resultant:
+
+\[
+x = 4(x-2) \;\Rightarrow\; x = 4x - 8,
+\]
+
+\[
+3x = 8 \;\Rightarrow\; x = \frac{8}{3}.
+\]
+\item \textbf{Comprovació.} Verifiquem que tots els arguments de l'equació original són positius:
+
+\begin{itemize}
+\item $\log x \Rightarrow \log \tfrac{8}{3}$. Vàlid, $\tfrac{8}{3} > 0$.
+\item $\log(x-2) \Rightarrow \log\left(\tfrac{8}{3} - 2\right) = \log \tfrac{2}{3}$. Vàlid, $\tfrac{2}{3} > 0$.
+\end{itemize}
+\end{enumerate}
+
+Com que tots els arguments són positius, la solució $x=\tfrac{8}{3}$ \textbf{és vàlida}.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Llei de Hicks-Hyman}
+La llei de Hicks-Hyman descriu el temps de reacció ($T$) en funció del nombre d'opcions ($n$):
+
+\[
+T=a+b \cdot \log_2 n,
+\]
+
+on $a$ i $b$ són constants.
+
+Suposem $a=0{,}6\,\text{s}$ i $b=0{,}1\,\text{s}$. Volem saber quantes opcions $n$ calen per a un temps de reacció de $T=0{,}8\,\text{s}$.
+
+\begin{enumerate}
+\item Substituïm els valors coneguts a l'equació:
+
+\[
+0{,}8 = 0{,}6 + 0{,}1 \cdot \log_2 n.
+\]
+\item Aïllem el logaritme:
+
+\[
+0{,}8 - 0{,}6 = 0{,}1 \cdot \log_2 n \;\Rightarrow\; 0{,}2 = 0{,}1 \cdot \log_2 n,
+\]
+
+\[
+\frac{0{,}2}{0{,}1} = \log_2 n \;\Rightarrow\; 2 = \log_2 n.
+\]
+\item Apliquem la definició de logaritme ($\log_a B = C \Leftrightarrow a^C = B$):
+
+\[
+n = 2^2 = 4.
+\]
+\end{enumerate}
+
+Per tant, per tenir un temps de reacció mitjà de $0{,}8$ segons calen $4$ opcions.
+\end{exemple}
+
+\subsection{Taula resum}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Tipus} & \textbf{Propietat clau} & \textbf{Fórmula} \\
+\midrule
+Exponencial (bases iguals) & Igualació de potències & $a^n=a^m \Leftrightarrow n=m$ \\
+Exponencial (bases diferents) & Definició de logaritme & $a^{x}=b \Leftrightarrow x=\log_a b$ \\
+Logarítmica & Igualació d'arguments & $\log_a M=\log_a N \Leftrightarrow M=N$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Sistemes d'equacions}
+
+\subsection{Equacions amb més d'una incògnita}
+
+Fins ara hem resolt equacions amb una sola incògnita, $x$. Però una equació pot tenir més d'una incògnita, com ara
+
+\[
+x+y=5, \qquad x^2+y^2=25, \qquad xy=6.
+\]
+
+\begin{definicio}{Definició: solució d'una equació amb diverses incògnites}
+Una \textbf{solució} d'una equació amb diverses incògnites és un conjunt de valors, \textbf{un per a cada incògnita}, que fan certa la igualtat.
+
+Quan les incògnites són $x$ i $y$, escrivim una solució com el parell $(x,y)$, amb el valor de $x$ primer i el de $y$ després.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} l'equació $x+y=5$}
+El parell $(2,3)$ és solució, perquè $2+3=5$. També ho són $(0,5)$, $(-1,6)$ o $\left(\dfrac12,\dfrac92\right)$.
+
+De fet, triem el valor de $x$ que triem, n'hi ha prou de prendre $y=5-x$ per obtenir una solució. Per tant, l'equació té \textbf{infinites solucions}.
+\end{exemple}
+
+En general, una equació amb dues o més incògnites té infinites solucions. Hi ha excepcions: per exemple, $x^2+y^2=0$ només té la solució $(0,0)$, i $x^2+y^2=-1$ no en té cap, perquè una suma de quadrats no pot ser negativa.
+
+\subsection{Sistemes d'equacions}
+
+\begin{definicio}{Definició: sistema d'equacions}
+Un \textbf{sistema d'equacions} és un conjunt d'equacions amb les mateixes incògnites, de les quals busquem les solucions comunes.
+
+Una \textbf{solució del sistema} és un conjunt de valors que és solució de \textbf{totes} les equacions alhora. \textbf{Resoldre} el sistema vol dir trobar totes les seves solucions o bé veure que no en té cap.
+\end{definicio}
+
+Per exemple, el parell $(4,3)$ és solució del sistema
+
+\[
+\begin{cases}
+x-y=1\\
+x^2+y^2=25
+\end{cases}
+\]
+
+perquè compleix les dues equacions. Substituïm $x=4$ i $y=3$ a cada una:
+
+\[
+\begin{aligned}
+\text{1a equació: }&4-3=1\\
+\text{2a equació: }&4^2+3^2=16+9=25
+\end{aligned}
+\]
+
+En canvi, el parell $(3,4)$ compleix la segona equació, però no la primera:
+
+\[
+\begin{aligned}
+\text{1a equació: }&3-4=-1\neq 1\\
+\text{2a equació: }&3^2+4^2=9+16=25
+\end{aligned}
+\]
+
+Per tant, $(3,4)$ no és solució del sistema.
+
+Ja coneixeu els \textbf{sistemes lineals}, en què totes les equacions són de primer grau, de dues equacions amb dues incògnites o de tres equacions amb tres incògnites. Ara treballarem amb \textbf{sistemes no lineals}: sistemes en què alguna de les equacions no és de primer grau.
+
+\begin{exemple}{\textbf{Exemple:} sistemes no lineals}
+En aquests sistemes hi apareixen quadrats, productes d'incògnites, fraccions, arrels, potències o logaritmes:
+
+\[
+\begin{cases}
+x+y=7\\
+xy=12
+\end{cases}
+\qquad
+\begin{cases}
+y=x^2-4x+3\\
+y=x-1
+\end{cases}
+\]
+
+\[
+\begin{cases}
+x-y=1\\
+\sqrt{x+y}+y=7
+\end{cases}
+\qquad
+\begin{cases}
+\log x+\log y=2\\
+x-y=15
+\end{cases}
+\]
+\end{exemple}
+
+\begin{nota}{Tantes equacions com incògnites}
+Treballarem amb sistemes que tenen \textbf{tantes equacions com incògnites}, sobretot de dues equacions amb dues incògnites.
+
+Una sola equació amb dues incògnites sol tenir infinites solucions. Quan n'hi afegim una segona, les solucions han de complir totes dues equacions alhora, i això en redueix molt el nombre: els sistemes que veurem tenen \textbf{un nombre finit de solucions} (una, dues, quatre...) o \textbf{cap}. Només hi ha infinites solucions en casos especials, per exemple quan una equació és equivalent a l'altra, com a $x+y=2$ i $2x+2y=4$ (la segona és la primera multiplicada per $2$). En aquests casos és com si només tinguéssim una equació, i per això torna a haver-hi infinites solucions.
+\end{nota}
+
+\subsection{Mètodes de resolució}
+
+Els sistemes no lineals es resolen amb els mateixos mètodes que els lineals. Nosaltres farem servir la \textbf{substitució} i la \textbf{igualació}. La idea és sempre la mateixa: obtenir una \textbf{equació amb una sola incògnita}, que ja sabem resoldre.
+
+\begin{propietat}{Mètode de substitució}
+\begin{enumerate}
+\item Aïllem una incògnita en una de les equacions (la que sigui més senzilla).
+\item Substituïm l'expressió obtinguda a l'altra equació, que queda amb una sola incògnita.
+\item Resolem aquesta equació.
+\item Per a cada valor trobat, calculem l'altra incògnita amb l'expressió del pas 1.
+\end{enumerate}
+\end{propietat}
+
+\begin{propietat}{Mètode d'igualació}
+\begin{enumerate}
+\item Aïllem la mateixa incògnita a les dues equacions.
+\item Igualem les dues expressions: obtenim una equació amb una sola incògnita.
+\item Resolem aquesta equació.
+\item Per a cada valor trobat, calculem l'altra incògnita amb qualsevol de les dues expressions.
+\end{enumerate}
+\end{propietat}
+
+\begin{nota}{Parells de solucions i comprovació}
+\begin{itemize}
+\item Cada valor d'una incògnita dona el seu valor de l'altra: les solucions s'escriuen per \textbf{parells} $(x,y)$, i no es poden barrejar els valors d'un parell amb els d'un altre.
+\item Si en el procés elevem al quadrat, multipliquem per una expressió amb incògnites o fem servir logaritmes, poden aparèixer solucions falses. Cal \textbf{comprovar} les solucions al sistema original, igual que fèiem amb les equacions.
+\end{itemize}
+\end{nota}
+
+\subsection{Exemples}
+
+\begin{exemple}{\textbf{Exemple 1:} equació de segon grau (substitució)}
+Resolem el sistema
+
+\[
+\begin{cases}
+x-y=1\\
+x^2+y^2=25
+\end{cases}
+\]
+
+\begin{enumerate}
+\item Aïllem $y$ a la primera equació: $y=x-1$.
+\item Substituïm a la segona equació i resolem:
+
+\[
+\begin{aligned}
+x^2+(x-1)^2&=25\\
+x^2+x^2-2x+1&=25\\
+2x^2-2x-24&=0\\
+x^2-x-12&=0
+\end{aligned}
+\]
+
+\[
+\begin{aligned}x&=\frac{1\pm\sqrt{1+48}}{2}=\frac{1\pm 7}{2}\\ &\Rightarrow\; x_1=4,\quad x_2=-3\end{aligned}
+\]
+\item Calculem $y=x-1$ per a cada valor:
+
+\begin{itemize}
+\item $x_1=4 \;\Rightarrow\; y_1=3$
+\item $x_2=-3 \;\Rightarrow\; y_2=-4$
+\end{itemize}
+\end{enumerate}
+
+El sistema té dues solucions: $(4,3)$ i $(-3,-4)$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 2:} una paràbola i una recta (igualació)}
+Resolem el sistema
+
+\[
+\begin{cases}
+y=x^2-4x+3\\
+y=x-1
+\end{cases}
+\]
+
+\begin{enumerate}
+\item Les dues equacions ja tenen $y$ aïllada. Igualem les dues expressions:
+
+\[
+\begin{aligned}
+x^2-4x+3&=x-1\\
+x^2-5x+4&=0
+\end{aligned}
+\]
+
+\[
+\begin{aligned}x&=\frac{5\pm\sqrt{25-16}}{2}=\frac{5\pm 3}{2}\\ &\Rightarrow\; x_1=4,\quad x_2=1\end{aligned}
+\]
+\item Calculem $y=x-1$ per a cada valor:
+
+\begin{itemize}
+\item $x_1=4 \;\Rightarrow\; y_1=3$
+\item $x_2=1 \;\Rightarrow\; y_2=0$
+\end{itemize}
+\end{enumerate}
+
+El sistema té dues solucions: $(4,3)$ i $(1,0)$.
+
+Gràficament, la primera equació és una paràbola i la segona una recta, i les solucions del sistema són els seus \textbf{punts de tall}, $(1,0)$ i $(4,3)$. Ho pots veure al Laboratori d'equacions escrivint $x^2-4x+3$ i $x-1$ als dos membres: les abscisses dels punts de tall són les solucions de $x^2-4x+3=x-1$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 3:} un producte d'incògnites i una biquadrada (substitució)}
+Resolem el sistema
+
+\[
+\begin{cases}
+x^2+y^2=13\\
+xy=6
+\end{cases}
+\]
+
+\begin{enumerate}
+\item Aïllem $y$ a la segona equació: $y=\dfrac{6}{x}$. Podem dividir per $x$ perquè $x\neq 0$: si fos $x=0$, la segona equació diria $0=6$.
+\item Substituïm a la primera equació i multipliquem per $x^2$:
+
+\[
+\begin{aligned}
+x^2+\frac{36}{x^2}&=13\\
+x^4+36&=13x^2\\
+x^4-13x^2+36&=0
+\end{aligned}
+\]
+
+És una equació biquadrada. Amb el canvi $t=x^2$:
+
+\[
+\begin{aligned}t^2-13t+36=0 \;&\Rightarrow\; t=\frac{13\pm 5}{2}\\ &\Rightarrow\; t_1=9,\quad t_2=4\end{aligned}
+\]
+
+i, desfent el canvi, $x=\pm 3$ i $x=\pm 2$.
+\item Calculem $y=\dfrac{6}{x}$ per a cada valor:
+
+\begin{itemize}
+\item $x=3 \Rightarrow y=2$, $\quad x=-3 \Rightarrow y=-2$
+\item $x=2 \Rightarrow y=3$, $\quad x=-2 \Rightarrow y=-3$
+\end{itemize}
+\end{enumerate}
+
+El sistema té quatre solucions: $(3,2)$, $(-3,-2)$, $(2,3)$ i $(-2,-3)$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 4:} una equació irracional (substitució)}
+Resolem el sistema
+
+\[
+\begin{cases}
+x-y=1\\
+\sqrt{x+y}+y=7
+\end{cases}
+\]
+
+\begin{enumerate}
+\item Aïllem $x$ a la primera equació: $x=y+1$.
+\item Substituïm a la segona equació. Aïllem l'arrel i elevem al quadrat:
+
+\[
+\begin{aligned}
+\sqrt{2y+1}+y&=7\\
+\sqrt{2y+1}&=7-y\\
+2y+1&=49-14y+y^2\\
+y^2-16y+48&=0
+\end{aligned}
+\]
+
+\[
+\begin{aligned}y&=\frac{16\pm\sqrt{256-192}}{2}=\frac{16\pm 8}{2}\\ &\Rightarrow\; y_1=12,\quad y_2=4\end{aligned}
+\]
+\item Calculem $x=y+1$: obtenim els parells $(13,12)$ i $(5,4)$.
+\item \textbf{Comprovació.} Hem elevat al quadrat, així que comprovem les dues candidates a la segona equació, $\sqrt{x+y}+y=7$ (la primera es compleix sempre, perquè hem calculat $x=y+1$):
+
+\[
+\begin{aligned}
+(13,12)\text{: }&\sqrt{13+12}+12=5+12=17\neq 7\\
+(5,4)\text{: }&\sqrt{5+4}+4=3+4=7
+\end{aligned}
+\]
+
+El parell $(13,12)$ és una solució falsa, que ha aparegut en elevar al quadrat. El parell $(5,4)$ sí que és solució.
+\end{enumerate}
+
+El sistema té una única solució: $(5,4)$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 5:} equacions exponencials}
+Resolem el sistema
+
+\[
+\begin{cases}
+2^x\cdot 2^y=32\\
+3^x=3\cdot 3^y
+\end{cases}
+\]
+
+\begin{enumerate}
+\item Transformem cada equació amb les propietats de les potències i la igualació de potències:
+
+\[
+\begin{aligned}
+2^x\cdot 2^y=2^{x+y}=2^5 &\;\Rightarrow\; x+y=5\\
+3^x=3^{1+y} &\;\Rightarrow\; x=1+y
+\end{aligned}
+\]
+\item Ens queda un sistema lineal. Substituïm $x=1+y$ a la primera equació:
+
+\[
+1+y+y=5 \;\Rightarrow\; 2y=4 \;\Rightarrow\; y=2
+\]
+
+i, per tant, $x=1+2=3$.
+\end{enumerate}
+
+El sistema té una única solució: $(3,2)$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 6:} equacions logarítmiques (substitució)}
+Resolem el sistema
+
+\[
+\begin{cases}
+\log x+\log y=2\\
+x-y=15
+\end{cases}
+\]
+
+\begin{enumerate}
+\item A la primera equació apliquem la propietat del producte i la definició de logaritme:
+
+\[
+\log(xy)=2 \;\Rightarrow\; xy=10^2=100
+\]
+\item Aïllem $x$ a la segona equació, $x=y+15$, i substituïm:
+
+\[
+\begin{aligned}
+(y+15)\,y&=100\\
+y^2+15y-100&=0
+\end{aligned}
+\]
+
+\[
+\begin{aligned}y&=\frac{-15\pm\sqrt{225+400}}{2}\\ &=\frac{-15\pm 25}{2}\\ &\Rightarrow\; y_1=5,\quad y_2=-20\end{aligned}
+\]
+\item Calculem $x=y+15$: obtenim els parells $(20,5)$ i $(-5,-20)$.
+\item \textbf{Comprovació.} Els arguments dels logaritmes han de ser positius. Substituïm cada parell a la primera equació, $\log x+\log y=2$:
+
+\[
+\begin{aligned}
+(20,5)\text{: }&\log 20+\log 5=\log 100=2\\
+(-5,-20)\text{: }&\log(-5)\ \text{no existeix}
+\end{aligned}
+\]
+
+El parell $(20,5)$ és solució (també compleix $20-5=15$). El parell $(-5,-20)$ no ho és.
+\end{enumerate}
+
+El sistema té una única solució: $(20,5)$.
+\end{exemple}
+
+\subsection{Taula resum}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{lYY}
+\toprule
+\textbf{Mètode} & \textbf{Com es fa} & \textbf{Quan és útil} \\
+\midrule
+Substitució & S'aïlla una incògnita en una equació i se substitueix a l'altra & Quan una incògnita és fàcil d'aïllar (equacions de primer grau, $xy=k$...) \\
+Igualació & S'aïlla la mateixa incògnita a les dues equacions i s'igualen & Quan la mateixa incògnita ja és aïllada, o és fàcil d'aïllar, a les dues equacions \\
+En tots dos casos & S'obté una equació amb una incògnita; es calculen els parells $(x,y)$ & Cal comprovar les solucions si s'ha elevat al quadrat, s'ha multiplicat per una expressió amb incògnites o hi ha logaritmes \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Inequacions}
+
+\subsection{Què és una inequació}
+
+\begin{definicio}{Definició: inequació}
+Una \textbf{inequació} és una desigualtat entre dues expressions algebraiques en què apareix una incògnita. Fem servir els signes $<$, $\leq$, $>$ i $\geq$.
+
+Una \textbf{solució} d'una inequació és un valor de la incògnita que fa certa la desigualtat. \textbf{Resoldre} la inequació vol dir trobar \textbf{totes} les solucions.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} la inequació $2x+1>7$}
+Provem alguns valors:
+
+\[
+\begin{aligned}
+x=5&:\quad 2\cdot 5+1=11>7 &&\text{(és solució)}\\
+x=3&:\quad 2\cdot 3+1=7\not>7 &&\text{(no és solució)}\\
+x=1&:\quad 2\cdot 1+1=3\not>7 &&\text{(no és solució)}
+\end{aligned}
+\]
+
+De fet, són solució \textbf{tots} els nombres més grans que $3$. La inequació té infinites solucions, que escrivim amb un interval: $(3,+\infty)$.
+\end{exemple}
+
+A diferència de les equacions, que normalment tenen un nombre finit de solucions, les inequacions solen tenir-ne infinites. Per això les escrivim amb intervals o unions d'intervals. Recordem que:
+
+\begin{itemize}
+\item Amb $<$ o $>$, l'extrem \textbf{no} hi és inclòs i fem servir un parèntesi: $x<4 \Rightarrow (-\infty,4)$.
+\item Amb $\leq$ o $\geq$, l'extrem \textbf{sí} que hi és inclòs i fem servir un claudàtor: $x\leq 4 \Rightarrow (-\infty,4]$.
+\item Per als extrems $-\infty$ i $+\infty$ sempre fem servir parèntesis.
+\end{itemize}
+
+\subsection{Inequacions de primer grau}
+
+Les inequacions de primer grau es resolen com les equacions de primer grau: traiem parèntesis i denominadors, agrupem els termes amb $x$ en un membre i aïllem la $x$. Les transformacions que podem fer són:
+
+\begin{itemize}
+\item \textbf{Sumar o restar} el mateix nombre o expressió als dos membres: la desigualtat \textbf{no canvia}.
+\item \textbf{Multiplicar o dividir} els dos membres per un nombre \textbf{positiu}: la desigualtat \textbf{no canvia}.
+\item \textbf{Multiplicar o dividir} els dos membres per un nombre \textbf{negatiu}: la desigualtat \textbf{canvia de sentit}.
+\end{itemize}
+
+\begin{compte}{Compte: multiplicar o dividir per un nombre negatiu}
+Sabem que $2<3$. Si multipliquem els dos nombres per $-1$, obtenim $-2$ i $-3$, i ara és $-2$ el més gran:
+
+\[
+2<3 \quad\Rightarrow\quad -2>-3
+\]
+
+A la recta real, canviar el signe és com mirar-se en un mirall col·locat al $0$: l'ordre dels nombres s'inverteix. Per això, \textbf{quan multipliquem o dividim per un nombre negatiu, hem de girar la desigualtat}: $<$ passa a ser $>$, i $\leq$ passa a ser $\geq$ (i al revés).
+\end{compte}
+
+\begin{exemple}{\textbf{Exemple 1:} $3x-2\leq 10$}
+Passem el $-2$ a l'altre membre i dividim per $3$:
+
+\[
+\begin{aligned}
+3x-2&\leq 10\\
+3x&\leq 12\\
+x&\leq \frac{12}{3}=4
+\end{aligned}
+\]
+
+Hem dividit per $3$, que és \textbf{positiu}, i per tant la desigualtat \textbf{no} canvia. La solució és
+
+\[
+(-\infty,4].
+\]
+
+Comprovem-ho amb un valor de dins de l'interval i un de fora:
+
+\[
+\begin{aligned}
+x=0&:\quad 3\cdot 0-2=-2\leq 10 &&\text{(és solució)}\\
+x=5&:\quad 3\cdot 5-2=13\not\leq 10 &&\text{(no és solució)}
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 2:} $2(x-3)\leq 5x+3$}
+Traiem el parèntesi i agrupem:
+
+\[
+\begin{aligned}
+2x-6&\leq 5x+3\\
+2x-5x&\leq 3+6\\
+-3x&\leq 9
+\end{aligned}
+\]
+
+Ara hem de dividir per $-3$, que és \textbf{negatiu}: \textbf{girem la desigualtat}.
+
+\[
+x\geq \frac{9}{-3}=-3
+\]
+
+La solució és
+
+\[
+[-3,+\infty).
+\]
+
+Comprovem-ho amb un valor de dins de l'interval i un de fora:
+
+\[
+\begin{aligned}
+x=0&:\quad 2(0-3)\overset{?}{\leq} 5\cdot 0+3\\
+&\Rightarrow\; -6\leq 3 \quad\text{(és solució)}\\[6pt]
+x=-4&:\quad 2(-4-3)\overset{?}{\leq} 5(-4)+3\\
+&\Rightarrow\; -14\not\leq -17 \quad\text{(no és solució)}
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{propietat}{Per no haver de girar la desigualtat}
+Podem agrupar els termes amb $x$ al membre on el coeficient queda positiu. A l'exemple 2:
+
+\[
+\begin{aligned}
+2x-6&\leq 5x+3\\
+-6-3&\leq 5x-2x\\
+-9&\leq 3x\\
+-3&\leq x
+\end{aligned}
+\]
+
+Obtenim el mateix resultat, $x\geq -3$, sense haver dividit per cap nombre negatiu.
+\end{propietat}
+
+\subsubsection{Una altra manera de mirar-ho}
+
+Tornem a la inequació de l'exemple 1, $3x-2\leq 10$. Si passem el $10$ a l'esquerra, obtenim la inequació equivalent
+
+\[
+3x-12\leq 0.
+\]
+
+Si dibuixem la recta $y=3x-12$, les solucions són els valors de $x$ on la recta és \textbf{per sota} de l'eix $OX$ o el toca:
+
+\begin{nota}{Com llegim les gràfiques d'aquest apartat}
+\begin{itemize}
+\item \mostracorba{} Tros de la gràfica que \textbf{compleix} la desigualtat.
+\item \mostrainterval{} \textbf{Solució}, marcada sobre l'eix $OX$.
+\item \mostraple{} Punt \textbf{ple}: l'extrem \textbf{hi és inclòs} ($\leq$ o $\geq$).
+\item \mostrabuit{} Punt \textbf{buit}: l'extrem \textbf{no hi és inclòs} ($<$ o $>$).
+\end{itemize}
+\end{nota}
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-1.5, xmax=7.5, ymin=-14, ymax=8]
+\addplot[g-corba, domain=-1.5:7.5, samples=160] {0.0*x^2 + 3.0*x + -12.0};
+\addplot[g-solcorba, domain=-1.5:4, samples=100] {0.0*x^2 + 3.0*x + -12.0};
+\draw[g-interval] (axis cs:-1.5,0) -- (axis cs:4,0);
+\draw[g-ple] (axis cs:4,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:4,0) {$4$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+Aquesta idea, mirar on la gràfica és per sobre o per sota de l'eix $OX$, és la que farem servir per resoldre les inequacions de segon grau.
+
+\subsection{Inequacions de segon grau}
+
+Una inequació és de \textbf{segon grau} quan, passant tots els termes a un membre i simplificant, la podem escriure en la \textbf{forma canònica}
+
+\[
+ax^2+bx+c<0, \qquad a\neq 0,
+\]
+
+o bé la mateixa expressió amb $\leq$, $>$ o $\geq$.
+
+El primer pas sempre és portar la inequació a aquesta forma, deixant un $0$ en un dels membres. Per exemple:
+
+\[
+2x^2\geq x+3 \quad\Rightarrow\quad 2x^2-x-3\geq 0.
+\]
+
+\begin{definicio}{Idea clau}
+La gràfica de $y=ax^2+bx+c$ és una \textbf{paràbola}. Per tant:
+
+\begin{itemize}
+\item $ax^2+bx+c>0$ vol dir buscar on la paràbola és \textbf{per sobre} de l'eix $OX$.
+\item $ax^2+bx+c<0$ vol dir buscar on la paràbola és \textbf{per sota} de l'eix $OX$.
+\item Amb $\geq$ o $\leq$, també hi afegim els punts on la paràbola \textbf{talla} l'eix $OX$.
+\end{itemize}
+\end{definicio}
+
+Per saber on és per sobre i on és per sota, en tenim prou de conèixer dues coses: la \textbf{forma} de la paràbola i els seus \textbf{punts de tall} amb l'eix $OX$.
+
+\subsubsection{La forma de la paràbola}
+
+\begin{definicio}{Forma de la paràbola segons el signe de $a$}
+\begin{itemize}
+\item Si $a>0$, la paràbola és \textbf{còncava} ($\cup$): és oberta cap amunt i les dues branques pugen.
+\item Si $a<0$, la paràbola és \textbf{convexa} ($\cap$): és oberta cap avall i les dues branques baixen.
+\end{itemize}
+\end{definicio}
+
+\begin{center}
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.92\linewidth, height=0.5*0.92\linewidth, xmin=-3, xmax=5, ymin=-5, ymax=6]
+\addplot[g-corba, domain=-3:5, samples=160] {1.0*x^2 + -2.0*x + -3.0};
+\fill[g-arrel] (axis cs:-1,0) circle[radius=2.2pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:-1,0) {$-1$};
+\fill[g-arrel] (axis cs:3,0) circle[radius=2.2pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:3,0) {$3$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+$y=x^2-2x-3$: $a=1>0$, còncava ($\cup$)
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.92\linewidth, height=0.5*0.92\linewidth, xmin=-3, xmax=5, ymin=-6, ymax=5]
+\addplot[g-corba, domain=-3:5, samples=160] {-1.0*x^2 + 2.0*x + 3.0};
+\fill[g-arrel] (axis cs:-1,0) circle[radius=2.2pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:-1,0) {$-1$};
+\fill[g-arrel] (axis cs:3,0) circle[radius=2.2pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:3,0) {$3$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+$y=-x^2+2x+3$: $a=-1<0$, convexa ($\cap$)
+\end{minipage}
+\end{center}
+
+Per què depèn només de $a$? Quan $x$ és molt gran (positiu o negatiu), el terme $ax^2$ és molt més gran que els altres i decideix el signe. Com que $x^2$ sempre és positiu, el signe de $ax^2+bx+c$ per a valors grans de $x$ és el signe de $a$.
+
+\begin{nota}{Compte amb els noms}
+No tots els llibres fan servir el mateix conveni: n'hi ha que diuen \emph{convexa} a la forma $\cup$ i \emph{còncava} a la forma $\cap$. Per evitar confusions, sempre podem dir \textbf{oberta cap amunt} o \textbf{oberta cap avall}.
+\end{nota}
+
+\subsubsection{\texorpdfstring{Els punts de tall amb l'eix $OX$}{Els punts de tall amb l'eix OX}}
+
+Els punts de tall són les solucions de l'equació $ax^2+bx+c=0$. Depenen del signe del discriminant $\Delta=b^2-4ac$:
+
+\begin{itemize}
+\item Si $\Delta>0$, la paràbola talla l'eix $OX$ en \textbf{dos punts}.
+\item Si $\Delta<0$, la paràbola \textbf{no talla} l'eix $OX$.
+\item Si $\Delta=0$, la paràbola toca l'eix $OX$ en \textbf{un sol punt}: hi és \textbf{tangent}.
+\end{itemize}
+
+Estudiem cada cas per separat.
+
+\subsection{Cas general: dos punts de tall}
+
+Quan $\Delta>0$, l'equació $ax^2+bx+c=0$ té dues solucions, $x_1<x_2$, i la recta real queda dividida en tres trossos.
+
+\begin{definicio}{Pas a pas}
+\begin{enumerate}
+\item Portem la inequació a la \textbf{forma canònica}: $ax^2+bx+c$ comparat amb $0$.
+\item Mirem el \textbf{signe de $a$}: si $a>0$, la paràbola és $\cup$; si $a<0$, és $\cap$.
+\item Resolem l'equació $ax^2+bx+c=0$ per trobar els \textbf{punts de tall} $x_1<x_2$.
+\item Fem un \textbf{esbós} de la paràbola: talla l'eix $OX$ a $x_1$ i $x_2$ i té la forma del pas 2.
+\item Fem la \textbf{taula de signes}: amb els punts de tall dividim la recta en intervals i hi anotem el signe que llegim a l'esbós ($+$ si la paràbola és per sobre de l'eix, $-$ si és per sota i $0$ als punts de tall). Si no tenim l'esbós, trobem el signe de cada interval calculant el polinomi en un valor qualsevol de dins.
+\item \textbf{Llegim la solució} a la taula: per a $>0$, els intervals amb $+$; per a $<0$, els intervals amb $-$.
+\item Decidim els \textbf{extrems}: amb $\geq$ o $\leq$, els punts de tall (amb signe $0$) hi són inclosos i fem servir claudàtors; amb $>$ o $<$, no hi són inclosos i fem servir parèntesis.
+\end{enumerate}
+\end{definicio}
+
+Si $a>0$ ($\cup$), la paràbola és per sota de l'eix \textbf{entre} les arrels i per sobre \textbf{fora} de les arrels. Si $a<0$ ($\cap$), és al revés.
+
+\begin{exemple}{\textbf{Exemple 1:} $x^2-x-6<0$}
+Ja és en forma canònica. Com que $a=1>0$, la paràbola és \textbf{còncava} ($\cup$). Busquem els punts de tall:
+
+\[
+\begin{aligned}
+x^2-x-6&=0\\
+x&=\frac{1\pm\sqrt{1+24}}{2}=\frac{1\pm 5}{2}\\
+x_1&=-2,\quad x_2=3
+\end{aligned}
+\]
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-4, xmax=5, ymin=-8, ymax=8]
+\addplot[g-corba, domain=-4:5, samples=160] {1.0*x^2 + -1.0*x + -6.0};
+\addplot[g-solcorba, domain=-2:3, samples=100] {1.0*x^2 + -1.0*x + -6.0};
+\draw[g-interval] (axis cs:-2,0) -- (axis cs:3,0);
+\draw[g-buit] (axis cs:-2,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:-2,0) {$-2$};
+\draw[g-buit] (axis cs:3,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:3,0) {$3$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+Fem la taula de signes. Els signes es llegeixen a la gràfica; també els podem trobar amb un valor de prova a cada interval:
+
+\begin{center}
+\begin{tabular}{lccccc}
+\toprule
+$x$ & $(-\infty,-2)$ & $-2$ & $(-2,3)$ & $3$ & $(3,+\infty)$ \\
+\midrule
+Prova & $-3$ &  & $0$ &  & $4$ \\
+$x^2-x-6$ & $6$ & $0$ & $-6$ & $0$ & $6$ \\
+Signe & $+$ & $0$ & $-$ & $0$ & $+$ \\
+$<0$? & no & no & \textbf{sí} & no & no \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Volem que sigui $<0$: ens quedem amb l'interval amb signe $-$, \textbf{entre} les arrels. Com que la desigualtat és estricta, els punts de tall (signe $0$) no hi són inclosos:
+
+\[
+(-2,3)
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 2:} $2x^2\geq x+3$}
+Primer la portem a la forma canònica:
+
+\[
+2x^2-x-3\geq 0
+\]
+
+Com que $a=2>0$, la paràbola és \textbf{còncava} ($\cup$). Busquem els punts de tall:
+
+\[
+\begin{aligned}
+2x^2-x-3&=0\\
+x&=\frac{1\pm\sqrt{1+24}}{4}=\frac{1\pm 5}{4}\\
+x_1&=-1,\quad x_2=\frac32
+\end{aligned}
+\]
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-3, xmax=3.5, ymin=-5, ymax=6]
+\addplot[g-corba, domain=-3:3.5, samples=160] {2.0*x^2 + -1.0*x + -3.0};
+\addplot[g-solcorba, domain=-3:-1, samples=100] {2.0*x^2 + -1.0*x + -3.0};
+\draw[g-interval] (axis cs:-3,0) -- (axis cs:-1,0);
+\addplot[g-solcorba, domain=1.5:3.5, samples=100] {2.0*x^2 + -1.0*x + -3.0};
+\draw[g-interval] (axis cs:1.5,0) -- (axis cs:3.5,0);
+\draw[g-ple] (axis cs:-1,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:-1,0) {$-1$};
+\draw[g-ple] (axis cs:1.5,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:1.5,0) {$3/2$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+Fem la taula de signes:
+
+\begin{center}
+\begin{tabular}{lccccc}
+\toprule
+$x$ & $(-\infty,-1)$ & $-1$ & $(-1,\,3/2)$ & $3/2$ & $(3/2,+\infty)$ \\
+\midrule
+Signe & $+$ & $0$ & $-$ & $0$ & $+$ \\
+$\geq 0$? & \textbf{sí} & \textbf{sí} & no & \textbf{sí} & \textbf{sí} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Volem que sigui $\geq 0$: els intervals amb signe $+$, \textbf{fora} de les arrels, i també els punts de tall (signe $0$), perquè la desigualtat inclou l'igual:
+
+\[
+(-\infty,-1]\cup\left[\frac32,+\infty\right)
+\]
+
+Comprovem-ho amb un valor de dins i un de fora:
+
+\[
+\begin{aligned}
+x=2&:\quad 2\cdot 2^2=8\geq 2+3=5 &&\text{(és solució)}\\
+x=0&:\quad 2\cdot 0^2=0\not\geq 0+3=3 &&\text{(no és solució)}
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 3:} $-x^2+4x-3>0$}
+Ara $a=-1<0$: la paràbola és \textbf{convexa} ($\cap$). Busquem els punts de tall:
+
+\[
+\begin{aligned}
+-x^2+4x-3&=0\\
+x^2-4x+3&=0\\
+x&=\frac{4\pm\sqrt{16-12}}{2}=\frac{4\pm 2}{2}\\
+x_1&=1,\quad x_2=3
+\end{aligned}
+\]
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-1, xmax=5, ymin=-5, ymax=3]
+\addplot[g-corba, domain=-1:5, samples=160] {-1.0*x^2 + 4.0*x + -3.0};
+\addplot[g-solcorba, domain=1:3, samples=100] {-1.0*x^2 + 4.0*x + -3.0};
+\draw[g-interval] (axis cs:1,0) -- (axis cs:3,0);
+\draw[g-buit] (axis cs:1,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:1,0) {$1$};
+\draw[g-buit] (axis cs:3,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:3,0) {$3$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+Fem la taula de signes. Com que la paràbola és oberta cap avall, el signe $+$ ara és \textbf{entre} les arrels:
+
+\begin{center}
+\begin{tabular}{lccccc}
+\toprule
+$x$ & $(-\infty,1)$ & $1$ & $(1,3)$ & $3$ & $(3,+\infty)$ \\
+\midrule
+Signe & $-$ & $0$ & $+$ & $0$ & $-$ \\
+$>0$? & no & no & \textbf{sí} & no & no \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Volem que sigui $>0$: l'interval amb signe $+$, sense els extrems:
+
+\[
+(1,3)
+\]
+
+Comprovem-ho: per a $x=2$ tenim $-4+8-3=1>0$, que és solució; per a $x=0$ tenim $-3\not>0$, que no ho és.
+\end{exemple}
+
+\begin{propietat}{Una altra manera: fer que $a$ sigui positiu}
+Si multipliquem per $-1$ (i \textbf{girem la desigualtat}), l'exemple 3 queda
+
+\[
+-x^2+4x-3>0 \quad\Rightarrow\quad x^2-4x+3<0,
+\]
+
+que té $a>0$. Ara busquem on la paràbola $\cup$ és per sota de l'eix, que és entre les arrels: $(1,3)$. És el mateix resultat.
+\end{propietat}
+
+\begin{exemple}{\textbf{Exemple 4:} $x^2>9$ (incompleta)}
+La forma canònica és $x^2-9>0$, amb $a=1>0$ ($\cup$). Els punts de tall són
+
+\[
+x^2-9=0 \;\Rightarrow\; x^2=9 \;\Rightarrow\; x=\pm 3
+\]
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-6, xmax=6, ymin=-11, ymax=8]
+\addplot[g-corba, domain=-6:6, samples=160] {1.0*x^2 + 0.0*x + -9.0};
+\addplot[g-solcorba, domain=-6:-3, samples=100] {1.0*x^2 + 0.0*x + -9.0};
+\draw[g-interval] (axis cs:-6,0) -- (axis cs:-3,0);
+\addplot[g-solcorba, domain=3:6, samples=100] {1.0*x^2 + 0.0*x + -9.0};
+\draw[g-interval] (axis cs:3,0) -- (axis cs:6,0);
+\draw[g-buit] (axis cs:-3,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:-3,0) {$-3$};
+\draw[g-buit] (axis cs:3,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:3,0) {$3$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+Fem la taula de signes:
+
+\begin{center}
+\begin{tabular}{lccccc}
+\toprule
+$x$ & $(-\infty,-3)$ & $-3$ & $(-3,3)$ & $3$ & $(3,+\infty)$ \\
+\midrule
+Signe & $+$ & $0$ & $-$ & $0$ & $+$ \\
+$>0$? & \textbf{sí} & no & no & no & \textbf{sí} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Volem que sigui $>0$: els intervals amb signe $+$, \textbf{fora} de les arrels:
+
+\[
+(-\infty,-3)\cup(3,+\infty)
+\]
+
+\textbf{Compte:} és un error freqüent escriure «$x>\pm 3$». Per exemple, $x=-4$ és solució, perquè $(-4)^2=16>9$, i en canvi $x=0$ no ho és, perquè $0^2=0\not>9$.
+\end{exemple}
+
+\subsection{Cas sense punts de tall}
+
+Quan $\Delta<0$, l'equació $ax^2+bx+c=0$ no té solució i la paràbola \textbf{no talla} l'eix $OX$. Per tant:
+
+\begin{itemize}
+\item Si $a>0$ ($\cup$), la paràbola és \textbf{sempre per sobre} de l'eix: $ax^2+bx+c>0$ per a qualsevol $x$.
+\item Si $a<0$ ($\cap$), la paràbola és \textbf{sempre per sota} de l'eix: $ax^2+bx+c<0$ per a qualsevol $x$.
+\end{itemize}
+
+La inequació, doncs, o bé es compleix per a \textbf{tots} els nombres reals, o bé \textbf{no té cap solució}.
+
+\begin{exemple}{\textbf{Exemple 5:} $x^2+2x+3>0$}
+Com que $a=1>0$, la paràbola és \textbf{còncava} ($\cup$). Busquem els punts de tall:
+
+\[
+\begin{aligned}
+x^2+2x+3&=0\\
+\Delta&=2^2-4\cdot 1\cdot 3=4-12=-8<0
+\end{aligned}
+\]
+
+No hi ha punts de tall: la paràbola és sempre per sobre de l'eix.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-4, xmax=2, ymin=-2, ymax=8]
+\addplot[g-corba, domain=-4:2, samples=160] {1.0*x^2 + 2.0*x + 3.0};
+\addplot[g-solcorba, domain=-4:2, samples=100] {1.0*x^2 + 2.0*x + 3.0};
+\draw[g-interval] (axis cs:-4,0) -- (axis cs:2,0);
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+Sense punts de tall, la taula té un sol interval, tota la recta:
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+$x$ & $\mathbb{R}$ \\
+\midrule
+Signe & $+$ \\
+$>0$? & \textbf{sí} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+La desigualtat es compleix sempre. La solució és $\mathbb{R}$, és a dir, $(-\infty,+\infty)$.
+
+En canvi, la inequació $x^2+2x+3\leq 0$ \textbf{no té solució}: la paràbola mai és per sota de l'eix ni el toca.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 6:} $-x^2+2x-5\geq 0$}
+Ara $a=-1<0$: la paràbola és \textbf{convexa} ($\cap$). Busquem els punts de tall:
+
+\[
+\begin{aligned}
+-x^2+2x-5&=0\\
+\Delta&=2^2-4\cdot(-1)\cdot(-5)\\
+&=4-20=-16<0
+\end{aligned}
+\]
+
+No hi ha punts de tall: la paràbola és sempre per sota de l'eix.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.62\linewidth, height=0.5*0.62\linewidth, xmin=-2, xmax=4, ymin=-9, ymax=2]
+\addplot[g-corba, domain=-2:4, samples=160] {-1.0*x^2 + 2.0*x + -5.0};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+La taula té un sol interval:
+
+\begin{center}
+\begin{tabular}{lc}
+\toprule
+$x$ & $\mathbb{R}$ \\
+\midrule
+Signe & $-$ \\
+$\geq 0$? & no \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Mai és $\geq 0$, i per tant la inequació \textbf{no té solució}. Ho escrivim $\varnothing$ (conjunt buit).
+
+En canvi, $-x^2+2x-5<0$ es compleix per a tots els nombres reals: la solució és $\mathbb{R}$.
+\end{exemple}
+
+\subsection{\texorpdfstring{Cas tangent a l'eix $OX$}{Cas tangent a l'eix OX}}
+
+Quan $\Delta=0$, l'equació $ax^2+bx+c=0$ té una sola solució (doble), $x_0$. La paràbola \textbf{toca} l'eix $OX$ en aquest punt, que és el vèrtex, però \textbf{no el travessa}: a banda i banda de $x_0$ queda sempre al mateix costat de l'eix.
+
+\begin{exemple}{\textbf{Exemple 7:} $x^2-4x+4$ comparat amb $0$}
+Com que $a=1>0$, la paràbola és \textbf{còncava} ($\cup$). Busquem els punts de tall:
+
+\[
+\begin{aligned}
+x^2-4x+4&=0\\
+\Delta&=(-4)^2-4\cdot 1\cdot 4=16-16=0\\
+x&=\frac{4}{2}=2 \quad\text{(arrel doble)}
+\end{aligned}
+\]
+
+De fet, $x^2-4x+4=(x-2)^2$. La paràbola toca l'eix a $x=2$ i, a la resta de punts, és per sobre. A la taula de signes es veu que el signe \textbf{no canvia} en passar per l'arrel doble:
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+$x$ & $(-\infty,2)$ & $2$ & $(2,+\infty)$ \\
+\midrule
+Signe & $+$ & $0$ & $+$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{center}
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.92\linewidth, height=0.5*0.92\linewidth, xmin=-1, xmax=5, ymin=-2, ymax=6]
+\addplot[g-corba, domain=-1:5, samples=160] {1.0*x^2 + -4.0*x + 4.0};
+\addplot[g-solcorba, domain=-1:2, samples=100] {1.0*x^2 + -4.0*x + 4.0};
+\draw[g-interval] (axis cs:-1,0) -- (axis cs:2,0);
+\addplot[g-solcorba, domain=2:5, samples=100] {1.0*x^2 + -4.0*x + 4.0};
+\draw[g-interval] (axis cs:2,0) -- (axis cs:5,0);
+\draw[g-buit] (axis cs:2,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:2,0) {$2$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+$x^2-4x+4>0$
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\centering
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[grafica, width=0.92\linewidth, height=0.5*0.92\linewidth, xmin=-1, xmax=5, ymin=-2, ymax=6]
+\addplot[g-corba, domain=-1:5, samples=160] {1.0*x^2 + -4.0*x + 4.0};
+\draw[g-ple] (axis cs:2,0) circle[radius=2.4pt];
+\node[below=3pt, font=\scriptsize, fill=white, inner sep=1pt] at (axis cs:2,0) {$2$};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+$x^2-4x+4\leq 0$
+\end{minipage}
+\end{center}
+
+Segons la desigualtat, obtenim quatre resultats diferents:
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule
+\textbf{Inequació} & \textbf{Què llegim a la taula?} & \textbf{Solució} \\
+\midrule
+${x^2-4x+4>0}$ & signe $+$ & ${\mathbb{R}\setminus\{2\}}$, és a dir, $(-\infty,2)\cup(2,+\infty)$ \\
+${x^2-4x+4\geq 0}$ & signe $+$ o $0$ & $\mathbb{R}$ \\
+${x^2-4x+4<0}$ & cap signe $-$ & no té solució ($\varnothing$) \\
+${x^2-4x+4\leq 0}$ & només el $0$, a $x=2$ & $x=2$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple 8:} $-x^2+6x-9\geq 0$}
+Ara $a=-1<0$ ($\cap$) i
+
+\[
+\begin{aligned}
+-x^2+6x-9&=0\\
+x^2-6x+9&=0\\
+(x-3)^2&=0 \;\Rightarrow\; x=3
+\end{aligned}
+\]
+
+La paràbola és per sota de l'eix i només el toca a $x=3$:
+
+\begin{center}
+\begin{tabular}{lccc}
+\toprule
+$x$ & $(-\infty,3)$ & $3$ & $(3,+\infty)$ \\
+\midrule
+Signe & $-$ & $0$ & $-$ \\
+$\geq 0$? & no & \textbf{sí} & no \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+L'únic punt on és $\geq 0$ és el de tangència, i la solució és $x=3$.
+\end{exemple}
+
+\begin{nota}{Compte amb l'igual}
+En el cas tangent, el punt $x_0$ és solució només si la desigualtat inclou l'igual ($\geq$ o $\leq$). Amb $>$ o $<$ l'hem de treure.
+\end{nota}
+
+\subsection{Taula resum}
+
+Escrivim $p(x)=ax^2+bx+c$. Per a $a>0$ (paràbola $\cup$), amb arrels $x_1<x_2$ quan $\Delta>0$ i arrel doble $x_0$ quan $\Delta=0$:
+
+\begin{center}
+\begin{tabular}{llll}
+\toprule
+ & ${\Delta>0}$ & ${\Delta=0}$ & ${\Delta<0}$ \\
+\midrule
+${p(x)>0}$ & $(-\infty,x_1)\cup(x_2,+\infty)$ & ${\mathbb{R}\setminus\{x_0\}}$ & $\mathbb{R}$ \\
+${p(x)\geq 0}$ & $(-\infty,x_1]\cup[x_2,+\infty)$ & $\mathbb{R}$ & $\mathbb{R}$ \\
+${p(x)<0}$ & $(x_1,x_2)$ & $\varnothing$ & $\varnothing$ \\
+${p(x)\leq 0}$ & $[x_1,x_2]$ & només ${x_0}$ & $\varnothing$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Si $a<0$, podem multiplicar per $-1$ i girar la desigualtat per tornar a aquesta taula. De tota manera, més que memoritzar la taula, és millor fer sempre un \textbf{esbós de la paràbola} i llegir-hi la solució.
+
+\begin{propietat}{I si el grau és més gran?}
+Per a inequacions polinòmiques de grau més gran que $2$, factoritzem el polinomi i estudiem el seu signe en cada interval. Ho fem a l'apartat de càlcul de dominis.
+\end{propietat}
+
+\section{Nota històrica}
+
+La història de la resolució d'equacions és, en essència, la història de l'àlgebra: l'esforç continu de la humanitat per trobar valors desconeguts a partir de relacions conegudes, un pilar fonamental del pensament científic i tecnològic.
+
+Els primers intents es remunten a les civilitzacions antigues. Els \textbf{babilonis} (cap al 1800 aC) ja resolien problemes pràctics de repartiment de terres o herències que, en termes moderns, equivalen a \textbf{equacions lineals i quadràtiques}, mitjançant receptes algorítmiques, sense la notació simbòlica que fem servir avui. Els grecs, com Euclides i Diofant, van abordar aquests problemes des d'un punt de vista més geomètric.
+
+El pas decisiu cap a l'àlgebra com a disciplina es va donar al \textbf{món arabo-islàmic medieval}. Al segle IX, el matemàtic persa \textbf{Al-Khwarizmí} (d'on prové la paraula "algoritme") va escriure el tractat \emph{Al-Jabr} (d'on prové "àlgebra"), amb mètodes sistemàtics per resoldre equacions lineals i quadràtiques. El seu enfocament, que buscava mètodes generals, va marcar l'inici de l'àlgebra abstracta.
+
+El següent gran salt es va produir a la \textbf{Itàlia del Renaixement} (segle XVI), amb una de les històries més dramàtiques de les matemàtiques: la resolució de les \textbf{equacions cúbiques i quàrtiques}. Matemàtics com \textbf{Tartaglia} i \textbf{Cardano} van trobar la fórmula general per a les equacions de grau 3, i \textbf{Ferrari}, alumne de Cardano, la de grau 4. Irònicament, la fórmula de la cúbica va forçar matemàtics com \textbf{Bombelli} a treballar amb arrels quadrades de nombres negatius, donant el primer impuls al naixement dels nombres complexos.
+
+Durant segles es va buscar una fórmula similar (basada en arrels) per a les equacions de grau 5. El misteri no es va resoldre fins al segle XIX, quan \textbf{Ruffini} i, de manera concloent, \textbf{Niels Henrik Abel}, van demostrar que aquesta fórmula general no existeix. Poc després, \textbf{Évariste Galois} va desenvolupar una teoria que explicava exactament per què algunes equacions polinòmiques tenen solució per radicals i d'altres no, canviant el focus de l'àlgebra de "trobar solucions" a "entendre l'estructura".
+
+Paral·lelament, la necessitat de simplificar càlculs complexos en astronomia i navegació va portar, al segle XVII, \textbf{John Napier} a inventar els \textbf{logaritmes}: un avenç revolucionari, ja que convertia multiplicacions i divisions (feixugues) en sumes i restes. Les \textbf{equacions exponencials} van sorgir com la relació inversa dels logaritmes, i va ser \textbf{Leonhard Euler}, al segle XVIII, qui va consolidar la relació entre les funcions exponencials, logarítmiques i trigonomètriques, donant-los la seva forma moderna.
+
+Avui aquestes equacions són el llenguatge bàsic de la ciència: les polinòmiques descriuen trajectòries; les racionals, relacions i proporcions; les irracionals, distàncies i temps; i les exponencials i logarítmiques modelen tot allò que creix o decreix de forma proporcional a la seva mida, des de la demografia i les finances fins a la desintegració radioactiva o l'escala de pH.

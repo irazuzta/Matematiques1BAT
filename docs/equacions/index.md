@@ -13,6 +13,12 @@ El mètode de resolució canvia segons el tipus d'equació, però la idea de fon
 - [Inequacions](06_inequacions.md) — inequacions de primer grau i de segon grau, resoltes amb la gràfica de la paràbola.
 - [Nota històrica](04_nota_historica.md) — de Babilònia a Galois: la història de la resolució d'equacions.
 
+<div class="no-print" markdown="1">
+
+**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/3_equacions.pdf), amb índex i paginació, a punt per imprimir a doble cara.
+
+</div>
+
 ## Per practicar
 
 - [Exercicis i problemes](practicar/index.md) — relació d'exercicis de tot el bloc, ordenada com els apartats, amb blocs de sistemes i d'inequacions, problemes on apareixen els diferents tipus d'equacions i inequacions, i exercicis extrets de les PAU. Cada exercici té la solució pas a pas plegada. També es pot descarregar en PDF amb solucions.

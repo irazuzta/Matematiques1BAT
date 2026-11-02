@@ -1,0 +1,7 @@
+# Fitxers intermedis de LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+tex/**/*.pdf

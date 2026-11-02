@@ -1,0 +1,668 @@
+% Contingut generat per llibre/llibre.py a partir de docs/algebra/.
+% No l'editis a mà: torna'l a generar.
+
+\chapter{Àlgebra}
+
+En aquest bloc treballarem els polinomis: què són, com s'operen i com es factoritzen. Aquestes eines seran clau més endavant per resoldre equacions i inequacions.
+
+\section{Polinomis}
+
+\subsection{Definició}
+
+Ja coneixes els polinomis de cursos anteriors. En aquest apartat revisarem conceptes ja coneguts amb més formalitat matemàtica.
+
+\begin{definicio}{Definició: polinomi}
+Un \textbf{polinomi} amb variable $x$ i coeficients reals és una expressió de la forma
+
+\[
+\begin{aligned}
+p(x) &= \sum_{i=0}^{n} a_i x^i \\
+&= a_n x^n + a_{n-1}x^{n-1} + \dots + a_1 x + a_0
+\end{aligned}
+\]
+
+on $n\in\mathbb{N}$, els coeficients $a_0,a_1,\dots,a_n \in \mathbb{R}$, i $a_n \neq 0$.
+
+\begin{itemize}
+\item $a_n$ s'anomena \textbf{coeficient principal}, i $n$ el \textbf{grau} del polinomi ($\text{grau}(p)=n$).
+\item $a_0$ s'anomena \textbf{terme independent}.
+\item Cada sumand $a_i x^i$ s'anomena \textbf{terme} (o \textbf{monomi}) del polinomi.
+\end{itemize}
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Un polinomi de grau 4}
+\[
+p(x) = 3x^4 - 2x^3 + x^2 - 5x + 6
+\]
+
+És un polinomi de grau $4$, amb coeficient principal $a_4=3$ i terme independent $a_0=6$. En notació de sumatori:
+
+\[
+\begin{aligned}
+p(x) &= \sum_{i=0}^{4} a_i x^i, \\
+&\qquad a_4=3,\ a_3=-2,\ a_2=1,\ a_1=-5,\ a_0=6
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{nota}{Termes que falten}
+Si un polinomi no té algun terme (per exemple, $p(x)=x^3-5$ no té terme de grau $2$ ni de grau $1$), es considera que els coeficients dels termes que falten valen $0$.
+\end{nota}
+
+\subsection{Valor d'un polinomi en un punt}
+
+Sovint necessitem saber quant val un polinomi per a un valor concret d'$x$. Això ho anomenem \textbf{avaluar} el polinomi en $a$.
+
+\begin{definicio}{Definició: valor d'un polinomi en $x=a$}
+Avaluar un polinomi $p(x)$ en $x=a$ vol dir substituir $x$ per $a$ i calcular el resultat. El valor obtingut es denota $p(a)$.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Avaluació d'un polinomi}
+Sigui $p(x) = 2x^3-x^2+3$. Calculem $p(2)$:
+
+\[
+p(2) = 2\cdot 2^3 - 2^2 + 3 = 16-4+3 = 15
+\]
+
+Per tant, $p(2)=15$.
+\end{exemple}
+
+Aquest concepte el farem servir sovint més endavant, per exemple per comprovar si un valor és arrel d'un polinomi (és a dir, si $p(a)=0$).
+
+\subsection{Suma i resta de polinomis}
+
+\begin{definicio}{Definició: suma i resta de polinomis}
+Siguin $p(x)=\displaystyle\sum_{i=0}^n a_i x^i$ i $q(x)=\displaystyle\sum_{i=0}^m b_i x^i$ dos polinomis i $k=\max(n,m)$. Si cal, completem amb coeficients $0$ els graus que no tinguin terme fins al grau màxim dels polinomis. Definim
+
+\[
+(p+q)(x) = p(x)+q(x) = \sum_{i=0}^k (a_i+b_i)\,x^i
+\]
+
+\[
+(p-q)(x) = p(x)-q(x) = \sum_{i=0}^k (a_i-b_i)\,x^i
+\]
+
+És a dir, sumem (o restem) els coeficients dels termes del mateix grau (termes semblants). El polinomi resultant té grau \textbf{com a màxim} $k$: si els coeficients principals es cancel·len, el grau disminueix. Si tots els termes es cancel·len, obtenim el polinomi zero, al qual no assignarem cap grau en aquests apunts.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Suma de polinomis}
+Siguin $p(x)=2x^4-3x^3+x-5$ i $q(x)=x^4+2x^3-4x^2+3$. Agrupem termes semblants:
+
+\[
+\begin{aligned}
+p(x)+q(x) &= (2x^4+x^4) + (-3x^3+2x^3) + (-4x^2) + (x) + (-5+3) \\
+&= 3x^4 - x^3 - 4x^2 + x - 2
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Resta de polinomis}
+Amb els mateixos $p(x)$ i $q(x)$: el signe $-$ afecta tots els termes del segon polinomi, així que primer el distribuïm canviant el signe de cada terme de $q(x)$:
+
+\[
+\begin{aligned}
+p(x)-q(x) &= (2x^4-3x^3+x-5) - (x^4+2x^3-4x^2+3) \\
+&= 2x^4-3x^3+x-5 - x^4-2x^3+4x^2-3
+\end{aligned}
+\]
+
+Ara agrupem termes semblants:
+
+\[
+\begin{aligned}
+p(x)-q(x) &= (2x^4-x^4) + (-3x^3-2x^3) + (4x^2) + (x) + (-5-3) \\
+&= x^4 - 5x^3 + 4x^2 + x - 8
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{nota}{Compte amb el signe}
+En restar, és fàcil oblidar canviar el signe d'algun terme del segon polinomi. Comprova sempre que cada terme de $q(x)$ ha canviat de signe abans d'agrupar.
+\end{nota}
+
+\subsection{Multiplicació de polinomis}
+
+Per multiplicar dos polinomis, apliquem la \textbf{propietat distributiva}: multipliquem cada terme del primer per cada terme del segon, i després agrupem termes semblants.
+
+\begin{exemple}{\textbf{Exemple:} Multiplicació de polinomis}
+Multipliquem $p(x)=2x^2-x+3$ per $q(x)=x-4$:
+
+\[
+\begin{aligned}
+p(x)\cdot q(x) &= (2x^2-x+3)(x-4) \\
+&= 2x^2\cdot x + 2x^2\cdot(-4) - x\cdot x - x\cdot(-4) \\
+&\quad + 3\cdot x + 3\cdot(-4) \\
+&= 2x^3 - 8x^2 - x^2 + 4x + 3x - 12 \\
+&= 2x^3 - 9x^2 + 7x - 12
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{propietat}{Propietat: grau del producte}
+Si $\text{grau}(p)=n$ i $\text{grau}(q)=m$, aleshores $\text{grau}(p\cdot q)=n+m$.
+
+En l'exemple anterior: $\text{grau}(p)=2$, $\text{grau}(q)=1$, i el producte té grau $2+1=3$, tal com esperàvem.
+\end{propietat}
+
+\subsection{Identitats notables}
+
+Hi ha tres casos de multiplicació de polinomis que apareixen tan sovint que val la pena reconèixer-los i calcular-los directament, sense haver de fer tota la distributiva.
+
+\begin{definicio}{Definició: les tres identitats notables}
+Per a qualssevol expressions $a$ i $b$:
+
+\begin{itemize}
+\item \textbf{Quadrat d'una suma:} $(a+b)^2=a^2+2ab+b^2$
+\item \textbf{Quadrat d'una diferència:} $(a-b)^2=a^2-2ab+b^2$
+\item \textbf{Suma per diferència:} $(a+b)(a-b)=a^2-b^2$
+\end{itemize}
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Aplicació directa}
+\[
+(x+3)^2=x^2+6x+9
+\]
+
+\[
+(x-5)^2=x^2-10x+25
+\]
+
+\[
+(x+4)(x-4)=x^2-16
+\]
+\end{exemple}
+
+\begin{propietat}{Quan $a$ o $b$ porten coeficient o exponent}
+Si $a$ (o $b$) és ell mateix un monomi amb coeficient i/o exponent, cal elevar-lo \textbf{sencer} al quadrat, aplicant les propietats de les potències: $\left(k\cdot x^n\right)^2=k^2\cdot x^{2n}$.
+\end{propietat}
+
+\begin{exemple}{\textbf{Exemple:} Identitat amb coeficients i exponents}
+Desenvolupem $(2x^2-3y)^2$. Aquí $a=2x^2$ i $b=3y$:
+
+\[
+\begin{aligned}
+(2x^2-3y)^2 &= (2x^2)^2 - 2\cdot(2x^2)\cdot(3y) + (3y)^2 \\
+&= 4x^4 - 12x^2y + 9y^2
+\end{aligned}
+\]
+
+Fixa't que $(2x^2)^2=4x^4$ (quadrem el coeficient $2$ i apliquem $(x^2)^2=x^4$), no $2x^4$.
+\end{exemple}
+
+\subsection{Divisió de polinomis}
+
+Per dividir dos polinomis, procedim com en una divisió numèrica:
+
+\begin{enumerate}
+\item Ordenem dividend i divisor de grau més gran a grau més petit i escrivim amb coeficient $0$ els termes que falten.
+\item Dividim el terme de grau més alt del dividend pel terme de grau més alt del divisor; el resultat és el terme següent del quocient.
+\item Multipliquem tot el divisor per aquest terme i restem el resultat del dividend.
+\item Repetim el procés fins que el residu tingui grau inferior al divisor.
+\end{enumerate}
+
+En acabar, sempre s'ha de complir $D(x)=d(x)\cdot q(x)+r(x)$.
+
+\begin{exemple}{\textbf{Exemple:} Divisió de polinomis}
+Dividim $D(x) = x^3 - 2x^2 + 4x - 1$ entre $d(x) = x^2+1$. El resultat de la divisió és:
+
+\[
+\begin{aligned}
+D(x) &= x^3-2x^2+4x-1 & d(x) &= x^2+1 \\
+q(x) &= x-2 & r(x) &= 3x+1
+\end{aligned}
+\]
+
+\begin{itemize}
+\item $D(x)$ és el \textbf{dividend}, de grau $3$.
+\item $d(x)$ és el \textbf{divisor}, de grau $2$.
+\item $q(x)$ és el \textbf{quocient}, de grau $1$.
+\item $r(x)$ és el \textbf{residu}, de grau $1$ — inferior al grau del divisor, tal com ha de ser.
+\end{itemize}
+
+\textbf{Comprovació:}
+
+\[
+\begin{aligned}
+d(x)\cdot q(x) + r(x) &= (x^2+1)(x-2) + (3x+1) \\
+&= x^3-2x^2+x-2+3x+1 \\
+&= x^3-2x^2+4x-1 = D(x)
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{figuraapunts}{La mateixa divisió en la forma clàssica}
+$\begin{array}{rrrr|l}
+x^{3} & -2x^{2} & +4x & -1 & x^{2}+1 \\ \cline{5-5}
+-x^{3} &  & -x &  & x-2 \\ \cline{1-4}
+ & -2x^{2} & +3x & -1 &  \\
+ & +2x^{2} &  & +2 &  \\ \cline{1-4}
+ &  & 3x & +1 &  \\
+\end{array}$
+\peufigura{Les files subratllades mostren el producte que restem en cada pas. L'última fila és el residu.}
+\end{figuraapunts}
+
+\begin{definicio}{Definició: divisió de polinomis}
+Donats dos polinomis $D(x)$ (dividend) i $d(x)$ (divisor, amb $d(x)\neq 0$), sempre existeixen dos polinomis únics $q(x)$ (quocient) i $r(x)$ (residu) tals que
+
+\[
+\begin{aligned}
+D(x) &= d(x)\cdot q(x) + r(x), \\
+&\qquad \text{amb } \text{grau}(r) < \text{grau}(d) \ \text{(o } r(x)=0\text{)}
+\end{aligned}
+\]
+
+Si $r(x)=0$, diem que $d(x)$ és \textbf{divisor de} $D(x)$ o que $D(x)$ és \textbf{divisible} per $d(x)$.
+\end{definicio}
+
+\subsection{Regla de Ruffini}
+
+Ja coneixes la regla de Ruffini de cursos anteriors: és una manera fàcil de dividir un polinomi $p(x)$ entre un divisor de grau 1 de la forma $d(x)=x-a$. N'hi ha prou de treballar amb els coeficients de $p(x)$ i el valor d'$a$.
+
+\begin{exemple}{\textbf{Exemple:} Ruffini amb residu diferent de zero}
+Dividim $p(x) = 2x^3-3x^2+x-4$ entre $d(x)=x-2$ (és a dir, $a=2$):
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{r|rrrr}
+ & $2$ & $-3$ & $1$ & $-4$ \\
+$2$ &  & $4$ & $2$ & $6$ \\ \hline
+ & $\textbf{2}$ & $\textbf{1}$ & $\textbf{3}$ & $\boxed{2}$ \\
+\end{tabular}
+\end{center}
+
+El quocient és $q(x)=2x^2+x+3$ (apareix en negreta) i el residu és $r=2$ (apareix enquadrat). És a dir,
+
+\[
+p(x) = (x-2)(2x^2+x+3) + 2
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Ruffini amb residu zero}
+Dividim $p(x) = x^3-6x^2+11x-6$ entre $x-1$ (és a dir, $a=1$):
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{r|rrrr}
+ & $1$ & $-6$ & $11$ & $-6$ \\
+$1$ &  & $1$ & $-5$ & $6$ \\ \hline
+ & $\textbf{1}$ & $\textbf{-5}$ & $\textbf{6}$ & $\boxed{0}$ \\
+\end{tabular}
+\end{center}
+
+El quocient és $q(x)=x^2-5x+6$ i el residu és $r=0$. És a dir,
+
+\[
+p(x) = (x-1)(x^2-5x+6)
+\]
+
+En aquest cas $(x-1)$ i $(x^2-5x+6)$ són divisors de $p(x)$.
+\end{exemple}
+
+\begin{propietat}{Propietat: el residu és el valor del polinomi en $a$}
+El residu $r$ que s'obté en dividir $p(x)$ entre $x-a$ coincideix sempre amb $p(a)$:
+
+\[
+r = p(a)
+\]
+
+Ho podem comprovar en els dos exemples anteriors:
+
+\begin{itemize}
+\item Primer exemple ($a=2$): $p(2) = 2\cdot 8-3\cdot 4+2-4 = 2$, que coincideix amb el residu obtingut.
+\item Segon exemple ($a=1$): $p(1) = 1-6+11-6 = 0$, que coincideix amb el residu obtingut.
+\end{itemize}
+
+Aquesta propietat serà clau per trobar arrels de polinomis: si trobem un valor $a$ tal que el residu de Ruffini és $0$, sabrem que $a$ és una arrel de $p(x)$, o sigui $p(a)=0$.
+\end{propietat}
+
+\begin{propietat}{Teorema del factor}
+$a$ és una arrel de $p(x)$ si, i només si, $(x-a)$ és divisor de $p(x)$.
+
+\[
+p(a) = 0 \ \Leftrightarrow \ x-a \text{ és divisor de } p(x)
+\]
+\end{propietat}
+
+Amb la divisió i la regla de Ruffini ja tenim les eines per al següent apartat, on veurem com factoritzar polinomis a partir de les seves arrels.
+
+\section{Factorització de polinomis}
+
+\subsection{Polinomis irreductibles}
+
+Hem vist que, si trobem una arrel $a$ d'un polinomi $p(x)$, amb la regla de Ruffini podem escriure fàcilment $p(x)=(x-a)\cdot q(x)$, amb $q(x)$ de grau una unitat inferior que el grau de $p(x)$. Repetint aquest procés tantes vegades com calgui, podem arribar a expressar qualsevol polinomi com un producte de factors més senzills: és el que anomenem \textbf{factoritzar}.
+
+\begin{definicio}{Definició: polinomi irreductible}
+Un polinomi és \textbf{irreductible} quan no es pot escriure com a producte de dos polinomis de grau inferior (diferents d'una constant); és a dir, quan no es pot factoritzar.
+
+Es pot demostrar que, amb coeficients reals, els únics polinomis irreductibles són:
+
+\begin{itemize}
+\item els de \textbf{grau 1}, i
+\item els de \textbf{grau 2 sense arrels reals}, és a dir, amb discriminant $\Delta<0$.
+\end{itemize}
+\end{definicio}
+
+\begin{propietat}{Propietat: factorització completa}
+Tot polinomi $p(x)$ amb coeficients reals es pot escriure com el producte del seu coeficient principal per factors irreductibles de grau $1$ o $2$ de la forma:
+
+\[
+p(x) = a_n(x-r_1)(x-r_2)\cdots(x^2+b_1x+c_1)(x^2+b_2x+c_2)\cdots
+\]
+
+on cada factor $(x-r_i)$ correspon a una arrel real ($r_i$) de $p(x)$, i cada factor de grau $2$ té discriminant negatiu (no té arrels reals).
+\end{propietat}
+
+\begin{nota}{Un paral·lelisme amb els nombres enters}
+Aquesta factorització de polinomis és anàloga al que ja coneixes amb els nombres enters.
+
+\begin{itemize}
+\item Un \textbf{nombre primer} és un enter més gran que $1$ que només és divisible per $1$ i per ell mateix, és a dir, no es pot descompondre en factors més petits. És un concepte similar al de \textbf{polinomi irreductible}, ja que no es pot factoritzar.
+\item El \textbf{teorema fonamental de l'aritmètica} diu que tot nombre enter més gran que $1$ es pot escriure, de manera única (llevat de l'ordre), com un producte de nombres primers. Per exemple, $60 = 2^2\cdot 3\cdot 5$.
+\item De la mateixa manera, tot polinomi es pot escriure, de manera única (llevat de l'ordre), com un producte de polinomis irreductibles (els de grau $1$ o $2$ que acabem de veure).
+\end{itemize}
+\end{nota}
+
+\begin{exemple}{\textbf{Exemples:} Factoritzacions completes}
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+\textbf{Polinomi} & \textbf{Factorització} \\
+\midrule
+$2x^2+4x-6$ & $2(x-1)(x+3)$ \\
+$x^3-3x^2+4$ & $(x+1)(x-2)^2$ \\
+$3x^3-3$ & $3(x-1)(x^2+x+1)$ \\
+$x^4+5x^2+4$ & $(x^2+1)(x^2+4)$ \\
+$x^4-x^3-6x^2$ & $x^2(x-3)(x+2)$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{exemple}
+
+\begin{nota}{Ruffini i les arrels reals d'un polinomi}
+\begin{itemize}
+\item \textbf{Amb Ruffini només trobem arrels racionals.} Si els coeficients del polinomi són enters, els únics candidats a arrel són els divisors del terme independent. Per tant, les arrels irracionals (com $x=\sqrt{2}$) o les arrels complexes mai les trobarem amb aquest mètode. Per trobar-les, cal resoldre directament l'equació de grau $2$ que quedi al final.
+\item \textbf{Factorització i arrels d'un polinomi.} Cada factor de grau $1$, $x-r_i$, correspon exactament a una arrel real $r_i$ del polinomi. Per tant, el nombre de factors de grau $1$ (comptant repeticions o multiplicitats) és el nombre total d'arrels reals del polinomi. Si un polinomi de grau $n$ té menys de $n$ arrels reals, és perquè la resta de la factorització conté polinomis de grau $2$ irreductibles.
+\end{itemize}
+\end{nota}
+
+\subsection{Procediment per factoritzar}
+
+Per factoritzar un polinomi $p(x)$, seguim aquests passos:
+
+\begin{enumerate}
+\item \textbf{Traiem factor comú}
+
+\begin{itemize}
+\item Si falta el terme independent, podrem treure una potència d'$x$ com a factor comú.
+\item Si tots els coeficients tenen un divisor comú, aquest factor es pot treure com a factor comú.
+\end{itemize}
+\item Si el que ens queda és un polinomi de grau $2$, el factoritzem directament \textbf{resolent l'equació de segon grau} corresponent.
+\item Si ens queda un polinomi de grau més gran que $2$, \textbf{busquem arrels enteres amb Ruffini}: els candidats a arrels enteres són els divisors del terme independent.
+\item Cada vegada que trobem una arrel, ja tenim un factor i \textbf{continuem el procés} amb el quocient, fins arribar a factors de grau $1$ o $2$.
+\end{enumerate}
+
+\begin{exemple}{\textbf{Exemple:} Factor comú}
+Factoritzem $p(x) = x^4 - x^3 - 6x^2$.
+
+Traiem factor comú $x^2$:
+
+\[
+p(x) = x^2(x^2-x-6)
+\]
+
+El factor $x^2-x-6$ és de grau $2$; resolent-lo obtenim les arrels $x=3$ i $x=-2$. Per tant:
+
+\[
+p(x) = x^2(x-3)(x+2)
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Factorització amb Ruffini (totes les arrels reals)}
+Factoritzem $p(x) = x^3-x^2-4x+4$.
+
+No hi ha factor comú. Els divisors del terme independent ($4$) són $\pm 1,\pm 2,\pm 4$. Provem $x=1$:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{r|rrrr}
+ & $1$ & $-1$ & $-4$ & $4$ \\
+$1$ &  & $1$ & $0$ & $-4$ \\ \hline
+ & $\textbf{1}$ & $\textbf{0}$ & $\textbf{-4}$ & $\boxed{0}$ \\
+\end{tabular}
+\end{center}
+
+Per tant, $p(x) = (x-1)(x^2-4)$. El factor $x^2-4$ té arrels $x=2$ i $x=-2$, així que:
+
+\[
+p(x) = (x-1)(x-2)(x+2)
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Factorització amb un factor de grau 2 irreductible}
+Factoritzem $p(x) = x^3-2x^2+x-2$.
+
+Els divisors del terme independent ($2$) són $\pm 1,\pm 2$. Provem $x=2$:
+
+\begin{center}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{r|rrrr}
+ & $1$ & $-2$ & $1$ & $-2$ \\
+$2$ &  & $2$ & $0$ & $2$ \\ \hline
+ & $\textbf{1}$ & $\textbf{0}$ & $\textbf{1}$ & $\boxed{0}$ \\
+\end{tabular}
+\end{center}
+
+Per tant, $p(x) = (x-2)(x^2+1)$. El factor $x^2+1$ té discriminant $\Delta = 0^2-4\cdot 1\cdot 1=-4<0$: no té arrels reals, així que és irreductible. La factorització final és:
+
+\[
+p(x) = (x-2)(x^2+1)
+\]
+\end{exemple}
+
+\subsection{Taula resum}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{lY}
+\toprule
+\textbf{Concepte} & \textbf{Idea clau} \\
+\midrule
+Polinomi irreductible & Grau $1$, o grau $2$ amb $\Delta<0$ \\
+Factor comú & Treure'l sempre que es pugui, abans de res \\
+Arrels enteres & Divisors del terme independent (amb Ruffini) \\
+Factorització completa & $p(x)=a_n\cdot$ (factors de grau $1$) $\cdot$ (factors de grau $2$ irreductibles) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+Aquesta manera de descompondre polinomis en factors serà la base per treballar amb fraccions algebraiques, en l'apartat següent.
+
+\section{Fraccions algebraiques}
+
+\subsection{Màxim comú divisor i mínim comú múltiple de polinomis}
+
+Abans d'operar amb fraccions algebraiques, ens convé saber calcular el MCD i el MCM de polinomis: els farem servir tot seguit per simplificar i per reduir a denominador comú.
+
+\begin{definicio}{Definició: MCD i MCM de polinomis}
+Donats dos polinomis no nuls $A(x)$ i $B(x)$, el seu \textbf{màxim comú divisor} $\text{MCD}[A(x),B(x)]$ és el polinomi de grau més gran que divideix alhora $A(x)$ i $B(x)$; el seu \textbf{mínim comú múltiple} $\text{MCM}[A(x),B(x)]$ és el polinomi de grau més petit que és múltiple alhora d'$A(x)$ i $B(x)$.
+
+Amb coeficients reals, multiplicar un divisor o un múltiple per una constant no nul·la no en canvia el paper. Per obtenir una resposta única, en aquests apunts donarem sempre el MCD i el MCM en forma \textbf{mònica}, és a dir, amb coeficient principal $1$.
+
+Es calculen igual que amb els nombres enters: factoritzem els dos polinomis i...
+
+\begin{itemize}
+\item El MCD és el producte dels factors \textbf{comuns}, cadascun amb l'\textbf{exponent més petit} amb què apareix.
+\item El MCM és el producte de \textbf{tots} els factors (comuns o no), cadascun amb l'\textbf{exponent més gran} amb què apareix.
+\end{itemize}
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} MCD i MCM sense factors repetits}
+Calculem el MCD i el MCM de $A(x)=x^2-4$ i $B(x)=x^2+x-6$.
+
+Factoritzem tots dos:
+
+\[
+A(x) = (x-2)(x+2) \qquad B(x) = (x-2)(x+3)
+\]
+
+L'únic factor comú és $(x-2)$, amb exponent $1$ als dos polinomis:
+
+\[
+\text{MCD}[A(x),B(x)] = x-2
+\]
+
+El MCM inclou tots els factors que apareixen (comuns o no), cadascun amb l'exponent més gran:
+
+\[
+\text{MCM}[A(x),B(x)] = (x-2)(x+2)(x+3)
+\]
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} MCD i MCM amb un factor repetit}
+Calculem el MCD i el MCM de $A(x)=x^3-2x^2+x$ i $B(x)=x^2-x$.
+
+Factoritzem:
+
+\[
+A(x) = x(x-1)^2 \qquad B(x) = x(x-1)
+\]
+
+Els factors comuns són $x$ i $(x-1)$. Per al MCD ens quedem amb l'exponent més petit de cadascun ($x^1$ i $(x-1)^1$):
+
+\[
+\text{MCD}[A(x),B(x)] = x(x-1)
+\]
+
+Per al MCM ens quedem amb l'exponent més gran de cadascun ($x^1$ i $(x-1)^2$):
+
+\[
+\text{MCM}[A(x),B(x)] = x(x-1)^2
+\]
+
+(En aquest cas, com que $A(x)$ ja conté tots els factors de $B(x)$ amb exponent igual o més gran, el MCM coincideix amb $A(x)$ mateix.)
+\end{exemple}
+
+\subsection{Definició i simplificació}
+
+Igual que les fraccions numèriques es formen amb dos nombres enters, les fraccions algebraiques es formen amb dos polinomis, i es comporten de manera molt semblant.
+
+\begin{definicio}{Definició: fracció algebraica}
+Una \textbf{fracció algebraica} és el quocient de dos polinomis $\dfrac{P(x)}{Q(x)}$, amb $Q(x)$ no nul.
+\end{definicio}
+
+\begin{propietat}{Propietat: simplificació}
+Si el numerador i el denominador tenen un factor comú, es pot simplificar la fracció dividint tots dos pel mateix factor — igual que amb les fraccions numèriques. Per detectar-ho, factoritzem primer numerador i denominador. Els valors que anul·laven el denominador original continuen exclosos encara que algun factor desaparegui en simplificar.
+\end{propietat}
+
+\begin{exemple}{\textbf{Exemple:} Simplificació d'una fracció algebraica}
+Simplifiquem $\dfrac{x^2-4}{x^2+x-6}$.
+
+Factoritzem numerador i denominador (el mateix parell de polinomis que hem fet servir per calcular-ne el MCD i el MCM):
+
+\[
+x^2-4 = (x-2)(x+2)
+\]
+
+\[
+x^2+x-6 = (x-2)(x+3)
+\]
+
+Simplifiquem el factor comú $(x-2)$:
+
+\[
+\begin{aligned}
+\frac{x^2-4}{x^2+x-6} &= \frac{\cancel{(x-2)}(x+2)}{\cancel{(x-2)}(x+3)} \\
+&= \frac{x+2}{x+3}
+\end{aligned}
+\]
+\end{exemple}
+
+\begin{nota}{Compte amb el domini}
+Encara que en simplificar la fracció desaparegui el factor $(x-2)$, el valor $x=2$ continua sent un valor prohibit: no el podem substituir, perquè anul·lava el denominador de la fracció original. En aquest exemple, el domini original és $\mathbb{R}\setminus\{-3,2\}$.
+\end{nota}
+
+\subsection{Suma i resta de fraccions algebraiques}
+
+\begin{definicio}{Definició: suma i resta de fraccions algebraiques}
+Per sumar o restar fraccions algebraiques, primer les reduïm a un denominador comú (com faríem amb fraccions numèriques) i després sumem o restem els numeradors.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Suma de fraccions algebraiques}
+Sumem $\dfrac{1}{x} + \dfrac{2}{x+1}$. El denominador comú és $x(x+1)$:
+
+\[
+\begin{aligned}
+\frac{1}{x} + \frac{2}{x+1} &= \frac{x+1}{x(x+1)} + \frac{2x}{x(x+1)} \\
+&= \frac{(x+1)+2x}{x(x+1)} = \frac{3x+1}{x(x+1)}
+\end{aligned}
+\]
+
+L'operació és vàlida per a $x\neq0,-1$.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Resta de fraccions algebraiques}
+Restem $\dfrac{x}{x-1} - \dfrac{1}{x}$. El denominador comú és $x(x-1)$:
+
+\[
+\begin{aligned}
+\frac{x}{x-1} - \frac{1}{x} &= \frac{x^2}{x(x-1)} - \frac{x-1}{x(x-1)} \\
+&= \frac{x^2-(x-1)}{x(x-1)} = \frac{x^2-x+1}{x(x-1)}
+\end{aligned}
+\]
+
+L'operació és vàlida per a $x\neq0,1$.
+\end{exemple}
+
+\subsection{Multiplicació i divisió de fraccions algebraiques}
+
+\begin{definicio}{Definició: producte i quocient de fraccions algebraiques}
+El \textbf{producte} de dues fraccions algebraiques és el producte dels numeradors dividit pel producte dels denominadors:
+
+\[
+\frac{P(x)}{Q(x)} \cdot \frac{M(x)}{N(x)} = \frac{P(x)\cdot M(x)}{Q(x)\cdot N(x)}
+\]
+
+El \textbf{quocient} és el producte de la primera fracció per la inversa de la segona:
+
+\[
+\frac{P(x)}{Q(x)} : \frac{M(x)}{N(x)} = \frac{P(x)}{Q(x)} \cdot \frac{N(x)}{M(x)}
+\]
+
+En totes dues operacions cal exigir $Q(x)\neq0$ i $N(x)\neq0$. En el quocient, a més, la segona fracció no pot valer zero; per tant, també cal exigir $M(x)\neq0$.
+\end{definicio}
+
+\begin{exemple}{\textbf{Exemple:} Producte de fraccions algebraiques}
+\[
+\begin{aligned}
+\frac{x+1}{x} \cdot \frac{2x}{x-3} &= \frac{2x(x+1)}{x(x-3)} \\
+&= \frac{2(x+1)}{x-3}
+\end{aligned}
+\]
+
+L'expressió original exigeix $x\neq0,3$; la restricció $x\neq0$ es conserva després de simplificar.
+\end{exemple}
+
+\begin{exemple}{\textbf{Exemple:} Quocient de fraccions algebraiques}
+\[
+\begin{aligned}
+\frac{x}{x+2} : \frac{x-1}{x} &= \frac{x}{x+2} \cdot \frac{x}{x-1} \\
+&= \frac{x^2}{(x+2)(x-1)}
+\end{aligned}
+\]
+
+L'expressió original exigeix $x\neq-2,0,1$: $x=0$ anul·la un denominador original i $x=1$ faria que la fracció divisora valgués zero.
+\end{exemple}
+
+\subsection{Taula resum}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{lY}
+\toprule
+\textbf{Operació} & \textbf{Com es fa} \\
+\midrule
+Simplificació & Factoritzar numerador i denominador, cancel·lar el factor comú i conservar les exclusions del domini original \\
+Suma i resta & Reduir a denominador comú i sumar/restar numeradors \\
+Producte & Numerador per numerador, denominador per denominador \\
+Quocient & Multiplicar per la fracció inversa de la segona \\
+\bottomrule
+\end{tabularx}
+\end{center}

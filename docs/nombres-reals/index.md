@@ -15,6 +15,12 @@ Recorda que aquestes eines et serviran durant tot el curs, així que val la pena
 - [Logaritmes](07_logaritmes.md) — què són i per a què serveixen.
 - [Nota històrica](08_nota_historica.md) — com han evolucionat els nombres reals al llarg de la història.
 
+<div class="no-print" markdown="1">
+
+**Apunts en PDF:** [descarrega la teoria de tot el tema en format de llibre](../assets/llibre/1_nombres_reals.pdf), amb índex i paginació, a punt per imprimir a doble cara.
+
+</div>
+
 ## Per practicar
 
 - [Exercicis i problemes](practicar/index.md) — relació d'exercicis de tot el bloc, ordenada com els apartats i amb repàs acumulatiu. Cada exercici té la solució pas a pas plegada. També es pot descarregar en PDF amb solucions.
